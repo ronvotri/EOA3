@@ -1,5 +1,16 @@
 # Bàn giao cho cloud
 
+## Checkpoint: ĐÃ CÓ BÁO CÁO EXE WINDOWS THẬT — 11/10/2026
+
+- Người dùng đã chạy V3 **SUCCESS** và gửi `EOA3-Windows-Diagnostics.zip` + log thành công. Không cần yêu cầu gửi lại bộ chẩn đoán hoặc EXE. Đã phân tích chi tiết và ghi toàn bộ vào **`docs/REAL_WINDOWS_EXE_AUDIT.md`**.
+- EXE `AngelSLG.exe`, SHA-256 **`2d7d9705837e32c72685d69e50e426fde168ea8d435de90ba937cefbf5138baf`**, dung lượng 1.232.896 B, PE32 x86, ImageBase 0x400000, đủ 40 file BIN trong `Data`.
+- Bảng import có **9 descriptors, kết thúc null**, chỉ báo kích thước không bao gồm terminator (khớp lỗi V2 đã sửa). Ứng viên IAT `TextOutA` tại `0x41A79A`, `0x41A7B9`; `CreateFontIndirectA` tại `0x41AAAB`, khớp phân tích cũ. Byte tại `0x41AA85` bắt đầu `c645d786` phù hợp gán charset 134; chuỗi `宋体` GBK tại offset 992532.
+- GDI desktop **Segoe UI 16 pt, DPI96**: kiểm tra **165 ký tự không khoảng trắng, không thiếu glyph nào**. Đây **không phải** bằng chứng game hiển thị Unicode, bởi engine import ANSI `TextOutA` và 1.788/1.881 bản dịch không thể pack CP936.
+- Cảnh báo độ rộng còn 240 (ước lượng 52 ô terminal) và 120 câu nở >1.5 lần; pixel GDI ví dụ `stage1:1149` 523→768 px, `stage45:1540` 815→1042 px. Không tự động cắt thoại theo pixel desktop.
+- Mới: `tools/analyze_windows_report.py` và tests đọc ZIP an toàn, kiểm tra consistency hash/metadata và tóm tắt chứng cứ cho các phiên bản EXE khác.
+- **Việc tiếp theo:** ưu tiên nghiên cứu string pipeline từ ANGELSCRIPT→buffer mã→`TextOutA` và chỗ xử lý `%N`, sau đó thử patch **một câu thoại + một tooltip** trên **bản game sao lưu**. Tránh chỉ thay font; không đưa 573 tên nháp lookup vào game. 1.881 translate/574 review giữ nguyên. **Chưa có patch playable.**
+
+
 ## Checkpoint: Windows PE import parser sửa theo log người dùng (11/10/2026)
 
 - Nhận được log thực: `windows_diagnostic_bundle.py: error: Import descriptor limit exceeded`. Chưa có SHA-256/report từ EXE thật, **không kết luận game hỏng**.
