@@ -58,3 +58,12 @@ Cập nhật: 2026-10-11.
 - Thêm `tools/audit_unicode_layout.py`, `tools/test_audit_unicode_layout.py` và artifact `eoa3-unicode-font-layout-audit` trong GitHub Actions, chứa danh sách glyph thiếu cp936, 80 token ưu tiên, font sample.
 - Thêm `tools/windows_font_probe.py` và unit test mock GDI: hỗ trợ người dùng đo độ rộng pixel/`GetGlyphIndicesW` với font thật trên Windows. **Chưa chạy tool với font trên máy người dùng, chưa vá game.**
 - Đọc `docs/UNICODE_LAYOUT_QA.md` và `docs/WINDOWS_RUNTIME_PREFLIGHT.md` để tiếp tục. Số liệu được thu từ **bản dịch hiện tại**, không phải xác nhận runtime playable.
+
+
+## Bộ chẩn đoán Windows đóng gói sẵn — 2026-10-11
+
+- Tạo trình chạy **`EOA3-KiemTra-Windows.cmd`** với hộp thoại chọn EXE hoặc kéo-thả; cần Python 3.9+. Không còn phải yêu cầu người dùng chạy ba lệnh riêng lẻ.
+- `tools/windows_diagnostic_bundle.py` gộp **5 kết quả vào một `EOA3-Windows-Diagnostics.zip`**: manifest/hash, PE import, Unicode layout, GDI glyph/pixel và trang HTML xem thử bản Trung–Việt (escape nội dung để không thực thi mã HTML).
+- `tools/package_diagnostics.py` tạo `EOA3-Windows-Diagnostic-Tool.zip` chạy được sau khi giải nén, chứa **40 cặp JSON kịch bản**, Python stdlib, launcher và hướng dẫn, **không chứa file EXE, DLL, BIN, font, dữ liệu ảnh hay save**. GitHub Actions phát hành artifact `eoa3-windows-oneclick-diagnostic-tool` sau test.
+- Unit tests dùng **PE32 nhân tạo** và font GDI mock: kiểm tra nội dung ZIP, hash, không rò đường dẫn local, không ghi game folder, xử lý lỗi GDI, escape HTML, đủ file và không bundle tài sản trò chơi. 
+- Việc tiếp theo cần **báo cáo Windows từ đúng bản `AngelSLG.exe`**, không cần gửi EXE. Công cụ chưa vá Unicode hay đo được khung game thật; tiếp tục giữ **1.881 translate, 574 review, 573 tên nháp**. Xem `docs/WINDOWS_ONECLICK_DIAGNOSTICS.md`.
