@@ -52,3 +52,6 @@ Repo có `tools/probe_game.py` để lấy **báo cáo PE/GDI/font/encoding** t�
 Tại mục **Actions → Validate EOA3 translations** có artifact `eoa3-windows-oneclick-diagnostic-tool`. Giải nén để lấy `EOA3-Windows-Diagnostic-Tool.zip`, rồi giải nén ZIP này và mở `EOA3-KiemTra-Windows.cmd`. Có thể chọn hoặc kéo-thả `AngelSLG.exe`, nhận **một ZIP báo cáo** trong thư mục `build/` mà không sửa game.
 
 Bộ công cụ chỉ gồm script Python + dữ liệu JSON phục vụ đọc font/encoding. Không chứa EXE, font hay tài nguyên game, chưa phải bản patch. Hướng dẫn và các giới hạn xem `docs/WINDOWS_ONECLICK_DIAGNOSTICS.md`.
+
+
+**Lưu ý vị trí báo cáo:** Sau khi mở `EOA3-KiemTra-Windows.cmd` và chọn EXE, bản launcher mới tự mở thư mục `build` *cạnh file CMD* (không ở thư mục game). Thành công gửi `EOA3-Windows-Diagnostics.zip`; lỗi gửi `EOA3-Diagnostic-Log.txt` trong cùng thư mục. Xem `docs/WINDOWS_ONECLICK_DIAGNOSTICS.md`.
