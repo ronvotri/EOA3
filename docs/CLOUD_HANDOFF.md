@@ -1,5 +1,14 @@
 # Bàn giao cho cloud
 
+## Checkpoint: Windows PE import parser sửa theo log người dùng (11/10/2026)
+
+- Nhận được log thực: `windows_diagnostic_bundle.py: error: Import descriptor limit exceeded`. Chưa có SHA-256/report từ EXE thật, **không kết luận game hỏng**.
+- Lỗi logic ở `tools/probe_game.py`: parser cũ giới hạn danh sách descriptor bởi `IMAGE_DIRECTORY_ENTRY_IMPORT.Size // 20`, có thể bỏ sót descriptor kết thúc toàn 0. Đã sửa đọc theo RVA/terminator với giới hạn an toàn; khi lỗi cấu trúc thì **cảnh báo trong `import_table_diagnostics`**, không chặn toàn bộ ZIP.
+- Bổ sung test PE tổng hợp tái hiện lỗi (kích thước directory đúng 20 byte nhưng null descriptor nằm ngoài đó), cùng test import bị lỗi và directory vắng mặt. Xem `docs/PE_IMPORT_FIX.md`.
+- Đóng gói lại bộ kiểm tra Windows (v3), người dùng cần chạy lại, gửi `build/EOA3-Windows-Diagnostics.zip` nếu `SUCCESS`, hoặc `EOA3-Diagnostic-Log.txt` nếu còn lỗi. Không yêu cầu game EXE.
+- Dữ liệu dịch không đổi: **1.881 translate, 574 review, 573 bản nháp**. Chưa có font patch hay build playable.
+
+
 
 ## Checkpoint mới nhất — công cụ Windows tự đóng gói (11/10/2026)
 
