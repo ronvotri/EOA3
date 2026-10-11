@@ -2,25 +2,26 @@
 
 Cập nhật: 2026-10-11.
 
-- Đã xuất/kiểm tra **40 kịch bản**, tổng cộng **4.236 chuỗi**. Không sửa `source/` hoặc hash gốc.
-- **Đã dịch 779/1.742 dòng `mode=translate` (44,7%)**. Còn **963 dòng** được phép dịch.
-- **Stage 1–8**: xong 502 dòng từ các lượt trước.
-- **Stage 9**: **56/56** — ngục tối Ngọc Kinh, gặp người cai trị Shangri-La, Đại hội võ thuật.
-- **Stage 10**: **39/39** — chạm mặt băng cướp ở Didao; Lifeng đối đầu Yingyue.
-- **Stage 11**: **36/36** — cảng vịnh Bạch Liệt; chạm trán những sinh vật từ biển và Winifred gia nhập.
-- **Stage 12**: **80/80** — tuyến phòng thủ Gabriel, giải cứu trước sự tiến công của Ocha, Niya nhận quyền chỉ huy quân Liên bang.
-- **Stage 13**: **28/28** — tiền đồn vịnh Resalin, Ingrid gia nhập.
-- **Stage 14**: **38/38** — giải phóng Laxia, cảnh báo nước suối đen và kế hoạch giải phóng các nước.
-- Đợt này tăng thêm **277 dòng `translate`** trên **6 màn 9–14**. Mỗi file đã đối chiếu riêng với phiên bản `main` cũ: **chỉ thay trường `vi` tại `mode=translate`**, toàn bộ metadata và chuỗi `locked/review` giữ nguyên. Đối chiếu mã `%s/%t/%z/%c/%N` đều khớp thứ tự.
-- **GitHub Actions PASS cả sáu lần commit màn 9–14** với `python tools/scripts.py check` và `python tools/test_scripts.py`. Chưa phải kiểm thử trực tiếp trong game.
-- Phiên âm một số tên/danh xưng mới chỉ là **dự kiến** (`docs/GLOSSARY.md`); nổi bật `叶虏鞑` và tên một số tướng/địa danh cần đối chiếu bản gốc khi QA toàn dự án.
-- **713 dòng `review` chưa mở khóa**, `locked` không dịch. Không sửa mã/khóa nội bộ để vượt kiểm tra.
-- **Chưa có patch chơi được**: cần nghiên cứu font Unicode, dữ liệu giao diện, chiều dài câu khi vẽ, bảng mã engine và kiểm thử Windows.
+- Đã xuất và kiểm tra **40 kịch bản**, tổng cộng **4.236 chuỗi**. Không sửa `source/` hoặc SHA-256 gốc.
+- **Đã dịch 1.058/1.742 dòng `mode=translate` (60,7%)**; còn **684 dòng** thuộc nhóm cho phép dịch.
+- **Stage 1–14**: hoàn thành 779 dòng `translate` ở các đợt trước.
+- **Stage 15**: **36/36** — giành lại Sariel, Resman và Jeli bàn đến Suối Sức Mạnh.
+- **Stage 16**: **61/61** — giành lại Uriel; Yingyue hội quân, lời kể về biến đổi sau khi uống nước suối đen.
+- **Stage 17**: **43/43** — huyết chiến Raphael, giải cứu Angelina/Miafa và gặp lại Yerido; chuẩn bị đánh Samel.
+- **Stage 18**: **94/94** — Jeli mất kiểm soát, khủng hoảng nước suối đen, thảo luận tại Gabriel và chuyến đi Shangri-La.
+- **Stage 19**: **18/18** — giao chiến ở cửa ải Bạch Hổ.
+- **Stage 20**: **10/10** — phong tỏa biên giới phía bắc.
+- **Stage 21**: **17/17** — giành lại suối Thiên Sứ, Yanwu và Bailing gia nhập.
+- **Đợt này: thêm 279 chuỗi `translate` tại stage 15–21**, đã đối chiếu từng file với `main` cũ: chỉ trường `vi` thuộc `mode=translate` thay đổi, toàn bộ metadata (`id/token/call/argument/mode/source`) và chuỗi `locked/review` giữ nguyên. Các mã điều khiển `%s/%t/%z/%c/%N` đều khớp thứ tự, không còn chữ Hán trong các trường `vi` mới.
+- GitHub Actions đã **PASS cho 7 commit dịch stage 15–21** (chạy `python tools/scripts.py check` và `python tools/test_scripts.py`). PASS chứng minh hợp lệ dữ liệu, **không** chứng minh cách hiển thị trong game.
+- Các cách phiên âm mới chỉ là **tạm thời**, cần rà theo màn hình hiển thị và tư liệu game. Riêng một số địa danh Maya/Belio và tên Shaling/Yerido/Yanwu/Bailing nên được QA lần nữa trước khi đóng gói.
+- **713 dòng `review` chưa được mở khóa**; `locked` chưa dịch.
+- **Chưa có patch Việt hóa chạy được**: font Unicode, bảng mã runtime, ảnh giao diện, độ dài câu và kiểm thử Windows chưa hoàn thành.
 
 ## Việc tiếp theo
 
-1. Mở `translations/stage15.json` (**36 dòng `translate` chưa dịch**), chỉ điền `vi` cho `mode=translate`. Nếu còn khả năng, tiếp tục stage16 trở đi.
-2. Chú ý cách xưng hô nhân vật, ngữ cảnh quan hệ và tên riêng; không biến đối thoại thành những câu cụt khó hiểu. Cảnh triều đình phải phân biệt **Bệ hạ / thần**, đồng đội dùng **mình/cậu**, cấp dưới có **thưa/tuân lệnh**; đối phương `ta/ngươi` theo tình huống.
-3. Giữ đúng thứ tự mã `%s`, `%t`, `%z`, `%c`, `%N`; không tự chèn ngắt dòng. Xác minh những tên tạm còn nghi vấn bằng ngữ cảnh từ kịch bản.
-4. Chạy `python tools/scripts.py check` và `python tools/test_scripts.py`; cập nhật `docs/GLOSSARY.md`, file tiến độ và commit/PR.
-5. Rà riêng 713 dòng `review` khi có bằng chứng tham số/chức năng; triển khai font, UI và patch trong giai đoạn khác, tuyệt đối không ép Unicode vào pipeline GBK cũ.
+1. Tiếp tục từ `translations/stage22.json` (**90 dòng `mode=translate` chưa dịch**), rồi stage23 (**52 dòng**), chỉ điền `vi` thuộc `translate`. Mỗi màn vừa sức, không mở hàng loạt 4.236 chuỗi.
+2. Duy trì khẩu khí tự nhiên theo bối cảnh; phân biệt lời nghiêm trang của quân đội, trò đùa Shimi/Yingyue, tiếng nói rối loạn của Jeli sau nhiễm nước suối đen.
+3. Khi có tư liệu đối chiếu, QA lại những tên tạm, nhất là `力量之泉` so với `天使之泉`; không tự khẳng định là một khái niệm nếu chưa có bằng chứng rõ.
+4. Sau mỗi nhóm chạy `python tools/scripts.py check` và `python tools/test_scripts.py`, cập nhật tiến độ và glossary rồi commit/PR.
+5. Rà 713 dòng `review` theo tham số và tác dụng hiển thị, không đổi mode để lách validator. Tích hợp font Unicode/UI/patch là bước riêng, **không ép UTF-8 vào pipeline GBK cũ**.
