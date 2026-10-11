@@ -124,3 +124,11 @@ Cập nhật: 2026-10-11.
 - Phân tích vùng `CreateFontIndirectA`: trả về HFONT lưu **`this+0xFCC`**, sau đó gọi **`0x41A7F0`** và **`0x41A8C0`**. Hai target được giải mã từ `E8 rel32`, chưa biết chức năng; là mục tiêu truy vết kế tiếp.
 - Mới: `tools/audit_v5_surface_pipeline.py` + unit tests kiểm chứng từ V5 ZIP cũ bằng SHA, overlap và các signature bytes; `docs/V5_DIRECTDRAW_SURFACE_AUDIT.md` chứa đầy đủ căn cứ, nguồn ABI và giới hạn.
 - Không sửa corpus, code runtime hay font. **1.881 translate, 574 review, 573 tên nháp**, chưa có patch playable.
+
+
+## V6: thu có mục tiêu hai body font helpers (11/10/2026)
+
+- Xác nhận khoảng trống từ ZIP V5: cửa sổ `TextOutA` kết thúc ngay **trước 0x41A7F0**, không có body của `0x41A7F0` và `0x41A8C0`. Không thể biết chức năng hai helper khi chưa có mã đó.
+- Xây `tools/probe_engine_followup.py`: thu bốn code windows giới hạn tổng 1312 byte ở các VA 0x41A7F0, 0x41A8C0, 0x41AA00, 0x42AC60 trên đúng SHA EXE. Thu raw E8 rel32 candidate xrefs, tên 7 IAT, địa chỉ marker `ANGELSCRIPT` nếu có (không kết luận nếu vắng), không patch game.
+- ZIP Windows diagnostic V6 thêm `engine_followup_evidence.json` (7 file). Bộ đọc/validator chấp nhận V3 5 file, V4/5 6 file và V6 7 file; CI synthetic PE và Windows one-click smoke. Chi tiết `docs/V6_FONT_HELPER_TARGETS.md`.
+- Tất cả nguồn, dịch, danh sách review và tên nháp giữ nguyên; **1.881 translate, 574 review, 573 tên nháp; chưa có patch playable**.
