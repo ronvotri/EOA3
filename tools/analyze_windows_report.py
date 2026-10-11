@@ -14,6 +14,9 @@ REQUIRED_FILES = {
     "font_preflight.json", "font_preview.html",
 }
 OPTIONAL_FILES = {"engine_callsite_slices.json"}
+FOLLOWUP_FILE = "engine_followup_evidence.json"
+ALLOWED_MEMBERS = (REQUIRED_FILES, REQUIRED_FILES | OPTIONAL_FILES,
+                   REQUIRED_FILES | OPTIONAL_FILES | {FOLLOWUP_FILE})
 MAX_MEMBER_BYTES = 5 * 1024 * 1024
 MAX_TOTAL_BYTES = 12 * 1024 * 1024
 IMPORTANT_CALLS = ("TextOutA", "TextOutW", "CreateFontIndirectA",
@@ -31,8 +34,8 @@ def read_zip(path):
         with ZipFile(path) as archive:
             infos = archive.infolist()
             names = [item.filename for item in infos]
-            if len(names) != len(set(names)) or set(names) not in (REQUIRED_FILES, REQUIRED_FILES | OPTIONAL_FILES):
-                raise ValueError("Unexpected ZIP members; expected five legacy or six current diagnostic files")
+            if len(names) != len(set(names)) or set(names) not in ALLOWED_MEMBERS:
+                raise ValueError("Unexpected ZIP members; expected five, six or seven diagnostic files")
             if any(item.file_size > MAX_MEMBER_BYTES for item in infos):
                 raise ValueError("Diagnostic ZIP contains oversized member")
             if sum(item.file_size for item in infos) > MAX_TOTAL_BYTES:
@@ -111,6 +114,20 @@ def analyze_reports(docs):
             raise ValueError("Unexpected engine callsite evidence status")
         if code.get("exe_sha256") != exe["sha256"]:
             raise ValueError("Engine code-slice SHA-256 differs from EXE metadata")
+    follow = docs.get(FOLLOWUP_FILE)
+    if follow is not None:
+        if follow.get("status") != "bounded_helper_caller_evidence_not_a_patch":
+            raise ValueError("Unexpected font-helper followup report status")
+        if follow.get("exe_sha256") != exe["sha256"]:
+            raise ValueError("Followup EXE SHA-256 differs from EXE metadata")
+    follow_summary = {
+        "present": follow is not None,
+        "known_exe_matched": follow.get("matches_documented_exe_sha256") if follow else None,
+        "target_windows_read": len(follow.get("target_code_windows", [])) if follow else 0,
+        "possible_callers": len((follow.get("raw_call_reference_scan") or {}).get("call_candidates", [])) if follow else 0,
+        "angelscript_marker_count": len(follow.get("angelscript_marker_locations", [])) if follow else 0,
+        "scope": "Bounded raw code fragments and candidate CALL hits, not confirmed function boundaries",
+    }
     code_summary = {
         "present": code is not None,
         "candidate_count_by_api": code.get("candidate_count_by_api", {}) if code else {},
@@ -127,6 +144,7 @@ def analyze_reports(docs):
             "installation_bin_count": exe.get("installation", {}).get("data_bin_count"),
         },
         "engine_code_slice_evidence": code_summary,
+        "engine_followup_evidence": follow_summary,
         "pe_imports": {
             "descriptors_read": gd.get("descriptors_read"),
             "null_terminated": gd.get("null_terminated"),

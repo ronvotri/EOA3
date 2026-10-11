@@ -17,6 +17,8 @@ SCRIPTS = [
     "tools/font_preview.py",
     "tools/probe_game.py",
     "tools/probe_engine_calls.py",
+    "tools/probe_text_callers.py",
+    "tools/probe_engine_followup.py",
     "tools/windows_font_probe.py",
     "tools/windows_diagnostic_bundle.py",
     "docs/WINDOWS_RUNTIME_PREFLIGHT.md",
@@ -35,7 +37,7 @@ Can Python 3.9+ co san tren Windows. Khong sua, chay, cai dat game, EXE hay font
 Neu Windows khong tim thay Python, cai Python truoc; khong can clone GitHub.
 Co the keo file AngelSLG.exe tha vao .cmd de chon nhanh.
 Bao cao gom hash SHA256, thong tin PE, danh sach font/ky tu, mau van ban;\nco mot tep JSON nho ve byte may quanh cac diem goi GDI. Hay xem truoc khi chia se cong khai.
-KHONG gom noi dung file EXE, font hoac duong dan day du.
+KHONG gom EXE nguyen tep, font hoac duong dan day du. Bao cao V6 gom 7 tep,\nbao gom engine_followup_evidence.json voi vai doan ma may nho co gioi han.
 Bai test nay CHUA tao patch va CHUA chung minh font hien thi dung trong game.
 """
 

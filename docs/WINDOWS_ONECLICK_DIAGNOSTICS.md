@@ -81,3 +81,8 @@ ZIP báo cáo V3 được tạo thành công. EXE đúng tên `AngelSLG.exe`, SH
 ## V4: bổ sung cửa sổ mã quanh TextOutA (11/10/2026)
 
 Sau khi nhấp đúp launcher, ZIP kết quả vẫn ở `build/EOA3-Windows-Diagnostics.zip` nhưng có **6 file** (thêm `engine_callsite_slices.json`). Tệp này ghi hex mã máy rất ngắn quanh các lời gọi GDI/encoding và đối chiếu SHA EXE thật, **không chứa toàn bộ EXE hay patch**. Hướng kỹ thuật ở `docs/ENGINE_CALLSITE_EVIDENCE.md`. Người dùng cần chọn đúng `AngelSLG.exe`, tuyệt đối không áp byte patches từ báo cáo. V3 với 5 file vẫn đọc được.
+
+
+## V6: một lần thu đúng 2 font helpers còn thiếu (11/10/2026)
+
+Công cụ Windows V6 vẫn chạy bằng cách giải nén ra **thư mục riêng** và nhấp đúp `EOA3-KiemTra-Windows.cmd`, chọn `AngelSLG.exe` thật. Báo cáo vẫn được tự mở tại `build/EOA3-Windows-Diagnostics.zip`, nhưng nay có **7 file**, thêm `engine_followup_evidence.json`. Nó chứa tối đa 1312 byte cửa sổ mã máy tại hai helper font, vùng initializer và parser ANSI, kèm ứng viên caller và tên IAT, **không chứa cả EXE hay file game**. Đây là mẫu tĩnh chỉ có giá trị khi SHA-256 khớp đúng bản EXE đã xác minh; không chứng minh hỗ trợ Unicode. Nếu lỗi, gửi `build/EOA3-Diagnostic-Log.txt` thay vì ZIP cũ. Xem `docs/V6_FONT_HELPER_TARGETS.md` để biết tại sao cần mẫu mới và giới hạn an toàn.

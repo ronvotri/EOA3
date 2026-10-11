@@ -14,6 +14,7 @@ from audit_unicode_layout import analyze, load_sources
 from font_preview import make_html
 from probe_game import MAX_EXE_SIZE, analyze_bytes
 from probe_engine_calls import collect as collect_engine_calls
+from probe_engine_followup import collect_followup
 from windows_font_probe import analyze_font
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -65,6 +66,7 @@ def create_bundle(exe, out=DEFAULT_OUTPUT, font_name="Segoe UI", size_pt=16,
     game_bytes = exe.read_bytes()
     exe_info = analyze_bytes(game_bytes, game_folder=exe.parent)
     engine_calls = collect_engine_calls(game_bytes)
+    followup = collect_followup(game_bytes)
     exe_info["exe_filename"] = exe.name
 
     sources = load_sources(source_root)
@@ -93,8 +95,9 @@ def create_bundle(exe, out=DEFAULT_OUTPUT, font_name="Segoe UI", size_pt=16,
             "font_preflight.json",
             "font_preview.html",
             "engine_callsite_slices.json",
+            "engine_followup_evidence.json",
         ],
-        "privacy_note": "Includes small targeted machine-code windows around possible GDI/encoding callsites (not full EXE); no EXE file, fonts or full paths. Review before sharing publicly.",
+        "privacy_note": "Contains limited raw machine-code evidence around GDI and two font helpers plus possible caller bytes (NOT a complete EXE), no font files or local paths. Review before sharing publicly.",
     }
     output = {
         "manifest.json": json_bytes(manifest),
@@ -103,6 +106,7 @@ def create_bundle(exe, out=DEFAULT_OUTPUT, font_name="Segoe UI", size_pt=16,
         "font_preflight.json": json_bytes(font_info),
         "font_preview.html": make_html(static_info, font_name).encode("utf-8"),
         "engine_callsite_slices.json": json_bytes(engine_calls),
+        "engine_followup_evidence.json": json_bytes(followup),
     }
     # Refuse path alias/symlink tricks before writing anywhere.
     if out.resolve() == exe.resolve() or out.is_dir():

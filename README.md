@@ -82,3 +82,6 @@ Bản Windows diagnostic **V4** xuất thêm `engine_callsite_slices.json` (tổ
 
 
 **Tiến triển EOA3 font engine (11/10/2026):** từ chính báo cáo V5 cũ, các lời gọi quanh `TextOutA` **khớp `IDirectDrawSurface::GetDC/ReleaseDC`** về ABI và offsets vtable 0x44/0x68; font initializer lưu HFONT tại `this+0xFCC`, sau đó gọi hai helper `0x41A7F0`/`0x41A8C0`. Chưa khẳng định glyph atlas hay renderer thoại. Xem `docs/V5_DIRECTDRAW_SURFACE_AUDIT.md` và tool chỉ đọc `tools/audit_v5_surface_pipeline.py`. Không có patch Unicode playable; không cần user chạy Windows diagnostics mới.
+
+
+**Chẩn đoán V6 có mục tiêu:** Khác với V5, ZIP V6 thêm `engine_followup_evidence.json` để lấy những byte máy trước đây **không có**: body hai helper font ở VA `0x41A7F0`/`0x41A8C0`, plus IAT và raw caller candidates. Bản mới chỉ đọc trên EXE **SHA khớp**, không tạo patch và không thay font. `tools/analyze_windows_report.py` vẫn đọc được ZIP báo cáo V3–V5. Xem `docs/V6_FONT_HELPER_TARGETS.md`.
