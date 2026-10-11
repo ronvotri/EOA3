@@ -13,6 +13,7 @@ REQUIRED_FILES = {
     "manifest.json", "exe_preflight.json", "unicode_layout_report.json",
     "font_preflight.json", "font_preview.html",
 }
+OPTIONAL_FILES = {"engine_callsite_slices.json"}
 MAX_MEMBER_BYTES = 5 * 1024 * 1024
 MAX_TOTAL_BYTES = 12 * 1024 * 1024
 IMPORTANT_CALLS = ("TextOutA", "TextOutW", "CreateFontIndirectA",
@@ -30,15 +31,15 @@ def read_zip(path):
         with ZipFile(path) as archive:
             infos = archive.infolist()
             names = [item.filename for item in infos]
-            if len(names) != len(REQUIRED_FILES) or set(names) != REQUIRED_FILES:
-                raise ValueError("Unexpected ZIP members; expected exactly five diagnostic files")
+            if len(names) != len(set(names)) or set(names) not in (REQUIRED_FILES, REQUIRED_FILES | OPTIONAL_FILES):
+                raise ValueError("Unexpected ZIP members; expected five legacy or six current diagnostic files")
             if any(item.file_size > MAX_MEMBER_BYTES for item in infos):
                 raise ValueError("Diagnostic ZIP contains oversized member")
             if sum(item.file_size for item in infos) > MAX_TOTAL_BYTES:
                 raise ValueError("Diagnostic ZIP exceeds uncompressed size budget")
             return {
                 name: json.loads(archive.read(name).decode("utf-8"))
-                for name in REQUIRED_FILES if name.endswith(".json")
+                for name in names if name.endswith(".json")
             }
     except BadZipFile as exc:
         raise ValueError("Not a valid diagnostic ZIP") from exc
@@ -104,6 +105,18 @@ def analyze_reports(docs):
             -(item["ratio_rounded"] or 0), item.get("id", "")
         ))
     gd = exe.get("import_table_diagnostics", {})
+    code = docs.get("engine_callsite_slices.json")
+    if code is not None:
+        if code.get("status") != "read_only_code_neighborhoods_not_disassembly_or_patch":
+            raise ValueError("Unexpected engine callsite evidence status")
+        if code.get("exe_sha256") != exe["sha256"]:
+            raise ValueError("Engine code-slice SHA-256 differs from EXE metadata")
+    code_summary = {
+        "present": code is not None,
+        "candidate_count_by_api": code.get("candidate_count_by_api", {}) if code else {},
+        "reference_exe_matched": code.get("matches_documented_exe_sha256") if code else None,
+        "scope": "Raw bounded code neighborhoods, not disassembly or proof of string-buffer origin",
+    }
     return {
         "schema_version": 1,
         "status": "evidence_summary_not_a_game_patch",
@@ -113,6 +126,7 @@ def analyze_reports(docs):
             "entry_rva": exe.get("entry_rva"),
             "installation_bin_count": exe.get("installation", {}).get("data_bin_count"),
         },
+        "engine_code_slice_evidence": code_summary,
         "pe_imports": {
             "descriptors_read": gd.get("descriptors_read"),
             "null_terminated": gd.get("null_terminated"),
