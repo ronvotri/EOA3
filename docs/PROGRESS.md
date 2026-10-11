@@ -2,34 +2,32 @@
 
 Cập nhật: 2026-10-11.
 
-## Trạng thái dịch kịch bản
+## Kịch bản và nội dung được dịch
 
-- Đã xuất **40 kịch bản** gồm **4.236 chuỗi**, giữ nguyên `source/` và hash nguồn.
-- **Đã dịch 1.742/1.742 chuỗi `mode=translate` (100%)**. Không còn chuỗi trống thuộc nhóm được phép dịch.
-- **Stage 1–27, 40–42, 45–48, 80, 90–93**: hoàn tất tất cả chuỗi `translate` tại các kịch bản có thật trong repo. Các stage 28–39, 43–44, 49–79, 81–89 không có tệp tương ứng; không tự tạo file.
-- **Lượt 2026-10-11 cuối**: thêm **274 chuỗi**:
-  - Stage 42: **94/94** — Lifeng, Yingyue, nước suối đen và kế hoạch quay về Laxia.
-  - Stage 45: **11/11** — tình huống sau chuyến thuyền, tới Trưởng lão Shaling.
-  - Stage 46: **5/5** — bán kết đại hội võ thuật.
-  - Stage 47: **35/35** — chung kết võ thuật, Lifeng gia nhập.
-  - Stage 48: **71/71** — diễn biến song song với stage42, 69 câu đối chiếu trùng nguồn đã được tái sử dụng bản dịch để tránh lệch thuật ngữ, 2 câu điều chỉnh theo nguồn riêng.
-  - Stage 80: **8/8** — nhánh phụ rừng giữa đường.
-  - Stage 90: **20/20** — tạm biệt băng cướp Yingyue, trả quốc thư.
-  - Stage 91: **10/10** — thách đấu tại Ngọc Kinh.
-  - Stage 92: **15/15** — trở về làng Xanh.
-  - Stage 93: **5/5** — trở về kinh đô Ett.
-- **QA dữ liệu:** đã đối chiếu bản dịch với `main` trước thay đổi ở từng file: chỉ trường `vi` thuộc `mode=translate` được điền. `id/token/call/argument/mode/source`, các dòng `locked/review` không đổi. Regex thực tế của validator `%[A-Za-z](?:[+-]?\d+)?` bảo đảm chuỗi điều khiển và thứ tự giữ nguyên. Không có chữ Hán trong trường `vi` vừa dịch.
-- GitHub Actions chạy `python tools/scripts.py check` và `python tools/test_scripts.py`: **PASS trên các commit dịch cuối**, cần PASS một lần nữa trên PR tổng hợp trước khi merge.
+- Đã trích xuất **40 kịch bản**, tổng **4.236 chuỗi**, giữ nguyên dữ liệu gốc, mã lệnh và SHA-256.
+- **1.742/1.742 chuỗi được phân loại `translate` ban đầu đã dịch (100%).** Đã bổ sung và dịch **139 trường `review` có bằng chứng là văn bản**, nâng tổng lên **1.881/1.881 trường `translate` hiện tại (100%)**.
+- Chưa cần dịch lại stage1–27, 40–42, 45–48, 80, 90–93; các màn số bị khuyết không tồn tại dưới dạng file `stage*.json` trong repo.
 
-## Chưa xong: kiểm tra ngữ nghĩa và bản chạy được
+## Audit `review` lần 1 — hoàn thành trong lượt này
 
-1. **713 dòng `review` vẫn chưa mở khóa**. Phần lớn nằm trong `translations/DataBase.json` (**690 dòng**) và các lệnh/phần hiển thị phụ khác. Cần đối chiếu chữ ký hàm, tham số và công cụ validator trước khi quyết định dòng nào an toàn để dịch. Không đổi `mode` hàng loạt.
-2. **Tên riêng và QA nội dung:** tên Latin/Hán Việt trong `docs/GLOSSARY.md` là bản tạm. Cần đối chiếu nhân vật/địa danh với game; chú ý Yeluda, trại Thiên Địa, Xueye, các võ sĩ đại hội, đơn vị `thạch`, và cách dùng `Suối Sức Mạnh` khác `suối Thiên Sứ`.
-3. **Font & runtime:** engine đang dùng TextOutA/CreateFontIndirectA, SimSun, charset 134; builder hiện tại chỉ ghi `cp936`/GBK. **Chưa có patch Việt hóa dùng được**. Không ép UTF-8 thành GBK, không bỏ dấu.
-4. **UI ngoài kịch bản:** `all_sys.tsw` có chỉ mục hình ảnh/menu chưa được phân tích đủ. Cần giải mã phần hiển thị, bố trí chữ, đo độ rộng/ngắt dòng.
-5. **Kiểm thử Windows:** phải có patch/font hoạt động, sau đó kiểm tra hiển thị trong game, luồng hội thoại, kỹ năng và các màn đặc biệt.
+- **Ban đầu:** 713 `review`. **Đã mở khóa và dịch có kiểm soát:** 139. **Còn lại:** **574 `review`**.
+- **22 lời dẫn cảnh `SP_AddAction` đối số 3**: 14 ở `stage1`, 8 ở `stage27`; dịch riêng lời dẫn và lời thoại, bảo toàn các mã `%s/%t/%z/%N`.
+- **59 mô tả kỹ năng `AddSkillData` đối số 2**, và **58 mô tả vật phẩm `AddItemData` đối số 2**: điền `vi` và mở khóa đúng trường mô tả, giữ lại tên là `review`. Số ô, HP/MP, số lượt và phần trăm trong mô tả được giữ theo nguồn.
+- **Đã cập nhật validator:** chỉ cho phép `SP_AddAction` đối số 3 có mã hiển thị, `AddSkillData` đối số 2, `AddItemData` đối số 2. Các hàm và đối số khác không được dịch chỉ vì chứa chữ Hán. Bổ sung unit test chấp nhận phần nội dung, từ chối tên/đối số chưa xác minh.
+- **GitHub Actions PASS** sau khi sửa regex tiền tố hiển thị và cập nhật test. Đây là kiểm tra định dạng, không xác nhận bố cục hay hoạt động khi chơi.
+- Bảng phân loại, token minh chứng, nhóm còn lại và rủi ro xem **`docs/REVIEW_AUDIT.md`**.
+- `stage24:4663` (`曼宁、艾若绮加入队伍`) chưa nhận diện được chủ sở hữu lệnh nên **chưa sửa**.
+- Tên kỹ năng (63), vật phẩm (58), lớp (360), địa hình (14), phe (12), thẻ (38), user bank (28) còn chờ chứng cứ tham chiếu trước khi quyết định dịch.
+- **Giới hạn:** `mode=translate` có bản dịch không đồng nghĩa đã kiểm chứng dịch đúng ngữ cảnh toàn game hoặc đã hiển thị đúng trong engine.
 
-## Bước kế tiếp
+## Font, runtime và bản vá
 
-- Bắt đầu **audit 713 dòng `review`**, ưu tiên nhóm có bằng chứng là chữ hiện với người chơi, nhưng phải phân biệt khóa nội bộ và `SP_AddAction`. Ghi bằng chứng cho mọi thay đổi `mode` nếu có.
-- Sau đó tiến hành nhánh nghiên cứu font Unicode / engine để tạo patch có thể kiểm thử; báo tách biệt `translation data complete` và `playable patch`.
+- **Chưa có bản patch chơi được**, chưa kiểm thử trong game. Builder cũ dùng `cp936`/GBK không biểu diễn được đầy đủ tiếng Việt có dấu. Không ép chuỗi UTF-8 vào engine hoặc xuất bản patch giả.
+- Cần tiếp cận đúng phiên bản `AngelSLG.exe` và tài nguyên gốc trên Windows, xác minh các điểm `TextOutA`, `CreateFontIndirectA`, charset SimSun 134; sau đó làm thử hiển thị Unicode, đo chiều dài, ngắt dòng và tác động đến hộp thoại.
+- `all_sys.tsw` có chỉ mục ảnh UI cần giải mã; còn QA tên riêng, vai nói, dòng mở đầu có mốc niên đại đáng nghi.
+
+## Việc tiếp theo
+
+1. Tiếp tục phân loại **574 `review` còn lại** theo tên hàm/đối số, bắt đầu từ cách engine gọi tên kỹ năng/vật phẩm/lớp. Không đổi `mode` chỉ vì tên nhìn giống chữ trên giao diện.
+2. Nghiên cứu công cụ dò và thử font/encoding trên bản game thật (ưu tiên mẫu màn đầu và tooltip), giữ nguyên bản gốc.
+3. Chạy `python tools/scripts.py check` và `python tools/test_scripts.py` sau mỗi nhóm; ghi mã token và bằng chứng khi mở khóa.
