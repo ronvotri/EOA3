@@ -50,6 +50,10 @@ Bảng tên hiển thị **tạm thời** phục vụ dịch, không sửa các 
 | 武襄金星 | Võ Tương Kim Tinh | Tên Hoàng đế nước Shang, phiên âm Hán Việt tạm chờ đối chiếu |
 | 管区 | người quản khu | Lời lừa bịp hài hước của băng cướp tại stage 6 |
 
+| 爱尔达邦联 | Liên bang Elda | Liên bang cử Niya làm đặc sứ |
+| 玄武城 | thành Huyền Vũ | Cửa ải sát biên giới Shangri-La (stage 8); cách đọc Hán Việt tạm |
+| 关文 | giấy thông hành | Giấy tờ chính thức để vượt cửa ải; phân biệt với quốc thư Liên bang |
+
 ## Khẩu khí
 
 - Đồng đội trẻ: **mình/cậu, bọn mình**; câu thoại hoàn chỉnh, tự nhiên, có nhịp cảm xúc, không quá máy móc.
