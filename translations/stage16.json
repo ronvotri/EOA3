@@ -87,7 +87,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "夺回尤利尔",
-    "vi": ""
+    "vi": "Giành lại Uriel"
   },
   {
     "id": "stage16:3756",
@@ -96,7 +96,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "Stage-16 夺回尤利尔",
-    "vi": ""
+    "vi": "Màn 16 - Giành lại Uriel"
   },
   {
     "id": "stage16:3761",
@@ -105,7 +105,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "尤利尔王国边境",
-    "vi": ""
+    "vi": "Biên giới Vương quốc Uriel"
   },
   {
     "id": "stage16:3830",
@@ -114,7 +114,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我跳！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mình nhảy đây!”"
   },
   {
     "id": "stage16:3868",
@@ -123,7 +123,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“跳！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhảy!”"
   },
   {
     "id": "stage16:3919",
@@ -132,7 +132,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嘿嘿～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hê hê~”"
   },
   {
     "id": "stage16:3951",
@@ -141,7 +141,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呼呼¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hộc... hộc...”"
   },
   {
     "id": "stage16:3962",
@@ -150,7 +150,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“莉娜¨¨等我一下啦¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Lina... đợi mình với mà...”"
   },
   {
     "id": "stage16:3987",
@@ -159,7 +159,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“她往那边去了，我们快追。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cậu ấy chạy hướng kia! Mau đuổi theo!”"
   },
   {
     "id": "stage16:4012",
@@ -168,7 +168,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“还要追吗¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vẫn phải đuổi tiếp sao...?”"
   },
   {
     "id": "stage16:4023",
@@ -177,7 +177,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“妮雅他们还没跟来呐¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Niya và mọi người còn chưa theo kịp mà...”"
   },
   {
     "id": "stage16:4048",
@@ -186,7 +186,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不来你就自己待着。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không theo thì cậu cứ ở lại một mình đi!”"
   },
   {
     "id": "stage16:4073",
@@ -195,7 +195,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好啦¨¨不要丢下我，等等我呐¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Được rồi mà... đừng bỏ mình lại! Đợi với...”"
   },
   {
     "id": "stage16:4124",
@@ -204,7 +204,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呼呼¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hộc... hộc...”"
   },
   {
     "id": "stage16:4189",
@@ -213,7 +213,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呼呼¨¨真是的¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hộc... hộc... thiệt tình...”"
   },
   {
     "id": "stage16:4294",
@@ -222,7 +222,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这里！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ở đây này!”"
   },
   {
     "id": "stage16:4332",
@@ -231,7 +231,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“啊！等我。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Á! Chờ mình nữa!”"
   },
   {
     "id": "stage16:4449",
@@ -240,7 +240,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“喔！？人都不见了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ủa!? Mọi người biến đâu hết rồi!”"
   },
   {
     "id": "stage16:4460",
@@ -249,7 +249,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“跑的还真快¨¨¨果真是有好东西瞒着我们。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chạy nhanh thật đấy... Chắc có món ngon gì đang giấu mình đây!”"
   },
   {
     "id": "stage16:4471",
@@ -258,7 +258,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我们往这边！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mình đi lối này!”"
   },
   {
     "id": "stage16:4537",
@@ -267,7 +267,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“奇怪，她们往哪去了？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Lạ thật, họ chạy đâu mất rồi?”"
   },
   {
     "id": "stage16:4614",
@@ -276,7 +276,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“盈月老大¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đại ca Yingyue...”"
   },
   {
     "id": "stage16:4646",
@@ -285,7 +285,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“什么事吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Có chuyện gì thế?”"
   },
   {
     "id": "stage16:4671",
@@ -294,7 +294,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我觉得背后凉凉地¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Sao tự nhiên em thấy lạnh cả sống lưng...”"
   },
   {
     "id": "stage16:4682",
@@ -303,7 +303,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好像有倒楣的事要发生了¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hình như sắp có chuyện xui xẻo xảy ra...”"
   },
   {
     "id": "stage16:4696",
@@ -312,7 +312,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "不祥的预感¨¨¨",
-    "vi": ""
+    "vi": "Một linh cảm chẳng lành..."
   },
   {
     "id": "stage16:4717",
@@ -510,7 +510,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“啊！敌军。”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Á! Quân địch!”"
   },
   {
     "id": "stage16:5264",
@@ -519,7 +519,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“可恶，被包围了¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chết rồi, bị bao vây mất rồi...”"
   },
   {
     "id": "stage16:5352",
@@ -528,7 +528,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“糟了，盈月她们有危险。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không ổn! Yingyue và mọi người gặp nguy rồi!”"
   },
   {
     "id": "stage16:5377",
@@ -537,7 +537,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呦～她们两个打算攻下整座城堡呀！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ái chà, hai người đó định hạ cả tòa thành sao!?”"
   },
   {
     "id": "stage16:5388",
@@ -546,7 +546,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那就看她们的罗！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cứ để họ tự lo đi!”"
   },
   {
     "id": "stage16:5413",
@@ -555,7 +555,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不行，我还没当寨主之前不能让盈月死。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không được! Trước khi mình lên làm trại chủ, không thể để Yingyue chết được!”"
   },
   {
     "id": "stage16:5424",
@@ -564,7 +564,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我要去帮忙。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mình phải đến giúp!”"
   },
   {
     "id": "stage16:5496",
@@ -573,7 +573,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“盈月大人，我来了！！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đại ca Yingyue! Em đến đây!!”"
   },
   {
     "id": "stage16:5521",
@@ -582,7 +582,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你们怎么来了？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Các ngươi đến đây làm gì?”"
   },
   {
     "id": "stage16:5546",
@@ -591,7 +591,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“没办法，最近战争太多，%N根本没东西可以抢！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Dạo này chiến tranh khắp nơi, chẳng còn%Nthứ gì để cướp nữa!”"
   },
   {
     "id": "stage16:5557",
@@ -600,7 +600,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“刚才经过附近正想溜进城里偷东西，正好听到%N盈月大人的声音，所以就赶过来看看情况了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Bọn em đi ngang, định lẻn vào thành kiếm ít đồ.%NVừa nghe tiếng đại ca là chạy tới ngay!”"
   },
   {
     "id": "stage16:5582",
@@ -609,7 +609,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“很好，来的正是时候。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tốt lắm! Đến đúng lúc đấy!”"
   },
   {
     "id": "stage16:5593",
@@ -618,7 +618,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“就给她们一点颜色瞧瞧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cho bọn chúng biết tay nào!”"
   },
   {
     "id": "stage16:5607",
@@ -627,7 +627,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "夏美加入队伍",
-    "vi": ""
+    "vi": "Xia Mei gia nhập đội."
   },
   {
     "id": "stage16:5633",
@@ -636,7 +636,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“都到齐了吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đủ mặt cả rồi chứ?”"
   },
   {
     "id": "stage16:5644",
@@ -645,7 +645,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那就等死吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy thì chuẩn bị chết đi!”"
   },
   {
     "id": "stage16:5655",
@@ -654,7 +654,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我可不会像玛西亚或克诺依德那么没用的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ta đâu vô dụng như Marcia hay Konoid!”"
   },
   {
     "id": "stage16:5666",
@@ -663,7 +663,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哈哈哈哈～～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ha ha ha ha!”"
   },
   {
     "id": "stage16:5696",
@@ -690,7 +690,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“邦联军最近气势太强盛了，%N我们还赢得了吗¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Quân Liên bang dạo này mạnh quá...%NKhông biết chúng ta còn thắng nổi không...”"
   },
   {
     "id": "stage16:5763",
@@ -699,7 +699,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“很难说呢！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Khó nói lắm!”"
   },
   {
     "id": "stage16:5774",
@@ -708,7 +708,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你不觉得雷丝曼女帝最近行为跟过去不太一%N样¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không thấy Nữ hoàng Resman gần đây%Nhành động khác hẳn ngày trước sao...?”"
   },
   {
     "id": "stage16:5799",
@@ -717,7 +717,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯！自从喝下黑色的天使之泉后，%N很多人也慢慢开始改变了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừ! Từ lúc uống nước suối Thiên Sứ đen,%Nnhiều người cũng bắt đầu thay đổi dần.”"
   },
   {
     "id": "stage16:5810",
@@ -726,7 +726,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我的身体最近也觉得很奇怪，%N有时候自己到底做了什么事都不知道¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Dạo này cơ thể tôi cũng lạ lắm.%NĐôi khi chẳng nhớ nổi mình đã làm những gì...”"
   },
   {
     "id": "stage16:5835",
@@ -735,7 +735,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“洁莉本来对玛西亚女帝一直都很忠心的，%N但是也是自从喝下黑色泉水之后¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Trước đây Jeli vốn hết lòng trung thành với Marcia,%Nnhưng từ khi uống nước suối đen thì...”"
   },
   {
     "id": "stage16:5846",
@@ -744,7 +744,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我想玛西亚女帝说的对，%N黑色泉水真的是有问题。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tôi nghĩ Nữ hoàng Marcia nói đúng.%NNước suối đen thật sự có vấn đề.”"
   },
   {
     "id": "stage16:5857",
@@ -753,7 +753,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我们还是回玛西亚女帝身边吧！%N你觉得呢¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hay là chúng ta trở về bên Nữ hoàng Marcia nhé?%NCậu thấy sao...?”"
   },
   {
     "id": "stage16:5882",
@@ -762,7 +762,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯，我也不想留在这里了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừ! Tôi cũng không muốn ở đây nữa!”"
   },
   {
     "id": "stage16:5893",
@@ -771,7 +771,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我们走吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy đi thôi!”"
   },
   {
     "id": "stage16:6199",
@@ -789,7 +789,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：敌主将雷丝曼战败。%N失败条件：妮雅战败。",
-    "vi": ""
+    "vi": "Điều kiện thắng: Đánh bại tướng Resman.%NĐiều kiện thua: Niya bị đánh bại."
   },
   {
     "id": "stage16:6222",
@@ -879,7 +879,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“为什么¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tại sao chứ...”"
   },
   {
     "id": "stage16:6361",
@@ -888,7 +888,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不可能¨¨不可能会输的！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không thể... Ta không thể thua được!”"
   },
   {
     "id": "stage16:6372",
@@ -897,7 +897,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我知道了¨¨¨一定是喝下的力量之泉还不够%N多¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ta biết rồi... Chắc chắn là ta chưa uống đủ%NSuối Sức Mạnh...”"
   },
   {
     "id": "stage16:6383",
@@ -906,7 +906,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“对了！一定是这样。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đúng rồi! Chắc chắn là vậy!”"
   },
   {
     "id": "stage16:6394",
@@ -915,7 +915,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼哈哈哈哈，只要有力量之泉，胜利终究还是%N属于我的！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ha ha ha! Chỉ cần có Suối Sức Mạnh,%Nchiến thắng cuối cùng vẫn sẽ thuộc về ta!”"
   },
   {
     "id": "stage16:6405",
@@ -924,7 +924,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哈哈哈哈～～你们等着吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ha ha ha! Cứ đợi đấy!”"
   },
   {
     "id": "stage16:6434",

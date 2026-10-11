@@ -267,7 +267,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "夺回天使之泉",
-    "vi": ""
+    "vi": "Giành lại suối Thiên Sứ"
   },
   {
     "id": "stage21:3675",
@@ -276,7 +276,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "Stage-21 夺回天使之泉",
-    "vi": ""
+    "vi": "Màn 21 - Giành lại suối Thiên Sứ"
   },
   {
     "id": "stage21:3680",
@@ -294,7 +294,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“追上了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đuổi kịp rồi!”"
   },
   {
     "id": "stage21:3804",
@@ -303,7 +303,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“洁莉妹子，你很会跑耶！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Em Jeli, cô chạy giỏi thật đấy!”"
   },
   {
     "id": "stage21:3829",
@@ -312,7 +312,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呼¨¨呼¨¨你要就正大光明打一场！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hộc... hộc... giỏi thì đứng lại đấu đàng hoàng đi!”"
   },
   {
     "id": "stage21:3840",
@@ -321,7 +321,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“累死本小姐了¨¨呼¨呼¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mệt chết tôi rồi... hộc... hộc...”"
   },
   {
     "id": "stage21:3870",
@@ -330,7 +330,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼！不好玩，都追得这么快。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừ! Chán quá, đuổi kịp nhanh thế!”"
   },
   {
     "id": "stage21:3881",
@@ -339,7 +339,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这么爱打就来打吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thích đánh lắm thì nhào vào đây!”"
   },
   {
     "id": "stage21:3986",
@@ -348,7 +348,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“纱玲长老派我们来协助各位。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Trưởng lão Shaling cử chúng tôi đến giúp các vị.”"
   },
   {
     "id": "stage21:3997",
@@ -357,7 +357,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“请各位多多指教。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mong được mọi người chỉ giáo và giúp đỡ!”"
   },
   {
     "id": "stage21:4022",
@@ -366,7 +366,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“太好了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tốt quá!”"
   },
   {
     "id": "stage21:4033",
@@ -375,7 +375,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那就麻烦你们了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy nhờ các cậu nhé!”"
   },
   {
     "id": "stage21:4068",
@@ -384,7 +384,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "焰舞、百灵加入队伍。",
-    "vi": ""
+    "vi": "Yanwu và Bailing gia nhập đội."
   },
   {
     "id": "stage21:4405",
@@ -393,7 +393,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：敌军全灭。%N失败条件：妮雅战败。",
-    "vi": ""
+    "vi": "Điều kiện thắng: Tiêu diệt toàn bộ quân địch.%NĐiều kiện thua: Niya bị đánh bại."
   },
   {
     "id": "stage21:4422",
@@ -456,7 +456,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“她们往港口的方向去了，我们继续追上去吧。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Họ chạy về phía cảng rồi, mình tiếp tục đuổi theo thôi!”"
   },
   {
     "id": "stage21:4519",
@@ -492,7 +492,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“啊¨¨太不小心了¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Á... sơ suất quá...”"
   },
   {
     "id": "stage21:4589",
@@ -501,6 +501,6 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“竟然在这里战败¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không ngờ lại thua ngay tại đây...”"
   }
 ]

@@ -213,7 +213,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "收复沙利叶",
-    "vi": ""
+    "vi": "Giành lại Sariel"
   },
   {
     "id": "stage15:2670",
@@ -222,7 +222,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "Stage-15 收复沙利叶",
-    "vi": ""
+    "vi": "Màn 15 - Giành lại Sariel"
   },
   {
     "id": "stage15:2674",
@@ -240,7 +240,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“雷丝曼大人，我带人来投效您了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thưa Nữ hoàng Resman, tôi dẫn người đến đầu quân cho ngài đây!”"
   },
   {
     "id": "stage15:2719",
@@ -249,7 +249,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哦！这不是玛西亚的爱将洁莉吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ồ! Chẳng phải Jeli, tướng tâm phúc của Marcia sao?”"
   },
   {
     "id": "stage15:2730",
@@ -258,7 +258,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“是什么风把你给吹来了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ngọn gió nào đưa ngươi đến đây vậy?”"
   },
   {
     "id": "stage15:2755",
@@ -267,7 +267,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“雷丝曼女帝，千万别这么说。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Xin Nữ hoàng Resman đừng nói thế ạ.”"
   },
   {
     "id": "stage15:2766",
@@ -276,7 +276,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“最近贝力欧的战况越来越糟，玛西亚首领的军%N队接连好几次都败给邦联军。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tình hình chiến sự ở Belio càng lúc càng tệ.%NQuân của thủ lĩnh Marcia liên tiếp thua quân Liên bang.”"
   },
   {
     "id": "stage15:2777",
@@ -285,7 +285,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“而首领又不许我们喝下力量之泉，所以¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mà thủ lĩnh lại cấm chúng tôi uống Suối Sức Mạnh, nên...”"
   },
   {
     "id": "stage15:2802",
@@ -294,7 +294,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼！胆小鬼。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừ! Đúng là đồ nhát gan!”"
   },
   {
     "id": "stage15:2813",
@@ -303,7 +303,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“拥有力量之泉的人却不敢喝，独占了一座天使%N之泉就这样白白放着浪费。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Có Suối Sức Mạnh mà không dám uống,%Nđộc chiếm cả một suối Thiên Sứ rồi bỏ phí!”"
   },
   {
     "id": "stage15:2824",
@@ -312,7 +312,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼！不过不要紧，我还是会到玛雅找到其他的%N力量之泉。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừ! Không sao, ta sẽ tới Maya tìm những%Nnguồn Suối Sức Mạnh khác.”"
   },
   {
     "id": "stage15:2887",
@@ -321,7 +321,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好，就从这里进攻。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Được rồi, ta sẽ tấn công từ đây!”"
   },
   {
     "id": "stage15:2917",
@@ -330,7 +330,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“敌袭！！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Địch tập kích!!”"
   },
   {
     "id": "stage15:2967",
@@ -339,7 +339,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“报告女敌，敌人已经进攻到这了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Bẩm Nữ hoàng, quân địch đã đánh đến đây rồi!”"
   },
   {
     "id": "stage15:2978",
@@ -348,7 +348,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我军也已经完成部署，请示出击!”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Quân ta đã bố trí xong, xin cho phép xuất kích!”"
   },
   {
     "id": "stage15:3003",
@@ -357,7 +357,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừ!”"
   },
   {
     "id": "stage15:3014",
@@ -366,7 +366,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“洁莉，看着吧！选择跟着我是对的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Jeli, cứ nhìn đi! Ngươi đã chọn đúng người để theo rồi.”"
   },
   {
     "id": "stage15:3039",
@@ -375,7 +375,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“是！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vâng ạ!”"
   },
   {
     "id": "stage15:3064",
@@ -384,7 +384,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“就让邦联军尝尝苦头吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cho quân Liên bang nếm mùi thất bại nào!”"
   },
   {
     "id": "stage15:3075",
@@ -393,7 +393,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“传令！全军出击。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Truyền lệnh! Toàn quân xuất kích!”"
   },
   {
     "id": "stage15:3100",
@@ -402,7 +402,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“是！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tuân lệnh!”"
   },
   {
     "id": "stage15:3377",
@@ -411,7 +411,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：敌主将雷丝曼战败。%N失败条件：妮雅战败。",
-    "vi": ""
+    "vi": "Điều kiện thắng: Đánh bại tướng Resman.%NĐiều kiện thua: Niya bị đánh bại."
   },
   {
     "id": "stage15:3390",
@@ -474,7 +474,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“总算将沙利叶收复了，补充军品后就往%N尤利尔出发吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cuối cùng cũng giành lại được Sariel! Tiếp tế xong%Nchúng ta lên đường đến Uriel nhé!”"
   },
   {
     "id": "stage15:3659",
@@ -483,7 +483,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“米雅法儿，你有看到吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Miafa, cậu thấy không?”"
   },
   {
     "id": "stage15:3670",
@@ -492,7 +492,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“刚刚跑过去的好像是我们家隔壁的耶里朵？！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Người vừa chạy qua kia giống Yerido ở cạnh nhà bọn mình quá!?”"
   },
   {
     "id": "stage15:3708",
@@ -501,7 +501,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你去哪？等等我呐！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cậu đi đâu thế? Chờ mình với!”"
   },
   {
     "id": "stage15:3753",
@@ -510,7 +510,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你们别脱队呀¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đừng có tự ý tách đội như vậy chứ...”"
   },
   {
     "id": "stage15:3778",
@@ -519,7 +519,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“有什么好东西居然不说清楚。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Có thứ gì hay ho mà giấu kín thế nhỉ?”"
   },
   {
     "id": "stage15:3789",
@@ -528,7 +528,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嘿嘿！我也跟过去看看。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hê hê! Mình cũng qua xem thử!”"
   },
   {
     "id": "stage15:3827",
@@ -537,7 +537,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你们¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mấy cậu thật là...”"
   },
   {
     "id": "stage15:3852",
@@ -546,7 +546,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哈哈，果然不是军队出身的人就是会这样¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ha ha! Đúng là người không xuất thân từ quân đội có khác...”"
   },
   {
     "id": "stage15:3884",
@@ -555,7 +555,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“唉¨¨我们补给完还是赶紧跟上吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Haiz... Tiếp tế xong thì mau đuổi theo họ thôi!”"
   },
   {
     "id": "stage15:3902",
@@ -600,7 +600,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“该死¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Khốn kiếp...”"
   },
   {
     "id": "stage15:3983",
@@ -609,7 +609,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼！只要北爱尔达都是我掌控的局面，就连%N玛西亚也动我不得，我倒要看看你们会有多大%N能耐。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừ! Chừng nào Bắc Elda còn trong tay ta,%Nthì ngay cả Marcia cũng chẳng động nổi đến ta.%NĐể xem các ngươi tài giỏi đến đâu!”"
   },
   {
     "id": "stage15:3994",
@@ -618,7 +618,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“看着吧！再跟过来就是你们更接近死亡的时%N候了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cứ đến đây đi! Càng đuổi theo,%Ncác ngươi càng đến gần cái chết!”"
   },
   {
     "id": "stage15:4005",
@@ -627,7 +627,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哈哈哈哈哈～～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ha ha ha ha!”"
   },
   {
     "id": "stage15:4034",

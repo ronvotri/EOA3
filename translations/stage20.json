@@ -276,7 +276,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "封锁北边境",
-    "vi": ""
+    "vi": "Phong tỏa biên giới phía bắc"
   },
   {
     "id": "stage20:3719",
@@ -285,7 +285,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "Stage-20 封锁北边境",
-    "vi": ""
+    "vi": "Màn 20 - Phong tỏa biên giới phía bắc"
   },
   {
     "id": "stage20:3724",
@@ -303,7 +303,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哈哈哈，之前只不过是人少才输了，%N别只是赢了一下就洋洋得意。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ha ha! Lúc trước ta thua chỉ vì ít người thôi.%NĐừng vừa thắng một trận đã lên mặt!”"
   },
   {
     "id": "stage20:3772",
@@ -312,7 +312,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“她废话好像比我多耶¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cô ta còn nói nhiều hơn cả mình nữa...”"
   },
   {
     "id": "stage20:3797",
@@ -321,7 +321,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你终于知道你废话很多了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cuối cùng cậu cũng chịu nhận mình nói nhiều rồi hả!”"
   },
   {
     "id": "stage20:3822",
@@ -330,7 +330,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“妮雅¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Niya...”"
   },
   {
     "id": "stage20:3833",
@@ -339,7 +339,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你也不用说得那么直接嘛¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cậu cũng không cần nói thẳng thừng thế mà...”"
   },
   {
     "id": "stage20:4124",
@@ -348,7 +348,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：敌军全灭。%N失败条件：妮雅战败。",
-    "vi": ""
+    "vi": "Điều kiện thắng: Tiêu diệt toàn bộ quân địch.%NĐiều kiện thua: Niya bị đánh bại."
   },
   {
     "id": "stage20:4137",
@@ -393,7 +393,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“敌人都撤退了，我们往下一个地方移动吧。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Quân địch rút hết rồi. Chúng ta sang nơi tiếp theo thôi!”"
   },
   {
     "id": "stage20:4221",
@@ -447,6 +447,6 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“可恶，居然输在这个地方¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Khốn thật! Không ngờ lại thua ở đây...”"
   }
 ]

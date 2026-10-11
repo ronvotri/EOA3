@@ -75,6 +75,19 @@ Bảng tên hiển thị **tạm thời** phục vụ dịch, không sửa các 
 | 拉斐尔 | Raphael | Quốc gia cần giành lại |
 | 天使之泉 | suối Thiên Sứ | Nguồn nước có hiện tượng hóa đen, cần theo dõi cốt truyện |
 
+| 贝力欧 | Belio | Khu vực phe Ocha; phiên âm tạm, cần đối chiếu |
+| 玛雅 | Maya | Vùng có khả năng còn Suối Sức Mạnh/nước suối đen, phiên âm tạm |
+| 力量之泉 | Suối Sức Mạnh | Tên nguồn nước được Resman tìm kiếm; **chưa khẳng định đồng nghĩa** với suối Thiên Sứ |
+| 黑色泉水 / 黑水 | nước suối đen / nước đen | Chất nước làm biến đổi nhận thức và hành vi, stage 16–18 |
+| 耶里朵 | Yerido | Người quen của Angelina và Miafa; gia nhập ở stage 17; tên tạm |
+| 夏美 | Xia Mei | Đồng minh của Yingyue ở stage 16; phiên âm tạm |
+| 纱琳娜 | Sharina | Tướng phòng thủ Raphael, phiên âm tạm |
+| 萨梅尔 | Samel | Mục tiêu tấn công sau Raphael, phiên âm tạm |
+| 亚伯登 | Aberdon | Quốc gia chịu ảnh hưởng nước suối đen, phiên âm tạm |
+| 纱玲 | Shaling | Trưởng lão uyên bác tại Ngọc Kinh, phiên âm tạm |
+| 焰舞 | Yanwu | Đồng đội do trưởng lão Shaling cử đến, stage 21; phiên âm tạm |
+| 百灵 | Bailing | Đồng đội do trưởng lão Shaling cử đến, stage 21; phiên âm tạm |
+
 ## Khẩu khí
 
 - Đồng đội trẻ: **mình/cậu, bọn mình**; câu thoại hoàn chỉnh, tự nhiên, có nhịp cảm xúc, không quá máy móc.

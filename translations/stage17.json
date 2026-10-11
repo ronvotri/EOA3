@@ -249,7 +249,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "血战拉斐尔",
-    "vi": ""
+    "vi": "Huyết chiến Raphael"
   },
   {
     "id": "stage17:3974",
@@ -258,7 +258,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "Stage-17 血战拉斐尔",
-    "vi": ""
+    "vi": "Màn 17 - Huyết chiến Raphael"
   },
   {
     "id": "stage17:3979",
@@ -267,7 +267,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "拉斐尔王城前",
-    "vi": ""
+    "vi": "Trước kinh thành Raphael"
   },
   {
     "id": "stage17:3984",
@@ -285,7 +285,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“雷丝曼首领也真是的，来的就这么小猫两只而%N已，竟然要我部属这么多人，实在小题大作了¨%N¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thủ lĩnh Resman thật là! Có mỗi mấy đứa lẻ tẻ%Nmà bắt ta bày quân đông thế này. Đúng là chuyện bé%Nxé ra to...”"
   },
   {
     "id": "stage17:4053",
@@ -294,7 +294,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“唉¨¨¨交给几个手下去对付就好了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Haiz... Giao vài tên lính đi xử chúng là xong rồi.”"
   },
   {
     "id": "stage17:4085",
@@ -303,7 +303,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不能在往前了，先撤退吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không tiến lên được nữa! Rút lui trước đi!”"
   },
   {
     "id": "stage17:4146",
@@ -321,7 +321,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“被包围了！！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Bị bao vây rồi!!”"
   },
   {
     "id": "stage17:4259",
@@ -330,7 +330,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那怎么办呐¨¨安洁莉娜¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Làm sao bây giờ, Angelina ơi...?”"
   },
   {
     "id": "stage17:4284",
@@ -339,7 +339,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“没办法，只能突破她们了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không còn cách nào khác, phải phá vòng vây thôi!”"
   },
   {
     "id": "stage17:4298",
@@ -348,7 +348,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "敌方重兵采取守势，安洁莉娜、米雅法儿原地防守或撤退。%N等待妮雅支援，勿与敌军正面冲突。",
-    "vi": ""
+    "vi": "Địch bố trí lực lượng lớn phòng thủ. Angelina và Miafa hãy cố thủ hoặc rút lui.%NĐợi Niya đến chi viện, đừng giao chiến trực diện."
   },
   {
     "id": "stage17:4308",
@@ -357,7 +357,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：等待援军出现。%N失败条件：安洁莉娜或米雅法儿战败。",
-    "vi": ""
+    "vi": "Điều kiện thắng: Chờ viện quân xuất hiện.%NĐiều kiện thua: Angelina hoặc Miafa bị đánh bại."
   },
   {
     "id": "stage17:4325",
@@ -411,7 +411,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“安洁莉娜、米雅法儿，我们来支援了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Angelina, Miafa! Bọn mình tới chi viện đây!”"
   },
   {
     "id": "stage17:4470",
@@ -420,7 +420,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“原来还有援军呀！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hóa ra các ngươi còn có viện binh sao!?”"
   },
   {
     "id": "stage17:4481",
@@ -429,7 +429,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那就光明正大的打一场吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy cứ đường đường chính chính đánh một trận đi!”"
   },
   {
     "id": "stage17:4758",
@@ -438,7 +438,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：敌大将纱琳娜战败%N失败条件：妮雅战败",
-    "vi": ""
+    "vi": "Điều kiện thắng: Đánh bại tướng Sharina.%NĐiều kiện thua: Niya bị đánh bại."
   },
   {
     "id": "stage17:4772",
@@ -483,7 +483,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“下次没理由不能再乱跑了，知道吗！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Lần sau không có lý do thì đừng chạy lung tung nữa, hiểu chưa!?”"
   },
   {
     "id": "stage17:4942",
@@ -492,7 +492,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“知道啦！知道啦！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Biết rồi, biết rồi mà!”"
   },
   {
     "id": "stage17:4967",
@@ -510,7 +510,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“安洁，耶里朵在前面！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ange, Yerido ở đằng trước kìa!”"
   },
   {
     "id": "stage17:5054",
@@ -519,7 +519,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“安、安洁莉娜，好久不见。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“An... Angelina! Lâu quá không gặp!”"
   },
   {
     "id": "stage17:5065",
@@ -528,7 +528,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“大家¨¨都还¨¨¨平安吧！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mọi người... đều... vẫn bình an chứ!?”"
   },
   {
     "id": "stage17:5090",
@@ -537,7 +537,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“耶里朵，我们也找你找了好久。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Yerido, bọn mình cũng tìm cậu lâu lắm rồi!”"
   },
   {
     "id": "stage17:5101",
@@ -546,7 +546,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你怎么会在这里呢！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Sao cậu lại ở đây vậy!?”"
   },
   {
     "id": "stage17:5126",
@@ -555,7 +555,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mình...”"
   },
   {
     "id": "stage17:5137",
@@ -564,7 +564,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“因为欧查军侵占各个城镇村庄，所到之处都强%N迫当地人加入她们阵营¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Quân Ocha đã chiếm các làng mạc, thành trấn.%NChúng ép dân địa phương gia nhập phe mình...”"
   },
   {
     "id": "stage17:5148",
@@ -573,7 +573,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“否则¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nếu không thì...”"
   },
   {
     "id": "stage17:5173",
@@ -582,7 +582,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“原来如此，我懂了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ra vậy... Mình hiểu rồi!”"
   },
   {
     "id": "stage17:5198",
@@ -591,7 +591,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那么这样吧！你以后来帮我们好吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thế này nhé, từ giờ cậu giúp bọn mình được không?”"
   },
   {
     "id": "stage17:5223",
@@ -600,7 +600,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“当然了！我很乐意加入你们的阵营，我会好好%N加油的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tất nhiên rồi! Mình rất sẵn lòng đi cùng các cậu.%NMình sẽ cố hết sức!”"
   },
   {
     "id": "stage17:5248",
@@ -609,7 +609,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那就欢迎你罗！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy chào mừng cậu nhé!”"
   },
   {
     "id": "stage17:5273",
@@ -627,7 +627,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“安洁，耶里朵加入你怎么都不高兴呐？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ange, Yerido gia nhập mà sao cậu không vui vậy?”"
   },
   {
     "id": "stage17:5323",
@@ -636,7 +636,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯！？没¨¨¨没有呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hả!? Đâu... đâu có!”"
   },
   {
     "id": "stage17:5348",
@@ -645,7 +645,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哦¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ồ...”"
   },
   {
     "id": "stage17:5362",
@@ -654,7 +654,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "耶里朵加入队伍",
-    "vi": ""
+    "vi": "Yerido gia nhập đội."
   },
   {
     "id": "stage17:5396",
@@ -672,7 +672,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "%s2%t4%z18%c1加百列～萨维尔皇城",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Gabriel - kinh thành Savel”"
   },
   {
     "id": "stage17:5432",
@@ -681,7 +681,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "一周后",
-    "vi": ""
+    "vi": "Một tuần sau"
   },
   {
     "id": "stage17:5448",
@@ -690,7 +690,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“妮雅，这几场战役的战果相当辉煌，使得邦联%N盟国目前逐渐回复运作，你们占了相当大的功劳%N。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Niya, những chiến thắng vừa qua thật rực rỡ.%NNhờ công lớn của các ngươi mà các nước đồng minh%Nđã dần khôi phục hoạt động.”"
   },
   {
     "id": "stage17:5473",
@@ -699,7 +699,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“属下不敢当。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thần không dám nhận hết công lao ạ.”"
   },
   {
     "id": "stage17:5498",
@@ -708,7 +708,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不过黑色泉水的危害症状也开始显现出来了，%N受影响的地方多以欧查军的根据地为主。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tuy vậy, tác hại của nước suối đen cũng bắt đầu rõ rệt.%NPhần lớn nơi bị ảnh hưởng là căn cứ của quân Ocha.”"
   },
   {
     "id": "stage17:5509",
@@ -717,7 +717,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这些地方目前内战频繁，而且范围也正在扩散%N当中，因此现在正是消减欧查战力的最好时机。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nội chiến đang liên tục nổ ra ở những vùng ấy,%Nphạm vi lại ngày càng lan rộng. Đây là thời cơ tốt nhất để làm suy yếu Ocha.”"
   },
   {
     "id": "stage17:5520",
@@ -726,7 +726,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我已经派人前往拉斐尔要求协助攻下萨梅尔，%N你带领的邦联部队由萨梅尔南方进攻来诱敌，拉%N斐尔军随后会进攻萨梅尔王城。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ta đã cử người đến Raphael đề nghị phối hợp đánh Samel.%NQuân Liên bang do ngươi chỉ huy sẽ đánh từ phía nam Samel%Nđể nhử địch, rồi quân Raphael sẽ tấn công kinh thành.”"
   },
   {
     "id": "stage17:5531",
@@ -735,7 +735,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这场战役请务必将欧查军击败，以大幅减弱欧%N查势力。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Trận này nhất định phải đánh bại quân Ocha,%Ngiáng một đòn thật mạnh vào thế lực của chúng.”"
   },
   {
     "id": "stage17:5556",
@@ -744,7 +744,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“是！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tuân lệnh!”"
   },
   {
     "id": "stage17:5589",
@@ -807,7 +807,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“啊¨¨¨不撤退不行了¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Á... Không rút lui thì không được rồi...”"
   },
   {
     "id": "stage17:5774",
