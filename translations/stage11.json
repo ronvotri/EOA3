@@ -222,7 +222,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "白列湾海港",
-    "vi": ""
+    "vi": "Cảng vịnh Bạch Liệt"
   },
   {
     "id": "stage11:2167",
@@ -231,7 +231,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "Stage-11 白列湾海港",
-    "vi": ""
+    "vi": "Màn 11 - Cảng vịnh Bạch Liệt"
   },
   {
     "id": "stage11:2172",
@@ -240,7 +240,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "妮雅一行人来到了白虎国白列湾海港。",
-    "vi": ""
+    "vi": "Niya cùng đồng đội đến cảng vịnh Bạch Liệt thuộc nước Bạch Hổ."
   },
   {
     "id": "stage11:2182",
@@ -249,7 +249,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "港口来了一群不速之客引发了一些骚动。",
-    "vi": ""
+    "vi": "Một nhóm khách không mời mà đến bỗng gây náo loạn ở bến cảng."
   },
   {
     "id": "stage11:2187",
@@ -267,7 +267,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“丽、丽凤殿下。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đi... Điện hạ Lifeng!”"
   },
   {
     "id": "stage11:2264",
@@ -276,7 +276,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“发生什么事情？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Có chuyện gì thế?”"
   },
   {
     "id": "stage11:2289",
@@ -285,7 +285,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我们也不知道，这群怪物突然从海里上来攻击%N我们的人。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chúng thần không rõ. Đám quái vật đó đột ngột bò từ biển lên,%Nrồi tấn công quân của ta!”"
   },
   {
     "id": "stage11:2314",
@@ -294,7 +294,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“有这种事情！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Có cả chuyện đó sao!?”"
   },
   {
     "id": "stage11:2325",
@@ -303,7 +303,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好，先将她们驱退再说！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Được, cứ đẩy lùi chúng trước đã!”"
   },
   {
     "id": "stage11:2350",
@@ -312,7 +312,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“是。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tuân lệnh!”"
   },
   {
     "id": "stage11:2506",
@@ -321,7 +321,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：敌主将水星战败。%N失败条件：我方全灭。",
-    "vi": ""
+    "vi": "Điều kiện thắng: Đánh bại thủ lĩnh Shuixing.%NĐiều kiện thua: Toàn đội bị tiêu diệt."
   },
   {
     "id": "stage11:2523",
@@ -393,7 +393,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好，她们都回到海里，应该没事了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tốt rồi, chúng đều quay xuống biển. Chắc không sao nữa!”"
   },
   {
     "id": "stage11:2739",
@@ -402,7 +402,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你们各自回岗位上工作吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mọi người trở lại vị trí làm việc đi!”"
   },
   {
     "id": "stage11:2764",
@@ -411,7 +411,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“是。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Rõ!”"
   },
   {
     "id": "stage11:2816",
@@ -420,7 +420,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“咦！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ủa?”"
   },
   {
     "id": "stage11:2854",
@@ -429,7 +429,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你们看，这边还有一个。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mọi người nhìn này, ở đây còn một đứa!”"
   },
   {
     "id": "stage11:2879",
@@ -447,7 +447,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“杀了她！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Giết nó đi!”"
   },
   {
     "id": "stage11:2958",
@@ -456,7 +456,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不行！她还是个小孩。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không được! Nó vẫn chỉ là trẻ con!”"
   },
   {
     "id": "stage11:2983",
@@ -465,7 +465,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“会不会是因为渔民把她捉住了，所以刚刚那群%N人才追上来¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hay là vì ngư dân bắt giữ đứa bé này,%Nnên đám người kia mới kéo đến tìm?”"
   },
   {
     "id": "stage11:3008",
@@ -474,7 +474,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“或许是吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cũng có thể!”"
   },
   {
     "id": "stage11:3019",
@@ -483,7 +483,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“既然你是队长，就由你决定怎么处置吧。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cậu là đội trưởng, vậy cứ do cậu quyết định xử lý.”"
   },
   {
     "id": "stage11:3044",
@@ -492,7 +492,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừm...”"
   },
   {
     "id": "stage11:3055",
@@ -501,7 +501,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那就放她走吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy thả con bé đi!”"
   },
   {
     "id": "stage11:3080",
@@ -510,7 +510,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不要，她的同伴都离开了，她这么小一定会迷%N路的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không được, đồng đội nó đi hết rồi!%NNó nhỏ thế này, chắc chắn sẽ lạc đường mất!”"
   },
   {
     "id": "stage11:3105",
@@ -519,7 +519,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不然该怎么办？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thế phải làm sao đây?”"
   },
   {
     "id": "stage11:3116",
@@ -528,7 +528,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“难道你打算将她带走吗¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đừng bảo cậu định đưa nó theo nhé...”"
   },
   {
     "id": "stage11:3141",
@@ -546,7 +546,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯¨¨可以吗¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừm... có được không?”"
   },
   {
     "id": "stage11:3177",
@@ -555,7 +555,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哈哈，可以呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ha ha! Được chứ!”"
   },
   {
     "id": "stage11:3188",
@@ -564,7 +564,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“如果你有办法带着一个拖油瓶，那她就交给你%N照顾啦。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nếu cậu lo nổi một đứa bé lúc nào cũng cần chăm sóc,%Nthì giao nó cho cậu đấy!”"
   },
   {
     "id": "stage11:3213",
@@ -573,7 +573,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“希蜜¨¨她可不是宠物哦¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Shimi... Cô bé đâu phải thú cưng...”"
   },
   {
     "id": "stage11:3238",
@@ -582,7 +582,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这个我当然知道，”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mình biết chứ!”"
   },
   {
     "id": "stage11:3249",
@@ -591,7 +591,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我以希蜜的母爱发誓，一定会安全保护她回家%N的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mình lấy tình mẫu tử của Shimi ra thề,%Nnhất định sẽ đưa cô bé về nhà an toàn!”"
   },
   {
     "id": "stage11:3274",
@@ -600,7 +600,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“唔¨¨¨？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hửm...?”"
   },
   {
     "id": "stage11:3299",
@@ -618,7 +618,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“随你吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tùy cậu vậy!”"
   },
   {
     "id": "stage11:3324",
@@ -627,7 +627,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "温妮菲德加入队伍",
-    "vi": ""
+    "vi": "Winifred gia nhập đội."
   },
   {
     "id": "stage11:3347",
@@ -672,7 +672,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừ!”"
   },
   {
     "id": "stage11:3431",
