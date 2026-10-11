@@ -69,7 +69,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "尤利尔王国沙漠边境  响马寨",
-    "vi": ""
+    "vi": "Biên giới sa mạc Uriel - Trại cướp"
   },
   {
     "id": "stage90:1606",
@@ -87,7 +87,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“总算回到怀念的寨子了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cuối cùng cũng về được trại thân yêu rồi!”"
   },
   {
     "id": "stage90:1633",
@@ -96,7 +96,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“唉¨¨¨你们也得要回去了，想起来真是有点%N感伤呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Haiz... Các cậu cũng sắp phải đi rồi.%NNghĩ mà thấy buồn ghê!”"
   },
   {
     "id": "stage90:1644",
@@ -105,7 +105,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“所以有个礼物我一定要送给你们。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nên mình nhất định phải tặng mọi người món quà này!”"
   },
   {
     "id": "stage90:1655",
@@ -114,7 +114,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嘿嘿¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hê hê...”"
   },
   {
     "id": "stage90:1666",
@@ -123,7 +123,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这个是邦联的国信，如果不嫌弃的话就请收下%N吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đây là quốc thư Liên bang. Nếu không chê%Nthì mọi người cứ nhận nhé!”"
   },
   {
     "id": "stage90:1711",
@@ -132,7 +132,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“国信本来就是我们的¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Quốc thư đó vốn là của bọn mình mà...”"
   },
   {
     "id": "stage90:1756",
@@ -141,7 +141,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“也因为你偷走这封信害我被责骂¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cũng vì cậu trộm thư mà mình bị mắng te tua...”"
   },
   {
     "id": "stage90:1801",
@@ -150,7 +150,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“更害本大小姐为了追你而累个半死¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Lại còn khiến bổn tiểu thư mệt muốn chết khi đuổi theo!”"
   },
   {
     "id": "stage90:1826",
@@ -159,7 +159,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你欠揍¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cậu muốn ăn đòn à...”"
   },
   {
     "id": "stage90:1849",
@@ -177,7 +177,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“死吧！！”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“CHẾT ĐI!!”"
   },
   {
     "id": "stage90:1872",
@@ -195,7 +195,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“还感伤咧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Buồn bã cái nỗi gì!”"
   },
   {
     "id": "stage90:1946",
@@ -204,7 +204,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“啊～～痛啊～～～～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Á á! Đau quá!”"
   },
   {
     "id": "stage90:1984",
@@ -213,7 +213,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哇～～盈月老大被围殴了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Trời ơi, đại ca Yingyue bị cả đám hội đồng kìa!”"
   },
   {
     "id": "stage90:1995",
@@ -222,7 +222,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“老大你不要紧吧。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đại ca, chị không sao chứ?”"
   },
   {
     "id": "stage90:2048",
@@ -231,7 +231,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“会打死人啦！”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Đánh thế chết người đấy!”"
   },
   {
     "id": "stage90:2059",
@@ -240,7 +240,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“住手啊～～～～”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Dừng tay đi mà~!”"
   },
   {
     "id": "stage90:2111",
@@ -249,7 +249,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“夏美，响马团还是继续交给你照顾了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Xia Mei, băng cướp cứ giao em trông nom nhé!”"
   },
   {
     "id": "stage90:2122",
@@ -258,7 +258,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我要先闪人了！！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chị chuồn trước đây!!”"
   },
   {
     "id": "stage90:2200",
@@ -267,7 +267,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“盈月老大～～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đại ca Yingyue ơi~!”"
   },
   {
     "id": "stage90:2218",
