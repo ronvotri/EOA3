@@ -139,3 +139,11 @@ Cập nhật: 2026-10-11.
 - V6 ZIP từ người dùng chạy thành công nhưng dữ liệu helper không đủ: code sampler tự chặn length>256 dù yêu cầu 288, 448 và 384 byte. Báo cáo chỉ chứa `0x41AA00` 192 byte. **Đã nâng giới hạn an toàn lên 512**, thêm test đầy đủ 4 length và cơ chế từ chối báo cáo thiếu khi SHA EXE đã biết. Đây là lỗi tool, không phải hỏng EXE.
 - V6 xác minh 7 tên IAT GDI, 4 ứng viên caller vào `0x41AA10`, literal `ANGELSCRIPT` tại VA `0x4F56D8` trong `.rdata` nhưng chưa có raw 4-byte VA ref vào code. Trên mã initializer đã có, kích cỡ bị giới hạn 64 và HFONT cũ được xóa/reset trước khi tạo mới. **Chưa biết function của hai helper**; chưa có patch.
 - Chi tiết `docs/V6_REAL_REPORT_AND_V7_FIX.md`. V7 ZIP vẫn 7 file, không đổi game hay 1.881/574/573 corpus.
+
+
+## V7 thực tế: bộ đệm font và bảng 2.000 phần tử (11–12/10/2026)
+
+- V7 ZIP thực từ Windows nhận đủ **4/4 vùng mã**, đúng SHA và không có warnings. Ba vùng font ghép được đoạn 720 byte liên tục `0x41A7F0..0x41AABF` không mâu thuẫn bytes.
+- Đã disassemble `0x41A7F0`: gọi chuẩn bị 64×64, cấp phát **`2*width*height`**, lưu `this+0x18`, width/height ở `this+0xFD0/+0xFD4`, gọi tiếp `0x41ABF0` chưa có body. `0x41A8C0`: tính `ceil(width/8)` (width≥0), cấp phát **`2000*height*ceil(width/8)`** vào `this+0xFC0`, zero bảng 2.000 WORD ở `this+0x20..0xFBE` và memory buffer. Không khẳng định 2000 glyph hay RGB565.
+- Font init `0x41AA10` giải phóng HFONT cũ bằng `DeleteObject` rồi tạo font ANSI charset 134, weight 400; `CharNextA` có vòng cắt chuỗi theo byte và đưa substring vào buffer tạm.
+- Tạo `docs/V7_REAL_FONT_BUFFER_AUDIT.md`, `tools/audit_v7_font_buffers.py` và synthetic test; giữ nguyên corpus **1881/574/573**, chưa có patch Unicode chạy được.
