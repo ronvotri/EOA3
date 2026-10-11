@@ -1,0 +1,380 @@
+[
+  {
+    "id": "stage40:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage40:944",
+    "token": 944,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1285",
+    "token": 1285,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1351",
+    "token": 1351,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "贝鲁蒂",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1372",
+    "token": 1372,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "凯莉",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1393",
+    "token": 1393,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "诺纳",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1414",
+    "token": 1414,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "米丝奇",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1435",
+    "token": 1435,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "卡曼",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1441",
+    "token": 1441,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1446",
+    "token": 1446,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1451",
+    "token": 1451,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1456",
+    "token": 1456,
+    "call": "SetStageName",
+    "argument": 0,
+    "mode": "translate",
+    "source": "夜闯中途林",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1505",
+    "token": 1505,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "Stage-3 夜闯中途林",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1533",
+    "token": 1533,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z16%c1“嘿嘿，我们逃跑的技术还蛮厉害的！”",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1544",
+    "token": 1544,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z16%c1“敌人想追都追不到呢！”",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1569",
+    "token": 1569,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“别讲这种丢人现眼的话了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1594",
+    "token": 1594,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z16%c1“我是说真的嘛，敌人本来就比我们多了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1637",
+    "token": 1637,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Night.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1653",
+    "token": 1653,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嘘！！小声一点”",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1664",
+    "token": 1664,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“趁现在敌军人少了，我们直接闯过去吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1689",
+    "token": 1689,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z16%c1“嗯¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1717",
+    "token": 1717,
+    "call": "SetMission",
+    "argument": 0,
+    "mode": "translate",
+    "source": "胜利条件：1、我方一人以上往最北方脱离战场。%N　　　　　2、敌军全灭%N失败条件：妮雅战败",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1747",
+    "token": 1747,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1761",
+    "token": 1761,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1768",
+    "token": 1768,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1775",
+    "token": 1775,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "伊恩",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1782",
+    "token": 1782,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "希蜜",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1805",
+    "token": 1805,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1825",
+    "token": 1825,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageLost",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1847",
+    "token": 1847,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1869",
+    "token": 1869,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1891",
+    "token": 1891,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1902",
+    "token": 1902,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1911",
+    "token": 1911,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1933",
+    "token": 1933,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageLost",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1953",
+    "token": 1953,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z20%c1“呜¨¨大家快逃¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1967",
+    "token": 1967,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1984",
+    "token": 1984,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1991",
+    "token": 1991,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage40:1998",
+    "token": 1998,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "伊恩",
+    "vi": ""
+  },
+  {
+    "id": "stage40:2005",
+    "token": 2005,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "希蜜",
+    "vi": ""
+  },
+  {
+    "id": "stage40:2028",
+    "token": 2028,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageLost",
+    "vi": ""
+  }
+]

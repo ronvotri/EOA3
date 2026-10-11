@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "stage42:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1130",
+    "token": 1130,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1471",
+    "token": 1471,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1476",
+    "token": 1476,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1512",
+    "token": 1512,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 盈月 ",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1518",
+    "token": 1518,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1523",
+    "token": 1523,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1528",
+    "token": 1528,
+    "call": "SetStageName",
+    "argument": 0,
+    "mode": "translate",
+    "source": "狄道首领战",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1566",
+    "token": 1566,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_S1.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1582",
+    "token": 1582,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“拖泥带水的不像你呀，想单挑就早点说嘛！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1607",
+    "token": 1607,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“早呀！怎么会不早呢！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1618",
+    "token": 1618,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“在你身材走样前都还算早罗！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1643",
+    "token": 1643,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1654",
+    "token": 1654,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你嘴还是很利嘛！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1679",
+    "token": 1679,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嘿嘿～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1690",
+    "token": 1690,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“承让、承让。”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1704",
+    "token": 1704,
+    "call": "SetMission",
+    "argument": 0,
+    "mode": "translate",
+    "source": "胜利条件：敌军主将盈月战败。%N失败条件：我军主将丽凤战败。",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1721",
+    "token": 1721,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_S2.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1727",
+    "token": 1727,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1741",
+    "token": 1741,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1764",
+    "token": 1764,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1784",
+    "token": 1784,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1795",
+    "token": 1795,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1868",
+    "token": 1868,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 盈月 ",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1889",
+    "token": 1889,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 夏美 ",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1907",
+    "token": 1907,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Elder_D1.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1923",
+    "token": 1923,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“丽凤、丽凤，不要紧吧？”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1948",
+    "token": 1948,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯，我没事。”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1973",
+    "token": 1973,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“原来你们早就认识呀！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:1998",
+    "token": 1998,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“是啊！当初她在武斗大会败给我，没想到当不%N上武林盟主就来沙漠当贼主啦！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2023",
+    "token": 2023,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你再说一次试看看！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2053",
+    "token": 2053,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“好啦，你们别再争了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2064",
+    "token": 2064,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“既然彼此都认识，一切有话好说嘛！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2089",
+    "token": 2089,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“唉呀～我也不想认识一个贼呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2100",
+    "token": 2100,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“她不认出我就没事了嘛！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2125",
+    "token": 2125,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“少装清高了，谁不知道你只是搭着别人的风，%N过来叶虏鞑这儿游山玩水罢了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2136",
+    "token": 2136,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“早看清你的脑袋在想些什么了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2161",
+    "token": 2161,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哦！？你倒是挺了解我嘛！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2186",
+    "token": 2186,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呃¨¨这¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2211",
+    "token": 2211,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你们邦联的信我看过了，现在叶虏鞑的状况我%N比谁都还清楚。”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2222",
+    "token": 2222,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你们放心好了！有我在绝对不会让丽凤无法无%N天的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2247",
+    "token": 2247,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你这家伙¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2272",
+    "token": 2272,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呃¨¨稍等一下¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2283",
+    "token": 2283,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你是说¨¨你要加入我们吗¨¨？”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2308",
+    "token": 2308,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“怎样！不行吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2319",
+    "token": 2319,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“谁敢说不行，那我就叫出所有人来，再给你们%N一点颜色瞧瞧。”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2344",
+    "token": 2344,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呃¨¨¨好吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2355",
+    "token": 2355,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“希蜜，你觉得呢？”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2380",
+    "token": 2380,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“好啊好啊，我也想跟盈月学当山寨寨主。”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2405",
+    "token": 2405,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嘿！这位小姐¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2416",
+    "token": 2416,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你打算转职盗贼系吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2441",
+    "token": 2441,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“并、并没有啦。”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2455",
+    "token": 2455,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "盈月、雪夜加入成为伙伴",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2485",
+    "token": 2485,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那么¨¨夏美！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2510",
+    "token": 2510,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“啊¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2521",
+    "token": 2521,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“盈月老大，你真的要加入他们呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2546",
+    "token": 2546,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“是啊！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2557",
+    "token": 2557,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“所以天地寨就暂时交给你处理了，%N我过一阵子就会回来。”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2582",
+    "token": 2582,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“好的，那就交给我没问题！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2596",
+    "token": 2596,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "盈月、雪夜加入队伍",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2640",
+    "token": 2640,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Elder01.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2688",
+    "token": 2688,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“报告队长，刚刚去探过尤利尔的情况后发现，%N当地已经被大批敌军封锁，无法通行。”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2713",
+    "token": 2713,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“居然连尤利尔都被占领¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2745",
+    "token": 2745,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“叶虏鞑北方的消息问我就对了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2756",
+    "token": 2756,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“近期除了尤利尔之外，邻近的拉斐尔、沙利叶%N还有梅塔隆也都被占领了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2781",
+    "token": 2781,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“为、为什么会这样¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2792",
+    "token": 2792,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“欧查军再强，也不可能在这么短暂的时间下将%N这几个国家占领呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2817",
+    "token": 2817,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“很简单。”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2828",
+    "token": 2828,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“只要她们取得不属于她们的力量¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2853",
+    "token": 2853,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不属于她们的力量！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2878",
+    "token": 2878,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你们最近都没听说吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2889",
+    "token": 2889,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“叶虏鞑多处的天使之泉都变成黑色的泉水了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2914",
+    "token": 2914,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“天使之泉变成黑色¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2925",
+    "token": 2925,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那是怎么回事，可以说清楚点吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2950",
+    "token": 2950,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“据说几个月前，欧查方面的贝力欧王国，他们%N境内的天使之泉从原本清澈透明的泉水逐渐变得%N黑浊。”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2961",
+    "token": 2961,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“但是喝下黑色泉水的人似乎都没有任何异状。”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2972",
+    "token": 2972,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“只是当时间过得越久之后，渐渐发现有部分的%N人变强了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:2997",
+    "token": 2997,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“所谓的变强是指战力方面吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3022",
+    "token": 3022,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯！算是。”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3033",
+    "token": 3033,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“其实应该说，喝下黑色天使之泉的人，无论在%N战斗的力量或魔法的力量，都会毫无自主的大幅%N提升。”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3044",
+    "token": 3044,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“贝力欧女王，就是欧查的首领，听说她得知这%N种事情发生后，曾经试着禁止国家内任何人喝下%N这种黑色泉水。”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3055",
+    "token": 3055,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不过大家听说喝了泉水会变得更强都求之不得%N了，所以要阻止恐怕是不可能的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3080",
+    "token": 3080,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“原来如此，所以她们能在短时间占领下这么多%N个国家，就是因为黑色泉水的缘故了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3105",
+    "token": 3105,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯，就是这样。”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3130",
+    "token": 3130,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“原来如此，原来如此。”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3141",
+    "token": 3141,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“怪不得你这次跟我打得特别起劲。”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3166",
+    "token": 3166,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你别乱说。”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3177",
+    "token": 3177,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我可没喝黑色泉水呦。”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3202",
+    "token": 3202,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我也没说你有喝呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3213",
+    "token": 3213,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“紧张什么，作贼心虚呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3238",
+    "token": 3238,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我知道你做郡主更心虚，只怕哪天被人暗杀。”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3263",
+    "token": 3263,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“会来暗杀我的，看来绝对不会有别人了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3274",
+    "token": 3274,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“盈月，等你哦～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3299",
+    "token": 3299,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“好了，你们别斗了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3324",
+    "token": 3324,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“没办法，那家伙的态度让人看了很想打！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3349",
+    "token": 3349,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“别生气了，已经不是拌嘴的时候了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3360",
+    "token": 3360,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“现在各个地方都被封锁占领了，我们该找个%N办法先回到拉锡叶吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3385",
+    "token": 3385,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“坐船。”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3396",
+    "token": 3396,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“回香格里拉，从白虎郡搭商船到加百列就省%N得遇上敌人罗。”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3421",
+    "token": 3421,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“好主意，那我们走吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3435",
+    "token": 3435,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3462",
+    "token": 3462,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3469",
+    "token": 3469,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "丽凤",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3476",
+    "token": 3476,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": " 盈月 ",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3503",
+    "token": 3503,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Final_Power.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3519",
+    "token": 3519,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呃¨¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3569",
+    "token": 3569,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“想跑哪去！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3614",
+    "token": 3614,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“可恶¨¨我就不信每次都会输你¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3625",
+    "token": 3625,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嘿嘿～看招！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3657",
+    "token": 3657,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呃啊！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3668",
+    "token": 3668,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“小人¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3679",
+    "token": 3679,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“刚刚应该先让你消失才对¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3704",
+    "token": 3704,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这叫败部复活！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3715",
+    "token": 3715,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“懂不懂！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3741",
+    "token": 3741,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3746",
+    "token": 3746,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3783",
+    "token": 3783,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你好样的！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3808",
+    "token": 3808,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那是我训练有素。”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3833",
+    "token": 3833,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼！”",
+    "vi": ""
+  },
+  {
+    "id": "stage42:3859",
+    "token": 3859,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  }
+]

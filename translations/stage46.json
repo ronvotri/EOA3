@@ -1,0 +1,218 @@
+[
+  {
+    "id": "stage46:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage46:560",
+    "token": 560,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage46:901",
+    "token": 901,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage46:906",
+    "token": 906,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage46:942",
+    "token": 942,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 夕滟 ",
+    "vi": ""
+  },
+  {
+    "id": "stage46:963",
+    "token": 963,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 胧月 ",
+    "vi": ""
+  },
+  {
+    "id": "stage46:984",
+    "token": 984,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 婥颜 ",
+    "vi": ""
+  },
+  {
+    "id": "stage46:1005",
+    "token": 1005,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 婠姬 ",
+    "vi": ""
+  },
+  {
+    "id": "stage46:1026",
+    "token": 1026,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 摩薇 ",
+    "vi": ""
+  },
+  {
+    "id": "stage46:1032",
+    "token": 1032,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage46:1037",
+    "token": 1037,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage46:1042",
+    "token": 1042,
+    "call": "SetStageName",
+    "argument": 0,
+    "mode": "translate",
+    "source": "竞技武斗会准决赛",
+    "vi": ""
+  },
+  {
+    "id": "stage46:1075",
+    "token": 1075,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "Stage-9 竞技武斗会  准决赛",
+    "vi": ""
+  },
+  {
+    "id": "stage46:1080",
+    "token": 1080,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_S2.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage46:1096",
+    "token": 1096,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这一批敌人看起来不好惹，大家小心点。”",
+    "vi": ""
+  },
+  {
+    "id": "stage46:1178",
+    "token": 1178,
+    "call": "SetMission",
+    "argument": 0,
+    "mode": "translate",
+    "source": "胜利条件：敌军大将夕滟战败。%N失败条件：妮雅战败。",
+    "vi": ""
+  },
+  {
+    "id": "stage46:1196",
+    "token": 1196,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage46:1202",
+    "token": 1202,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage46:1213",
+    "token": 1213,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage46:1220",
+    "token": 1220,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": " 夕滟 ",
+    "vi": ""
+  },
+  {
+    "id": "stage46:1239",
+    "token": 1239,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage46:1255",
+    "token": 1255,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“要进入决赛了，没问题就继续上场吧。”",
+    "vi": ""
+  },
+  {
+    "id": "stage46:1286",
+    "token": 1286,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage46:1293",
+    "token": 1293,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  }
+]

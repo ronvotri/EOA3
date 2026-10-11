@@ -1,0 +1,416 @@
+[
+  {
+    "id": "stage19:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage19:1170",
+    "token": 1170,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2047",
+    "token": 2047,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2052",
+    "token": 2052,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2133",
+    "token": 2133,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "洁莉",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2161",
+    "token": 2161,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "帕夏",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2189",
+    "token": 2189,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "裘铃",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2217",
+    "token": 2217,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "密儿",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2238",
+    "token": 2238,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "慕奇",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2259",
+    "token": 2259,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "古维",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2287",
+    "token": 2287,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "欧汀",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2315",
+    "token": 2315,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "巴莉",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2343",
+    "token": 2343,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "可美",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2371",
+    "token": 2371,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "卡曼",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2399",
+    "token": 2399,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "诺纳",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2427",
+    "token": 2427,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "贝鲁蒂",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2440",
+    "token": 2440,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2445",
+    "token": 2445,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2450",
+    "token": 2450,
+    "call": "SetStageName",
+    "argument": 0,
+    "mode": "translate",
+    "source": "白虎关口战",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2488",
+    "token": 2488,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "Stage-19 白虎关口战",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2493",
+    "token": 2493,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_chinawar.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2560",
+    "token": 2560,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“果然¨¨白虎郡到处都是敌人了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2571",
+    "token": 2571,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我们实在太大意了，%N居然疫病军团跟在后面¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2596",
+    "token": 2596,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不要紧啦！小猫两三只，%N几个人来对付就够了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2621",
+    "token": 2621,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这样的话¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2632",
+    "token": 2632,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那希蜜就回去睡觉罗！”",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2657",
+    "token": 2657,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“希蜜，你人数没算好，%N所以你也得负责。”",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2717",
+    "token": 2717,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你去哪了！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2742",
+    "token": 2742,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“啊！？没、没有。”",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2753",
+    "token": 2753,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我只是去看看敌军多不多而已。”",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2778",
+    "token": 2778,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“别再乱跑了知不知道。”",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2803",
+    "token": 2803,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哦！是¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2828",
+    "token": 2828,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage19:2853",
+    "token": 2853,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“街道上地方小，我们也必须减少出击的人数。”",
+    "vi": ""
+  },
+  {
+    "id": "stage19:3081",
+    "token": 3081,
+    "call": "SetMission",
+    "argument": 0,
+    "mode": "translate",
+    "source": "胜利条件：敌主将洁莉战败。%N失败条件：妮雅战败。",
+    "vi": ""
+  },
+  {
+    "id": "stage19:3094",
+    "token": 3094,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_S2.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage19:3104",
+    "token": 3104,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage19:3118",
+    "token": 3118,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage19:3132",
+    "token": 3132,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage19:3138",
+    "token": 3138,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage19:3145",
+    "token": 3145,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "洁莉",
+    "vi": ""
+  },
+  {
+    "id": "stage19:3152",
+    "token": 3152,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage19:3190",
+    "token": 3190,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呃！可恶¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage19:3201",
+    "token": 3201,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“没关系，反正这一带都已经被我们占领，%N你们就慢慢来追我好了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage19:3212",
+    "token": 3212,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哈哈哈哈哈～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage19:3245",
+    "token": 3245,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  }
+]

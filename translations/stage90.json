@@ -1,0 +1,317 @@
+[
+  {
+    "id": "stage90:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage90:1446",
+    "token": 1446,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NPCSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage90:1452",
+    "token": 1452,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage90:1458",
+    "token": 1458,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage90:1554",
+    "token": 1554,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage90:1559",
+    "token": 1559,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage90:1564",
+    "token": 1564,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage90:1601",
+    "token": 1601,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "尤利尔王国沙漠边境  响马寨",
+    "vi": ""
+  },
+  {
+    "id": "stage90:1606",
+    "token": 1606,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Walking_with_you.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage90:1622",
+    "token": 1622,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“总算回到怀念的寨子了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage90:1633",
+    "token": 1633,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“唉¨¨¨你们也得要回去了，想起来真是有点%N感伤呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage90:1644",
+    "token": 1644,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“所以有个礼物我一定要送给你们。”",
+    "vi": ""
+  },
+  {
+    "id": "stage90:1655",
+    "token": 1655,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嘿嘿¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage90:1666",
+    "token": 1666,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这个是邦联的国信，如果不嫌弃的话就请收下%N吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage90:1711",
+    "token": 1711,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“国信本来就是我们的¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage90:1756",
+    "token": 1756,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“也因为你偷走这封信害我被责骂¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage90:1801",
+    "token": 1801,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“更害本大小姐为了追你而累个半死¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage90:1826",
+    "token": 1826,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你欠揍¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage90:1849",
+    "token": 1849,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage90:1856",
+    "token": 1856,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“死吧！！”",
+    "vi": ""
+  },
+  {
+    "id": "stage90:1872",
+    "token": 1872,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_S1.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage90:1893",
+    "token": 1893,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“还感伤咧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage90:1946",
+    "token": 1946,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“啊～～痛啊～～～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage90:1984",
+    "token": 1984,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哇～～盈月老大被围殴了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage90:1995",
+    "token": 1995,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“老大你不要紧吧。”",
+    "vi": ""
+  },
+  {
+    "id": "stage90:2048",
+    "token": 2048,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“会打死人啦！”",
+    "vi": ""
+  },
+  {
+    "id": "stage90:2059",
+    "token": 2059,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“住手啊～～～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage90:2111",
+    "token": 2111,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“夏美，响马团还是继续交给你照顾了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage90:2122",
+    "token": 2122,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我要先闪人了！！”",
+    "vi": ""
+  },
+  {
+    "id": "stage90:2200",
+    "token": 2200,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“盈月老大～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage90:2218",
+    "token": 2218,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage90:2240",
+    "token": 2240,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage90:2254",
+    "token": 2254,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage90:2268",
+    "token": 2268,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage90:2274",
+    "token": 2274,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  }
+]

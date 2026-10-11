@@ -1,0 +1,722 @@
+[
+  {
+    "id": "stage9:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage9:560",
+    "token": 560,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage9:901",
+    "token": 901,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage9:937",
+    "token": 937,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 织娘 ",
+    "vi": ""
+  },
+  {
+    "id": "stage9:958",
+    "token": 958,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 青意 ",
+    "vi": ""
+  },
+  {
+    "id": "stage9:979",
+    "token": 979,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 姗旎 ",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1000",
+    "token": 1000,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 桃桑 ",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1021",
+    "token": 1021,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 烜婷 ",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1027",
+    "token": 1027,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1032",
+    "token": 1032,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1113",
+    "token": 1113,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "金星女帝",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1134",
+    "token": 1134,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "翔婷",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1158",
+    "token": 1158,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "香格里拉首都——“玉京”的地牢里¨¨¨",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1174",
+    "token": 1174,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哇～一片漆黑¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1199",
+    "token": 1199,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“安洁莉娜¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1210",
+    "token": 1210,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我怕黑呐¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1235",
+    "token": 1235,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“可是你也不要一直黏着我啦！”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1246",
+    "token": 1246,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“感觉怪恶心的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1271",
+    "token": 1271,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“逃狱！”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1282",
+    "token": 1282,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你们觉得如何？”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1307",
+    "token": 1307,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“再被捉到会不会被杀呀！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1332",
+    "token": 1332,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呃¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1374",
+    "token": 1374,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“安静，有人来了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1399",
+    "token": 1399,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“你们谁是带头的？”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1424",
+    "token": 1424,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你猜猜！”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1449",
+    "token": 1449,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“说不说？”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1460",
+    "token": 1460,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“不说就一个个把你们拖去宰了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1485",
+    "token": 1485,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呜啊～好恐怖！”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1510",
+    "token": 1510,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“说！带头的是谁？”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1535",
+    "token": 1535,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“是妮雅啦！”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1560",
+    "token": 1560,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“对，妮雅！”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1585",
+    "token": 1585,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯¨¨妮¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1610",
+    "token": 1610,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“喂喂喂！你们太不够意思了吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1645",
+    "token": 1645,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“废话少说。”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1656",
+    "token": 1656,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“出来！”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1681",
+    "token": 1681,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1692",
+    "token": 1692,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“出去就出去。”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1755",
+    "token": 1755,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Shangri_La_City.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1771",
+    "token": 1771,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你叫做妮雅¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1782",
+    "token": 1782,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“响马团就是你率领的吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1807",
+    "token": 1807,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“响马！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1832",
+    "token": 1832,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“狄道附近沙漠的强盗勾当。”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1843",
+    "token": 1843,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“就是你们吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1868",
+    "token": 1868,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不，盗贼另有他人。”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1879",
+    "token": 1879,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我们是从爱尔达前来的使者。”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1904",
+    "token": 1904,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“使者？你有什么证明。”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1929",
+    "token": 1929,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“证明¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1940",
+    "token": 1940,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“邦联议会的国信已经被盗贼抢走了，不过我%N还有一份坎维琪要交给陛下的信件¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1951",
+    "token": 1951,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不知是否¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1976",
+    "token": 1976,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“坎维琪！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:1987",
+    "token": 1987,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯，取来与朕看看。”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2001",
+    "token": 2001,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "数分钟后～",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2017",
+    "token": 2017,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯¨¨原来如此。”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2028",
+    "token": 2028,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“有关于贵国的战事早已传遍各地。”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2039",
+    "token": 2039,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“但是希望本国出兵的话¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2050",
+    "token": 2050,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你必须知道，本国并无插手邦联内战的权力，%N况且也没有平白将本国士兵交出去送命的道理。”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2075",
+    "token": 2075,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“陛下说的是，只是¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2100",
+    "token": 2100,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不必多说了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2111",
+    "token": 2111,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这样吧，本国近日正逢武斗大会竞赛，%N你们也参加比赛，”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2122",
+    "token": 2122,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“至少让我瞧瞧你们的能耐后再作决定吧。”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2147",
+    "token": 2147,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“比武大会¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2172",
+    "token": 2172,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“待你参赛后便明了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2197",
+    "token": 2197,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“是¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2211",
+    "token": 2211,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2231",
+    "token": 2231,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2236",
+    "token": 2236,
+    "call": "SetStageName",
+    "argument": 0,
+    "mode": "translate",
+    "source": "竞技武斗会",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2261",
+    "token": 2261,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "Stage-9 竞技武斗会  晋级赛",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2266",
+    "token": 2266,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_S2.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2282",
+    "token": 2282,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“晋级赛一次出场五个人吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2293",
+    "token": 2293,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“好好选择上场的同伴吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2375",
+    "token": 2375,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "提示：每次上场人数限制五人，必须战胜三场才可过关。",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2380",
+    "token": 2380,
+    "call": "SetMission",
+    "argument": 0,
+    "mode": "translate",
+    "source": "胜利条件：敌军大将织娘战败。%N失败条件：妮雅战败。",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2398",
+    "token": 2398,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2404",
+    "token": 2404,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2411",
+    "token": 2411,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2418",
+    "token": 2418,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": " 织娘 ",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2441",
+    "token": 2441,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2457",
+    "token": 2457,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“轻松获胜，大家准备准决赛吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2488",
+    "token": 2488,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage9:2495",
+    "token": 2495,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  }
+]

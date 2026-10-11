@@ -1,0 +1,893 @@
+[
+  {
+    "id": "stage23:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage23:2820",
+    "token": 2820,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NPCSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage23:2826",
+    "token": 2826,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage23:3703",
+    "token": 3703,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage23:3708",
+    "token": 3708,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage23:3729",
+    "token": 3729,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "洁莉",
+    "vi": ""
+  },
+  {
+    "id": "stage23:3750",
+    "token": 3750,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莫芮",
+    "vi": ""
+  },
+  {
+    "id": "stage23:3771",
+    "token": 3771,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "卡琳",
+    "vi": ""
+  },
+  {
+    "id": "stage23:3792",
+    "token": 3792,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "蕾希",
+    "vi": ""
+  },
+  {
+    "id": "stage23:3813",
+    "token": 3813,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莱姆",
+    "vi": ""
+  },
+  {
+    "id": "stage23:3834",
+    "token": 3834,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "雪汀",
+    "vi": ""
+  },
+  {
+    "id": "stage23:3855",
+    "token": 3855,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "蓓诺",
+    "vi": ""
+  },
+  {
+    "id": "stage23:3876",
+    "token": 3876,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "米丝琪",
+    "vi": ""
+  },
+  {
+    "id": "stage23:3897",
+    "token": 3897,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "爱丽斯",
+    "vi": ""
+  },
+  {
+    "id": "stage23:3918",
+    "token": 3918,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莉恩",
+    "vi": ""
+  },
+  {
+    "id": "stage23:3939",
+    "token": 3939,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "琪琪",
+    "vi": ""
+  },
+  {
+    "id": "stage23:3960",
+    "token": 3960,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "凯特",
+    "vi": ""
+  },
+  {
+    "id": "stage23:3981",
+    "token": 3981,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "佩姬",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4002",
+    "token": 4002,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "米纱",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4023",
+    "token": 4023,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "兰恩",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4044",
+    "token": 4044,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "纳恩",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4065",
+    "token": 4065,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莉芙",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4086",
+    "token": 4086,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "洛莉",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4107",
+    "token": 4107,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "费雪",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4128",
+    "token": 4128,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "卡曼",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4149",
+    "token": 4149,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "希尔",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4170",
+    "token": 4170,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "豆豆",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4191",
+    "token": 4191,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "裘铃",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4212",
+    "token": 4212,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "密儿",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4218",
+    "token": 4218,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4223",
+    "token": 4223,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4228",
+    "token": 4228,
+    "call": "SetStageName",
+    "argument": 0,
+    "mode": "translate",
+    "source": "新欧查之剑",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4261",
+    "token": 4261,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "Stage-23 新欧查之剑",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4266",
+    "token": 4266,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "梅塔隆～约森河",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4271",
+    "token": 4271,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Maya.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4312",
+    "token": 4312,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你们快点过来。”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4432",
+    "token": 4432,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嘿嘿！来追我呀～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4537",
+    "token": 4537,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你¨¨你要趁机偷袭我们。”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4562",
+    "token": 4562,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“别想太多，我只是来把洁莉带走的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4592",
+    "token": 4592,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“玛西亚姊姊你也来啦！%N你们都来追我呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4603",
+    "token": 4603,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哈哈哈哈哈～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4718",
+    "token": 4718,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你们是哪里来的，有喝下黑水吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4743",
+    "token": 4743,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我们是爱尔达人，%N我们并没有喝下黑色泉水。”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4754",
+    "token": 4754,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“请问你是？”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4779",
+    "token": 4779,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“帕托克，玛雅人。”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4790",
+    "token": 4790,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“有族人从玛雅到了爱尔达来，%N我们是来将她们逐回的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4835",
+    "token": 4835,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我认得你，你是贝力欧的女帝。”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4860",
+    "token": 4860,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯！你没认错。”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4885",
+    "token": 4885,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“梅塔隆与亚伯登女帝已经在玛雅喝下太多黑水%N了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4896",
+    "token": 4896,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“还有一个贵族被她们带着，%N被迫喝下很多黑水，但我不认识她。”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4921",
+    "token": 4921,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4932",
+    "token": 4932,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“应该是萨梅尔女帝¨¨克诺依德¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4957",
+    "token": 4957,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“她也是爱尔达国家的女帝？？”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:4982",
+    "token": 4982,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯！她是。”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5007",
+    "token": 5007,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你！还有你！”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5018",
+    "token": 5018,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你怎么没受到黑水感染？”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5043",
+    "token": 5043,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“之前有一点，现在已经解除了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5068",
+    "token": 5068,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“解除？可以说出如何解除吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5093",
+    "token": 5093,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你身后的人。”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5104",
+    "token": 5104,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“她们有药剂。”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5168",
+    "token": 5168,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5179",
+    "token": 5179,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“真的有解药？”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5204",
+    "token": 5204,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“是的，我们从香格里拉取的的镇魂剂，%N可以净化黑色天使之泉。”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5229",
+    "token": 5229,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那么可以请你们帮忙吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5240",
+    "token": 5240,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“玛雅有多处天使之泉都是黑色的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5265",
+    "token": 5265,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我们前来就是为了净化所有天使之泉的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5290",
+    "token": 5290,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“真的吗！？那我会带你们到玛雅！”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5315",
+    "token": 5315,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“没问题。”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5326",
+    "token": 5326,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“就请您带路了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5384",
+    "token": 5384,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你们都抓不到我的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5395",
+    "token": 5395,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哈哈哈哈哈～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5445",
+    "token": 5445,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "洁莉",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5800",
+    "token": 5800,
+    "call": "SetMission",
+    "argument": 0,
+    "mode": "translate",
+    "source": "胜利条件：敌军全灭。%N失败条件：妮雅战败。",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5817",
+    "token": 5817,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Hurry.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5823",
+    "token": 5823,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5837",
+    "token": 5837,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5860",
+    "token": 5860,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5865",
+    "token": 5865,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5878",
+    "token": 5878,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5951",
+    "token": 5951,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Maya.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5967",
+    "token": 5967,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“没想到除了玛雅人，%N爱尔达也有这么多人受到感染¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5978",
+    "token": 5978,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“受到黑水感染的人，%N会变得越来越好战。”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:5989",
+    "token": 5989,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“药剂来得虽然迟，但我们还是很感谢你们提供%N药剂。”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:6000",
+    "token": 6000,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“至少已经可以不让更多人受到感染。”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:6025",
+    "token": 6025,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我们也只希望无谓的战争能够早点停止。”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:6050",
+    "token": 6050,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我只是来带回我的部下！”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:6075",
+    "token": 6075,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“她¨¨也许来不及了¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:6100",
+    "token": 6100,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:6125",
+    "token": 6125,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“她们已经逃到天之顶了，%N千万不能让她们到玛雅继续喝下黑色天使之泉，%N不然她们会变得越来越¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:6150",
+    "token": 6150,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“会如何？”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:6175",
+    "token": 6175,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不、没事¨¨%N总之不希望发生这种事¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:6200",
+    "token": 6200,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:6225",
+    "token": 6225,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“走吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:6250",
+    "token": 6250,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我也跟你们去¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage23:6264",
+    "token": 6264,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "玛西亚、帕托克、爱琪可、卡缇拉加入队伍",
+    "vi": ""
+  },
+  {
+    "id": "stage23:6293",
+    "token": 6293,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage23:6315",
+    "token": 6315,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage23:6322",
+    "token": 6322,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage23:6356",
+    "token": 6356,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“居然在这个时候战败，%N黑色天使之泉还没净化呀¨¨”",
+    "vi": ""
+  }
+]

@@ -1,0 +1,731 @@
+[
+  {
+    "id": "stage26:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage26:2890",
+    "token": 2890,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4102",
+    "token": 4102,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4107",
+    "token": 4107,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4188",
+    "token": 4188,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "伊狄菈",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4216",
+    "token": 4216,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "希特",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4244",
+    "token": 4244,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "茵莎",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4272",
+    "token": 4272,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "布伦",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4300",
+    "token": 4300,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莱特克",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4328",
+    "token": 4328,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "妮布鲁",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4356",
+    "token": 4356,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "夏特",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4384",
+    "token": 4384,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "赫特",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4412",
+    "token": 4412,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莉亚叙",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4440",
+    "token": 4440,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "休露",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4468",
+    "token": 4468,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "哈朵",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4496",
+    "token": 4496,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "佳茉",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4524",
+    "token": 4524,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "芭思菈",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4552",
+    "token": 4552,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "菈芙",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4580",
+    "token": 4580,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "娃儿",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4608",
+    "token": 4608,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "甘妮斯",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4636",
+    "token": 4636,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "达布",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4664",
+    "token": 4664,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "菊笛",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4692",
+    "token": 4692,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "珍奇",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4720",
+    "token": 4720,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "乎露朵",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4748",
+    "token": 4748,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "楠伊拉",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4776",
+    "token": 4776,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "妲耶",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4804",
+    "token": 4804,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "宁加",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4817",
+    "token": 4817,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4822",
+    "token": 4822,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4827",
+    "token": 4827,
+    "call": "SetStageName",
+    "argument": 0,
+    "mode": "translate",
+    "source": "失心者狂乱",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4860",
+    "token": 4860,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "Stage-26 失心者狂乱",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4865",
+    "token": 4865,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "“玛雅  柯凡迪雅神殿”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4870",
+    "token": 4870,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Danger.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4926",
+    "token": 4926,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“果然已经来不及，神殿被占据了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:4970",
+    "token": 4970,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这神殿¨¨¨热得令人窒息¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:5030",
+    "token": 5030,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“帕托克，你们终于来了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:5060",
+    "token": 5060,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "津可",
+    "vi": ""
+  },
+  {
+    "id": "stage26:5088",
+    "token": 5088,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "葛沙",
+    "vi": ""
+  },
+  {
+    "id": "stage26:5116",
+    "token": 5116,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "亚妮莓",
+    "vi": ""
+  },
+  {
+    "id": "stage26:5144",
+    "token": 5144,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "妮娜葳",
+    "vi": ""
+  },
+  {
+    "id": "stage26:5220",
+    "token": 5220,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s6%t4%z18%c1“这¨¨惨了¨¨¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:5231",
+    "token": 5231,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“帕托克～～曼宁～～～救人呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:5261",
+    "token": 5261,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那不是神殿守护者普兰可吗！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:5272",
+    "token": 5272,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我们快去帮忙吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:5297",
+    "token": 5297,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“好！大家一口气击败她们！”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:5719",
+    "token": 5719,
+    "call": "SetMission",
+    "argument": 0,
+    "mode": "translate",
+    "source": "胜利条件：敌军全灭。%N失败条件：妮雅战败。",
+    "vi": ""
+  },
+  {
+    "id": "stage26:5736",
+    "token": 5736,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Danger.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage26:5742",
+    "token": 5742,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage26:5756",
+    "token": 5756,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage26:5779",
+    "token": 5779,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage26:5784",
+    "token": 5784,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage26:5795",
+    "token": 5795,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage26:5868",
+    "token": 5868,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Maya.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage26:5884",
+    "token": 5884,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这里受到黑水感染的人不少，你一直在里头没%N事吧？”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:5909",
+    "token": 5909,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哈哈，我混在她们里面好久动都不敢动呢！”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:5920",
+    "token": 5920,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“只是没想到在刚刚看到你们时，一高兴过头就%N露出马脚了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:5945",
+    "token": 5945,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你没事就好了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:5956",
+    "token": 5956,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“还有其他没受感染的人吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:5981",
+    "token": 5981,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“在你们来到之前都没发现！”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:6006",
+    "token": 6006,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这样呀¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:6017",
+    "token": 6017,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“对了普兰可，我身旁的这位是妮雅，远从爱尔%N达来的使者。”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:6042",
+    "token": 6042,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“妮雅您好，我是普兰可，柯凡迪雅神殿的守护%N者。”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:6067",
+    "token": 6067,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“他们手上拥有能够净化天使之泉的镇魂剂，这%N次来到玛雅是特别来帮助我们净化天使之泉的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:6092",
+    "token": 6092,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“真的吗！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:6103",
+    "token": 6103,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那么施惠者，一切拜托你们了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:6114",
+    "token": 6114,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“有许多爱尔达人已经受到黑水严重控制，她们%N现在全都聚集在荷洛卡斯大神殿。”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:6139",
+    "token": 6139,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“荷洛卡斯大神殿！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:6150",
+    "token": 6150,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那不就是圣地¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:6175",
+    "token": 6175,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯，是呀！圣地被疫病者们占领了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:6186",
+    "token": 6186,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“让我加入你们一起打倒疫病者吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:6211",
+    "token": 6211,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不行¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:6236",
+    "token": 6236,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“为什么！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:6247",
+    "token": 6247,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“为什么不让我帮忙？”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:6272",
+    "token": 6272,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你有更重要的事要做。”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:6283",
+    "token": 6283,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你必须趁现在疫病者都聚集在圣地的时候，拿%N着镇魂剂将各地天使之泉净化。”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:6294",
+    "token": 6294,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这两件事情必须分开来处理，所以打仗的事情%N就交给我们吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:6319",
+    "token": 6319,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“原来如此，我知道了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:6330",
+    "token": 6330,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那我们就分头进行吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage26:6352",
+    "token": 6352,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage26:6370",
+    "token": 6370,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage26:6377",
+    "token": 6377,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  }
+]

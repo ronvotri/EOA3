@@ -1,0 +1,830 @@
+[
+  {
+    "id": "stage17:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage17:2462",
+    "token": 2462,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3339",
+    "token": 3339,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3344",
+    "token": 3344,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3395",
+    "token": 3395,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "纱琳娜",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3423",
+    "token": 3423,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "凯特",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3451",
+    "token": 3451,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "佩姬",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3479",
+    "token": 3479,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "米纱",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3507",
+    "token": 3507,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "兰恩",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3535",
+    "token": 3535,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "纳恩",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3563",
+    "token": 3563,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莉芙",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3591",
+    "token": 3591,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "洛莉",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3619",
+    "token": 3619,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "费雪",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3647",
+    "token": 3647,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "洁莉",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3675",
+    "token": 3675,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "卡曼",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3703",
+    "token": 3703,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "诺纳",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3731",
+    "token": 3731,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "豆豆",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3759",
+    "token": 3759,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "贝鲁蒂",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3787",
+    "token": 3787,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "希尔",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3815",
+    "token": 3815,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "库可",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3836",
+    "token": 3836,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "珍妮",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3857",
+    "token": 3857,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "布蕾",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3878",
+    "token": 3878,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "凯莉",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3899",
+    "token": 3899,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "蕾希",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3920",
+    "token": 3920,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莱姆",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3926",
+    "token": 3926,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3931",
+    "token": 3931,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3969",
+    "token": 3969,
+    "call": "SetStageName",
+    "argument": 0,
+    "mode": "translate",
+    "source": "血战拉斐尔",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3974",
+    "token": 3974,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "Stage-17 血战拉斐尔",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3979",
+    "token": 3979,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "拉斐尔王城前",
+    "vi": ""
+  },
+  {
+    "id": "stage17:3984",
+    "token": 3984,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Elder01.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage17:4042",
+    "token": 4042,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“雷丝曼首领也真是的，来的就这么小猫两只而%N已，竟然要我部属这么多人，实在小题大作了¨%N¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:4053",
+    "token": 4053,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“唉¨¨¨交给几个手下去对付就好了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:4085",
+    "token": 4085,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不能在往前了，先撤退吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:4146",
+    "token": 4146,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z28%c1“！！！”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:4234",
+    "token": 4234,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“被包围了！！”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:4259",
+    "token": 4259,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那怎么办呐¨¨安洁莉娜¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:4284",
+    "token": 4284,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“没办法，只能突破她们了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:4298",
+    "token": 4298,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "敌方重兵采取守势，安洁莉娜、米雅法儿原地防守或撤退。%N等待妮雅支援，勿与敌军正面冲突。",
+    "vi": ""
+  },
+  {
+    "id": "stage17:4308",
+    "token": 4308,
+    "call": "SetMission",
+    "argument": 0,
+    "mode": "translate",
+    "source": "胜利条件：等待援军出现。%N失败条件：安洁莉娜或米雅法儿战败。",
+    "vi": ""
+  },
+  {
+    "id": "stage17:4325",
+    "token": 4325,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_elder_d.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage17:4331",
+    "token": 4331,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage17:4367",
+    "token": 4367,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "SubBegin",
+    "vi": ""
+  },
+  {
+    "id": "stage17:4379",
+    "token": 4379,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "SubBegin",
+    "vi": ""
+  },
+  {
+    "id": "stage17:4386",
+    "token": 4386,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "纱琳娜",
+    "vi": ""
+  },
+  {
+    "id": "stage17:4440",
+    "token": 4440,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“安洁莉娜、米雅法儿，我们来支援了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:4470",
+    "token": 4470,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“原来还有援军呀！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:4481",
+    "token": 4481,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那就光明正大的打一场吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:4758",
+    "token": 4758,
+    "call": "SetMission",
+    "argument": 0,
+    "mode": "translate",
+    "source": "胜利条件：敌大将纱琳娜战败%N失败条件：妮雅战败",
+    "vi": ""
+  },
+  {
+    "id": "stage17:4772",
+    "token": 4772,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage17:4799",
+    "token": 4799,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage17:4812",
+    "token": 4812,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage17:4901",
+    "token": 4901,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Elder_D1.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage17:4917",
+    "token": 4917,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“下次没理由不能再乱跑了，知道吗！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:4942",
+    "token": 4942,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“知道啦！知道啦！”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:4967",
+    "token": 4967,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z28%c1“！！”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:4978",
+    "token": 4978,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“安洁，耶里朵在前面！”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5054",
+    "token": 5054,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“安、安洁莉娜，好久不见。”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5065",
+    "token": 5065,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“大家¨¨都还¨¨¨平安吧！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5090",
+    "token": 5090,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“耶里朵，我们也找你找了好久。”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5101",
+    "token": 5101,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你怎么会在这里呢！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5126",
+    "token": 5126,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5137",
+    "token": 5137,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“因为欧查军侵占各个城镇村庄，所到之处都强%N迫当地人加入她们阵营¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5148",
+    "token": 5148,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“否则¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5173",
+    "token": 5173,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“原来如此，我懂了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5198",
+    "token": 5198,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那么这样吧！你以后来帮我们好吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5223",
+    "token": 5223,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“当然了！我很乐意加入你们的阵营，我会好好%N加油的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5248",
+    "token": 5248,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那就欢迎你罗！”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5273",
+    "token": 5273,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5298",
+    "token": 5298,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“安洁，耶里朵加入你怎么都不高兴呐？”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5323",
+    "token": 5323,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯！？没¨¨¨没有呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5348",
+    "token": 5348,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哦¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5362",
+    "token": 5362,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "耶里朵加入队伍",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5396",
+    "token": 5396,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "赫拉",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5427",
+    "token": 5427,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1加百列～萨维尔皇城",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5432",
+    "token": 5432,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "一周后",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5448",
+    "token": 5448,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“妮雅，这几场战役的战果相当辉煌，使得邦联%N盟国目前逐渐回复运作，你们占了相当大的功劳%N。”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5473",
+    "token": 5473,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“属下不敢当。”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5498",
+    "token": 5498,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不过黑色泉水的危害症状也开始显现出来了，%N受影响的地方多以欧查军的根据地为主。”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5509",
+    "token": 5509,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这些地方目前内战频繁，而且范围也正在扩散%N当中，因此现在正是消减欧查战力的最好时机。”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5520",
+    "token": 5520,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我已经派人前往拉斐尔要求协助攻下萨梅尔，%N你带领的邦联部队由萨梅尔南方进攻来诱敌，拉%N斐尔军随后会进攻萨梅尔王城。”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5531",
+    "token": 5531,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这场战役请务必将欧查军击败，以大幅减弱欧%N查势力。”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5556",
+    "token": 5556,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“是！”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5589",
+    "token": 5589,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5612",
+    "token": 5612,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5619",
+    "token": 5619,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "纱琳娜",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5626",
+    "token": 5626,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5633",
+    "token": 5633,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "安洁莉娜",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5640",
+    "token": 5640,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "米雅法儿",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5760",
+    "token": 5760,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“啊¨¨¨不撤退不行了¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5774",
+    "token": 5774,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage17:5792",
+    "token": 5792,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  }
+]

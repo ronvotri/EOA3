@@ -1,0 +1,884 @@
+[
+  {
+    "id": "stage7:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage7:1130",
+    "token": 1130,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage7:1471",
+    "token": 1471,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage7:1476",
+    "token": 1476,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage7:1527",
+    "token": 1527,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 盈月 ",
+    "vi": ""
+  },
+  {
+    "id": "stage7:1555",
+    "token": 1555,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 夏美 ",
+    "vi": ""
+  },
+  {
+    "id": "stage7:1568",
+    "token": 1568,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage7:1573",
+    "token": 1573,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage7:1578",
+    "token": 1578,
+    "call": "SetStageName",
+    "argument": 0,
+    "mode": "translate",
+    "source": "狄道争国信",
+    "vi": ""
+  },
+  {
+    "id": "stage7:1620",
+    "token": 1620,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "Stage-7 狄道争国信",
+    "vi": ""
+  },
+  {
+    "id": "stage7:1647",
+    "token": 1647,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Hurry.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage7:1663",
+    "token": 1663,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呼呼～～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:1674",
+    "token": 1674,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“总算追上了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:1699",
+    "token": 1699,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“好！那就看我的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:1749",
+    "token": 1749,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z28%c1“喂～～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:1760",
+    "token": 1760,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z28%c1“死小偷们给我站住！！”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:1827",
+    "token": 1827,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“怎么搞的？”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:1838",
+    "token": 1838,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我好像听到有人在骂我们¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:1863",
+    "token": 1863,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“就是刚才那一群叶虏鞑小鬼呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:1874",
+    "token": 1874,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“他们追上来了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:1899",
+    "token": 1899,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哦！原来如此。”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:1910",
+    "token": 1910,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“既然对我们这么有意思，那¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:1921",
+    "token": 1921,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“好，那这次就来痛宰他们一顿。”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:1987",
+    "token": 1987,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呜啊～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:1998",
+    "token": 1998,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“她们调头过来了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2068",
+    "token": 2068,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“希蜜¨¨你够罗¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2120",
+    "token": 2120,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼！不够不够。”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2131",
+    "token": 2131,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“难得的出场机会怎么可能嫌够。”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2163",
+    "token": 2163,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“真是的¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2174",
+    "token": 2174,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“跟在她们后面偷袭就好了，别老是想着要出%N锋头啦！”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2199",
+    "token": 2199,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“啊！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2210",
+    "token": 2210,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“原来你有偷袭的打算呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2235",
+    "token": 2235,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“算了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2246",
+    "token": 2246,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“既然被发现，那我们就出击吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2276",
+    "token": 2276,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 雪夜 ",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2304",
+    "token": 2304,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 双卯 ",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2332",
+    "token": 2332,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 风灵 ",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2360",
+    "token": 2360,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 夏艳 ",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2388",
+    "token": 2388,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 堇轩 ",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2416",
+    "token": 2416,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 娸娟 ",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2444",
+    "token": 2444,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 绮凰 ",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2472",
+    "token": 2472,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 寒竹 ",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2500",
+    "token": 2500,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 佩梓 ",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2528",
+    "token": 2528,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 鹄莺 ",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2551",
+    "token": 2551,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“嘿！”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2562",
+    "token": 2562,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“有本事就来打倒我们，废话不用%N那么多。”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2587",
+    "token": 2587,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“可恶！”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2598",
+    "token": 2598,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“死小偷，你给我等着瞧。”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2612",
+    "token": 2612,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_S1.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2755",
+    "token": 2755,
+    "call": "SetMission",
+    "argument": 0,
+    "mode": "translate",
+    "source": "胜利条件：敌大将～盈月战败。%N失败条件：妮雅战败。",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2773",
+    "token": 2773,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2780",
+    "token": 2780,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2787",
+    "token": 2787,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "希蜜",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2794",
+    "token": 2794,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": " 盈月 ",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2808",
+    "token": 2808,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2815",
+    "token": 2815,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2822",
+    "token": 2822,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "希蜜",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2829",
+    "token": 2829,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": " 盈月 ",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2852",
+    "token": 2852,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2885",
+    "token": 2885,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“难道¨¨拉锡叶的未来¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2911",
+    "token": 2911,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2918",
+    "token": 2918,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2925",
+    "token": 2925,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "希蜜",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2932",
+    "token": 2932,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": " 盈月 ",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2955",
+    "token": 2955,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage7:2989",
+    "token": 2989,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3082",
+    "token": 3082,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 盈月 ",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3087",
+    "token": 3087,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_S1.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3126",
+    "token": 3126,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“说，信件在那里?”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3151",
+    "token": 3151,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呜¨¨好痛！!”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3162",
+    "token": 3162,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“小妮子下手真狠！”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3194",
+    "token": 3194,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z28%c1“快说！”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3219",
+    "token": 3219,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不要打了，我说就是了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3230",
+    "token": 3230,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“信件在¨¨就在¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3241",
+    "token": 3241,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“就在你心里罗～”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3252",
+    "token": 3252,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z26%c1“哇哈哈哈～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3276",
+    "token": 3276,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“先走一步罗～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3322",
+    "token": 3322,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z28%c1“啊！别跑！”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3347",
+    "token": 3347,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“谁理你！”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3358",
+    "token": 3358,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“再见罗～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3403",
+    "token": 3403,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呜啊～～妮雅！”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3414",
+    "token": 3414,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“怎么办，信拿不回来了”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3446",
+    "token": 3446,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“还不都是你害的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3485",
+    "token": 3485,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“莉娜姊姊¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3510",
+    "token": 3510,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“丫头，怎么了？”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3535",
+    "token": 3535,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“拉锡叶会不会因为希蜜而灭国呐¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3567",
+    "token": 3567,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3592",
+    "token": 3592,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯！有可能。”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3630",
+    "token": 3630,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3644",
+    "token": 3644,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "希蜜心情低落¨¨¨¨",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3660",
+    "token": 3660,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呜¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3674",
+    "token": 3674,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "在黑暗的角落中啜泣中¨¨¨",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3690",
+    "token": 3690,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呜呜呜¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3704",
+    "token": 3704,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "拉锡叶王国的罪人¨¨¨",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3720",
+    "token": 3720,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“呜啊～～别再说啦～～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3745",
+    "token": 3745,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“唉¨¨算了算了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3756",
+    "token": 3756,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“还是先离开这里吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage7:3774",
+    "token": 3774,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  }
+]

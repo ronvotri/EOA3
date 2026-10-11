@@ -1,0 +1,365 @@
+[
+  {
+    "file": "DataBase.bin",
+    "strings": 862,
+    "modes": {
+      "locked": 172,
+      "review": 690
+    },
+    "sha256": "02b841928e7f26b720e2b8165f28ba911edae0c806f05d4ae6be52e1dd89ac3a"
+  },
+  {
+    "file": "stage1.bin",
+    "strings": 116,
+    "modes": {
+      "locked": 41,
+      "review": 14,
+      "translate": 61
+    },
+    "sha256": "8e5d625de32c894ae3175d8b97a42c1094b02771aa17875f2cbaeba3b2f8c419"
+  },
+  {
+    "file": "stage10.bin",
+    "strings": 68,
+    "modes": {
+      "locked": 29,
+      "translate": 39
+    },
+    "sha256": "aaeef7059535e1a00af3c791e36550858a4f1f0c3a35420a19753d054c3b5ce8"
+  },
+  {
+    "file": "stage11.bin",
+    "strings": 77,
+    "modes": {
+      "locked": 41,
+      "translate": 36
+    },
+    "sha256": "3a965a5f15621b034bfe864e7119395848e5b7f593b0886d7da7b4b8f2ce2a81"
+  },
+  {
+    "file": "stage12.bin",
+    "strings": 134,
+    "modes": {
+      "locked": 54,
+      "translate": 80
+    },
+    "sha256": "06e5e9fdb5f876cc75d921a62a6948bcef9c0a7a5e47edf83c3b749401b37d1a"
+  },
+  {
+    "file": "stage13.bin",
+    "strings": 69,
+    "modes": {
+      "locked": 41,
+      "translate": 28
+    },
+    "sha256": "a988e19c33d926e9e0aa9fe6ddb69aed87c9c4cb3fd69ec89399d4ac54b6a6bd"
+  },
+  {
+    "file": "stage14.bin",
+    "strings": 78,
+    "modes": {
+      "locked": 40,
+      "translate": 38
+    },
+    "sha256": "97f7ea4e86f97bac02256ff6e5b32a23f94cb30fbf59903f60172e0ebe2870b0"
+  },
+  {
+    "file": "stage15.bin",
+    "strings": 72,
+    "modes": {
+      "locked": 36,
+      "translate": 36
+    },
+    "sha256": "def07abd443cada87661941155594038e90b06d3f4c6b031a8ac33359911a987"
+  },
+  {
+    "file": "stage16.bin",
+    "strings": 104,
+    "modes": {
+      "locked": 43,
+      "translate": 61
+    },
+    "sha256": "2fd9ebd1fdd9299bdaf155b60226f103e670278d5478f2e86c042dff39562cb3"
+  },
+  {
+    "file": "stage17.bin",
+    "strings": 92,
+    "modes": {
+      "locked": 49,
+      "translate": 43
+    },
+    "sha256": "acbd839493417a580ee19ad28436bc03b1742af582457e77f81106ef495693a7"
+  },
+  {
+    "file": "stage18.bin",
+    "strings": 149,
+    "modes": {
+      "locked": 55,
+      "translate": 94
+    },
+    "sha256": "5cc37dd72ce8d2baf936330e9d6579a2d8731e4d60a370ebb5c1d019ee6a2c80"
+  },
+  {
+    "file": "stage19.bin",
+    "strings": 46,
+    "modes": {
+      "locked": 28,
+      "translate": 18
+    },
+    "sha256": "45c4fd54c6466428dfe6954cc93483e39dabbc4f662ce4be1b43beba1db7f123"
+  },
+  {
+    "file": "stage2.bin",
+    "strings": 72,
+    "modes": {
+      "locked": 43,
+      "translate": 29
+    },
+    "sha256": "fa14c77a009c1a5da93a7c80908d920b6b0d77c0146ecfda25ae9f92db4d0f3c"
+  },
+  {
+    "file": "stage20.bin",
+    "strings": 50,
+    "modes": {
+      "locked": 40,
+      "translate": 10
+    },
+    "sha256": "80561a6dc5333ff5bd75db01489df7a8225ee34f6e50afe80a37aa3608b0e195"
+  },
+  {
+    "file": "stage21.bin",
+    "strings": 56,
+    "modes": {
+      "locked": 39,
+      "translate": 17
+    },
+    "sha256": "7778238fb0d10749770ed678eacc5554b56589d0128784b7f8eadee317a7d4bf"
+  },
+  {
+    "file": "stage22.bin",
+    "strings": 152,
+    "modes": {
+      "locked": 62,
+      "translate": 90
+    },
+    "sha256": "159698222a511b37e69f6420063b1c227f8610cb0c346bde75c08d93a4f95c1b"
+  },
+  {
+    "file": "stage23.bin",
+    "strings": 99,
+    "modes": {
+      "locked": 47,
+      "translate": 52
+    },
+    "sha256": "be085103d8bd8327fb6c1df725432bcd8f6faaf638d57b8f17ad23279ccb768e"
+  },
+  {
+    "file": "stage24.bin",
+    "strings": 69,
+    "modes": {
+      "locked": 43,
+      "translate": 25,
+      "review": 1
+    },
+    "sha256": "8efe341bf9558c59f5a3c23bcaa9859b6ea7f5c999d8f1da2b2f7284388c429d"
+  },
+  {
+    "file": "stage25.bin",
+    "strings": 143,
+    "modes": {
+      "locked": 44,
+      "translate": 99
+    },
+    "sha256": "8f64470d4e41f77d0897be10c91f06a5814482639e2286a9e19326f378fcc4b2"
+  },
+  {
+    "file": "stage26.bin",
+    "strings": 81,
+    "modes": {
+      "locked": 44,
+      "translate": 37
+    },
+    "sha256": "4aa65e21617f9da2b1ca6bcc8c7411f9492e213e60dce97be5d800c369cd7542"
+  },
+  {
+    "file": "stage27.bin",
+    "strings": 176,
+    "modes": {
+      "locked": 100,
+      "translate": 68,
+      "review": 8
+    },
+    "sha256": "c39a0b258ee8416157408072000d76ef1407f631f8859c8548cb607d13c0d9fb"
+  },
+  {
+    "file": "stage3.bin",
+    "strings": 94,
+    "modes": {
+      "locked": 81,
+      "translate": 13
+    },
+    "sha256": "faa10e25dac8acd2ac661cc5c10a91149bb41844ce658c7883903b26fb6b2268"
+  },
+  {
+    "file": "stage4.bin",
+    "strings": 120,
+    "modes": {
+      "locked": 67,
+      "translate": 53
+    },
+    "sha256": "005416e0d8696b5c4023cddaa7e13d5db40730bf6092822d9bd37bfd95e3c2ea"
+  },
+  {
+    "file": "stage40.bin",
+    "strings": 42,
+    "modes": {
+      "locked": 31,
+      "translate": 11
+    },
+    "sha256": "18e7f666131dcdf809272d3cee97697a6201f022b148ae9ff1edb83af6becc64"
+  },
+  {
+    "file": "stage41.bin",
+    "strings": 68,
+    "modes": {
+      "locked": 40,
+      "translate": 28
+    },
+    "sha256": "ba145ab88a6426011c1c173a92212701a1d26ce8fc88bce830d6393949c290ad"
+  },
+  {
+    "file": "stage42.bin",
+    "strings": 120,
+    "modes": {
+      "locked": 26,
+      "translate": 94
+    },
+    "sha256": "58c3211371e270ba9642245597a9df28593e903d2e4ffb94ae1f29fdbb6cb47f"
+  },
+  {
+    "file": "stage45.bin",
+    "strings": 27,
+    "modes": {
+      "locked": 16,
+      "translate": 11
+    },
+    "sha256": "1e70eaa306b28edee50d44e7fba7db7b30511163f2ec25f2295f0480210b5fad"
+  },
+  {
+    "file": "stage46.bin",
+    "strings": 24,
+    "modes": {
+      "locked": 19,
+      "translate": 5
+    },
+    "sha256": "5ecae1fdfbb8e0f079ff1a98f5f643bb055842c294e592c5247dc12b9bf41c01"
+  },
+  {
+    "file": "stage47.bin",
+    "strings": 62,
+    "modes": {
+      "locked": 27,
+      "translate": 35
+    },
+    "sha256": "459f6fad9296de4be8d56a8313b7f032e73666a0d31f9b8a8aba804bcc1982da"
+  },
+  {
+    "file": "stage48.bin",
+    "strings": 86,
+    "modes": {
+      "locked": 15,
+      "translate": 71
+    },
+    "sha256": "4b61ecdb564c0f54eacd88b3b9679532e120359074d09d2f5adbfe3ecd5a62f4"
+  },
+  {
+    "file": "stage5.bin",
+    "strings": 166,
+    "modes": {
+      "locked": 81,
+      "translate": 85
+    },
+    "sha256": "9c69e5449c485465765738b6677816042a60c5273718e6bb6d914a4eb682f477"
+  },
+  {
+    "file": "stage6.bin",
+    "strings": 239,
+    "modes": {
+      "locked": 69,
+      "translate": 170
+    },
+    "sha256": "42da935146ff5fc1101c142f752b49566c17104e671c5b914054e540b4869e7f"
+  },
+  {
+    "file": "stage7.bin",
+    "strings": 98,
+    "modes": {
+      "locked": 40,
+      "translate": 58
+    },
+    "sha256": "1ade11e283d99aa286c1179731ea3b227e12082b7804c7258e9a2b690f0921a4"
+  },
+  {
+    "file": "stage8.bin",
+    "strings": 102,
+    "modes": {
+      "locked": 69,
+      "translate": 33
+    },
+    "sha256": "13432a0bb65be6509db135a416a472c8ae2c48d4c662c1e3531e17de1b0adee3"
+  },
+  {
+    "file": "stage80.bin",
+    "strings": 39,
+    "modes": {
+      "locked": 31,
+      "translate": 8
+    },
+    "sha256": "9679bc82a8eef8dc0cc50483442c093ce73d4a760963e7bf279d95dc50ac3fa1"
+  },
+  {
+    "file": "stage9.bin",
+    "strings": 80,
+    "modes": {
+      "locked": 24,
+      "translate": 56
+    },
+    "sha256": "768770ca1782a9aec49d162717b40cf61a02f6e3e7abd12b7cfd1d6b9aab75a1"
+  },
+  {
+    "file": "stage90.bin",
+    "strings": 35,
+    "modes": {
+      "locked": 15,
+      "translate": 20
+    },
+    "sha256": "d830bce2b342bac448e566d3ac2c44461e74feaf1ace88dd020f6643911838e7"
+  },
+  {
+    "file": "stage91.bin",
+    "strings": 25,
+    "modes": {
+      "locked": 15,
+      "translate": 10
+    },
+    "sha256": "1c53f330646101359f8fcebca93f9f1c1d9439563362e7c49a12f90eab33bba2"
+  },
+  {
+    "file": "stage92.bin",
+    "strings": 27,
+    "modes": {
+      "locked": 12,
+      "translate": 15
+    },
+    "sha256": "75f889ec5f8357cdf58a16dbd7dffcafc697bc17d89a8a7d58425cdb04d7952a"
+  },
+  {
+    "file": "stage93.bin",
+    "strings": 17,
+    "modes": {
+      "locked": 12,
+      "translate": 5
+    },
+    "sha256": "b573cdab4cb6e4d5f09d417d649e7a75b3ec23c9aa3c44b9a259a3c086cf7544"
+  }
+]

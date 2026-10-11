@@ -1,0 +1,614 @@
+[
+  {
+    "id": "stage10:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage10:1130",
+    "token": 1130,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage10:1471",
+    "token": 1471,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage10:1476",
+    "token": 1476,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage10:1542",
+    "token": 1542,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 盈月 ",
+    "vi": ""
+  },
+  {
+    "id": "stage10:1570",
+    "token": 1570,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 夏美 ",
+    "vi": ""
+  },
+  {
+    "id": "stage10:1598",
+    "token": 1598,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 雪夜 ",
+    "vi": ""
+  },
+  {
+    "id": "stage10:1626",
+    "token": 1626,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 双卯 ",
+    "vi": ""
+  },
+  {
+    "id": "stage10:1654",
+    "token": 1654,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 风灵 ",
+    "vi": ""
+  },
+  {
+    "id": "stage10:1682",
+    "token": 1682,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 夏艳 ",
+    "vi": ""
+  },
+  {
+    "id": "stage10:1710",
+    "token": 1710,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 堇轩 ",
+    "vi": ""
+  },
+  {
+    "id": "stage10:1738",
+    "token": 1738,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 娸娟 ",
+    "vi": ""
+  },
+  {
+    "id": "stage10:1766",
+    "token": 1766,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 绮凰 ",
+    "vi": ""
+  },
+  {
+    "id": "stage10:1794",
+    "token": 1794,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 寒竹 ",
+    "vi": ""
+  },
+  {
+    "id": "stage10:1822",
+    "token": 1822,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 佩梓 ",
+    "vi": ""
+  },
+  {
+    "id": "stage10:1850",
+    "token": 1850,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 鹄莺 ",
+    "vi": ""
+  },
+  {
+    "id": "stage10:1863",
+    "token": 1863,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage10:1868",
+    "token": 1868,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage10:1873",
+    "token": 1873,
+    "call": "SetStageName",
+    "argument": 0,
+    "mode": "translate",
+    "source": "狄道首领战",
+    "vi": ""
+  },
+  {
+    "id": "stage10:1911",
+    "token": 1911,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "Stage-10 狄道首领战",
+    "vi": ""
+  },
+  {
+    "id": "stage10:1916",
+    "token": 1916,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_chinawar.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage10:1932",
+    "token": 1932,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“结果还是没有得到香格里拉女帝出兵%N支援，我们还赢得了欧查军吗¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:1957",
+    "token": 1957,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:1968",
+    "token": 1968,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不过还是很感谢丽凤的加入，相信对我们的%N战力有很大帮助的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:1993",
+    "token": 1993,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“就别说得这么客气了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2004",
+    "token": 2004,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“以我们这些人要对付你们所说的欧查军，%N我想确实是没有那么容易。”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2029",
+    "token": 2029,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯，的确¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2040",
+    "token": 2040,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“但无论如何，我们都必须先回拉锡叶将受困的%N人救出。”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2065",
+    "token": 2065,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯！”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2090",
+    "token": 2090,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_S1.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2106",
+    "token": 2106,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呦～呦～”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2117",
+    "token": 2117,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你们看看这群家伙，不又是那群寒酸的军队%N吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2142",
+    "token": 2142,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哈哈哈！”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2167",
+    "token": 2167,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“真是可惜呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2178",
+    "token": 2178,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“可惜咱们行规是同一批人不抢第二次，%N这回就算她们走运了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2203",
+    "token": 2203,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不过话说回来¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2214",
+    "token": 2214,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“盈月大人，最近景气差得很，叶虏鞑现在夸张%N到连水都不能喝了，这节骨眼再不抢行吗！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2239",
+    "token": 2239,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯，照这么说来¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2250",
+    "token": 2250,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“当然是不行。”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2261",
+    "token": 2261,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“好，管他什么啥行规的，咱们照抢！”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2286",
+    "token": 2286,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“盈月老大¨¨¨您变心还变得真快¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2311",
+    "token": 2311,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“唉呀！高兴就好了，谁管那么多。”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2349",
+    "token": 2349,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那些人是¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2381",
+    "token": 2381,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“盗贼，就是她们将我们从邦联带来的国信%N抢走的¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2406",
+    "token": 2406,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“原来如此，那我倒要看看她们究竟多大本事。”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2417",
+    "token": 2417,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“妮雅，我们就回应她们一下吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2442",
+    "token": 2442,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“没问题！”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2479",
+    "token": 2479,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“咦¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2493",
+    "token": 2493,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Hurry.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2529",
+    "token": 2529,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“丽凤，你¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2554",
+    "token": 2554,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哈哈！我还以为谁，原来就是你呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2579",
+    "token": 2579,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼！”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2604",
+    "token": 2604,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“别闹别扭了，不高兴就过来打我呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2629",
+    "token": 2629,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼！就看我怎么教训你。”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2809",
+    "token": 2809,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_S1.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2814",
+    "token": 2814,
+    "call": "SetMission",
+    "argument": 0,
+    "mode": "translate",
+    "source": "胜利条件：敌军主将 盈月 战败。%N失败条件：我军全灭。",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2832",
+    "token": 2832,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2846",
+    "token": 2846,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2881",
+    "token": 2881,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2888",
+    "token": 2888,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": " 盈月 ",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2895",
+    "token": 2895,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "丽凤",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2943",
+    "token": 2943,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“唉呀！好痛！”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2954",
+    "token": 2954,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“¨¨竟然输给你们。”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:2977",
+    "token": 2977,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage10:3005",
+    "token": 3005,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“可恶¨¨¨丽凤！”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:3016",
+    "token": 3016,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“有胆子就堂堂正正来挑一场。”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:3046",
+    "token": 3046,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“谁怕谁，来呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage10:3073",
+    "token": 3073,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  }
+]

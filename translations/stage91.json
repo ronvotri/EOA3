@@ -1,0 +1,227 @@
+[
+  {
+    "id": "stage91:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage91:560",
+    "token": 560,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage91:566",
+    "token": 566,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage91:602",
+    "token": 602,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage91:607",
+    "token": 607,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage91:612",
+    "token": 612,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage91:650",
+    "token": 650,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "香格里拉  玉京皇城竞技场",
+    "vi": ""
+  },
+  {
+    "id": "stage91:655",
+    "token": 655,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_S2.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage91:671",
+    "token": 671,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“原来你也会想到再来挑战我呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage91:682",
+    "token": 682,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“好！打赢我就赏你喝两杯。”",
+    "vi": ""
+  },
+  {
+    "id": "stage91:707",
+    "token": 707,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你想太多了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage91:718",
+    "token": 718,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我可是在后台花了所有的家当赌我输。”",
+    "vi": ""
+  },
+  {
+    "id": "stage91:729",
+    "token": 729,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“等会只要故意让你碰一下然后装死，这下可就%N发大财罗！”",
+    "vi": ""
+  },
+  {
+    "id": "stage91:754",
+    "token": 754,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage91:765",
+    "token": 765,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我会直接打死你，钱你就拿去当棺材费吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage91:790",
+    "token": 790,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage91:801",
+    "token": 801,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼¨¨小气鬼¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage91:812",
+    "token": 812,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“钱不要了¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage91:823",
+    "token": 823,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“非要先打死你不可！”",
+    "vi": ""
+  },
+  {
+    "id": "stage91:837",
+    "token": 837,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Final_Power.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage91:917",
+    "token": 917,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage91:930",
+    "token": 930,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage91:944",
+    "token": 944,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage91:958",
+    "token": 958,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage91:964",
+    "token": 964,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  }
+]

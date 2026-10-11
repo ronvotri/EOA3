@@ -1,0 +1,1289 @@
+[
+  {
+    "id": "stage25:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage25:1020",
+    "token": 1020,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage25:1897",
+    "token": 1897,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage25:1902",
+    "token": 1902,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage25:1983",
+    "token": 1983,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "洁莉",
+    "vi": ""
+  },
+  {
+    "id": "stage25:1996",
+    "token": 1996,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2001",
+    "token": 2001,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2006",
+    "token": 2006,
+    "call": "SetStageName",
+    "argument": 0,
+    "mode": "translate",
+    "source": "镇魂者之剑",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2035",
+    "token": 2035,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "Stage-25 镇魂者之剑",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2040",
+    "token": 2040,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "玛雅  天使之泉遗迹",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2045",
+    "token": 2045,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_chinawar.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2078",
+    "token": 2078,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“要变得更强¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2089",
+    "token": 2089,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我一定要变得更强。”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2134",
+    "token": 2134,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“给我黑色的力量之泉。”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2241",
+    "token": 2241,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“只要喝下这黑色的力量之泉，%N我就可以变得更强了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2252",
+    "token": 2252,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼哈哈哈哈～～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2304",
+    "token": 2304,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“洁莉！”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2341",
+    "token": 2341,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2371",
+    "token": 2371,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“那不是天使之泉，醒一醒呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2401",
+    "token": 2401,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼！你不要阻止我，我才不像你那么懦弱，%N居然还跟敌人在一起。”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2412",
+    "token": 2412,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我只要变得更强¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2423",
+    "token": 2423,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“只要我们都变得更强就能再像以前一样了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2434",
+    "token": 2434,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“对吧？玛西亚你说对不对呢！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2445",
+    "token": 2445,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“哼哈哈哈哈～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2475",
+    "token": 2475,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“洁莉！你给我醒一醒呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2486",
+    "token": 2486,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“跟我回去吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2516",
+    "token": 2516,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“好啊！等你打倒我再说呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2527",
+    "token": 2527,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“只要我们喝下更多黑色的力量之泉，%N我们是绝对无敌的！”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2538",
+    "token": 2538,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“还有谁能打倒我们的大军呢！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2549",
+    "token": 2549,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“都出来吧！哈哈哈哈哈～～～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2583",
+    "token": 2583,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "费雪",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2611",
+    "token": 2611,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "洛莉",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2639",
+    "token": 2639,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莉芙",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2667",
+    "token": 2667,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "纳恩",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2695",
+    "token": 2695,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "兰恩",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2723",
+    "token": 2723,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "米纱",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2751",
+    "token": 2751,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "豆豆",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2779",
+    "token": 2779,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "裘铃",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2807",
+    "token": 2807,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "密儿",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2835",
+    "token": 2835,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "琪琪",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2863",
+    "token": 2863,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "凯特",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2891",
+    "token": 2891,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "佩姬",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2919",
+    "token": 2919,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "爱丽斯",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2947",
+    "token": 2947,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莉恩",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2979",
+    "token": 2979,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“都来了吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:2990",
+    "token": 2990,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“好！我就来领教你的大军。”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3001",
+    "token": 3001,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“要是你输了就跟我回贝力欧。”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3078",
+    "token": 3078,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z28%c1“慢着！”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3116",
+    "token": 3116,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这件事我想亲自解决，你们不用来太多人。”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3141",
+    "token": 3141,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3152",
+    "token": 3152,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“好吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3375",
+    "token": 3375,
+    "call": "SetMission",
+    "argument": 0,
+    "mode": "translate",
+    "source": "胜利条件：洁莉战败。%N失败条件：玛西亚战败。",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3392",
+    "token": 3392,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Hurry.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3398",
+    "token": 3398,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3412",
+    "token": 3412,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3426",
+    "token": 3426,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3500",
+    "token": 3500,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "洁莉",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3520",
+    "token": 3520,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_chinawar.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3570",
+    "token": 3570,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s8%t4%z18%c1“呜¨¨好痛苦¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3581",
+    "token": 3581,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s8%t4%z18%c1“给我¨¨我要¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3619",
+    "token": 3619,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s8%t4%z18%c1“我¨¨一定要再喝多一点¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3657",
+    "token": 3657,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“洁、洁莉¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3668",
+    "token": 3668,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不要在过去了¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3700",
+    "token": 3700,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s8%t4%z18%c1“你是谁！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3711",
+    "token": 3711,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s8%t4%z18%c1“你不要过来¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3722",
+    "token": 3722,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s8%t4%z18%c1“我要力量之泉¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3760",
+    "token": 3760,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z28%c1“洁莉，你醒醒呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3798",
+    "token": 3798,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s8%t4%z18%c1“我¨¨让我更强¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3828",
+    "token": 3828,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“洁莉¨¨洁莉¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3839",
+    "token": 3839,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你不记得我了吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3850",
+    "token": 3850,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我是玛西亚，你醒醒呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3882",
+    "token": 3882,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s6%t4%z18%c1“我¨我¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3893",
+    "token": 3893,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s6%t4%z18%c1“呜¨身体¨¨%N我的身体好难受呀¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3979",
+    "token": 3979,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你真的不认得了吗¨¨洁莉¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:3990",
+    "token": 3990,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我是玛西亚啊¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4020",
+    "token": 4020,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s6%t4%z18%c1“玛¨玛西亚¨¨我¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4045",
+    "token": 4045,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“洁莉¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4070",
+    "token": 4070,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s6%t4%z18%c1“呜¨¨我¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4081",
+    "token": 4081,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s6%t4%z18%c1“呜呜呜¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4092",
+    "token": 4092,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s6%t4%z18%c1“玛西亚姊姊¨¨我到底做了什么¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4126",
+    "token": 4126,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4142",
+    "token": 4142,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“洁莉，你恢复了吗¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4156",
+    "token": 4156,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Lost_Heart.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4172",
+    "token": 4172,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s6%t4%z18%c1“玛西亚姊姊¨¨我倒底¨做错了什么¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4197",
+    "token": 4197,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你什么都没做错¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4208",
+    "token": 4208,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“跟我回贝力欧¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4219",
+    "token": 4219,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“只要跟我回贝力欧就好了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4244",
+    "token": 4244,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s6%t4%z18%c1“呜¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4255",
+    "token": 4255,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s6%t4%z18%c1“对不起¨¨对不起¨¨玛西亚姊姊¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4266",
+    "token": 4266,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s6%t4%z18%c1“变成这样都是我自己不好¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4277",
+    "token": 4277,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s6%t4%z18%c1“一切都已经来不及了¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4288",
+    "token": 4288,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s6%t4%z18%c1“请¨请杀了我吧¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4313",
+    "token": 4313,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4338",
+    "token": 4338,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s6%t4%z18%c1“我知道我已经¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4349",
+    "token": 4349,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s8%t4%z18%c1“呜¨¨呃¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4374",
+    "token": 4374,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不¨我不会杀你。”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4385",
+    "token": 4385,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你不会有事的¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4410",
+    "token": 4410,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s6%t4%z18%c1“克诺依德姊姊¨¨¨%N还有雷丝曼他们都比我还严重¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4421",
+    "token": 4421,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s6%t4%z18%c1“她们变得¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4432",
+    "token": 4432,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s6%t4%z18%c1“呃¨¨好难过¨¨¨%N我、我不要变得更他们一样啊¨¨¨%N杀了我吧¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4457",
+    "token": 4457,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“洁莉，我不会杀你的¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4468",
+    "token": 4468,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我们一起回贝力欧好吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4479",
+    "token": 4479,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“走吧，我们回¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4504",
+    "token": 4504,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s6%t4%z18%c1“我好痛苦¨¨一切都太迟了¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4515",
+    "token": 4515,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s6%t4%z18%c1“玛西亚姊姊求求你¨¨%N我不要再成为你的敌人了¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4540",
+    "token": 4540,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4565",
+    "token": 4565,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s6%t4%z18%c1“杀了我¨¨玛西亚姊姊¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4576",
+    "token": 4576,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s6%t4%z18%c1“请杀了我吧¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4600",
+    "token": 4600,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4611",
+    "token": 4611,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我¨¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4622",
+    "token": 4622,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“洁莉¨¨原谅我¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4633",
+    "token": 4633,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“请原谅我！”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4665",
+    "token": 4665,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呃¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4674",
+    "token": 4674,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Win_road.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4724",
+    "token": 4724,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z24%c1“！！！”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4749",
+    "token": 4749,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4779",
+    "token": 4779,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“洁莉¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4804",
+    "token": 4804,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s8%t4%z18%c1“对不起¨¨¨玛西亚姊姊¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4815",
+    "token": 4815,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s8%t4%z18%c1“你说要一起统治爱尔达¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4826",
+    "token": 4826,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s8%t4%z18%c1“我¨我不能陪你了¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4851",
+    "token": 4851,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“是我对不起你¨¨¨%N都是我不好，洁莉¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4862",
+    "token": 4862,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“洁¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4887",
+    "token": 4887,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s8%t4%z18%c1“好希望能继续跟你在一起¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4898",
+    "token": 4898,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s8%t4%z18%c1“永¨永别了¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4923",
+    "token": 4923,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“洁莉¨¨不要¨¨%N不要走啊¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4934",
+    "token": 4934,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“洁莉¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4950",
+    "token": 4950,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage25:4966",
+    "token": 4966,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“洁莉！！”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:5004",
+    "token": 5004,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“洁¨¨莉¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:5018",
+    "token": 5018,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Lost_Heart.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage25:5034",
+    "token": 5034,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“玛西亚¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:5091",
+    "token": 5091,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“让我一个人静一静好吗¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:5198",
+    "token": 5198,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“希蜜。”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:5235",
+    "token": 5235,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“啊！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:5260",
+    "token": 5260,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“将泉水净化吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:5285",
+    "token": 5285,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哦¨好¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage25:5307",
+    "token": 5307,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage25:5330",
+    "token": 5330,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage25:5337",
+    "token": 5337,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "洁莉",
+    "vi": ""
+  },
+  {
+    "id": "stage25:5344",
+    "token": 5344,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "玛西亚",
+    "vi": ""
+  },
+  {
+    "id": "stage25:5367",
+    "token": 5367,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage25:5372",
+    "token": 5372,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage25:5405",
+    "token": 5405,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“洁莉¨¨洁¨莉¨¨¨，%N永¨别¨¨了¨¨¨”",
+    "vi": ""
+  }
+]

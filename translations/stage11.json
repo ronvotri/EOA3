@@ -1,0 +1,695 @@
+[
+  {
+    "id": "stage11:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage11:1170",
+    "token": 1170,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage11:1578",
+    "token": 1578,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage11:1583",
+    "token": 1583,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage11:1649",
+    "token": 1649,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "墨紫",
+    "vi": ""
+  },
+  {
+    "id": "stage11:1670",
+    "token": 1670,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "然萤",
+    "vi": ""
+  },
+  {
+    "id": "stage11:1691",
+    "token": 1691,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "水星",
+    "vi": ""
+  },
+  {
+    "id": "stage11:1719",
+    "token": 1719,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "楠娜",
+    "vi": ""
+  },
+  {
+    "id": "stage11:1747",
+    "token": 1747,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "希柳",
+    "vi": ""
+  },
+  {
+    "id": "stage11:1775",
+    "token": 1775,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "阿芙莱",
+    "vi": ""
+  },
+  {
+    "id": "stage11:1803",
+    "token": 1803,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "汪妲",
+    "vi": ""
+  },
+  {
+    "id": "stage11:1831",
+    "token": 1831,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "克荷",
+    "vi": ""
+  },
+  {
+    "id": "stage11:1859",
+    "token": 1859,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "爱狄",
+    "vi": ""
+  },
+  {
+    "id": "stage11:1887",
+    "token": 1887,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "哈西尔",
+    "vi": ""
+  },
+  {
+    "id": "stage11:1915",
+    "token": 1915,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "昆依",
+    "vi": ""
+  },
+  {
+    "id": "stage11:1943",
+    "token": 1943,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "凡纱",
+    "vi": ""
+  },
+  {
+    "id": "stage11:1971",
+    "token": 1971,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "穆尔",
+    "vi": ""
+  },
+  {
+    "id": "stage11:1999",
+    "token": 1999,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "拉法",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2027",
+    "token": 2027,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "乌朵",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2055",
+    "token": 2055,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "芭思菈",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2083",
+    "token": 2083,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "楠伊拉",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2111",
+    "token": 2111,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "优朵莉",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2124",
+    "token": 2124,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2129",
+    "token": 2129,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2134",
+    "token": 2134,
+    "call": "SetStageName",
+    "argument": 0,
+    "mode": "translate",
+    "source": "白列湾海港",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2167",
+    "token": 2167,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "Stage-11 白列湾海港",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2172",
+    "token": 2172,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "妮雅一行人来到了白虎国白列湾海港。",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2182",
+    "token": 2182,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "港口来了一群不速之客引发了一些骚动。",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2187",
+    "token": 2187,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Danger.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2239",
+    "token": 2239,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“丽、丽凤殿下。”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2264",
+    "token": 2264,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“发生什么事情？”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2289",
+    "token": 2289,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我们也不知道，这群怪物突然从海里上来攻击%N我们的人。”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2314",
+    "token": 2314,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“有这种事情！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2325",
+    "token": 2325,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“好，先将她们驱退再说！”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2350",
+    "token": 2350,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“是。”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2506",
+    "token": 2506,
+    "call": "SetMission",
+    "argument": 0,
+    "mode": "translate",
+    "source": "胜利条件：敌主将水星战败。%N失败条件：我方全灭。",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2523",
+    "token": 2523,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_elder_d.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2529",
+    "token": 2529,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2543",
+    "token": 2543,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2566",
+    "token": 2566,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2598",
+    "token": 2598,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2683",
+    "token": 2683,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "墨紫",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2712",
+    "token": 2712,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Maya.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2728",
+    "token": 2728,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“好，她们都回到海里，应该没事了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2739",
+    "token": 2739,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你们各自回岗位上工作吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2764",
+    "token": 2764,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“是。”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2816",
+    "token": 2816,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“咦！”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2854",
+    "token": 2854,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你们看，这边还有一个。”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2879",
+    "token": 2879,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨？”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2933",
+    "token": 2933,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“杀了她！”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2958",
+    "token": 2958,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不行！她还是个小孩。”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:2983",
+    "token": 2983,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“会不会是因为渔民把她捉住了，所以刚刚那群%N人才追上来¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:3008",
+    "token": 3008,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“或许是吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:3019",
+    "token": 3019,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“既然你是队长，就由你决定怎么处置吧。”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:3044",
+    "token": 3044,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:3055",
+    "token": 3055,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那就放她走吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:3080",
+    "token": 3080,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不要，她的同伴都离开了，她这么小一定会迷%N路的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:3105",
+    "token": 3105,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不然该怎么办？”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:3116",
+    "token": 3116,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“难道你打算将她带走吗¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:3141",
+    "token": 3141,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:3152",
+    "token": 3152,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯¨¨可以吗¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:3177",
+    "token": 3177,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哈哈，可以呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:3188",
+    "token": 3188,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“如果你有办法带着一个拖油瓶，那她就交给你%N照顾啦。”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:3213",
+    "token": 3213,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“希蜜¨¨她可不是宠物哦¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:3238",
+    "token": 3238,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这个我当然知道，”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:3249",
+    "token": 3249,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我以希蜜的母爱发誓，一定会安全保护她回家%N的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:3274",
+    "token": 3274,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“唔¨¨¨？”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:3299",
+    "token": 3299,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:3310",
+    "token": 3310,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“随你吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:3324",
+    "token": 3324,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "温妮菲德加入队伍",
+    "vi": ""
+  },
+  {
+    "id": "stage11:3347",
+    "token": 3347,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage11:3365",
+    "token": 3365,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage11:3372",
+    "token": 3372,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "水星",
+    "vi": ""
+  },
+  {
+    "id": "stage11:3406",
+    "token": 3406,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:3417",
+    "token": 3417,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼！”",
+    "vi": ""
+  },
+  {
+    "id": "stage11:3431",
+    "token": 3431,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage11:3460",
+    "token": 3460,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  }
+]

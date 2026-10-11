@@ -1,0 +1,506 @@
+[
+  {
+    "id": "stage21:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage21:2050",
+    "token": 2050,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage21:2927",
+    "token": 2927,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage21:2932",
+    "token": 2932,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage21:2998",
+    "token": 2998,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "洁莉",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3026",
+    "token": 3026,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莫芮",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3054",
+    "token": 3054,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "卡琳",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3082",
+    "token": 3082,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "蕾希",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3110",
+    "token": 3110,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莱姆",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3138",
+    "token": 3138,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "雪汀",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3166",
+    "token": 3166,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "蓓诺",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3194",
+    "token": 3194,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "米丝琪",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3222",
+    "token": 3222,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "爱丽斯",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3250",
+    "token": 3250,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莉恩",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3278",
+    "token": 3278,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "琪琪",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3306",
+    "token": 3306,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "凯特",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3334",
+    "token": 3334,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "佩姬",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3362",
+    "token": 3362,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "米纱",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3390",
+    "token": 3390,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "兰恩",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3418",
+    "token": 3418,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "纳恩",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3446",
+    "token": 3446,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莉芙",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3474",
+    "token": 3474,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "洛莉",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3502",
+    "token": 3502,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "费雪",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3530",
+    "token": 3530,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "布蕾",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3558",
+    "token": 3558,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "卡曼",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3586",
+    "token": 3586,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "希尔",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3614",
+    "token": 3614,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "豆豆",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3627",
+    "token": 3627,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3632",
+    "token": 3632,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3637",
+    "token": 3637,
+    "call": "SetStageName",
+    "argument": 0,
+    "mode": "translate",
+    "source": "夺回天使之泉",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3675",
+    "token": 3675,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "Stage-21 夺回天使之泉",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3680",
+    "token": 3680,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Elder01.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3743",
+    "token": 3743,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“追上了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3804",
+    "token": 3804,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“洁莉妹子，你很会跑耶！”",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3829",
+    "token": 3829,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呼¨¨呼¨¨你要就正大光明打一场！”",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3840",
+    "token": 3840,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“累死本小姐了¨¨呼¨呼¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3870",
+    "token": 3870,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼！不好玩，都追得这么快。”",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3881",
+    "token": 3881,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这么爱打就来打吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3986",
+    "token": 3986,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“纱玲长老派我们来协助各位。”",
+    "vi": ""
+  },
+  {
+    "id": "stage21:3997",
+    "token": 3997,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“请各位多多指教。”",
+    "vi": ""
+  },
+  {
+    "id": "stage21:4022",
+    "token": 4022,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“太好了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage21:4033",
+    "token": 4033,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那就麻烦你们了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage21:4068",
+    "token": 4068,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "焰舞、百灵加入队伍。",
+    "vi": ""
+  },
+  {
+    "id": "stage21:4405",
+    "token": 4405,
+    "call": "SetMission",
+    "argument": 0,
+    "mode": "translate",
+    "source": "胜利条件：敌军全灭。%N失败条件：妮雅战败。",
+    "vi": ""
+  },
+  {
+    "id": "stage21:4422",
+    "token": 4422,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Hurry.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage21:4428",
+    "token": 4428,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage21:4442",
+    "token": 4442,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage21:4465",
+    "token": 4465,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage21:4478",
+    "token": 4478,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage21:4485",
+    "token": 4485,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage21:4501",
+    "token": 4501,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“她们往港口的方向去了，我们继续追上去吧。”",
+    "vi": ""
+  },
+  {
+    "id": "stage21:4519",
+    "token": 4519,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage21:4537",
+    "token": 4537,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage21:4544",
+    "token": 4544,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage21:4578",
+    "token": 4578,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“啊¨¨太不小心了¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage21:4589",
+    "token": 4589,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“竟然在这里战败¨¨¨”",
+    "vi": ""
+  }
+]

@@ -1,0 +1,920 @@
+[
+  {
+    "id": "stage8:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage8:1446",
+    "token": 1446,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NPCSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage8:1452",
+    "token": 1452,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage8:1927",
+    "token": 1927,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage8:1932",
+    "token": 1932,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage8:1983",
+    "token": 1983,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 焰舞 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2011",
+    "token": 2011,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 翔婷 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2039",
+    "token": 2039,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 锦夜 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2067",
+    "token": 2067,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 云卿 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2095",
+    "token": 2095,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 朱昙 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2123",
+    "token": 2123,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 可可 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2151",
+    "token": 2151,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 听月 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2179",
+    "token": 2179,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 白韵 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2207",
+    "token": 2207,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 菖蒲 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2235",
+    "token": 2235,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 皊冬 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2263",
+    "token": 2263,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 烜婷 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2276",
+    "token": 2276,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2281",
+    "token": 2281,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2286",
+    "token": 2286,
+    "call": "SetStageName",
+    "argument": 0,
+    "mode": "translate",
+    "source": "玄武城边境",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2318",
+    "token": 2318,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "Stage-8 玄武城边境",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2328",
+    "token": 2328,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_chinawar.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2344",
+    "token": 2344,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“总算来到香格里拉的边境了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2355",
+    "token": 2355,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“只是没有邦联议会的国信，要过境恐怕有点难。”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2380",
+    "token": 2380,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“唉¨¨¨说起来真是可悲呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2405",
+    "token": 2405,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2416",
+    "token": 2416,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“还不都是你害的！”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2441",
+    "token": 2441,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“对、对不起啦！”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2466",
+    "token": 2466,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“算了，只能先进去问问看吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2572",
+    "token": 2572,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“站住！”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2583",
+    "token": 2583,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你们是谁？有什么事情吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2608",
+    "token": 2608,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“您好！我们是爱尔达邦联所派遣的特使，%N有要事需向贵国女皇商讨。”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2633",
+    "token": 2633,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“爱尔达特使！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2644",
+    "token": 2644,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“有正式的关文吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2669",
+    "token": 2669,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“是这样的，原本有一封国信呈给贵国女皇。”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2680",
+    "token": 2680,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“但是不久前在路上遇上了强盗，所以¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2705",
+    "token": 2705,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哈哈哈～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2716",
+    "token": 2716,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“麻烦下次找个好一点的理由吧，%N你这招太老套啦！”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2741",
+    "token": 2741,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我们说的都是真的呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2766",
+    "token": 2766,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“走开走开，没空陪你们。”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2777",
+    "token": 2777,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“别再来妨碍我们，否则别怪我们不客气。”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2802",
+    "token": 2802,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我们确实是爱尔达特使，请你务必相信。”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2816",
+    "token": 2816,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2832",
+    "token": 2832,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“没有关文，恕难照办！”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2843",
+    "token": 2843,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“如果你们还是坚持不肯离开¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2852",
+    "token": 2852,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_S2.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2859",
+    "token": 2859,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“来人呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2870",
+    "token": 2870,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“将她们全部拿下。”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2927",
+    "token": 2927,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这¨¨¨太不讲理了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:2938",
+    "token": 2938,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“可恶，我们也出击！”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3073",
+    "token": 3073,
+    "call": "SetMission",
+    "argument": 0,
+    "mode": "translate",
+    "source": "过关条件：1、敌军全灭。",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3091",
+    "token": 3091,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3098",
+    "token": 3098,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3105",
+    "token": 3105,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": " 焰舞 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3119",
+    "token": 3119,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3126",
+    "token": 3126,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3133",
+    "token": 3133,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": " 焰舞 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3147",
+    "token": 3147,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3176",
+    "token": 3176,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 焰舞 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3201",
+    "token": 3201,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_chinawar.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3217",
+    "token": 3217,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼！”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3228",
+    "token": 3228,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“通通给我押进牢房！”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3262",
+    "token": 3262,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3286",
+    "token": 3286,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3293",
+    "token": 3293,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3300",
+    "token": 3300,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": " 焰舞 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3362",
+    "token": 3362,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 青色 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3383",
+    "token": 3383,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 爱玉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3404",
+    "token": 3404,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 爱玉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3425",
+    "token": 3425,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 爱玉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3446",
+    "token": 3446,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 爱玉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3467",
+    "token": 3467,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 爱玉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3488",
+    "token": 3488,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 爱玉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3509",
+    "token": 3509,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 爱玉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3530",
+    "token": 3530,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 爱玉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3551",
+    "token": 3551,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 爱玉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3572",
+    "token": 3572,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 爱玉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3593",
+    "token": 3593,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 爱玉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3614",
+    "token": 3614,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 爱玉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3635",
+    "token": 3635,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 爱玉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3656",
+    "token": 3656,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 爱玉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3677",
+    "token": 3677,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 爱玉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3698",
+    "token": 3698,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 爱玉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3719",
+    "token": 3719,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 爱玉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3740",
+    "token": 3740,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 爱玉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3761",
+    "token": 3761,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 爱玉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3782",
+    "token": 3782,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 爱玉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3803",
+    "token": 3803,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 爱玉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3824",
+    "token": 3824,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 爱玉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3845",
+    "token": 3845,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 爱玉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3866",
+    "token": 3866,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 爱玉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3887",
+    "token": 3887,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 爱玉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3908",
+    "token": 3908,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 爱玉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3929",
+    "token": 3929,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 爱玉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:3950",
+    "token": 3950,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 爱玉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage8:4004",
+    "token": 4004,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“大胆狂贼，胆敢攻击本国官兵！”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:4015",
+    "token": 4015,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“全部拿下！”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:4024",
+    "token": 4024,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_S2.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage8:4050",
+    "token": 4050,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“天呀！这么多人怎么可能闯得过。”",
+    "vi": ""
+  },
+  {
+    "id": "stage8:4068",
+    "token": 4068,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage8:4073",
+    "token": 4073,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage8:4099",
+    "token": 4099,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage8:4104",
+    "token": 4104,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  }
+]

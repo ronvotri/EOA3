@@ -1,0 +1,2153 @@
+[
+  {
+    "id": "stage6:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage6:950",
+    "token": 950,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1291",
+    "token": 1291,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1296",
+    "token": 1296,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1377",
+    "token": 1377,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 盈月 ",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1405",
+    "token": 1405,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 夏美 ",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1433",
+    "token": 1433,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 雪夜 ",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1461",
+    "token": 1461,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 双卯 ",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1489",
+    "token": 1489,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 风灵 ",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1517",
+    "token": 1517,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 夏艳 ",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1545",
+    "token": 1545,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 堇轩 ",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1573",
+    "token": 1573,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 娸娟 ",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1601",
+    "token": 1601,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 绮凰 ",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1629",
+    "token": 1629,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 寒竹 ",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1657",
+    "token": 1657,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 佩梓 ",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1685",
+    "token": 1685,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 鹄莺 ",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1698",
+    "token": 1698,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1703",
+    "token": 1703,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "AVGMODE",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1708",
+    "token": 1708,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1713",
+    "token": 1713,
+    "call": "SetStageName",
+    "argument": 0,
+    "mode": "translate",
+    "source": "惊逢响马团",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1738",
+    "token": 1738,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "Stage-6 惊逢响马团",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1743",
+    "token": 1743,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Elder_D1.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1759",
+    "token": 1759,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呵呵，要去香格里拉耶～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1770",
+    "token": 1770,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z20%c1“啦～啦啦～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1795",
+    "token": 1795,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“希蜜，我们不是去玩的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1825",
+    "token": 1825,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不要这样嘛！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1836",
+    "token": 1836,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“玩一下子不要紧吧！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1861",
+    "token": 1861,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“米雅法儿，你钱有带在身上吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1900",
+    "token": 1900,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“有¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1925",
+    "token": 1925,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯，好。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1936",
+    "token": 1936,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这次去我们要帮朋友买些土产回来，%N所以你的钱就不能乱花了知不知道。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1961",
+    "token": 1961,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:1986",
+    "token": 1986,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“有什么疑问吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2011",
+    "token": 2011,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“为什么是用我的钱呐¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2036",
+    "token": 2036,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呃¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2047",
+    "token": 2047,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这是为了你好¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2072",
+    "token": 2072,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“咦！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2083",
+    "token": 2083,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“为了我好？”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2108",
+    "token": 2108,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯¨呃¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2119",
+    "token": 2119,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“因、因为有钱的人才能享有采购的乐趣呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2130",
+    "token": 2130,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯¨¨¨对！就是这样子！！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2155",
+    "token": 2155,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哦¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2166",
+    "token": 2166,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“采购¨¨¨那好玩吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2191",
+    "token": 2191,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哈哈哈，那你就问对人了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2202",
+    "token": 2202,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“采购会让你得到败家的体验与快感，%N并且有满载而归的欣喜。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2213",
+    "token": 2213,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哈哈～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2257",
+    "token": 2257,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“妮雅你看，你看她们。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2268",
+    "token": 2268,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我也想去玩嘛！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2293",
+    "token": 2293,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不行¨¨，你是军人，她们不是。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2304",
+    "token": 2304,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“所以不能学她们。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2329",
+    "token": 2329,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“唔¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2340",
+    "token": 2340,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“好吧¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2365",
+    "token": 2365,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“为了不让你整天只想着玩，%N邦联国信就放在你身上了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2376",
+    "token": 2376,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你要好好保管哦！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2401",
+    "token": 2401,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“好～”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2412",
+    "token": 2412,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这样队长就换我当了对不对？”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2437",
+    "token": 2437,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你真的想太多了¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2476",
+    "token": 2476,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“妮雅，你把东西交给希蜜，%N迟早会被她弄丢的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2501",
+    "token": 2501,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呃¨这个¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2526",
+    "token": 2526,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不要那么不相信我嘛¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2551",
+    "token": 2551,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“对呀，莉娜！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2562",
+    "token": 2562,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“希蜜姊姊虽然不聪明，%N但应该不会那么容易将东西弄丢呐！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2587",
+    "token": 2587,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这话说的¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2612",
+    "token": 2612,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“米雅¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2623",
+    "token": 2623,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我怎么觉得你比我说得更讽刺¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2648",
+    "token": 2648,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“没、没有呐¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2678",
+    "token": 2678,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“姊妹们，又有猎物上门了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2703",
+    "token": 2703,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“今天生意真好。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2747",
+    "token": 2747,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“她们是谁？”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2772",
+    "token": 2772,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你不会自己过去问。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2817",
+    "token": 2817,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s14%t4%z24%c1“请问～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2828",
+    "token": 2828,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s14%t4%z24%c1“你们是谁～～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2858",
+    "token": 2858,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那¨¨那家伙没大脑吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2883",
+    "token": 2883,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s14%t4%z26%c1“呀～荷～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2894",
+    "token": 2894,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s16%t4%z26%c1“请～问～你～们～是～谁～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2919",
+    "token": 2919,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“盈月大人，要我回答她们吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2944",
+    "token": 2944,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嘿嘿～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2955",
+    "token": 2955,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我来回答。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:2993",
+    "token": 2993,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s5%t4%z24%c1“我～们～是～管～区～的～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3030",
+    "token": 3030,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“管区？？”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3041",
+    "token": 3041,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那是做什么的？”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3066",
+    "token": 3066,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不知道呐¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3098",
+    "token": 3098,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“她们人好像越来越多了¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3123",
+    "token": 3123,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“笨呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3134",
+    "token": 3134,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你们还看不出来吗？她们是强盗啦！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3148",
+    "token": 3148,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Careful.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3171",
+    "token": 3171,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“啊！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3201",
+    "token": 3201,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“哈哈哈哈！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3212",
+    "token": 3212,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“识相点就把钱留下来吧～”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3223",
+    "token": 3223,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“姊妹们，上！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3253",
+    "token": 3253,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“强盗！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3264",
+    "token": 3264,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呵呵，地方强盗而已，%N邦联军团怎么看在眼里，对不对！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3289",
+    "token": 3289,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3300",
+    "token": 3300,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“倒是你要把邦联国信保管好哦！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3325",
+    "token": 3325,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呵呵，这种小事情没问题的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3350",
+    "token": 3350,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“好，那我们也让她们好看！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3495",
+    "token": 3495,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_S1.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3500",
+    "token": 3500,
+    "call": "SetMission",
+    "argument": 0,
+    "mode": "translate",
+    "source": "胜利条件：敌大将～盈月战败。%N失败条件：妮雅战败。",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3518",
+    "token": 3518,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3525",
+    "token": 3525,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3532",
+    "token": 3532,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "希蜜",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3539",
+    "token": 3539,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "安洁莉娜",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3546",
+    "token": 3546,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "米雅法儿",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3553",
+    "token": 3553,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": " 盈月 ",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3567",
+    "token": 3567,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3574",
+    "token": 3574,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3581",
+    "token": 3581,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "希蜜",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3588",
+    "token": 3588,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "安洁莉娜",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3595",
+    "token": 3595,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "米雅法儿",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3602",
+    "token": 3602,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": " 盈月 ",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3625",
+    "token": 3625,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3630",
+    "token": 3630,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3650",
+    "token": 3650,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3655",
+    "token": 3655,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear2",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3666",
+    "token": 3666,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3754",
+    "token": 3754,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Elder_D1.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3770",
+    "token": 3770,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这群盗贼比看起来外表强。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3781",
+    "token": 3781,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你们都没事吧¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3806",
+    "token": 3806,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“妮、妮雅¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3817",
+    "token": 3817,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“有件事我不知道该不该说¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3842",
+    "token": 3842,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“什么事呢？”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3867",
+    "token": 3867,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你不会骂我吧！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3892",
+    "token": 3892,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你先说说看。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3917",
+    "token": 3917,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“就是¨¨就是¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3928",
+    "token": 3928,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“邦联议会的国信被抢走了¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3942",
+    "token": 3942,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Careful.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3958",
+    "token": 3958,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3969",
+    "token": 3969,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“希蜜¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:3980",
+    "token": 3980,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z28%c1“你这大笨蛋～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4005",
+    "token": 4005,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哈哈哈～被我说中了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4030",
+    "token": 4030,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呜¨¨¨我就知道你会骂我。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4055",
+    "token": 4055,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“我反悔了不行吗！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4080",
+    "token": 4080,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那我们要追回来吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4105",
+    "token": 4105,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“当然要，趁她们还没走远前快追！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4119",
+    "token": 4119,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4137",
+    "token": 4137,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear2",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4236",
+    "token": 4236,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“可恶，比想像中还强¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4247",
+    "token": 4247,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你们都没事吧！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4272",
+    "token": 4272,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“很想骂脏话可以吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4297",
+    "token": 4297,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不行！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4308",
+    "token": 4308,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“咦！希蜜，你受伤了吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4333",
+    "token": 4333,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“没、没关系¨¨可是¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4344",
+    "token": 4344,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“邦联议会的国信被抢走了¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4358",
+    "token": 4358,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Careful.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4374",
+    "token": 4374,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z26%c1“什么？？”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4399",
+    "token": 4399,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“哼！果然交给你没保障。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4410",
+    "token": 4410,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“我们追上去吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4435",
+    "token": 4435,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不行！以我们的战力胜算太低。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4446",
+    "token": 4446,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“先找地方重新整顿后再做打算吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4471",
+    "token": 4471,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“可恶¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4485",
+    "token": 4485,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4503",
+    "token": 4503,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4510",
+    "token": 4510,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4517",
+    "token": 4517,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "希蜜",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4524",
+    "token": 4524,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "安洁莉娜",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4531",
+    "token": 4531,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "米雅法儿",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4538",
+    "token": 4538,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": " 盈月 ",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4561",
+    "token": 4561,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4566",
+    "token": 4566,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear2",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4601",
+    "token": 4601,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“身手还不简单嘛！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4612",
+    "token": 4612,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼！反正东西到手就好。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4623",
+    "token": 4623,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“撤退！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4657",
+    "token": 4657,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4662",
+    "token": 4662,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4673",
+    "token": 4673,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "AVGMODE",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4694",
+    "token": 4694,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 赫拉女帝 ",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4715",
+    "token": 4715,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 赫莉 ",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4799",
+    "token": 4799,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Elder_D2.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4804",
+    "token": 4804,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "“加百列王国宫殿”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4809",
+    "token": 4809,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "妮雅以拉锡叶使者名义向加百列赫拉女帝说明拉锡叶现况。",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4814",
+    "token": 4814,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "并且请赫拉女帝出兵协助，然而¨¨¨",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4830",
+    "token": 4830,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“要加百列出兵协助是不可能的，%N你不用再说了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4841",
+    "token": 4841,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“本国没有介入战争的理由。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4866",
+    "token": 4866,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4891",
+    "token": 4891,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“建议你们还是到邦联议会，%N以和平的方式来解决吧。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4916",
+    "token": 4916,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“邦联议会是¨¨¨？”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4941",
+    "token": 4941,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“什么！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4952",
+    "token": 4952,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你连邦联议会都不知道，%N看来拉锡叶的教育还真差。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:4977",
+    "token": 4977,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5002",
+    "token": 5002,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“邦联议会在米迦尔，出了城往北走，%N过了雷米尔就到了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5013",
+    "token": 5013,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“离开吧！你们的战争，加百列爱莫能助。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5038",
+    "token": 5038,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5063",
+    "token": 5063,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“女王，就让我带领她们前往米迦尔吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5088",
+    "token": 5088,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼！你少多管闲事。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5113",
+    "token": 5113,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不¨¨不用了，多谢您的好意。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5138",
+    "token": 5138,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5179",
+    "token": 5179,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "“加百列王国宫殿”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5184",
+    "token": 5184,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Elder_D1.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5200",
+    "token": 5200,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“啊啊啊啊啊！！！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5211",
+    "token": 5211,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“气～死～人～啦～～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5222",
+    "token": 5222,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那女帝什么态度嘛！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5247",
+    "token": 5247,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“妮¨妮雅¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5258",
+    "token": 5258,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你怎么了？”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5283",
+    "token": 5283,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“还不就那女帝，说话真是太不客气了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5308",
+    "token": 5308,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5333",
+    "token": 5333,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哈哈！那是你自己看起来太没气势了，容易被%N欺负是应该的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5358",
+    "token": 5358,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你、你到底站哪一边¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5383",
+    "token": 5383,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“安洁莉娜¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5394",
+    "token": 5394,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“对不起，她讲话本来就这样¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5419",
+    "token": 5419,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“好啦！你多管闲事。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5444",
+    "token": 5444,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呜¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5469",
+    "token": 5469,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“算了！歇斯底里的人¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5494",
+    "token": 5494,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5536",
+    "token": 5536,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呃¨¨抱歉¨¨¨¨打扰了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5561",
+    "token": 5561,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“啊！你是刚才那位¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5586",
+    "token": 5586,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我是赫莉。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5611",
+    "token": 5611,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你好，我是妮雅，请多指教。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5636",
+    "token": 5636,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“很抱歉刚才并没帮上忙¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5647",
+    "token": 5647,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我对女帝所说的话为您感到抱歉，希望您能见%N谅。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5672",
+    "token": 5672,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不要紧的，贵国女帝其实说得¨¨有点道理¨%N¨¨¨。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5697",
+    "token": 5697,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“真的吗？那我就放心了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5708",
+    "token": 5708,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“希望你们能好好加油。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5733",
+    "token": 5733,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“谢谢！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5758",
+    "token": 5758,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那我先离开罗！”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5783",
+    "token": 5783,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯！您忙吧¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5825",
+    "token": 5825,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“¨¨¨¨¨她走了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5850",
+    "token": 5850,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯，我知道。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5875",
+    "token": 5875,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哈哈～你真的没生气吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5900",
+    "token": 5900,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“¨¨¨我现在说没有就没有。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5911",
+    "token": 5911,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我们到米迦尔向邦联议会求援吧。”",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5929",
+    "token": 5929,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5957",
+    "token": 5957,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Chinawar.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5962",
+    "token": 5962,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "妮雅等人到达米迦尔公国。",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5967",
+    "token": 5967,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "进入欧格斯市后，于邦联议会中心陈辞拉锡叶遭遇，并央请邦联派兵协助。",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5972",
+    "token": 5972,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "在议会中，各国代表团分为两派争辩激烈。",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5977",
+    "token": 5977,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "以邦联主席，同时也是米迦尔首相为首，反对出兵的派系人数较多。",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5982",
+    "token": 5982,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "而赞成派的邦联法庭大法官，雷米尔代表的坎维琪，",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5987",
+    "token": 5987,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "在不断为拉锡叶慷慨力争情况下，仍然不及反对派的势力。",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5992",
+    "token": 5992,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "会议结束后。",
+    "vi": ""
+  },
+  {
+    "id": "stage6:5997",
+    "token": 5997,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "坎维琪私下提议妮雅等人前往东方的香格里拉，向香国皇帝借兵援助。",
+    "vi": ""
+  },
+  {
+    "id": "stage6:6002",
+    "token": 6002,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "坎维琪便计划于次日议会向各国代表提议，以战乱中粮食、水源取得不易的问题，",
+    "vi": ""
+  },
+  {
+    "id": "stage6:6007",
+    "token": 6007,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "建议邦联议会派遣妮雅等人前往香格里拉，借调水源及粮食。",
+    "vi": ""
+  },
+  {
+    "id": "stage6:6012",
+    "token": 6012,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "而坎维琪实为香国皇帝武襄金星的幼年之交。",
+    "vi": ""
+  },
+  {
+    "id": "stage6:6017",
+    "token": 6017,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "得知金星皇帝晓明大志，有维护天下和平的雄心。",
+    "vi": ""
+  },
+  {
+    "id": "stage6:6022",
+    "token": 6022,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "因此也另交一封私函给妮雅，请妮雅见到香国皇帝，亲自将私函呈上。",
+    "vi": ""
+  },
+  {
+    "id": "stage6:6027",
+    "token": 6027,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "同时妮雅等人也可趁此机会，商请香国协助出兵。",
+    "vi": ""
+  },
+  {
+    "id": "stage6:6032",
+    "token": 6032,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "次日，坎维琪的提案顺利过关。",
+    "vi": ""
+  },
+  {
+    "id": "stage6:6037",
+    "token": 6037,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "议会主席写下国信，并派任妮雅等人为此次传信的邦联特使团。",
+    "vi": ""
+  },
+  {
+    "id": "stage6:6042",
+    "token": 6042,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  }
+]

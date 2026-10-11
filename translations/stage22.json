@@ -1,0 +1,1370 @@
+[
+  {
+    "id": "stage22:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage22:1170",
+    "token": 1170,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2047",
+    "token": 2047,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2052",
+    "token": 2052,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2118",
+    "token": 2118,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "洁莉",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2146",
+    "token": 2146,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莫芮",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2174",
+    "token": 2174,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "卡琳",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2202",
+    "token": 2202,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "蕾希",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2223",
+    "token": 2223,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莱姆",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2244",
+    "token": 2244,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "雪汀",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2265",
+    "token": 2265,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "蓓诺",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2286",
+    "token": 2286,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "米丝琪",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2307",
+    "token": 2307,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "爱丽斯",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2328",
+    "token": 2328,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莉恩",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2349",
+    "token": 2349,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "琪琪",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2370",
+    "token": 2370,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "凯特",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2391",
+    "token": 2391,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "佩姬",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2412",
+    "token": 2412,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "米纱",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2433",
+    "token": 2433,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "兰恩",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2454",
+    "token": 2454,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "纳恩",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2475",
+    "token": 2475,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莉芙",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2496",
+    "token": 2496,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "洛莉",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2517",
+    "token": 2517,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "费雪",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2538",
+    "token": 2538,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "布蕾",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2559",
+    "token": 2559,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "卡曼",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2580",
+    "token": 2580,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "希尔",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2586",
+    "token": 2586,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2591",
+    "token": 2591,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2596",
+    "token": 2596,
+    "call": "SetStageName",
+    "argument": 0,
+    "mode": "translate",
+    "source": "港湾驱逐战",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2634",
+    "token": 2634,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "Stage-22 港湾驱逐战",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2639",
+    "token": 2639,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_S2.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2750",
+    "token": 2750,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“她们打算搭船逃走！”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:2775",
+    "token": 2775,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那我们也追上去罗！”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3060",
+    "token": 3060,
+    "call": "SetMission",
+    "argument": 0,
+    "mode": "translate",
+    "source": "胜利条件：敌军全灭。%N失败条件：妮雅战败。",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3073",
+    "token": 3073,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_S2.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3083",
+    "token": 3083,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3120",
+    "token": 3120,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "洁莉",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3127",
+    "token": 3127,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "安洁莉娜",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3184",
+    "token": 3184,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“狡猾¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3195",
+    "token": 3195,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“居然使用密技=____________=”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3206",
+    "token": 3206,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“该怎么惩罚你呢¨¨¨",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3217",
+    "token": 3217,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“决定了！把你所有角色的等级归零¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3228",
+    "token": 3228,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“怕了吧\\__________/+”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3239",
+    "token": 3239,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嘿嘿¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3250",
+    "token": 3250,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“开玩笑啦，直接送你过关好了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3261",
+    "token": 3261,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“都已经使用密技了，谁会怕等级归零啊QoQ”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3288",
+    "token": 3288,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NPCJoin",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3300",
+    "token": 3300,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3323",
+    "token": 3323,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3336",
+    "token": 3336,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3410",
+    "token": 3410,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "士兵",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3431",
+    "token": 3431,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "赫拉",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3452",
+    "token": 3452,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "玛西亚",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3472",
+    "token": 3472,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_S2.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3522",
+    "token": 3522,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“想跑！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3606",
+    "token": 3606,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "长老纱玲",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3654",
+    "token": 3654,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3670",
+    "token": 3670,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我来的似乎正是时候，敌人确定都驱逐了吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3695",
+    "token": 3695,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“是的，敌人都已经搭船逃回爱尔达。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3709",
+    "token": 3709,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Shangri_La.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3725",
+    "token": 3725,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯！很好，那我就把镇魂剂交给你们了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3750",
+    "token": 3750,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“镇魂剂！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3775",
+    "token": 3775,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那是可以净化黑色天使之泉的药剂。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3786",
+    "token": 3786,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“只要将药剂到入黑色天使之泉，在很短的时间%N内就会逐渐变回正常的天使之泉。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3811",
+    "token": 3811,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这么一来受黑色泉水感染的人，只要喝下净化%N后的泉水就可以回复吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3836",
+    "token": 3836,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3847",
+    "token": 3847,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“如果是已经陷入太深的人，%N任何药都无法让她回复。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3872",
+    "token": 3872,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我懂了¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3883",
+    "token": 3883,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那么长老知道黑色天使之泉的源头%N在哪里吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3908",
+    "token": 3908,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“天使之泉代表者灵魂的光明面，而黑色天使%N之泉则影响灵魂的黑暗面。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3919",
+    "token": 3919,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“消失已久的黑色天使之泉，为什么会出现此%N时，这依旧是个疑问，但是却很有可能在任何%N地方出现。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3930",
+    "token": 3930,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“因此你们必须靠自己的力量去寻遍每一个角%N落。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3955",
+    "token": 3955,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“如果天使之泉代表着我们的灵魂，那么会不会%N是人们累积太多黑暗面的思想，最后反映在天使%N之泉上呢？”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3980",
+    "token": 3980,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“也许吧！这是过去香格里拉历史中也没详细记%N载的部分。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:3991",
+    "token": 3991,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“如果你们沿途净化黑色天使之泉，或许会逐渐%N找出它的原因。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4016",
+    "token": 4016,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这样我了解了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4041",
+    "token": 4041,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你们就早点回叶虏鞑吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4066",
+    "token": 4066,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“长老，那么丽凤¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4091",
+    "token": 4091,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“她正在进行成为绝世强者必经的试炼，什么时候%N能见到她，就看她需要多少时日才能通过试炼。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4116",
+    "token": 4116,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“原来如此¨¨¨，%N那么我们就先回爱尔达了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4141",
+    "token": 4141,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“祝你们一路顺风。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4155",
+    "token": 4155,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4180",
+    "token": 4180,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "“加百列 萨维尔皇城”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4185",
+    "token": 4185,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Elder_D2.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4201",
+    "token": 4201,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“陛下！”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4212",
+    "token": 4212,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我们在香格里拉取到能够净化天使之泉的镇魂%N剂了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4237",
+    "token": 4237,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“香格里拉人果然在知识上遥遥领先。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4248",
+    "token": 4248,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4259",
+    "token": 4259,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“在你们前往香格里拉的这段日子中，欧查境内%N一直陷于疫病及内战。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4270",
+    "token": 4270,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“目前已经追查到黑色泉水是由玛雅一带最早出%N现，因此越深入爱尔达的西北方及玛雅时，请务%N必多小心。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4295",
+    "token": 4295,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我们会的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4320",
+    "token": 4320,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“另外，虽然贝力欧从经对你的国家发动战事，%N但是目前贝力欧也处于停战状态。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4331",
+    "token": 4331,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我要说的是，%N贝力欧境内的天使之泉也受到污染。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4342",
+    "token": 4342,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“为了所有种族、国家的未来着想，你是否也能%N将镇魂剂送到贝力欧，交给玛西亚呢？”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4367",
+    "token": 4367,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4378",
+    "token": 4378,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我会的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4403",
+    "token": 4403,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“辛苦你了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4414",
+    "token": 4414,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这是一个重大的使命，%N希望你们能够完成天使之泉的净化工作。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4439",
+    "token": 4439,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“是！”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4453",
+    "token": 4453,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4485",
+    "token": 4485,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "六天后，妮雅等人到达贝力欧。",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4490",
+    "token": 4490,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "贝力欧皇城 玛西亚寝居前",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4495",
+    "token": 4495,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Elder_D1.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4511",
+    "token": 4511,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哇！一路走到敌方重地却完全没人防守呢！”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4522",
+    "token": 4522,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我可以偷偷看一下贝力欧女帝的房间长怎样%N吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4547",
+    "token": 4547,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呃¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4589",
+    "token": 4589,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你们到这里来做什么？”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4600",
+    "token": 4600,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼！算了，我的士兵都一个个离开了，%N要杀我就趁现在吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4625",
+    "token": 4625,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我们不是为了这个事情来的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4650",
+    "token": 4650,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那你们有什么事情就快说吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4661",
+    "token": 4661,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我现在心情不好，不想多说话。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4686",
+    "token": 4686,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这是能够净化黑色天使之泉的镇魂剂，%N请你收下。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4711",
+    "token": 4711,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我是毁了你国家的人，为什么还要帮助我！”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4722",
+    "token": 4722,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“还是你有什么条件？！”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4747",
+    "token": 4747,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“并没有任何条件，只是为了避免黑色天使之泉%N持续扩散而伤害更多人。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4758",
+    "token": 4758,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“临时决定经过这里，所以送一份来给你。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4783",
+    "token": 4783,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“临时经过¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4794",
+    "token": 4794,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼！那好，我也就勉强的收下了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4805",
+    "token": 4805,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“如果没其他的事情就请回吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4816",
+    "token": 4816,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我要去神殿，不送你们了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4858",
+    "token": 4858,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4883",
+    "token": 4883,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你们讲话好做作呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4908",
+    "token": 4908,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“官场话，你会慢慢习惯的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4919",
+    "token": 4919,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我们准备往玛雅行动吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4933",
+    "token": 4933,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4971",
+    "token": 4971,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage22:4978",
+    "token": 4978,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage22:5012",
+    "token": 5012,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“可恶，太大意了¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:5023",
+    "token": 5023,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“竟然在这里战败¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:5049",
+    "token": 5049,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NPCJoin",
+    "vi": ""
+  },
+  {
+    "id": "stage22:5056",
+    "token": 5056,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage22:5063",
+    "token": 5063,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "洁莉",
+    "vi": ""
+  },
+  {
+    "id": "stage22:5070",
+    "token": 5070,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "耶里朵",
+    "vi": ""
+  },
+  {
+    "id": "stage22:5077",
+    "token": 5077,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "安洁莉娜",
+    "vi": ""
+  },
+  {
+    "id": "stage22:5107",
+    "token": 5107,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那不是耶里朵吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:5118",
+    "token": 5118,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“怎样？要一起走吗！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:5176",
+    "token": 5176,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:5190",
+    "token": 5190,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_chinawar.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage22:5206",
+    "token": 5206,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼！果然没错！”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:5217",
+    "token": 5217,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“就是你带她们到香格里拉来的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:5242",
+    "token": 5242,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:5253",
+    "token": 5253,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哈哈哈¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:5264",
+    "token": 5264,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哈哈哈哈哈～～可惜你发现得也太晚了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:5275",
+    "token": 5275,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“再会啦！哈哈哈哈～～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:5325",
+    "token": 5325,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "耶里朵",
+    "vi": ""
+  },
+  {
+    "id": "stage22:5346",
+    "token": 5346,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“耶¨¨耶里朵¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:5357",
+    "token": 5357,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“难道她早就被黑色泉水感染了¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:5387",
+    "token": 5387,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼！”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:5398",
+    "token": 5398,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“赶走她们吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:5409",
+    "token": 5409,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我不想看到她了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage22:5423",
+    "token": 5423,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "耶里朵离开队伍。",
+    "vi": ""
+  },
+  {
+    "id": "stage22:5432",
+    "token": 5432,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_chinawar.wav",
+    "vi": ""
+  }
+]

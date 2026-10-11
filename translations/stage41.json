@@ -1,0 +1,614 @@
+[
+  {
+    "id": "stage41:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage41:1446",
+    "token": 1446,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NPCSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage41:1452",
+    "token": 1452,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage41:1793",
+    "token": 1793,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage41:1798",
+    "token": 1798,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage41:1849",
+    "token": 1849,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 盈月 ",
+    "vi": ""
+  },
+  {
+    "id": "stage41:1870",
+    "token": 1870,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 夏美 ",
+    "vi": ""
+  },
+  {
+    "id": "stage41:1876",
+    "token": 1876,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage41:1881",
+    "token": 1881,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage41:1886",
+    "token": 1886,
+    "call": "SetStageName",
+    "argument": 0,
+    "mode": "translate",
+    "source": "突围响马村",
+    "vi": ""
+  },
+  {
+    "id": "stage41:1928",
+    "token": 1928,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "Stage-7 突围响马村",
+    "vi": ""
+  },
+  {
+    "id": "stage41:1933",
+    "token": 1933,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Elder_D1.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage41:1949",
+    "token": 1949,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“希蜜，你的伤没问题吧！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage41:1974",
+    "token": 1974,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嘿嘿～”",
+    "vi": ""
+  },
+  {
+    "id": "stage41:1985",
+    "token": 1985,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“希蜜这么强壮，绝对不会有事的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2010",
+    "token": 2010,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2021",
+    "token": 2021,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那你要转职肉搏系吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2046",
+    "token": 2046,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呃¨¨¨一身肌肉的¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2057",
+    "token": 2057,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z26%c1“我不要啊！！”",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2082",
+    "token": 2082,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哈哈！”",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2119",
+    "token": 2119,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这里有村子，我们先进去吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2186",
+    "token": 2186,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_S1.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2193",
+    "token": 2193,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哈哈哈～”",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2204",
+    "token": 2204,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那群人还真是笨，难怪得去别国讨救兵。”",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2229",
+    "token": 2229,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呵呵！”",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2240",
+    "token": 2240,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不过呀！我本来以为那封信是情书呢！%N结果居然不是。”",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2251",
+    "token": 2251,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“真是不好玩。”",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2276",
+    "token": 2276,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哈哈，无所谓啦！”",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2287",
+    "token": 2287,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我们还是先进寨里吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2325",
+    "token": 2325,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“咦！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2362",
+    "token": 2362,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“怎么了吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2378",
+    "token": 2378,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“啊！？她们！”",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2389",
+    "token": 2389,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哈哈，她们刚刚才打输，现在还要再来呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2419",
+    "token": 2419,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“怎么又是她们呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2444",
+    "token": 2444,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“呜啊～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2455",
+    "token": 2455,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“死小偷们又出现了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2480",
+    "token": 2480,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“真是不得闲¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2491",
+    "token": 2491,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“出击吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2559",
+    "token": 2559,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 盈月 ",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2587",
+    "token": 2587,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 夏美 ",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2615",
+    "token": 2615,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 雪夜 ",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2643",
+    "token": 2643,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 双卯 ",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2671",
+    "token": 2671,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 风灵 ",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2699",
+    "token": 2699,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 夏艳 ",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2727",
+    "token": 2727,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 堇轩 ",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2755",
+    "token": 2755,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 娸娟 ",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2783",
+    "token": 2783,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 绮凰 ",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2804",
+    "token": 2804,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 寒竹 ",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2825",
+    "token": 2825,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 佩梓 ",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2846",
+    "token": 2846,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 鹄莺 ",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2851",
+    "token": 2851,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_S1.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2970",
+    "token": 2970,
+    "call": "SetMission",
+    "argument": 0,
+    "mode": "translate",
+    "source": "胜利条件：敌军全灭。%N失败条件：妮雅战败。",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2988",
+    "token": 2988,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage41:2995",
+    "token": 2995,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage41:3002",
+    "token": 3002,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "希蜜",
+    "vi": ""
+  },
+  {
+    "id": "stage41:3009",
+    "token": 3009,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": " 盈月 ",
+    "vi": ""
+  },
+  {
+    "id": "stage41:3023",
+    "token": 3023,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage41:3030",
+    "token": 3030,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage41:3037",
+    "token": 3037,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "希蜜",
+    "vi": ""
+  },
+  {
+    "id": "stage41:3044",
+    "token": 3044,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": " 盈月 ",
+    "vi": ""
+  },
+  {
+    "id": "stage41:3067",
+    "token": 3067,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage41:3099",
+    "token": 3099,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage41:3108",
+    "token": 3108,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage41:3130",
+    "token": 3130,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage41:3137",
+    "token": 3137,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage41:3144",
+    "token": 3144,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "希蜜",
+    "vi": ""
+  },
+  {
+    "id": "stage41:3151",
+    "token": 3151,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": " 盈月 ",
+    "vi": ""
+  },
+  {
+    "id": "stage41:3185",
+    "token": 3185,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“难道¨¨拉锡叶的未来¨¨¨”",
+    "vi": ""
+  }
+]

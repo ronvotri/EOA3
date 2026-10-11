@@ -1,0 +1,1586 @@
+[
+  {
+    "id": "stage27:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage27:2612",
+    "token": 2612,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage27:3690",
+    "token": 3690,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage27:3695",
+    "token": 3695,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage27:3761",
+    "token": 3761,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "雷丝曼",
+    "vi": ""
+  },
+  {
+    "id": "stage27:3782",
+    "token": 3782,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "克诺依德",
+    "vi": ""
+  },
+  {
+    "id": "stage27:3803",
+    "token": 3803,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "纱琳娜",
+    "vi": ""
+  },
+  {
+    "id": "stage27:3824",
+    "token": 3824,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "茵莎",
+    "vi": ""
+  },
+  {
+    "id": "stage27:3852",
+    "token": 3852,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "布伦",
+    "vi": ""
+  },
+  {
+    "id": "stage27:3880",
+    "token": 3880,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莱特克",
+    "vi": ""
+  },
+  {
+    "id": "stage27:3908",
+    "token": 3908,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "妮布鲁",
+    "vi": ""
+  },
+  {
+    "id": "stage27:3936",
+    "token": 3936,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "伊狄菈",
+    "vi": ""
+  },
+  {
+    "id": "stage27:3964",
+    "token": 3964,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "希特",
+    "vi": ""
+  },
+  {
+    "id": "stage27:3992",
+    "token": 3992,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "夏特",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4020",
+    "token": 4020,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "赫特",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4048",
+    "token": 4048,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莉亚叙",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4076",
+    "token": 4076,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "休露",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4104",
+    "token": 4104,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "哈朵",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4132",
+    "token": 4132,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "佳茉",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4160",
+    "token": 4160,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "芭思菈",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4188",
+    "token": 4188,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "菈芙",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4216",
+    "token": 4216,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "娃儿",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4244",
+    "token": 4244,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "甘妮斯",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4272",
+    "token": 4272,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "达布",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4300",
+    "token": 4300,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "菊笛",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4328",
+    "token": 4328,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "珍奇",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4356",
+    "token": 4356,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "乎露朵",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4384",
+    "token": 4384,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "楠伊拉",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4412",
+    "token": 4412,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "妲耶",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4440",
+    "token": 4440,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "宁加",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4468",
+    "token": 4468,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "优朵莉",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4496",
+    "token": 4496,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "亚奴贝",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4524",
+    "token": 4524,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "乌列",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4537",
+    "token": 4537,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4542",
+    "token": 4542,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4547",
+    "token": 4547,
+    "call": "SetStageName",
+    "argument": 0,
+    "mode": "translate",
+    "source": "哭泣的圣战",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4580",
+    "token": 4580,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "Stage-27 最终的圣战",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4585",
+    "token": 4585,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "荷洛卡斯大神殿",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4590",
+    "token": 4590,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Last_black.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4624",
+    "token": 4624,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼！不简单，还是被你们闯到这里来。”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4635",
+    "token": 4635,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不过我已经得到了力量之泉的庇护，你们是不%N可能打倒我的！”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4646",
+    "token": 4646,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哈哈哈哈哈～～～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4678",
+    "token": 4678,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这里¨¨就是最后的战场吗¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4703",
+    "token": 4703,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“普兰可已经开始净化各地的天使之泉了，接着%N我们的工作只要打倒这些人¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4714",
+    "token": 4714,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“只要打倒这些受黑水控制的人，黑水的危机就%N能解除了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4744",
+    "token": 4744,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“玛西亚，你也来啦！”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4755",
+    "token": 4755,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我怎么不知道你由欧查军变成邦联军啦！”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4766",
+    "token": 4766,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哈哈哈哈！”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4777",
+    "token": 4777,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“要是伊丝塔地下有知，你说她会原谅你的作法%N吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4791",
+    "token": 4791,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4801",
+    "token": 4801,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Get_win.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4830",
+    "token": 4830,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“伊丝塔女王已经死了，欧查首领是我，欧查之%N剑在我手上。”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4841",
+    "token": 4841,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我想怎么做，伊丝塔女王就算活着也管不了我%N。”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4852",
+    "token": 4852,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“雷丝曼！你更没资格。”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4882",
+    "token": 4882,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哦！？挺凶的嘛！”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4893",
+    "token": 4893,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我倒要看看你想怎么做。”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4923",
+    "token": 4923,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你少废话！”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:4934",
+    "token": 4934,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我会让你比洁莉死的痛苦千百倍！”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:5403",
+    "token": 5403,
+    "call": "SetMission",
+    "argument": 0,
+    "mode": "translate",
+    "source": "胜利条件：敌主将雷丝曼战败。%N失败条件：妮雅战败。",
+    "vi": ""
+  },
+  {
+    "id": "stage27:5421",
+    "token": 5421,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage27:5428",
+    "token": 5428,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "茵莎",
+    "vi": ""
+  },
+  {
+    "id": "stage27:5435",
+    "token": 5435,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "布伦",
+    "vi": ""
+  },
+  {
+    "id": "stage27:5442",
+    "token": 5442,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "莱特克",
+    "vi": ""
+  },
+  {
+    "id": "stage27:5449",
+    "token": 5449,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮布鲁",
+    "vi": ""
+  },
+  {
+    "id": "stage27:5477",
+    "token": 5477,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Last_war.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage27:5527",
+    "token": 5527,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "茵莎",
+    "vi": ""
+  },
+  {
+    "id": "stage27:5563",
+    "token": 5563,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "布伦",
+    "vi": ""
+  },
+  {
+    "id": "stage27:5599",
+    "token": 5599,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莱特克",
+    "vi": ""
+  },
+  {
+    "id": "stage27:5635",
+    "token": 5635,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "妮布鲁",
+    "vi": ""
+  },
+  {
+    "id": "stage27:5647",
+    "token": 5647,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage27:5653",
+    "token": 5653,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage27:5761",
+    "token": 5761,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Asgard.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage27:5777",
+    "token": 5777,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“现在¨¨¨终于可以回故乡了吗！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:5802",
+    "token": 5802,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“唔¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:5827",
+    "token": 5827,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“对了！温妮¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:5838",
+    "token": 5838,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你也该回家罗¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:5863",
+    "token": 5863,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:5888",
+    "token": 5888,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我会带她回到大海与她家人见面的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:5913",
+    "token": 5913,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“谢谢你，帕托克。”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:5929",
+    "token": 5929,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“温妮¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:5940",
+    "token": 5940,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“等你长大，再次游过白列湾海峡之前，一定要%N来找我哦！”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:5965",
+    "token": 5965,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“唔！”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:5990",
+    "token": 5990,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那我就带她走了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6001",
+    "token": 6001,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“真的谢谢大家的帮助，请大家多保重。”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6012",
+    "token": 6012,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你们洁净的心灵，会得到太阳女神庇护的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6093",
+    "token": 6093,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“一定要回来找我啊！”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6104",
+    "token": 6104,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“温妮¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6129",
+    "token": 6129,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“温妮，走罗！”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6154",
+    "token": 6154,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“唔¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6206",
+    "token": 6206,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呜¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6217",
+    "token": 6217,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“温妮¨¨温¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6259",
+    "token": 6259,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“希蜜姊姊不哭，温妮一定回来找你¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6270",
+    "token": 6270,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“一定会找你¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6320",
+    "token": 6320,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“温妮～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6350",
+    "token": 6350,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“她们都走了¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6361",
+    "token": 6361,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“希蜜¨¨我们也该离开了¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6386",
+    "token": 6386,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6404",
+    "token": 6404,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6425",
+    "token": 6425,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "贝力欧皇城",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6430",
+    "token": 6430,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Elder_D2.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6446",
+    "token": 6446,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你们还要跟多久！”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6457",
+    "token": 6457,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这里已经是我寝室门口了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6482",
+    "token": 6482,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6493",
+    "token": 6493,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“只是还有点好奇¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6518",
+    "token": 6518,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6529",
+    "token": 6529,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我不会让你们进来看的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6540",
+    "token": 6540,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你们请回去吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6565",
+    "token": 6565,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“玛西亚¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6576",
+    "token": 6576,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我是要谢谢你来帮忙。”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6601",
+    "token": 6601,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6612",
+    "token": 6612,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“洁莉¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6623",
+    "token": 6623,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我只是想把洁莉带回来而已。”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6648",
+    "token": 6648,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6659",
+    "token": 6659,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“总之，真的谢谢你了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6670",
+    "token": 6670,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“希蜜，我们走吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6684",
+    "token": 6684,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6760",
+    "token": 6760,
+    "call": "SP_AddAction",
+    "argument": 1,
+    "mode": "locked",
+    "source": "Lost_Heart.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6827",
+    "token": 6827,
+    "call": "SP_AddAction",
+    "argument": 3,
+    "mode": "review",
+    "source": "%s8%t4%z20玛西亚：“洁莉！？是你吗¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6899",
+    "token": 6899,
+    "call": "SP_AddAction",
+    "argument": 3,
+    "mode": "review",
+    "source": "%s8%t4%z20洁莉：“玛西亚首领¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6924",
+    "token": 6924,
+    "call": "SP_AddAction",
+    "argument": 3,
+    "mode": "review",
+    "source": "%s8%t4%z20洁莉：“这么多年来您总是最照顾我。”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6949",
+    "token": 6949,
+    "call": "SP_AddAction",
+    "argument": 3,
+    "mode": "review",
+    "source": "%s8%t4%z20洁莉：“能在我还清醒的时候由新欧查之剑来结束性命，%N        我真的觉得很光荣也很高兴。”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6974",
+    "token": 6974,
+    "call": "SP_AddAction",
+    "argument": 3,
+    "mode": "review",
+    "source": "%s8%t4%z20洁莉：“如果还有机会的话¨¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:6999",
+    "token": 6999,
+    "call": "SP_AddAction",
+    "argument": 3,
+    "mode": "review",
+    "source": "%s8%t4%z20洁莉：“我绝对还是选择跟随您。”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7024",
+    "token": 7024,
+    "call": "SP_AddAction",
+    "argument": 3,
+    "mode": "review",
+    "source": "%s8%t4%z20洁莉：“绝对¨¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7049",
+    "token": 7049,
+    "call": "SP_AddAction",
+    "argument": 3,
+    "mode": "review",
+    "source": "%s8%t4%z20洁莉：“绝对！”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7072",
+    "token": 7072,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7098",
+    "token": 7098,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7105",
+    "token": 7105,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7112",
+    "token": 7112,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "雷丝曼",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7119",
+    "token": 7119,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "克诺依德",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7126",
+    "token": 7126,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "纱琳娜",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7184",
+    "token": 7184,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7204",
+    "token": 7204,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呃¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7215",
+    "token": 7215,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这¨¨¨可恶¨¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7243",
+    "token": 7243,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "克诺依德",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7257",
+    "token": 7257,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "纱琳娜",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7271",
+    "token": 7271,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "茵莎",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7285",
+    "token": 7285,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "布伦",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7299",
+    "token": 7299,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "莱特克",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7313",
+    "token": 7313,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮布鲁",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7327",
+    "token": 7327,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "伊狄菈",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7341",
+    "token": 7341,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "希特",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7355",
+    "token": 7355,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "夏特",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7369",
+    "token": 7369,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "赫特",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7383",
+    "token": 7383,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "莉亚叙",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7397",
+    "token": 7397,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "休露",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7411",
+    "token": 7411,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "哈朵",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7425",
+    "token": 7425,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "佳茉",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7439",
+    "token": 7439,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "芭思菈",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7453",
+    "token": 7453,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "菈芙",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7467",
+    "token": 7467,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "娃儿",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7481",
+    "token": 7481,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "甘妮斯",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7495",
+    "token": 7495,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "达布",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7509",
+    "token": 7509,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "菊笛",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7523",
+    "token": 7523,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "珍奇",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7537",
+    "token": 7537,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "乎露朵",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7551",
+    "token": 7551,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "楠伊拉",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7565",
+    "token": 7565,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妲耶",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7579",
+    "token": 7579,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "宁加",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7593",
+    "token": 7593,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "优朵莉",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7607",
+    "token": 7607,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "亚奴贝",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7621",
+    "token": 7621,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "乌列",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7649",
+    "token": 7649,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“终于¨¨结束了¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7660",
+    "token": 7660,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7671",
+    "token": 7671,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“黑色泉水带来的究竟是力量¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7682",
+    "token": 7682,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“还是毁灭呢¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7700",
+    "token": 7700,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7730",
+    "token": 7730,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不可能¨我不可能会输的¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7741",
+    "token": 7741,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“世界是属于我的¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7750",
+    "token": 7750,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7784",
+    "token": 7784,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“啊啊啊啊啊～～～～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7795",
+    "token": 7795,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“神是眷顾我的，妨碍我的人都去死吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7850",
+    "token": 7850,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "克诺依德",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7871",
+    "token": 7871,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "纱琳娜",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7913",
+    "token": 7913,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“她们变得¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage27:7922",
+    "token": 7922,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Last_war.wav",
+    "vi": ""
+  }
+]

@@ -1,0 +1,1046 @@
+[
+  {
+    "id": "stage1:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage1:438",
+    "token": 438,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage1:578",
+    "token": 578,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage1:599",
+    "token": 599,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "希德蔓",
+    "vi": ""
+  },
+  {
+    "id": "stage1:650",
+    "token": 650,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "豆豆",
+    "vi": ""
+  },
+  {
+    "id": "stage1:671",
+    "token": 671,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "乔伊",
+    "vi": ""
+  },
+  {
+    "id": "stage1:692",
+    "token": 692,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "琪波伶",
+    "vi": ""
+  },
+  {
+    "id": "stage1:713",
+    "token": 713,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "琪波莉",
+    "vi": ""
+  },
+  {
+    "id": "stage1:719",
+    "token": 719,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Introduction",
+    "vi": ""
+  },
+  {
+    "id": "stage1:726",
+    "token": 726,
+    "call": "SP_AddAction",
+    "argument": 1,
+    "mode": "locked",
+    "source": "Get_win.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage1:739",
+    "token": 739,
+    "call": "SP_AddAction",
+    "argument": 3,
+    "mode": "review",
+    "source": "%s1%t3%z20罗历一六七九年%N%N%N%N  爱尔达大陆",
+    "vi": ""
+  },
+  {
+    "id": "stage1:764",
+    "token": 764,
+    "call": "SP_AddAction",
+    "argument": 3,
+    "mode": "review",
+    "source": "%s8%t4%z20“我恳求生命女神赐与我生存的力量与勇气，”",
+    "vi": ""
+  },
+  {
+    "id": "stage1:829",
+    "token": 829,
+    "call": "SP_AddAction",
+    "argument": 3,
+    "mode": "review",
+    "source": "%s8%t4%z20“绝不容许战争破坏生命的可贵与存在的价值¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage1:854",
+    "token": 854,
+    "call": "SP_AddAction",
+    "argument": 3,
+    "mode": "review",
+    "source": "%s0%t1%z18妮雅%N%N%N%N%N%N       于  拉锡叶",
+    "vi": ""
+  },
+  {
+    "id": "stage1:872",
+    "token": 872,
+    "call": "SP_AddAction",
+    "argument": 3,
+    "mode": "review",
+    "source": "%s6%t4%z18以欧查帝国为首的欧查叛军对爱尔达联邦发起的%N%N全面侵略行动持续十二年之后¨¨¨",
+    "vi": ""
+  },
+  {
+    "id": "stage1:944",
+    "token": 944,
+    "call": "SP_AddAction",
+    "argument": 3,
+    "mode": "review",
+    "source": "%s6%t4%z18最后一场战争在拉锡叶首都厄特终结，欧查联军败战后%N%N撤返回国¨¨",
+    "vi": ""
+  },
+  {
+    "id": "stage1:989",
+    "token": 989,
+    "call": "SP_AddAction",
+    "argument": 3,
+    "mode": "review",
+    "source": "%s6%t4%z18号称“欧查之剑”的贝力欧女王“伊丝塔”于战役中身亡。",
+    "vi": ""
+  },
+  {
+    "id": "stage1:1034",
+    "token": 1034,
+    "call": "SP_AddAction",
+    "argument": 3,
+    "mode": "review",
+    "source": "%s6%t4%z18新女王玛西亚受封王位后，带领欧查三国重新加入%N%N邦联议会¨¨¨",
+    "vi": ""
+  },
+  {
+    "id": "stage1:1075",
+    "token": 1075,
+    "call": "SP_AddAction",
+    "argument": 1,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage1:1088",
+    "token": 1088,
+    "call": "SP_AddAction",
+    "argument": 3,
+    "mode": "review",
+    "source": "%s6%t4%z18十二年战争结束后，贪婪的人心并未重新反省¨¨¨",
+    "vi": ""
+  },
+  {
+    "id": "stage1:1102",
+    "token": 1102,
+    "call": "SP_AddAction",
+    "argument": 1,
+    "mode": "locked",
+    "source": "Last_war.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage1:1149",
+    "token": 1149,
+    "call": "SP_AddAction",
+    "argument": 3,
+    "mode": "review",
+    "source": "%s4%t4%z18欧查联军野心未灭，七年后欧查重振大军再起¨¨¨%N%N贝力欧、亚伯登及萨梅尔等三国联军再度侵袭邦联各国¨¨",
+    "vi": ""
+  },
+  {
+    "id": "stage1:1174",
+    "token": 1174,
+    "call": "SP_AddAction",
+    "argument": 3,
+    "mode": "review",
+    "source": "%s4%t4%z18罗历一六七六年，拉锡叶公国首当其冲¨¨",
+    "vi": ""
+  },
+  {
+    "id": "stage1:1199",
+    "token": 1199,
+    "call": "SP_AddAction",
+    "argument": 3,
+    "mode": "review",
+    "source": "%s0%t4%z18“拉锡叶左翼正规部队遭拉奎尔及萨梅尔夹击下全军覆没，”",
+    "vi": ""
+  },
+  {
+    "id": "stage1:1224",
+    "token": 1224,
+    "call": "SP_AddAction",
+    "argument": 3,
+    "mode": "review",
+    "source": "%s0%t4%z18“右翼正规军主将阵亡导致部队瞬间崩溃，%N%N王城守卫失利使拉锡叶首都厄特陷落。”",
+    "vi": ""
+  },
+  {
+    "id": "stage1:1249",
+    "token": 1249,
+    "call": "SP_AddAction",
+    "argument": 3,
+    "mode": "review",
+    "source": "%s0%t4%z18“王室卫队护卫皇室以及残余部队退负东南隅宾斯坦城¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage1:1274",
+    "token": 1274,
+    "call": "SP_AddAction",
+    "argument": 3,
+    "mode": "locked",
+    "source": "　",
+    "vi": ""
+  },
+  {
+    "id": "stage1:1315",
+    "token": 1315,
+    "call": "SP_AddAction",
+    "argument": 1,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage1:1359",
+    "token": 1359,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage1:1364",
+    "token": 1364,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage1:1369",
+    "token": 1369,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage1:1374",
+    "token": 1374,
+    "call": "SetStageName",
+    "argument": 0,
+    "mode": "translate",
+    "source": "拉锡叶亡国之日",
+    "vi": "Ngày Laxia thất thủ"
+  },
+  {
+    "id": "stage1:1399",
+    "token": 1399,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Introduction",
+    "vi": ""
+  },
+  {
+    "id": "stage1:1449",
+    "token": 1449,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Maya.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage1:1472",
+    "token": 1472,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“！！！ ”",
+    "vi": ""
+  },
+  {
+    "id": "stage1:1510",
+    "token": 1510,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s6%t4%z18%c1“呼¨¨呼¨¨¨¨”",
+    "vi": "%s6%t4%z18%c1“Hộc... hộc...”"
+  },
+  {
+    "id": "stage1:1550",
+    "token": 1550,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s4%t4%z18%c1“呼¨¨¨¨”",
+    "vi": "%s4%t4%z18%c1“Hộc... hộc...”"
+  },
+  {
+    "id": "stage1:1607",
+    "token": 1607,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“你¨¨还好吧！”",
+    "vi": "%s2%t2%z18%c1“Cậu... vẫn ổn chứ?”"
+  },
+  {
+    "id": "stage1:1632",
+    "token": 1632,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呼¨¨只是跑得有点喘，我没事的¨¨¨¨”",
+    "vi": "%s2%t4%z18%c1“Hộc... Mình chỉ hơi mệt vì chạy thôi, không sao đâu...”"
+  },
+  {
+    "id": "stage1:1643",
+    "token": 1643,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s3%t2%z18%c1“只是¨¨不得了了！”",
+    "vi": "%s3%t2%z18%c1“Nhưng... nguy to rồi!”"
+  },
+  {
+    "id": "stage1:1668",
+    "token": 1668,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“发生什么事了吗？”",
+    "vi": "%s2%t2%z18%c1“Có chuyện gì vậy?”"
+  },
+  {
+    "id": "stage1:1693",
+    "token": 1693,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s3%t2%z18%c1“首都厄特¨¨厄特已经被占领了¨¨¨”",
+    "vi": "%s3%t2%z18%c1“Kinh đô Ett... Ett đã bị chiếm rồi!”"
+  },
+  {
+    "id": "stage1:1718",
+    "token": 1718,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“什么！？”",
+    "vi": "%s2%t2%z18%c1“Cái gì!?”"
+  },
+  {
+    "id": "stage1:1743",
+    "token": 1743,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s3%t2%z18%c1“我们一路¨¨从首都逃到这里¨¨¨¨”",
+    "vi": "%s3%t2%z18%c1“Bọn mình phải chạy một mạch từ kinh đô đến tận đây...”"
+  },
+  {
+    "id": "stage1:1768",
+    "token": 1768,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“那¨¨女王呢？”",
+    "vi": "%s2%t2%z18%c1“Thế... Nữ hoàng đâu?”"
+  },
+  {
+    "id": "stage1:1793",
+    "token": 1793,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s3%t2%z18%c1“放心¨¨%N护卫队已经保护女王撤至宾斯坦城了。”",
+    "vi": "%s3%t2%z18%c1“Yên tâm, đội cận vệ đã hộ tống Nữ hoàng%Nđến thành Benstein an toàn rồi.”"
+  },
+  {
+    "id": "stage1:1804",
+    "token": 1804,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s3%t2%z18%c1“¨¨¨¨我必须先通知其他人，有两位同伴正%N在后方抵挡敌人替我争取时间。”",
+    "vi": "%s3%t2%z18%c1“... Mình phải đi báo tin cho những người khác.%NHai đồng đội đang chặn địch phía sau để câu giờ cho mình.”"
+  },
+  {
+    "id": "stage1:1829",
+    "token": 1829,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“那你赶紧通知其她人吧，我会帮助她们的。”",
+    "vi": "%s2%t2%z18%c1“Vậy cậu mau đi báo tin đi! Mình sẽ giúp hai người đó.”"
+  },
+  {
+    "id": "stage1:1854",
+    "token": 1854,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s3%t2%z18%c1“谢谢，愿生命女神保佑你。”",
+    "vi": "%s3%t2%z18%c1“Cảm ơn cậu. Cầu Nữ thần Sinh Mệnh che chở cho cậu.”"
+  },
+  {
+    "id": "stage1:1917",
+    "token": 1917,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“怎么办，我的法术施不出来了啦！”",
+    "vi": "%s2%t2%z18%c1“Làm sao đây? Mình không thi triển phép được nữa rồi!”"
+  },
+  {
+    "id": "stage1:1942",
+    "token": 1942,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“哈哈哈！今天就是你的忌日了。”",
+    "vi": "%s2%t2%z18%c1“Ha ha ha! Hôm nay là ngày tận số của ngươi!”"
+  },
+  {
+    "id": "stage1:1972",
+    "token": 1972,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z26%c1“纳命来吧！”",
+    "vi": "%s2%t2%z26%c1“Nộp mạng đây!”"
+  },
+  {
+    "id": "stage1:1997",
+    "token": 1997,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“哼，你试试看呀！”",
+    "vi": "%s2%t2%z18%c1“Hừ! Cứ thử xem!”"
+  },
+  {
+    "id": "stage1:2029",
+    "token": 2029,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s8%t2%z18%c1“呃¨¨¨”",
+    "vi": "%s8%t2%z18%c1“Á...”"
+  },
+  {
+    "id": "stage1:2061",
+    "token": 2061,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“居然偷袭我妹妹，绝不原谅你！”",
+    "vi": "%s2%t2%z18%c1“Dám đánh lén em gái ta à? Không tha cho ngươi đâu!”"
+  },
+  {
+    "id": "stage1:2072",
+    "token": 2072,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“看招！”",
+    "vi": "%s2%t2%z18%c1“Đỡ chiêu này!”"
+  },
+  {
+    "id": "stage1:2104",
+    "token": 2104,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“糟糕，得赶紧上前帮忙！”",
+    "vi": "%s2%t2%z18%c1“Không ổn rồi! Phải tới giúp họ ngay!”"
+  },
+  {
+    "id": "stage1:2125",
+    "token": 2125,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "提示：将主角妮雅移动到我方NPC“希蜜”及“伊恩”的身旁，%N      即可让我方NPC加入成为伙伴。",
+    "vi": "Mẹo: Đưa Niya đến cạnh hai đồng minh Shimi và Ian.%NHọ sẽ gia nhập đội của bạn."
+  },
+  {
+    "id": "stage1:2137",
+    "token": 2137,
+    "call": "SetMission",
+    "argument": 0,
+    "mode": "translate",
+    "source": "胜利条件：敌军全灭",
+    "vi": "Điều kiện thắng: Tiêu diệt toàn bộ quân địch."
+  },
+  {
+    "id": "stage1:2155",
+    "token": 2155,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage1:2162",
+    "token": 2162,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage1:2169",
+    "token": 2169,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "伊恩",
+    "vi": ""
+  },
+  {
+    "id": "stage1:2176",
+    "token": 2176,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "希蜜",
+    "vi": ""
+  },
+  {
+    "id": "stage1:2212",
+    "token": 2212,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "提示：将主角妮雅移至绿色友方角色身边，可令对方加入成为伙伴。",
+    "vi": "Mẹo: Đưa Niya đến cạnh đồng minh màu xanh lá để chiêu mộ họ vào đội."
+  },
+  {
+    "id": "stage1:2267",
+    "token": 2267,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "米耐",
+    "vi": ""
+  },
+  {
+    "id": "stage1:2295",
+    "token": 2295,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莱姆",
+    "vi": ""
+  },
+  {
+    "id": "stage1:2318",
+    "token": 2318,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“拉锡叶的漏网之鱼在这里，大家快上！”",
+    "vi": "%s2%t2%z18%c1“Tàn quân Laxia ở đây này! Mọi người, xông lên!”"
+  },
+  {
+    "id": "stage1:2343",
+    "token": 2343,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“哈哈，又是一笔奖金呢！！”",
+    "vi": "%s2%t2%z18%c1“Ha ha! Lại được lĩnh thêm một khoản thưởng rồi!”"
+  },
+  {
+    "id": "stage1:2368",
+    "token": 2368,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“可恶！敌人又多了一批。”",
+    "vi": "%s2%t2%z18%c1“Đáng ghét! Địch lại có quân tiếp viện!”"
+  },
+  {
+    "id": "stage1:2389",
+    "token": 2389,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage1:2396",
+    "token": 2396,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage1:2403",
+    "token": 2403,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "伊恩",
+    "vi": ""
+  },
+  {
+    "id": "stage1:2410",
+    "token": 2410,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "希蜜",
+    "vi": ""
+  },
+  {
+    "id": "stage1:2444",
+    "token": 2444,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“呼～终于打败她们了！！”",
+    "vi": "%s2%t2%z18%c1“Phù... Cuối cùng cũng đánh bại được bọn chúng!”"
+  },
+  {
+    "id": "stage1:2458",
+    "token": 2458,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage1:2509",
+    "token": 2509,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“我来帮忙了！”",
+    "vi": "%s2%t2%z18%c1“Mình đến giúp cậu đây!”"
+  },
+  {
+    "id": "stage1:2534",
+    "token": 2534,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“啊！你是谁！？”",
+    "vi": "%s2%t2%z18%c1“Á! Cậu là ai vậy!?”"
+  },
+  {
+    "id": "stage1:2545",
+    "token": 2545,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“你们这么多人打我，这样不公平啦。”",
+    "vi": "%s2%t2%z18%c1“Mấy người đông thế mà kéo nhau đánh một mình tôi. Bất công quá!”"
+  },
+  {
+    "id": "stage1:2570",
+    "token": 2570,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“我是妮雅啦！”",
+    "vi": "%s2%t2%z18%c1“Mình là Niya đây mà!”"
+  },
+  {
+    "id": "stage1:2581",
+    "token": 2581,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“训练时曾跟你合作，你当时火球术没控制好还%N烧到我，不记得了吗？”",
+    "vi": "%s2%t2%z18%c1“Hồi tập luyện, bọn mình từng phối hợp với nhau đó.%NCậu dùng Cầu Lửa quá tay, đốt cả áo choàng của mình. Quên rồi à?”"
+  },
+  {
+    "id": "stage1:2606",
+    "token": 2606,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“哦¨¨对了、对了，当时你披风还烧起来嘛！”",
+    "vi": "%s2%t2%z18%c1“À... nhớ rồi, nhớ rồi! Hôm đó áo choàng cậu còn bốc cháy nữa!”"
+  },
+  {
+    "id": "stage1:2617",
+    "token": 2617,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“呵呵～～真好玩。”",
+    "vi": "%s2%t2%z18%c1“Hì hì, buồn cười ghê!”"
+  },
+  {
+    "id": "stage1:2642",
+    "token": 2642,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t2%z18%c1“¨¨¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage1:2653",
+    "token": 2653,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“你还是先认真点对付敌人吧！”",
+    "vi": "%s2%t2%z18%c1“Lo đối phó với địch trước đi, được không?”"
+  },
+  {
+    "id": "stage1:2679",
+    "token": 2679,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "有点迷糊的希蜜加入成为伙伴。",
+    "vi": "Cô nàng Shimi hơi đãng trí đã gia nhập đội."
+  },
+  {
+    "id": "stage1:2735",
+    "token": 2735,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“我来支援你了！”",
+    "vi": "%s2%t2%z18%c1“Mình đến tiếp viện cho cậu đây!”"
+  },
+  {
+    "id": "stage1:2760",
+    "token": 2760,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“啊！？是妮雅。”",
+    "vi": "%s2%t2%z18%c1“Ủa!? Niya đó hả?”"
+  },
+  {
+    "id": "stage1:2771",
+    "token": 2771,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“那就由你来当队长了。”",
+    "vi": "%s2%t2%z18%c1“Vậy cậu làm đội trưởng nhé!”"
+  },
+  {
+    "id": "stage1:2796",
+    "token": 2796,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“怎、怎么回事呀？”",
+    "vi": "%s2%t2%z18%c1“Ơ... sao lại thế?”"
+  },
+  {
+    "id": "stage1:2821",
+    "token": 2821,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“我们逃到这里，现在没人带队呀！”",
+    "vi": "%s2%t2%z18%c1“Bọn mình chạy đến đây mà chẳng còn ai chỉ huy cả!”"
+  },
+  {
+    "id": "stage1:2832",
+    "token": 2832,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“所以就请你先支援我们吧！”",
+    "vi": "%s2%t2%z18%c1“Nên nhờ cậu dẫn dắt bọn mình một lúc nhé!”"
+  },
+  {
+    "id": "stage1:2857",
+    "token": 2857,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“没问题。”",
+    "vi": "%s2%t2%z18%c1“Được thôi!”"
+  },
+  {
+    "id": "stage1:2883",
+    "token": 2883,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "灵巧的伊恩加入成为伙伴。",
+    "vi": "Ian nhanh nhẹn đã gia nhập đội."
+  },
+  {
+    "id": "stage1:2899",
+    "token": 2899,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage1:2906",
+    "token": 2906,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage1:2913",
+    "token": 2913,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "伊恩",
+    "vi": ""
+  },
+  {
+    "id": "stage1:2920",
+    "token": 2920,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "希蜜",
+    "vi": ""
+  },
+  {
+    "id": "stage1:2925",
+    "token": 2925,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage1:3018",
+    "token": 3018,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_chinawar.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage1:3034",
+    "token": 3034,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“对了！妮雅不是在左翼守护翡翠神殿吗？怎么%N会到这里来了？”",
+    "vi": "%s2%t2%z18%c1“Khoan đã! Chẳng phải Niya đang trấn giữ Đền Ngọc Bích%Nở cánh trái sao? Sao cậu lại có mặt ở đây?”"
+  },
+  {
+    "id": "stage1:3059",
+    "token": 3059,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“是你们从右翼退到左翼负责的战区了！”",
+    "vi": "%s2%t2%z18%c1“Là các cậu rút từ cánh phải sang khu vực cánh trái đó chứ!”"
+  },
+  {
+    "id": "stage1:3084",
+    "token": 3084,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“是这样呀¨¨¨”",
+    "vi": "%s2%t2%z18%c1“À... ra là vậy.”"
+  },
+  {
+    "id": "stage1:3095",
+    "token": 3095,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“对了，你有看见希德蔓吗？”",
+    "vi": "%s2%t2%z18%c1“Mà này, cậu có gặp Sidman không?”"
+  },
+  {
+    "id": "stage1:3120",
+    "token": 3120,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“有的。”",
+    "vi": "%s2%t2%z18%c1“Có chứ.”"
+  },
+  {
+    "id": "stage1:3131",
+    "token": 3131,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“她已经顺利离开向其他人通知首都的消息了。”",
+    "vi": "%s2%t2%z18%c1“Cậu ấy đã đi báo tin kinh đô thất thủ cho mọi người rồi.”"
+  },
+  {
+    "id": "stage1:3156",
+    "token": 3156,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“那我们该怎么办！？”",
+    "vi": "%s2%t2%z18%c1“Vậy giờ bọn mình phải làm sao!?”"
+  },
+  {
+    "id": "stage1:3181",
+    "token": 3181,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“左翼部队的战况也不乐观，你们先跟着我吧！%N我也必须向大主教报告首都的消息。”",
+    "vi": "%s2%t2%z18%c1“Cánh trái cũng đang nguy ngập. Các cậu cứ đi cùng mình!%NMình phải báo tin về kinh đô cho Đại Tổng giám mục nữa.”"
+  },
+  {
+    "id": "stage1:3206",
+    "token": 3206,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“那我们快走吧！这附近敌人好多。”",
+    "vi": "%s2%t2%z18%c1“Thế đi nhanh thôi! Quanh đây đầy quân địch đấy!”"
+  },
+  {
+    "id": "stage1:3276",
+    "token": 3276,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z20%c1“等¨¨等一下¨¨¨”",
+    "vi": "%s2%t2%z20%c1“Đợi... đợi đã...”"
+  },
+  {
+    "id": "stage1:3287",
+    "token": 3287,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z20%c1“希蜜，你要跑去哪里？”",
+    "vi": "%s2%t2%z20%c1“Shimi, cậu chạy đi đâu vậy?”"
+  },
+  {
+    "id": "stage1:3312",
+    "token": 3312,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“翡翠神殿的方向在这，希蜜你走反了，快跟我%N们过来。”",
+    "vi": "%s2%t2%z18%c1“Đền Ngọc Bích ở hướng này mà! Shimi, cậu đi ngược rồi.%NQua đây với bọn mình mau!”"
+  },
+  {
+    "id": "stage1:3344",
+    "token": 3344,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“喔！了解！”",
+    "vi": "%s2%t2%z18%c1“À! Biết rồi!”"
+  },
+  {
+    "id": "stage1:3383",
+    "token": 3383,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage1:3390",
+    "token": 3390,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage1:3424",
+    "token": 3424,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z20%c1“啊～情况不妙，大家先撤退！！”",
+    "vi": "%s2%t4%z20%c1“Á! Tình hình xấu rồi! Mọi người rút lui trước đi!”"
+  },
+  {
+    "id": "stage1:3438",
+    "token": 3438,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  }
+]

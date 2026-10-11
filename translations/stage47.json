@@ -1,0 +1,560 @@
+[
+  {
+    "id": "stage47:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage47:560",
+    "token": 560,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage47:901",
+    "token": 901,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage47:906",
+    "token": 906,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage47:942",
+    "token": 942,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 丽凤 ",
+    "vi": ""
+  },
+  {
+    "id": "stage47:963",
+    "token": 963,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 忒诺 ",
+    "vi": ""
+  },
+  {
+    "id": "stage47:984",
+    "token": 984,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 然萤 ",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1005",
+    "token": 1005,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 墨紫 ",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1026",
+    "token": 1026,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 朴朵 ",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1032",
+    "token": 1032,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1037",
+    "token": 1037,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1042",
+    "token": 1042,
+    "call": "SetStageName",
+    "argument": 0,
+    "mode": "translate",
+    "source": "竞技武斗会总决赛",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1075",
+    "token": 1075,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "Stage-9 竞技武斗会  总决赛",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1080",
+    "token": 1080,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_S2.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1096",
+    "token": 1096,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“看来叶虏鞑人也挺不赖的，%N不过遇到我可就没那么好运了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1121",
+    "token": 1121,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼！不试试怎么会知道。”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1146",
+    "token": 1146,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“好！那就放马过来吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1228",
+    "token": 1228,
+    "call": "SetMission",
+    "argument": 0,
+    "mode": "translate",
+    "source": "胜利条件：敌军大将丽凤战败。%N失败条件：妮雅战败。",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1246",
+    "token": 1246,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1260",
+    "token": 1260,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1274",
+    "token": 1274,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1318",
+    "token": 1318,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 丽凤 ",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1343",
+    "token": 1343,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Win_road.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1359",
+    "token": 1359,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“赢了¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1370",
+    "token": 1370,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“真的¨¨打赢决赛了¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1395",
+    "token": 1395,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1406",
+    "token": 1406,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“参加这么多年的比赛第一次输。”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1417",
+    "token": 1417,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“果然是人外有人，天外有天。”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1428",
+    "token": 1428,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你叫妮雅吧！我欣赏你，后会有期。”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1442",
+    "token": 1442,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1502",
+    "token": 1502,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 丽凤 ",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1523",
+    "token": 1523,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 金星女帝 ",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1528",
+    "token": 1528,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Shangri_La_City.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1544",
+    "token": 1544,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不简单，看来坎维琪没有看错你们。”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1569",
+    "token": 1569,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这么说的话，那么出兵的事¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1594",
+    "token": 1594,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不行！”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1605",
+    "token": 1605,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“无论如何，以本国名义是无权干涉叶虏鞑%N邦联国家间内战的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1630",
+    "token": 1630,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1641",
+    "token": 1641,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“恳请陛下再考虑看看¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1666",
+    "token": 1666,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“粮食、物资方面的支援绝无问题！”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1677",
+    "token": 1677,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“赐你们御田胭脂米五万万石！”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1688",
+    "token": 1688,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“但我国绝不发兵支援！”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1713",
+    "token": 1713,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那我以修行的名义加入邦联军队呢？”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1738",
+    "token": 1738,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你是刚刚¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1763",
+    "token": 1763,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“吾乃青龙郡国武者——武襄丽凤，%N请多指教。”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1774",
+    "token": 1774,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我很欣赏你，有我加入的话不介意吧。”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1799",
+    "token": 1799,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“当然欢迎¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1824",
+    "token": 1824,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“嗯¨¨咳！”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1849",
+    "token": 1849,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“啊，陛下¨¨不好意思！”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1874",
+    "token": 1874,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“好吧，如果皇妹你个人要去的话，朕不阻止。”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1899",
+    "token": 1899,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哈哈哈～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1910",
+    "token": 1910,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“陛下，多谢啦！”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1935",
+    "token": 1935,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“谢谢女帝。”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1960",
+    "token": 1960,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“丽凤，你也别太得意，%N朕会指派两个人日夜跟着你的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1985",
+    "token": 1985,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼！真是的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage47:1999",
+    "token": 1999,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "丽凤、青色、爱玉加入队伍",
+    "vi": ""
+  },
+  {
+    "id": "stage47:2019",
+    "token": 2019,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage47:2052",
+    "token": 2052,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage47:2059",
+    "token": 2059,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage47:2066",
+    "token": 2066,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": " 丽凤 ",
+    "vi": ""
+  },
+  {
+    "id": "stage47:2110",
+    "token": 2110,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage47:2115",
+    "token": 2115,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  }
+]

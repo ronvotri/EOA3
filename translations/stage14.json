@@ -1,0 +1,704 @@
+[
+  {
+    "id": "stage14:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage14:1748",
+    "token": 1748,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage14:2625",
+    "token": 2625,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage14:2630",
+    "token": 2630,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage14:2651",
+    "token": 2651,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "玛西亚",
+    "vi": ""
+  },
+  {
+    "id": "stage14:2679",
+    "token": 2679,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "克诺依德",
+    "vi": ""
+  },
+  {
+    "id": "stage14:2707",
+    "token": 2707,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "洁莉",
+    "vi": ""
+  },
+  {
+    "id": "stage14:2735",
+    "token": 2735,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "卡曼",
+    "vi": ""
+  },
+  {
+    "id": "stage14:2763",
+    "token": 2763,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "诺纳",
+    "vi": ""
+  },
+  {
+    "id": "stage14:2791",
+    "token": 2791,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "豆豆",
+    "vi": ""
+  },
+  {
+    "id": "stage14:2819",
+    "token": 2819,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "贝鲁蒂",
+    "vi": ""
+  },
+  {
+    "id": "stage14:2847",
+    "token": 2847,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "希尔",
+    "vi": ""
+  },
+  {
+    "id": "stage14:2875",
+    "token": 2875,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "库可",
+    "vi": ""
+  },
+  {
+    "id": "stage14:2903",
+    "token": 2903,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "珍妮",
+    "vi": ""
+  },
+  {
+    "id": "stage14:2931",
+    "token": 2931,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "费伦",
+    "vi": ""
+  },
+  {
+    "id": "stage14:2959",
+    "token": 2959,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "爱森",
+    "vi": ""
+  },
+  {
+    "id": "stage14:2987",
+    "token": 2987,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "乔伊",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3015",
+    "token": 3015,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "玛瑙",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3043",
+    "token": 3043,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "布蕾",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3071",
+    "token": 3071,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "玛莎",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3099",
+    "token": 3099,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "琪波伶",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3127",
+    "token": 3127,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "琪波莉",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3155",
+    "token": 3155,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "米耐",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3183",
+    "token": 3183,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "凯莉",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3196",
+    "token": 3196,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3201",
+    "token": 3201,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3206",
+    "token": 3206,
+    "call": "SetStageName",
+    "argument": 0,
+    "mode": "translate",
+    "source": "光复拉锡叶",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3266",
+    "token": 3266,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "Stage-14 光复拉锡叶",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3271",
+    "token": 3271,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Elder01.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3300",
+    "token": 3300,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“终于到首都了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3340",
+    "token": 3340,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“可恶的欧查军¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3351",
+    "token": 3351,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“看着吧，我不会再让你们嚣张下去了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3381",
+    "token": 3381,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼！居然自动送上门来。”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3392",
+    "token": 3392,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那就等着被消灭吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3430",
+    "token": 3430,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“玛西亚首领，放心好了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3441",
+    "token": 3441,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“虽然雷丝曼没有出席在这场战役，不过只要有%N我在，同样会让敌人闻风丧胆。”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3466",
+    "token": 3466,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯，克诺依德，一切看你的表现了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3491",
+    "token": 3491,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“就交给我吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3694",
+    "token": 3694,
+    "call": "SetMission",
+    "argument": 0,
+    "mode": "translate",
+    "source": "胜利条件：敌大将玛西亚战败。%N失败条件：妮雅战败。",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3712",
+    "token": 3712,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Last_black.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3722",
+    "token": 3722,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3736",
+    "token": 3736,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3759",
+    "token": 3759,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3772",
+    "token": 3772,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3779",
+    "token": 3779,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "玛西亚",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3786",
+    "token": 3786,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3845",
+    "token": 3845,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“怎么可能¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3856",
+    "token": 3856,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“居然一再地失败¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3867",
+    "token": 3867,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼！”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3895",
+    "token": 3895,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3967",
+    "token": 3967,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Win_road.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3983",
+    "token": 3983,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“战、战胜了¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:3994",
+    "token": 3994,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“真的¨¨战胜欧查军了¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:4019",
+    "token": 4019,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“太好了，这样战争是不是就结束了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:4044",
+    "token": 4044,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“还没，我们仍然必须帮助复兴其他的邦联国。”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:4055",
+    "token": 4055,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“但是我们还是先将拉锡叶收复的好消息通知加%N百列女帝吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:4080",
+    "token": 4080,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“好～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:4098",
+    "token": 4098,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage14:4138",
+    "token": 4138,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "赫拉",
+    "vi": ""
+  },
+  {
+    "id": "stage14:4159",
+    "token": 4159,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“四天后”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:4164",
+    "token": 4164,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Elder02.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage14:4174",
+    "token": 4174,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“加百列～萨维尔皇城”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:4190",
+    "token": 4190,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这场收复疆土的战役，你们赢得非常的漂亮。”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:4201",
+    "token": 4201,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“无法与你们同在拉锡叶击退欧查军，这点确实%N让我感到相当遗憾。”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:4212",
+    "token": 4212,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不过接下来的任务仍是相当重要的，我们必须%N——将沙利叶、尤利尔、拉斐尔等各国收复。”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:4237",
+    "token": 4237,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那么拉锡叶各地的修复工作¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:4262",
+    "token": 4262,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“拉锡叶事战的修复工作你可以放心交给本国，%N已收复的邦联国家，我会尽可能协助建设与%N防御的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:4287",
+    "token": 4287,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“多谢女帝！”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:4312",
+    "token": 4312,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“另外，黑色天使之泉变成之事你是否听说？”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:4337",
+    "token": 4337,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“有的，队伍中的盈月等人曾提起。”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:4362",
+    "token": 4362,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这是件很重要的事情。”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:4373",
+    "token": 4373,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“最近收到的一些消息，欧查军队中许多人正大%N量喝下成分不明的黑色泉水。”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:4384",
+    "token": 4384,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“虽然还不知道喝下后会发生什么病变，不过我%N担心将会酿出某些灾难。”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:4395",
+    "token": 4395,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“由于加百列的泉水目前仍属于正常，所以我敬%N告你们在这段时间，千万不要喝下来路不明的泉%N水。”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:4420",
+    "token": 4420,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“属下知道了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:4445",
+    "token": 4445,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那么等你们准备好，随时可以往沙利叶出发。”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:4456",
+    "token": 4456,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“希望能早日收复各个国家。”",
+    "vi": ""
+  },
+  {
+    "id": "stage14:4470",
+    "token": 4470,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  }
+]

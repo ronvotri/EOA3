@@ -1,0 +1,245 @@
+[
+  {
+    "id": "stage45:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage45:1170",
+    "token": 1170,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage45:1176",
+    "token": 1176,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage45:1242",
+    "token": 1242,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage45:1247",
+    "token": 1247,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage45:1252",
+    "token": 1252,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage45:1290",
+    "token": 1290,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Walking_with_you.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage45:1306",
+    "token": 1306,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“所有人都下来了吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage45:1331",
+    "token": 1331,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“好像没看到耶里朵呢！”",
+    "vi": ""
+  },
+  {
+    "id": "stage45:1356",
+    "token": 1356,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage45:1401",
+    "token": 1401,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“船上都没人了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage45:1426",
+    "token": 1426,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那应该是都下船了吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage45:1451",
+    "token": 1451,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“唉呀！¨¨那大概又是我没算清楚了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage45:1476",
+    "token": 1476,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t4%z18%c1“¨¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage45:1494",
+    "token": 1494,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage45:1515",
+    "token": 1515,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Shangri_La.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage45:1520",
+    "token": 1520,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“四天后”",
+    "vi": ""
+  },
+  {
+    "id": "stage45:1525",
+    "token": 1525,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1妮雅等人到达香格里拉，向纱玲长老寻求解除黑色天使之泉的方法。",
+    "vi": ""
+  },
+  {
+    "id": "stage45:1530",
+    "token": 1530,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1同时间¨¨¨¨¨",
+    "vi": ""
+  },
+  {
+    "id": "stage45:1535",
+    "token": 1535,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1一批来自爱尔达，受黑色泉水感染的疫病军团，正侵袭香格里拉的白虎郡。",
+    "vi": ""
+  },
+  {
+    "id": "stage45:1540",
+    "token": 1540,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1长老纱玲认为爱尔达疫病军跟随于邦联军队中而入侵，因此要求妮雅等人将白虎郡收复。",
+    "vi": ""
+  },
+  {
+    "id": "stage45:1545",
+    "token": 1545,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1另外，丽凤则转派试炼场进行修练而离开队伍。",
+    "vi": ""
+  },
+  {
+    "id": "stage45:1561",
+    "token": 1561,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage45:1583",
+    "token": 1583,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage45:1597",
+    "token": 1597,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage45:1611",
+    "token": 1611,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage45:1617",
+    "token": 1617,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  }
+]

@@ -1,0 +1,623 @@
+[
+  {
+    "id": "stage24:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage24:2594",
+    "token": 2594,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage24:3471",
+    "token": 3471,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage24:3476",
+    "token": 3476,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage24:3497",
+    "token": 3497,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "洁莉",
+    "vi": ""
+  },
+  {
+    "id": "stage24:3518",
+    "token": 3518,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莫芮",
+    "vi": ""
+  },
+  {
+    "id": "stage24:3539",
+    "token": 3539,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "卡琳",
+    "vi": ""
+  },
+  {
+    "id": "stage24:3560",
+    "token": 3560,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "蕾希",
+    "vi": ""
+  },
+  {
+    "id": "stage24:3588",
+    "token": 3588,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莱姆",
+    "vi": ""
+  },
+  {
+    "id": "stage24:3609",
+    "token": 3609,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "雪汀",
+    "vi": ""
+  },
+  {
+    "id": "stage24:3637",
+    "token": 3637,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "蓓诺",
+    "vi": ""
+  },
+  {
+    "id": "stage24:3658",
+    "token": 3658,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "米丝琪",
+    "vi": ""
+  },
+  {
+    "id": "stage24:3679",
+    "token": 3679,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "爱丽斯",
+    "vi": ""
+  },
+  {
+    "id": "stage24:3700",
+    "token": 3700,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莉恩",
+    "vi": ""
+  },
+  {
+    "id": "stage24:3721",
+    "token": 3721,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "琪琪",
+    "vi": ""
+  },
+  {
+    "id": "stage24:3742",
+    "token": 3742,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "凯特",
+    "vi": ""
+  },
+  {
+    "id": "stage24:3763",
+    "token": 3763,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "佩姬",
+    "vi": ""
+  },
+  {
+    "id": "stage24:3784",
+    "token": 3784,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "米纱",
+    "vi": ""
+  },
+  {
+    "id": "stage24:3812",
+    "token": 3812,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "兰恩",
+    "vi": ""
+  },
+  {
+    "id": "stage24:3840",
+    "token": 3840,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "纳恩",
+    "vi": ""
+  },
+  {
+    "id": "stage24:3861",
+    "token": 3861,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莉芙",
+    "vi": ""
+  },
+  {
+    "id": "stage24:3882",
+    "token": 3882,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "洛莉",
+    "vi": ""
+  },
+  {
+    "id": "stage24:3903",
+    "token": 3903,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "费雪",
+    "vi": ""
+  },
+  {
+    "id": "stage24:3924",
+    "token": 3924,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "卡曼",
+    "vi": ""
+  },
+  {
+    "id": "stage24:3945",
+    "token": 3945,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "希尔",
+    "vi": ""
+  },
+  {
+    "id": "stage24:3966",
+    "token": 3966,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "豆豆",
+    "vi": ""
+  },
+  {
+    "id": "stage24:3987",
+    "token": 3987,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "裘铃",
+    "vi": ""
+  },
+  {
+    "id": "stage24:4008",
+    "token": 4008,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "密儿",
+    "vi": ""
+  },
+  {
+    "id": "stage24:4074",
+    "token": 4074,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage24:4079",
+    "token": 4079,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage24:4084",
+    "token": 4084,
+    "call": "SetStageName",
+    "argument": 0,
+    "mode": "translate",
+    "source": "追击天之顶",
+    "vi": ""
+  },
+  {
+    "id": "stage24:4117",
+    "token": 4117,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "Stage-24 追击天之顶",
+    "vi": ""
+  },
+  {
+    "id": "stage24:4122",
+    "token": 4122,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "玛雅边境   亚伯登王国",
+    "vi": ""
+  },
+  {
+    "id": "stage24:4127",
+    "token": 4127,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Maya_world.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage24:4216",
+    "token": 4216,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这里就是天之顶亚伯登。”",
+    "vi": ""
+  },
+  {
+    "id": "stage24:4227",
+    "token": 4227,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“过了天之顶就到玛雅了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage24:4259",
+    "token": 4259,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“温妮，快要回家罗。”",
+    "vi": ""
+  },
+  {
+    "id": "stage24:4284",
+    "token": 4284,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“唔¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage24:4309",
+    "token": 4309,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“咦！？她是¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage24:4348",
+    "token": 4348,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你说温妮吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage24:4359",
+    "token": 4359,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我们在香格里拉的港口发现她被留在船上，%N所以我就带着她跟我们走了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage24:4370",
+    "token": 4370,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“她很厉害哦！”",
+    "vi": ""
+  },
+  {
+    "id": "stage24:4395",
+    "token": 4395,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“唔¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage24:4527",
+    "token": 4527,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“曼宁，是你吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage24:4552",
+    "token": 4552,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“好久不见，帕托克。”",
+    "vi": ""
+  },
+  {
+    "id": "stage24:4563",
+    "token": 4563,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“旅行一阵子，接到莫梅德们的通知，%N才知道发生这么严重的事情。”",
+    "vi": ""
+  },
+  {
+    "id": "stage24:4588",
+    "token": 4588,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“是的，所有遗迹跟天使之泉都已经被疫病军团%N占据了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage24:4613",
+    "token": 4613,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我已经都听说。”",
+    "vi": ""
+  },
+  {
+    "id": "stage24:4624",
+    "token": 4624,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我这次回来是要协助你们。”",
+    "vi": ""
+  },
+  {
+    "id": "stage24:4649",
+    "token": 4649,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“太好了，欢迎你加入。”",
+    "vi": ""
+  },
+  {
+    "id": "stage24:4663",
+    "token": 4663,
+    "call": null,
+    "argument": 0,
+    "mode": "review",
+    "source": "曼宁、艾若绮加入队伍",
+    "vi": ""
+  },
+  {
+    "id": "stage24:5111",
+    "token": 5111,
+    "call": "SetMission",
+    "argument": 0,
+    "mode": "translate",
+    "source": "胜利条件：敌军全灭。%N失败条件：妮雅战败。",
+    "vi": ""
+  },
+  {
+    "id": "stage24:5128",
+    "token": 5128,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Maya.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage24:5134",
+    "token": 5134,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage24:5145",
+    "token": 5145,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "丽凤",
+    "vi": ""
+  },
+  {
+    "id": "stage24:5152",
+    "token": 5152,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage24:5209",
+    "token": 5209,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage24:5227",
+    "token": 5227,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Final_Power.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage24:5250",
+    "token": 5250,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“各位，好久不见！”",
+    "vi": ""
+  },
+  {
+    "id": "stage24:5261",
+    "token": 5261,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“让大家看看我修练的成果吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage24:5302",
+    "token": 5302,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“是丽凤！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage24:5313",
+    "token": 5313,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“太好了，欢迎你回来。”",
+    "vi": ""
+  },
+  {
+    "id": "stage24:5327",
+    "token": 5327,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage24:5337",
+    "token": 5337,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Maya.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage24:5349",
+    "token": 5349,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage24:5394",
+    "token": 5394,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage24:5400",
+    "token": 5400,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage24:5407",
+    "token": 5407,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage24:5441",
+    "token": 5441,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“居然在这个时候战败，%N黑色天使之泉还没净化呀¨¨”",
+    "vi": ""
+  }
+]

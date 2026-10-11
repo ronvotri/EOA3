@@ -1,0 +1,650 @@
+[
+  {
+    "id": "stage15:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage15:1262",
+    "token": 1262,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2139",
+    "token": 2139,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2144",
+    "token": 2144,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2165",
+    "token": 2165,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "雷丝曼",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2193",
+    "token": 2193,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "卡琳",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2221",
+    "token": 2221,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "蕾希",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2249",
+    "token": 2249,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莫芮",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2277",
+    "token": 2277,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莱姆",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2305",
+    "token": 2305,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "蓓诺",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2333",
+    "token": 2333,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "雪汀",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2361",
+    "token": 2361,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "米丝琪",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2389",
+    "token": 2389,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "爱丽斯",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2417",
+    "token": 2417,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莉恩",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2445",
+    "token": 2445,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "琪琪",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2473",
+    "token": 2473,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "洁莉",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2501",
+    "token": 2501,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "卡曼",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2529",
+    "token": 2529,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "诺纳",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2557",
+    "token": 2557,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "豆豆",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2585",
+    "token": 2585,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "贝鲁蒂",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2613",
+    "token": 2613,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "希尔",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2626",
+    "token": 2626,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2631",
+    "token": 2631,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2636",
+    "token": 2636,
+    "call": "SetStageName",
+    "argument": 0,
+    "mode": "translate",
+    "source": "收复沙利叶",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2670",
+    "token": 2670,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "Stage-15 收复沙利叶",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2674",
+    "token": 2674,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Elder01.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2694",
+    "token": 2694,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“雷丝曼大人，我带人来投效您了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2719",
+    "token": 2719,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哦！这不是玛西亚的爱将洁莉吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2730",
+    "token": 2730,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“是什么风把你给吹来了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2755",
+    "token": 2755,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“雷丝曼女帝，千万别这么说。”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2766",
+    "token": 2766,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“最近贝力欧的战况越来越糟，玛西亚首领的军%N队接连好几次都败给邦联军。”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2777",
+    "token": 2777,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“而首领又不许我们喝下力量之泉，所以¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2802",
+    "token": 2802,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼！胆小鬼。”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2813",
+    "token": 2813,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“拥有力量之泉的人却不敢喝，独占了一座天使%N之泉就这样白白放着浪费。”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2824",
+    "token": 2824,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼！不过不要紧，我还是会到玛雅找到其他的%N力量之泉。”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2887",
+    "token": 2887,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“好，就从这里进攻。”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2917",
+    "token": 2917,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“敌袭！！”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2967",
+    "token": 2967,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“报告女敌，敌人已经进攻到这了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:2978",
+    "token": 2978,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我军也已经完成部署，请示出击!”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3003",
+    "token": 3003,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼！”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3014",
+    "token": 3014,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“洁莉，看着吧！选择跟着我是对的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3039",
+    "token": 3039,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“是！”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3064",
+    "token": 3064,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“就让邦联军尝尝苦头吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3075",
+    "token": 3075,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“传令！全军出击。”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3100",
+    "token": 3100,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“是！”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3377",
+    "token": 3377,
+    "call": "SetMission",
+    "argument": 0,
+    "mode": "translate",
+    "source": "胜利条件：敌主将雷丝曼战败。%N失败条件：妮雅战败。",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3390",
+    "token": 3390,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Careful.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3400",
+    "token": 3400,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3414",
+    "token": 3414,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3437",
+    "token": 3437,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3471",
+    "token": 3471,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3564",
+    "token": 3564,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Walking_with_you.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3580",
+    "token": 3580,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“总算将沙利叶收复了，补充军品后就往%N尤利尔出发吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3659",
+    "token": 3659,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“米雅法儿，你有看到吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3670",
+    "token": 3670,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“刚刚跑过去的好像是我们家隔壁的耶里朵？！”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3708",
+    "token": 3708,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你去哪？等等我呐！”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3753",
+    "token": 3753,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你们别脱队呀¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3778",
+    "token": 3778,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“有什么好东西居然不说清楚。”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3789",
+    "token": 3789,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嘿嘿！我也跟过去看看。”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3827",
+    "token": 3827,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你们¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3852",
+    "token": 3852,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哈哈，果然不是军队出身的人就是会这样¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3884",
+    "token": 3884,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“唉¨¨我们补给完还是赶紧跟上吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3902",
+    "token": 3902,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3920",
+    "token": 3920,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3927",
+    "token": 3927,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "雷丝曼",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3934",
+    "token": 3934,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3972",
+    "token": 3972,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“该死¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3983",
+    "token": 3983,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼！只要北爱尔达都是我掌控的局面，就连%N玛西亚也动我不得，我倒要看看你们会有多大%N能耐。”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:3994",
+    "token": 3994,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“看着吧！再跟过来就是你们更接近死亡的时%N候了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:4005",
+    "token": 4005,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哈哈哈哈哈～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage15:4034",
+    "token": 4034,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage15:4065",
+    "token": 4065,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  }
+]

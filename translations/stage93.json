@@ -1,0 +1,155 @@
+[
+  {
+    "id": "stage93:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage93:1748",
+    "token": 1748,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage93:1754",
+    "token": 1754,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage93:1790",
+    "token": 1790,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage93:1795",
+    "token": 1795,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage93:1800",
+    "token": 1800,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage93:1838",
+    "token": 1838,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Win_road.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage93:1843",
+    "token": 1843,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "拉锡叶首都  厄特",
+    "vi": ""
+  },
+  {
+    "id": "stage93:1859",
+    "token": 1859,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“总算回到拉锡叶了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage93:1884",
+    "token": 1884,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“突然觉得好怀念呀！”",
+    "vi": ""
+  },
+  {
+    "id": "stage93:1909",
+    "token": 1909,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage93:1920",
+    "token": 1920,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我们也回家吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage93:1991",
+    "token": 1991,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage93:2009",
+    "token": 2009,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage93:2023",
+    "token": 2023,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage93:2037",
+    "token": 2037,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage93:2043",
+    "token": 2043,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  }
+]

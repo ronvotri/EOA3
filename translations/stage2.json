@@ -1,0 +1,650 @@
+[
+  {
+    "id": "stage2:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage2:1274",
+    "token": 1274,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage2:1950",
+    "token": 1950,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage2:1955",
+    "token": 1955,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage2:2021",
+    "token": 2021,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "葛瑞丝",
+    "vi": ""
+  },
+  {
+    "id": "stage2:2049",
+    "token": 2049,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "缇卡",
+    "vi": ""
+  },
+  {
+    "id": "stage2:2070",
+    "token": 2070,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "蓓拉",
+    "vi": ""
+  },
+  {
+    "id": "stage2:2091",
+    "token": 2091,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "菲露",
+    "vi": ""
+  },
+  {
+    "id": "stage2:2112",
+    "token": 2112,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "希尔",
+    "vi": ""
+  },
+  {
+    "id": "stage2:2140",
+    "token": 2140,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "贝鲁蒂",
+    "vi": ""
+  },
+  {
+    "id": "stage2:2168",
+    "token": 2168,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "卡曼",
+    "vi": ""
+  },
+  {
+    "id": "stage2:2196",
+    "token": 2196,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "凯莉",
+    "vi": ""
+  },
+  {
+    "id": "stage2:2224",
+    "token": 2224,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "库可",
+    "vi": ""
+  },
+  {
+    "id": "stage2:2252",
+    "token": 2252,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "诺纳",
+    "vi": ""
+  },
+  {
+    "id": "stage2:2280",
+    "token": 2280,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "蕾希",
+    "vi": ""
+  },
+  {
+    "id": "stage2:2308",
+    "token": 2308,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "兰恩",
+    "vi": ""
+  },
+  {
+    "id": "stage2:2336",
+    "token": 2336,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "玛莎",
+    "vi": ""
+  },
+  {
+    "id": "stage2:2364",
+    "token": 2364,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "洁莉",
+    "vi": ""
+  },
+  {
+    "id": "stage2:2377",
+    "token": 2377,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage2:2382",
+    "token": 2382,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage2:2387",
+    "token": 2387,
+    "call": "SetStageName",
+    "argument": 0,
+    "mode": "translate",
+    "source": "翡翠神殿",
+    "vi": "Đền Ngọc Bích"
+  },
+  {
+    "id": "stage2:2424",
+    "token": 2424,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "Stage-2 欧查军来袭",
+    "vi": "Màn 2 - Quân Ocha tấn công"
+  },
+  {
+    "id": "stage2:2429",
+    "token": 2429,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Elder01.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage2:2445",
+    "token": 2445,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“报告主教大人。%N右翼的希蜜等人传来了不好的消息了¨¨”",
+    "vi": "%s2%t2%z18%c1“Bẩm Đại Tổng giám mục,%NShimi và mọi người bên cánh phải vừa báo tin dữ...”"
+  },
+  {
+    "id": "stage2:2456",
+    "token": 2456,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“首都厄特不久前被欧查军攻破了，该怎么办呢？”",
+    "vi": "%s2%t2%z18%c1“Kinh đô Ett đã bị quân Ocha đánh chiếm! Chúng ta phải làm sao?”"
+  },
+  {
+    "id": "stage2:2481",
+    "token": 2481,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“竟然连首都也¨¨¨%N那么女帝平安吗？”",
+    "vi": "%s2%t2%z18%c1“Đến cả kinh đô cũng đã...%NVậy Nữ hoàng có bình an không?”"
+  },
+  {
+    "id": "stage2:2506",
+    "token": 2506,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“护卫队已经保护女帝平安退至宾斯坦城了！”",
+    "vi": "%s2%t2%z18%c1“Đội cận vệ đã đưa Nữ hoàng rút về Benstein an toàn rồi ạ!”"
+  },
+  {
+    "id": "stage2:2531",
+    "token": 2531,
+    "call": "Say",
+    "argument": 1,
+    "mode": "locked",
+    "source": "%s2%t2%z22%c1“！！！”",
+    "vi": ""
+  },
+  {
+    "id": "stage2:2542",
+    "token": 2542,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z26%c1“敌人进攻，大家注意！”",
+    "vi": "%s2%t2%z26%c1“Địch đang tấn công! Mọi người cẩn thận!”"
+  },
+  {
+    "id": "stage2:2567",
+    "token": 2567,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“上呀！她们已经无力反击了，嘿嘿嘿～～”",
+    "vi": "%s2%t2%z18%c1“Xông lên! Bọn chúng hết sức chống trả rồi. Hê hê!”"
+  },
+  {
+    "id": "stage2:2578",
+    "token": 2578,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“拿下翡翠神殿，就将生命之树献给玛西亚女王%N吧！哈哈哈哈～～”",
+    "vi": "%s2%t2%z18%c1“Chiếm được Đền Ngọc Bích, chúng ta sẽ dâng Cây Sinh Mệnh%Nlên Nữ hoàng Marcia! Ha ha ha!”"
+  },
+  {
+    "id": "stage2:2603",
+    "token": 2603,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z26%c1“杀啊！”",
+    "vi": "%s2%t2%z26%c1“Giết!”"
+  },
+  {
+    "id": "stage2:2628",
+    "token": 2628,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“姊妹们！%N誓死保护神殿，千万别让她们靠近听到没！？”",
+    "vi": "%s2%t2%z18%c1“Các chị em!%NDù phải hy sinh cũng phải giữ đền! Đừng để địch đến gần, rõ chưa!?”"
+  },
+  {
+    "id": "stage2:2660",
+    "token": 2660,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“希蜜、伊恩，我们也来帮忙。”",
+    "vi": "%s2%t2%z18%c1“Shimi, Ian, bọn mình cũng tới giúp thôi!”"
+  },
+  {
+    "id": "stage2:2685",
+    "token": 2685,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z22%c1“妮雅，慢着！”",
+    "vi": "%s2%t4%z22%c1“Niya, khoan đã!”"
+  },
+  {
+    "id": "stage2:2703",
+    "token": 2703,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“敌人接下来的目标绝对是侵占神殿，你们三人%N先到宾斯坦城求援，这里由我们暂时抵挡。”",
+    "vi": "%s2%t2%z18%c1“Mục tiêu tiếp theo của địch chắc chắn là chiếm ngôi đền.%NBa người hãy đến Benstein cầu viện. Chúng tôi sẽ cầm chân chúng.”"
+  },
+  {
+    "id": "stage2:2728",
+    "token": 2728,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“这¨¨¨”",
+    "vi": "%s2%t2%z18%c1“Nhưng...”"
+  },
+  {
+    "id": "stage2:2760",
+    "token": 2760,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z22%c1“放心好了，我们会死守神殿的。”",
+    "vi": "%s2%t2%z22%c1“Yên tâm, chúng tôi sẽ quyết giữ ngôi đền.”"
+  },
+  {
+    "id": "stage2:2799",
+    "token": 2799,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“好的¨¨%N希蜜、伊恩，我们走吧！”",
+    "vi": "%s2%t2%z18%c1“Vâng...%NShimi, Ian, chúng ta đi thôi!”"
+  },
+  {
+    "id": "stage2:2831",
+    "token": 2831,
+    "call": "SetMission",
+    "argument": 0,
+    "mode": "translate",
+    "source": "胜利条件：１、妮雅、希蜜、伊恩必须往左方离开战场。%N　　　　　２、敌军全灭。",
+    "vi": "Điều kiện thắng: 1. Niya, Shimi và Ian rời chiến trường%Nqua phía trái. 2. Tiêu diệt toàn bộ quân địch."
+  },
+  {
+    "id": "stage2:2847",
+    "token": 2847,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_elder_d.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage2:2861",
+    "token": 2861,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage2:2875",
+    "token": 2875,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage2:2882",
+    "token": 2882,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage2:2889",
+    "token": 2889,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "伊恩",
+    "vi": ""
+  },
+  {
+    "id": "stage2:2896",
+    "token": 2896,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "希蜜",
+    "vi": ""
+  },
+  {
+    "id": "stage2:2903",
+    "token": 2903,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "葛瑞丝",
+    "vi": ""
+  },
+  {
+    "id": "stage2:2926",
+    "token": 2926,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage2:2953",
+    "token": 2953,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage2:2980",
+    "token": 2980,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage2:3007",
+    "token": 3007,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage2:3018",
+    "token": 3018,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage2:3025",
+    "token": 3025,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage2:3032",
+    "token": 3032,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "伊恩",
+    "vi": ""
+  },
+  {
+    "id": "stage2:3039",
+    "token": 3039,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "希蜜",
+    "vi": ""
+  },
+  {
+    "id": "stage2:3046",
+    "token": 3046,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "葛瑞丝",
+    "vi": ""
+  },
+  {
+    "id": "stage2:3076",
+    "token": 3076,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“好了，我们先赶往宾斯坦城求援吧！”",
+    "vi": "%s2%t2%z18%c1“Được rồi, chúng ta mau đến Benstein cầu viện!”"
+  },
+  {
+    "id": "stage2:3145",
+    "token": 3145,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s5%t2%z18%c1“敌人只是暂时撤退而已，你们赶紧回城求援吧%N！”",
+    "vi": "%s5%t2%z18%c1“Địch chỉ tạm thời rút lui thôi! Các em mau về thành%Ncầu viện đi!”"
+  },
+  {
+    "id": "stage2:3170",
+    "token": 3170,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“好的，请大家务必等我们回来。”",
+    "vi": "%s2%t2%z18%c1“Vâng! Xin mọi người nhất định phải chờ bọn em trở lại.”"
+  },
+  {
+    "id": "stage2:3231",
+    "token": 3231,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“生命女神呀！%N请祝福沙场上的战士们凯旋归来吧～～”",
+    "vi": "%s2%t2%z18%c1“Lạy Nữ thần Sinh Mệnh!%NXin Người phù hộ các chiến binh bình an trở về!”"
+  },
+  {
+    "id": "stage2:3258",
+    "token": 3258,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage2:3265",
+    "token": 3265,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage2:3272",
+    "token": 3272,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "葛瑞丝",
+    "vi": ""
+  },
+  {
+    "id": "stage2:3310",
+    "token": 3310,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“啊～没办法了！”",
+    "vi": "%s2%t2%z18%c1“Ôi... không còn cách nào khác!”"
+  },
+  {
+    "id": "stage2:3321",
+    "token": 3321,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“大家一定要撑住啊！%N我们一定会尽快回来的！！”",
+    "vi": "%s2%t2%z18%c1“Mọi người cố cầm cự nhé!%NBọn mình nhất định sẽ trở lại sớm nhất có thể!”"
+  },
+  {
+    "id": "stage2:3339",
+    "token": 3339,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage2:3374",
+    "token": 3374,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s5%t2%z18%c1“妮雅，快回宾斯坦城求援，接下来靠你们了！”",
+    "vi": "%s5%t2%z18%c1“Niya, mau về Benstein cầu viện! Trông cậy vào các em!”"
+  },
+  {
+    "id": "stage2:3406",
+    "token": 3406,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s5%t2%z18%c1“大主教¨¨我¨¨”",
+    "vi": "%s5%t2%z18%c1“Đại Tổng giám mục... em...”"
+  },
+  {
+    "id": "stage2:3431",
+    "token": 3431,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z18%c1“快走，这是命令！！”",
+    "vi": "%s2%t2%z18%c1“Đi ngay! Đây là mệnh lệnh!”"
+  },
+  {
+    "id": "stage2:3456",
+    "token": 3456,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s8%t2%z18%c1“是¨大主教¨¨%N我们走了¨请大家要多保重！”",
+    "vi": "%s8%t2%z18%c1“Vâng... thưa Đại Tổng giám mục.%NBọn em đi đây. Xin mọi người hãy bảo trọng!”"
+  },
+  {
+    "id": "stage2:3481",
+    "token": 3481,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t2%z26%c1“我们就跟欧查血战到底吧。”",
+    "vi": "%s2%t2%z26%c1“Chúng ta sẽ tử chiến với quân Ocha đến cùng!”"
+  },
+  {
+    "id": "stage2:3499",
+    "token": 3499,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  }
+]

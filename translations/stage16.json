@@ -1,0 +1,938 @@
+[
+  {
+    "id": "stage16:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage16:2758",
+    "token": 2758,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NPCSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage16:2764",
+    "token": 2764,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage16:3641",
+    "token": 3641,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage16:3646",
+    "token": 3646,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage16:3697",
+    "token": 3697,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": " 耶里朵 ",
+    "vi": ""
+  },
+  {
+    "id": "stage16:3703",
+    "token": 3703,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage16:3708",
+    "token": 3708,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage16:3746",
+    "token": 3746,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Elder01.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage16:3751",
+    "token": 3751,
+    "call": "SetStageName",
+    "argument": 0,
+    "mode": "translate",
+    "source": "夺回尤利尔",
+    "vi": ""
+  },
+  {
+    "id": "stage16:3756",
+    "token": 3756,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "Stage-16 夺回尤利尔",
+    "vi": ""
+  },
+  {
+    "id": "stage16:3761",
+    "token": 3761,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "尤利尔王国边境",
+    "vi": ""
+  },
+  {
+    "id": "stage16:3830",
+    "token": 3830,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我跳！”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:3868",
+    "token": 3868,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“跳！”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:3919",
+    "token": 3919,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嘿嘿～”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:3951",
+    "token": 3951,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呼呼¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:3962",
+    "token": 3962,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“莉娜¨¨等我一下啦¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:3987",
+    "token": 3987,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“她往那边去了，我们快追。”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4012",
+    "token": 4012,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“还要追吗¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4023",
+    "token": 4023,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“妮雅他们还没跟来呐¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4048",
+    "token": 4048,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不来你就自己待着。”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4073",
+    "token": 4073,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“好啦¨¨不要丢下我，等等我呐¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4124",
+    "token": 4124,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呼呼¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4189",
+    "token": 4189,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呼呼¨¨真是的¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4294",
+    "token": 4294,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这里！”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4332",
+    "token": 4332,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“啊！等我。”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4449",
+    "token": 4449,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“喔！？人都不见了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4460",
+    "token": 4460,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“跑的还真快¨¨¨果真是有好东西瞒着我们。”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4471",
+    "token": 4471,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我们往这边！”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4537",
+    "token": 4537,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“奇怪，她们往哪去了？”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4614",
+    "token": 4614,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“盈月老大¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4646",
+    "token": 4646,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“什么事吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4671",
+    "token": 4671,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我觉得背后凉凉地¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4682",
+    "token": 4682,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“好像有倒楣的事要发生了¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4696",
+    "token": 4696,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "不祥的预感¨¨¨",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4717",
+    "token": 4717,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "雷丝曼",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4738",
+    "token": 4738,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "卡琳",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4759",
+    "token": 4759,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "蕾希",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4780",
+    "token": 4780,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莫芮",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4801",
+    "token": 4801,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莱姆",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4822",
+    "token": 4822,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "蓓诺",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4843",
+    "token": 4843,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "雪汀",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4864",
+    "token": 4864,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "米丝琪",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4892",
+    "token": 4892,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "爱丽斯",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4920",
+    "token": 4920,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "莉恩",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4948",
+    "token": 4948,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "琪琪",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4969",
+    "token": 4969,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "洁莉",
+    "vi": ""
+  },
+  {
+    "id": "stage16:4990",
+    "token": 4990,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "卡曼",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5011",
+    "token": 5011,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "诺纳",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5032",
+    "token": 5032,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "豆豆",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5053",
+    "token": 5053,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "贝鲁蒂",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5074",
+    "token": 5074,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "希尔",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5095",
+    "token": 5095,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "库可",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5116",
+    "token": 5116,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "珍妮",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5137",
+    "token": 5137,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "布蕾",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5158",
+    "token": 5158,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "凯莉",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5232",
+    "token": 5232,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z24%c1“啊！敌军。”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5264",
+    "token": 5264,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“可恶，被包围了¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5352",
+    "token": 5352,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“糟了，盈月她们有危险。”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5377",
+    "token": 5377,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呦～她们两个打算攻下整座城堡呀！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5388",
+    "token": 5388,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那就看她们的罗！”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5413",
+    "token": 5413,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不行，我还没当寨主之前不能让盈月死。”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5424",
+    "token": 5424,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我要去帮忙。”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5496",
+    "token": 5496,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“盈月大人，我来了！！”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5521",
+    "token": 5521,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你们怎么来了？”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5546",
+    "token": 5546,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“没办法，最近战争太多，%N根本没东西可以抢！”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5557",
+    "token": 5557,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“刚才经过附近正想溜进城里偷东西，正好听到%N盈月大人的声音，所以就赶过来看看情况了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5582",
+    "token": 5582,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“很好，来的正是时候。”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5593",
+    "token": 5593,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“就给她们一点颜色瞧瞧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5607",
+    "token": 5607,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "夏美加入队伍",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5633",
+    "token": 5633,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“都到齐了吗？”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5644",
+    "token": 5644,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“那就等死吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5655",
+    "token": 5655,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我可不会像玛西亚或克诺依德那么没用的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5666",
+    "token": 5666,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哈哈哈哈～～”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5696",
+    "token": 5696,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "琪波伶",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5717",
+    "token": 5717,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "琪波莉",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5738",
+    "token": 5738,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“邦联军最近气势太强盛了，%N我们还赢得了吗¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5763",
+    "token": 5763,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“很难说呢！”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5774",
+    "token": 5774,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你不觉得雷丝曼女帝最近行为跟过去不太一%N样¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5799",
+    "token": 5799,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯！自从喝下黑色的天使之泉后，%N很多人也慢慢开始改变了。”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5810",
+    "token": 5810,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我的身体最近也觉得很奇怪，%N有时候自己到底做了什么事都不知道¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5835",
+    "token": 5835,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“洁莉本来对玛西亚女帝一直都很忠心的，%N但是也是自从喝下黑色泉水之后¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5846",
+    "token": 5846,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我想玛西亚女帝说的对，%N黑色泉水真的是有问题。”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5857",
+    "token": 5857,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我们还是回玛西亚女帝身边吧！%N你觉得呢¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5882",
+    "token": 5882,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“嗯，我也不想留在这里了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:5893",
+    "token": 5893,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我们走吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:6199",
+    "token": 6199,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Hurry.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage16:6204",
+    "token": 6204,
+    "call": "SetMission",
+    "argument": 0,
+    "mode": "translate",
+    "source": "胜利条件：敌主将雷丝曼战败。%N失败条件：妮雅战败。",
+    "vi": ""
+  },
+  {
+    "id": "stage16:6222",
+    "token": 6222,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage16:6236",
+    "token": 6236,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage16:6259",
+    "token": 6259,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage16:6268",
+    "token": 6268,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage16:6277",
+    "token": 6277,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage16:6295",
+    "token": 6295,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage16:6302",
+    "token": 6302,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "雷丝曼",
+    "vi": ""
+  },
+  {
+    "id": "stage16:6309",
+    "token": 6309,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage16:6316",
+    "token": 6316,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "希蜜",
+    "vi": ""
+  },
+  {
+    "id": "stage16:6350",
+    "token": 6350,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“为什么¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:6361",
+    "token": 6361,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“不可能¨¨不可能会输的！”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:6372",
+    "token": 6372,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我知道了¨¨¨一定是喝下的力量之泉还不够%N多¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:6383",
+    "token": 6383,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“对了！一定是这样。”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:6394",
+    "token": 6394,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼哈哈哈哈，只要有力量之泉，胜利终究还是%N属于我的！”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:6405",
+    "token": 6405,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哈哈哈哈～～你们等着吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage16:6434",
+    "token": 6434,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  }
+]

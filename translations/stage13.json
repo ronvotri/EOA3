@@ -1,0 +1,623 @@
+[
+  {
+    "id": "stage13:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage13:1910",
+    "token": 1910,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage13:2787",
+    "token": 2787,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage13:2853",
+    "token": 2853,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "洁莉",
+    "vi": ""
+  },
+  {
+    "id": "stage13:2881",
+    "token": 2881,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "多明妮卡",
+    "vi": ""
+  },
+  {
+    "id": "stage13:2909",
+    "token": 2909,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "卡曼",
+    "vi": ""
+  },
+  {
+    "id": "stage13:2937",
+    "token": 2937,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "凯莉",
+    "vi": ""
+  },
+  {
+    "id": "stage13:2965",
+    "token": 2965,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "诺纳",
+    "vi": ""
+  },
+  {
+    "id": "stage13:2993",
+    "token": 2993,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "豆豆",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3021",
+    "token": 3021,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "贝鲁蒂",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3049",
+    "token": 3049,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "希尔",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3077",
+    "token": 3077,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "库可",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3105",
+    "token": 3105,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "珍妮",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3133",
+    "token": 3133,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "费伦",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3161",
+    "token": 3161,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "爱森",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3189",
+    "token": 3189,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "乔伊",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3217",
+    "token": 3217,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "玛瑙",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3245",
+    "token": 3245,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "布蕾",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3273",
+    "token": 3273,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "玛莎",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3301",
+    "token": 3301,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "琪波伶",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3329",
+    "token": 3329,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "琪波莉",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3357",
+    "token": 3357,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "米耐",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3370",
+    "token": 3370,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3375",
+    "token": 3375,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3380",
+    "token": 3380,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3385",
+    "token": 3385,
+    "call": "SetStageName",
+    "argument": 0,
+    "mode": "translate",
+    "source": "突袭前哨战",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3423",
+    "token": 3423,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "Stage-13 突袭前哨战",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3428",
+    "token": 3428,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "拉锡叶东南  雷萨林海湾",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3433",
+    "token": 3433,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Hurry.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3462",
+    "token": 3462,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“呃¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3527",
+    "token": 3527,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“可恶，别跑¨¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3557",
+    "token": 3557,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“啊！救我¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3582",
+    "token": 3582,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“是英格丽吗！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3593",
+    "token": 3593,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你没事吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3618",
+    "token": 3618,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“妮雅¨¨在这里见到你真是太好了¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3629",
+    "token": 3629,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我只是受了点轻伤，但是请小心后面的追兵¨%N¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3654",
+    "token": 3654,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“追兵！？”",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3665",
+    "token": 3665,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“欧查军怎么会在这种地方出现呢¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3690",
+    "token": 3690,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“自从宾斯坦城陷落之后，仍然有许多欧查军一%N路追击四散的我军¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3701",
+    "token": 3701,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“所以¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3726",
+    "token": 3726,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“英格丽，放心好了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3737",
+    "token": 3737,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我们回来就是要将欧查军击退，你也来协助我%N们吧。”",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3762",
+    "token": 3762,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“太好了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3773",
+    "token": 3773,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“可恶的欧查军，我会连同刚刚受伤的仇都一起%N报的。”",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3787",
+    "token": 3787,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "英格丽加入队伍",
+    "vi": ""
+  },
+  {
+    "id": "stage13:3996",
+    "token": 3996,
+    "call": "SetMission",
+    "argument": 0,
+    "mode": "translate",
+    "source": "胜利条件：敌大将洁莉战败。%N失败条件：妮雅战败。",
+    "vi": ""
+  },
+  {
+    "id": "stage13:4014",
+    "token": 4014,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_Hurry.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage13:4024",
+    "token": 4024,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage13:4031",
+    "token": 4031,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage13:4038",
+    "token": 4038,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "希蜜",
+    "vi": ""
+  },
+  {
+    "id": "stage13:4045",
+    "token": 4045,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "洁莉",
+    "vi": ""
+  },
+  {
+    "id": "stage13:4102",
+    "token": 4102,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼，又是你们。”",
+    "vi": ""
+  },
+  {
+    "id": "stage13:4113",
+    "token": 4113,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这次绝不会让你们这么好运了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage13:4124",
+    "token": 4124,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“要通过这里想都别想，等着被我丢进海里喂鲨%N鱼吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage13:4145",
+    "token": 4145,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage13:4152",
+    "token": 4152,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "洁莉",
+    "vi": ""
+  },
+  {
+    "id": "stage13:4159",
+    "token": 4159,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage13:4173",
+    "token": 4173,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage13:4178",
+    "token": 4178,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage13:4196",
+    "token": 4196,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage13:4203",
+    "token": 4203,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "洁莉",
+    "vi": ""
+  },
+  {
+    "id": "stage13:4210",
+    "token": 4210,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage13:4248",
+    "token": 4248,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“可恶¨¨竟然还是输给你们¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage13:4259",
+    "token": 4259,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“哼！你们等着吧¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage13:4270",
+    "token": 4270,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我会变得更强的！”",
+    "vi": ""
+  },
+  {
+    "id": "stage13:4296",
+    "token": 4296,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Battle_chinawar.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage13:4316",
+    "token": 4316,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“大家做得好，打倒敌方主将了！”",
+    "vi": ""
+  },
+  {
+    "id": "stage13:4327",
+    "token": 4327,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“一鼓作气冲回厄特首都将拉锡叶收回吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage13:4349",
+    "token": 4349,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  }
+]

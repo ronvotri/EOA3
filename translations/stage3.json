@@ -1,0 +1,848 @@
+[
+  {
+    "id": "stage3:2",
+    "token": 2,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "MapSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage3:944",
+    "token": 944,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_SetClass",
+    "vi": ""
+  },
+  {
+    "id": "stage3:1285",
+    "token": 1285,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage3:1290",
+    "token": 1290,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage3:1356",
+    "token": 1356,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "爱森",
+    "vi": ""
+  },
+  {
+    "id": "stage3:1377",
+    "token": 1377,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "凯莉",
+    "vi": ""
+  },
+  {
+    "id": "stage3:1398",
+    "token": 1398,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "希尔",
+    "vi": ""
+  },
+  {
+    "id": "stage3:1419",
+    "token": 1419,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "卡曼",
+    "vi": ""
+  },
+  {
+    "id": "stage3:1440",
+    "token": 1440,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "凯特",
+    "vi": ""
+  },
+  {
+    "id": "stage3:1461",
+    "token": 1461,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "卡琳",
+    "vi": ""
+  },
+  {
+    "id": "stage3:1467",
+    "token": 1467,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "ResetNPC",
+    "vi": ""
+  },
+  {
+    "id": "stage3:1537",
+    "token": 1537,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "希尔",
+    "vi": ""
+  },
+  {
+    "id": "stage3:1565",
+    "token": 1565,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "卡曼",
+    "vi": ""
+  },
+  {
+    "id": "stage3:1593",
+    "token": 1593,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "凯特",
+    "vi": ""
+  },
+  {
+    "id": "stage3:1621",
+    "token": 1621,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "爱森",
+    "vi": ""
+  },
+  {
+    "id": "stage3:1649",
+    "token": 1649,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "费伦",
+    "vi": ""
+  },
+  {
+    "id": "stage3:1677",
+    "token": 1677,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "凯莉",
+    "vi": ""
+  },
+  {
+    "id": "stage3:1705",
+    "token": 1705,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "巴蕾塔",
+    "vi": ""
+  },
+  {
+    "id": "stage3:1733",
+    "token": 1733,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "库可",
+    "vi": ""
+  },
+  {
+    "id": "stage3:1761",
+    "token": 1761,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "琪波莉",
+    "vi": ""
+  },
+  {
+    "id": "stage3:1789",
+    "token": 1789,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "玛莎",
+    "vi": ""
+  },
+  {
+    "id": "stage3:1817",
+    "token": 1817,
+    "call": "CreateNPC",
+    "argument": 7,
+    "mode": "locked",
+    "source": "贝鲁蒂",
+    "vi": ""
+  },
+  {
+    "id": "stage3:1830",
+    "token": 1830,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_Begining",
+    "vi": ""
+  },
+  {
+    "id": "stage3:1835",
+    "token": 1835,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "NpcSetup",
+    "vi": ""
+  },
+  {
+    "id": "stage3:1840",
+    "token": 1840,
+    "call": "SetStageName",
+    "argument": 0,
+    "mode": "translate",
+    "source": "中途林之战",
+    "vi": ""
+  },
+  {
+    "id": "stage3:1872",
+    "token": 1872,
+    "call": "MessageBox",
+    "argument": 0,
+    "mode": "translate",
+    "source": "Stage-3 中途林之战",
+    "vi": ""
+  },
+  {
+    "id": "stage3:1907",
+    "token": 1907,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“这一带不管怎么绕都有敌军，该怎么办呢？”",
+    "vi": ""
+  },
+  {
+    "id": "stage3:1921",
+    "token": 1921,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "Danger.wav",
+    "vi": ""
+  },
+  {
+    "id": "stage3:1944",
+    "token": 1944,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“我观察过了，这里的敌人是这附近最少的。%N我们冲过去吧！”",
+    "vi": ""
+  },
+  {
+    "id": "stage3:1989",
+    "token": 1989,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z26%c1“冲啊！！！”",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2033",
+    "token": 2033,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z22%c1“嗯？！什么人！！”",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2077",
+    "token": 2077,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“希蜜¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2109",
+    "token": 2109,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“什么事？”",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2134",
+    "token": 2134,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“你可以不用喊那么大声¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2184",
+    "token": 2184,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z20%c1“你们几个鬼鬼祟祟在做什么？%N%t4%z25%c1快出来！”",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2241",
+    "token": 2241,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z18%c1“啊¨被发现了¨¨，对不起¨¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2264",
+    "token": 2264,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "ResetNPC",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2308",
+    "token": 2308,
+    "call": "SetMission",
+    "argument": 0,
+    "mode": "translate",
+    "source": "胜利条件：1、我方一人以上往最北方脱离战场。%N　　　　　2、敌军全灭%N失败条件：妮雅战败",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2333",
+    "token": 2333,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_RoundCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2340",
+    "token": 2340,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2347",
+    "token": 2347,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "伊恩",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2354",
+    "token": 2354,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "希蜜",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2361",
+    "token": 2361,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "希尔",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2368",
+    "token": 2368,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "卡曼",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2375",
+    "token": 2375,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "凯特",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2382",
+    "token": 2382,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "爱森",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2389",
+    "token": 2389,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "费伦",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2396",
+    "token": 2396,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "凯莉",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2403",
+    "token": 2403,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "巴蕾塔",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2410",
+    "token": 2410,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "库可",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2417",
+    "token": 2417,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "琪波莉",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2424",
+    "token": 2424,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "玛莎",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2431",
+    "token": 2431,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "贝鲁蒂",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2841",
+    "token": 2841,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterActionCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2848",
+    "token": 2848,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2855",
+    "token": 2855,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "伊恩",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2862",
+    "token": 2862,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "希蜜",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2869",
+    "token": 2869,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "希尔",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2876",
+    "token": 2876,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "卡曼",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2883",
+    "token": 2883,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "凯特",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2890",
+    "token": 2890,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "爱森",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2897",
+    "token": 2897,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "费伦",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2904",
+    "token": 2904,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "凯莉",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2911",
+    "token": 2911,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "巴蕾塔",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2918",
+    "token": 2918,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "库可",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2925",
+    "token": 2925,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "琪波莉",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2932",
+    "token": 2932,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "玛莎",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2939",
+    "token": 2939,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "贝鲁蒂",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2962",
+    "token": 2962,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage3:2982",
+    "token": 2982,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageLost",
+    "vi": ""
+  },
+  {
+    "id": "stage3:3004",
+    "token": 3004,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage3:3026",
+    "token": 3026,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage3:3048",
+    "token": 3048,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage3:3059",
+    "token": 3059,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageClear",
+    "vi": ""
+  },
+  {
+    "id": "stage3:3068",
+    "token": 3068,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage3:3090",
+    "token": 3090,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageLost",
+    "vi": ""
+  },
+  {
+    "id": "stage3:3110",
+    "token": 3110,
+    "call": "Say",
+    "argument": 1,
+    "mode": "translate",
+    "source": "%s2%t4%z20%c1“呜¨¨大家快逃¨¨”",
+    "vi": ""
+  },
+  {
+    "id": "stage3:3124",
+    "token": 3124,
+    "call": "PlayMusic",
+    "argument": 0,
+    "mode": "locked",
+    "source": "STOP",
+    "vi": ""
+  },
+  {
+    "id": "stage3:3146",
+    "token": 3146,
+    "call": "SUBSCRIPT",
+    "argument": 0,
+    "mode": "locked",
+    "source": "g_AfterFightCheck",
+    "vi": ""
+  },
+  {
+    "id": "stage3:3153",
+    "token": 3153,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "妮雅",
+    "vi": ""
+  },
+  {
+    "id": "stage3:3160",
+    "token": 3160,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "伊恩",
+    "vi": ""
+  },
+  {
+    "id": "stage3:3167",
+    "token": 3167,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "希蜜",
+    "vi": ""
+  },
+  {
+    "id": "stage3:3174",
+    "token": 3174,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "希尔",
+    "vi": ""
+  },
+  {
+    "id": "stage3:3181",
+    "token": 3181,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "卡曼",
+    "vi": ""
+  },
+  {
+    "id": "stage3:3188",
+    "token": 3188,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "凯特",
+    "vi": ""
+  },
+  {
+    "id": "stage3:3195",
+    "token": 3195,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "爱森",
+    "vi": ""
+  },
+  {
+    "id": "stage3:3202",
+    "token": 3202,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "费伦",
+    "vi": ""
+  },
+  {
+    "id": "stage3:3209",
+    "token": 3209,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "凯莉",
+    "vi": ""
+  },
+  {
+    "id": "stage3:3216",
+    "token": 3216,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "巴蕾塔",
+    "vi": ""
+  },
+  {
+    "id": "stage3:3223",
+    "token": 3223,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "库可",
+    "vi": ""
+  },
+  {
+    "id": "stage3:3230",
+    "token": 3230,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "琪波莉",
+    "vi": ""
+  },
+  {
+    "id": "stage3:3237",
+    "token": 3237,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "玛莎",
+    "vi": ""
+  },
+  {
+    "id": "stage3:3244",
+    "token": 3244,
+    "call": "FindIdByName",
+    "argument": 0,
+    "mode": "locked",
+    "source": "贝鲁蒂",
+    "vi": ""
+  },
+  {
+    "id": "stage3:3267",
+    "token": 3267,
+    "call": "CALLSUB",
+    "argument": 0,
+    "mode": "locked",
+    "source": "StageLost",
+    "vi": ""
+  }
+]
