@@ -9,10 +9,15 @@ from test_probe_game import fake_pe32
 
 def fixture(n=1):
     out = bytearray(fake_pe32())
+    if n > 10:
+        out.extend(b"\x90" * 0x1000)
+        section = 0x98 + 0xE0
+        struct.pack_into("<I", out, section + 8, 0x900)
+        struct.pack_into("<I", out, section + 16, 0x900)
     # All 5-byte CALLs in this synthetic .text target the same in-section VA.
     # This is deliberately not a full disassembler; output is candidate-only.
     for i in range(n):
-        pos = 0x220 + i*5
+        pos = (0x400 if n > 10 else 0x220) + i*5
         source_va = 0x401000+(pos-0x200)
         dest = 0x401400
         struct.pack_into("<Bi", out, pos, 0xE8, dest-(source_va+5))
@@ -63,8 +68,8 @@ class TextCallerProbeTests(unittest.TestCase):
         struct.pack_into("<Bi", data, 0x240, 0xE8, 0x401400-(0x401040+5))
         result=scan(bytes(data))
         self.assertEqual(len(result["call_candidates"]),2)
-        self.assertTrue(all("candidate" in row["candidate_call_va"] or "candidate" in row
-                            for row in result["call_candidates"]))
+        self.assertEqual(result["status"],"bounded_raw_rel32_call_candidate_scan_not_disassembly")
+        self.assertIn("false positives", " ".join(result["limitations"]))
 
 
 if __name__=="__main__":
