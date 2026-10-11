@@ -97,3 +97,6 @@ Bản Windows diagnostic **V4** xuất thêm `engine_callsite_slices.json` (tổ
 
 
 **Từ mã V7 (12/10/2026):** ngoài đường `CharNextA` → substring → consumer `0x41C790`, đã xác minh nhánh numeric pointer+2 → **signed modulo 16 × 3** → đọc ba byte từ bảng `0x522F44` → gọi helper `0x42AED0` rồi `0x41AC20`. Có ứng viên điều khiển màu/thuộc tính văn bản; **chưa xác minh nhánh đó chính là `%c` hay palette RGB**. Bản nguồn có 1.634 lần `%c1` (40 script JSON), controls cần giữ nguyên. Xem `docs/V7_PALETTE_COMMAND_CORRELATION.md`, tool `tools/audit_v7_palette_commands.py` (có chế độ `--source-only`). Chưa có patch Unicode chạy được.
+
+
+**Bản điều tra V8 (12/10/2026):** vì V7 không chứa body consumer `0x41C790`, V8 gom 7 cửa sổ mã quanh consumer, font/surface, numeric/color parser, dispatcher, cùng **48 byte bảng 16×3** vào một lần thu có mục tiêu (ZIP 8 thành viên). Đọc-only trên đúng SHA EXE, fail-closed thiếu sample, không sửa game/nguồn dịch và chưa phải patch playable. Xem `docs/V8_RENDERER_TRACE_PLAN.md` và `tools/probe_renderer_v8.py`.
