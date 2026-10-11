@@ -1,0 +1,1227 @@
+{
+  "_note": "DISPLAY DRAFT ONLY. NOT APPLIED TO runtime, translations/DataBase.json, or build. All review tokens stay unchanged. Confirm engine lookup safety before promotion.",
+  "stage": "DataBase",
+  "status": "draft_not_approved_for_runtime",
+  "counts": {
+    "terrain": 14,
+    "skill": 63,
+    "item": 58
+  },
+  "entries": [
+    {
+      "id": "DataBase:9",
+      "token": 9,
+      "call": "AddGroundData",
+      "argument": 1,
+      "source": "平原",
+      "vi_draft": "Đồng bằng",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:26",
+      "token": 26,
+      "call": "AddGroundData",
+      "argument": 1,
+      "source": "沙漠",
+      "vi_draft": "Sa mạc",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:43",
+      "token": 43,
+      "call": "AddGroundData",
+      "argument": 1,
+      "source": "雪地",
+      "vi_draft": "Vùng tuyết",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:60",
+      "token": 60,
+      "call": "AddGroundData",
+      "argument": 1,
+      "source": "高原",
+      "vi_draft": "Cao nguyên",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:77",
+      "token": 77,
+      "call": "AddGroundData",
+      "argument": 1,
+      "source": "丘陵",
+      "vi_draft": "Đồi núi",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:94",
+      "token": 94,
+      "call": "AddGroundData",
+      "argument": 1,
+      "source": "高山",
+      "vi_draft": "Núi cao",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:111",
+      "token": 111,
+      "call": "AddGroundData",
+      "argument": 1,
+      "source": "河流",
+      "vi_draft": "Sông",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:128",
+      "token": 128,
+      "call": "AddGroundData",
+      "argument": 1,
+      "source": "深水",
+      "vi_draft": "Vùng nước sâu",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:145",
+      "token": 145,
+      "call": "AddGroundData",
+      "argument": 1,
+      "source": "树林",
+      "vi_draft": "Rừng cây",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:162",
+      "token": 162,
+      "call": "AddGroundData",
+      "argument": 1,
+      "source": "火山",
+      "vi_draft": "Núi lửa",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:179",
+      "token": 179,
+      "call": "AddGroundData",
+      "argument": 1,
+      "source": "建筑物",
+      "vi_draft": "Công trình",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:196",
+      "token": 196,
+      "call": "AddGroundData",
+      "argument": 1,
+      "source": "烂泥",
+      "vi_draft": "Bùn lầy",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:213",
+      "token": 213,
+      "call": "AddGroundData",
+      "argument": 1,
+      "source": "泥土道路",
+      "vi_draft": "Đường đất",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:230",
+      "token": 230,
+      "call": "AddGroundData",
+      "argument": 1,
+      "source": "石板道路",
+      "vi_draft": "Đường lát đá",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:26626",
+      "token": 26626,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "火球术",
+      "vi_draft": "Cầu lửa",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:26681",
+      "token": 26681,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "火球术中级",
+      "vi_draft": "Cầu lửa II",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:26736",
+      "token": 26736,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "火球术高级",
+      "vi_draft": "Cầu lửa III",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:26791",
+      "token": 26791,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "光束箭",
+      "vi_draft": "Tên ánh sáng",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:26846",
+      "token": 26846,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "光束箭中级",
+      "vi_draft": "Tên ánh sáng II",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:26901",
+      "token": 26901,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "光束箭高级",
+      "vi_draft": "Tên ánh sáng III",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:26956",
+      "token": 26956,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "急冻术",
+      "vi_draft": "Đóng băng tức thì",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:27011",
+      "token": 27011,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "急冻术中级",
+      "vi_draft": "Đóng băng tức thì II",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:27066",
+      "token": 27066,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "急冻术高级",
+      "vi_draft": "Đóng băng tức thì III",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:27121",
+      "token": 27121,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "冰雨术",
+      "vi_draft": "Mưa băng",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:27176",
+      "token": 27176,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "冰雨术中级",
+      "vi_draft": "Mưa băng II",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:27231",
+      "token": 27231,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "冰雨术高级",
+      "vi_draft": "Mưa băng III",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:27286",
+      "token": 27286,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "唤雷术",
+      "vi_draft": "Triệu sét",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:27341",
+      "token": 27341,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "唤雷术中级",
+      "vi_draft": "Triệu sét II",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:27396",
+      "token": 27396,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "唤雷术高级",
+      "vi_draft": "Triệu sét III",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:27451",
+      "token": 27451,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "狂风术",
+      "vi_draft": "Cuồng phong",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:27506",
+      "token": 27506,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "狂风术中级",
+      "vi_draft": "Cuồng phong II",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:27561",
+      "token": 27561,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "狂风术高级",
+      "vi_draft": "Cuồng phong III",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:27616",
+      "token": 27616,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "重力术",
+      "vi_draft": "Trọng lực",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:27671",
+      "token": 27671,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "重力术中级",
+      "vi_draft": "Trọng lực II",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:27726",
+      "token": 27726,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "重力术高级",
+      "vi_draft": "Trọng lực III",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:27781",
+      "token": 27781,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "地裂咒",
+      "vi_draft": "Chú nứt đất",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:27836",
+      "token": 27836,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "地裂咒中级",
+      "vi_draft": "Chú nứt đất II",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:27891",
+      "token": 27891,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "地裂咒高级",
+      "vi_draft": "Chú nứt đất III",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:27946",
+      "token": 27946,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "治疗术",
+      "vi_draft": "Trị thương",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:28001",
+      "token": 28001,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "治疗术中级",
+      "vi_draft": "Trị thương II",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:28056",
+      "token": 28056,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "治疗术高级",
+      "vi_draft": "Trị thương III",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:28111",
+      "token": 28111,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "回复术",
+      "vi_draft": "Hồi phục",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:28166",
+      "token": 28166,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "回复术中级",
+      "vi_draft": "Hồi phục II",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:28221",
+      "token": 28221,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "回复术高级",
+      "vi_draft": "Hồi phục III",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:28276",
+      "token": 28276,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "祝福术",
+      "vi_draft": "Phúc lành",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:28331",
+      "token": 28331,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "祝福术中级",
+      "vi_draft": "Phúc lành II",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:28386",
+      "token": 28386,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "祝福术高级",
+      "vi_draft": "Phúc lành III",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:28441",
+      "token": 28441,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "勇气术",
+      "vi_draft": "Dũng khí",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:28496",
+      "token": 28496,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "勇气术中级",
+      "vi_draft": "Dũng khí II",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:28551",
+      "token": 28551,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "勇气术高级",
+      "vi_draft": "Dũng khí III",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:28606",
+      "token": 28606,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "净化术",
+      "vi_draft": "Thanh tẩy",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:28661",
+      "token": 28661,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "净化术中级",
+      "vi_draft": "Thanh tẩy II",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:28716",
+      "token": 28716,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "净化术高级",
+      "vi_draft": "Thanh tẩy III",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:28771",
+      "token": 28771,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "禁咒术",
+      "vi_draft": "Cấm phép",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:28826",
+      "token": 28826,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "禁咒术中级",
+      "vi_draft": "Cấm phép II",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:28881",
+      "token": 28881,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "禁咒术高级",
+      "vi_draft": "Cấm phép III",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:28936",
+      "token": 28936,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "毒云术",
+      "vi_draft": "Mây độc",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:28991",
+      "token": 28991,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "毒云术中级",
+      "vi_draft": "Mây độc II",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:29046",
+      "token": 29046,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "毒云术高级",
+      "vi_draft": "Mây độc III",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:29101",
+      "token": 29101,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "吸血咒",
+      "vi_draft": "Chú hút máu",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:29156",
+      "token": 29156,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "吸血咒中级",
+      "vi_draft": "Chú hút máu II",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:29211",
+      "token": 29211,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "吸血咒高级",
+      "vi_draft": "Chú hút máu III",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:29266",
+      "token": 29266,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "催眠术",
+      "vi_draft": "Ru ngủ",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:29321",
+      "token": 29321,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "催眠术中级",
+      "vi_draft": "Ru ngủ II",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:29376",
+      "token": 29376,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "催眠术高级",
+      "vi_draft": "Ru ngủ III",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:29431",
+      "token": 29431,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "乱心术",
+      "vi_draft": "Nhiễu tâm",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:29486",
+      "token": 29486,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "乱心术中级",
+      "vi_draft": "Nhiễu tâm II",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:29541",
+      "token": 29541,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "乱心术高级",
+      "vi_draft": "Nhiễu tâm III",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:29596",
+      "token": 29596,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "传送术",
+      "vi_draft": "Dịch chuyển",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:29651",
+      "token": 29651,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "收买",
+      "vi_draft": "Mua chuộc",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:29706",
+      "token": 29706,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "离间",
+      "vi_draft": "Ly gián",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:29761",
+      "token": 29761,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "占星术",
+      "vi_draft": "Chiêm tinh",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:29816",
+      "token": 29816,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "召唤术",
+      "vi_draft": "Triệu hồi",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:29871",
+      "token": 29871,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "长弓射击",
+      "vi_draft": "Bắn cung dài",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:29926",
+      "token": 29926,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "短弓射击",
+      "vi_draft": "Bắn cung ngắn",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:29981",
+      "token": 29981,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "弩弓射击",
+      "vi_draft": "Bắn nỏ",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30036",
+      "token": 30036,
+      "call": "AddSkillData",
+      "argument": 1,
+      "source": "火枪射击",
+      "vi_draft": "Bắn súng hỏa mai",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30091",
+      "token": 30091,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "核桃面包",
+      "vi_draft": "Bánh mì óc chó",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30114",
+      "token": 30114,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "羊奶乳酪",
+      "vi_draft": "Phô mai sữa dê",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30137",
+      "token": 30137,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "香蕉蛋糕",
+      "vi_draft": "Bánh chuối",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30160",
+      "token": 30160,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "药炖排骨",
+      "vi_draft": "Sườn hầm thuốc bắc",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30183",
+      "token": 30183,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "糖炒栗子",
+      "vi_draft": "Hạt dẻ rang đường",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30206",
+      "token": 30206,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "山猪肉丸子",
+      "vi_draft": "Viên thịt heo rừng",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30229",
+      "token": 30229,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "大象成长饲料",
+      "vi_draft": "Thức ăn tăng trưởng cho voi",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30252",
+      "token": 30252,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "藤蔓饭团",
+      "vi_draft": "Cơm nắm dây leo",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30275",
+      "token": 30275,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "血清药丸",
+      "vi_draft": "Viên huyết thanh",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30298",
+      "token": 30298,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "运功散",
+      "vi_draft": "Bột vận công",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30321",
+      "token": 30321,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "天山雪莲子",
+      "vi_draft": "Hạt tuyết liên Thiên Sơn",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30344",
+      "token": 30344,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "血浆球果实",
+      "vi_draft": "Quả cầu huyết tương",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30367",
+      "token": 30367,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "伯地树种子",
+      "vi_draft": "Hạt cây Bodi",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30390",
+      "token": 30390,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "急救包",
+      "vi_draft": "Túi sơ cứu",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30413",
+      "token": 30413,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "强心针",
+      "vi_draft": "Thuốc tiêm trợ tim",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30436",
+      "token": 30436,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "龙鳞粉",
+      "vi_draft": "Bột vảy rồng",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30459",
+      "token": 30459,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "猪脚面线",
+      "vi_draft": "Mì chân giò",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30482",
+      "token": 30482,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "冰山凝露",
+      "vi_draft": "Sương băng sơn",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30505",
+      "token": 30505,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "牡丹花粉",
+      "vi_draft": "Phấn hoa mẫu đơn",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30528",
+      "token": 30528,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "龙胆草",
+      "vi_draft": "Long đởm thảo",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30551",
+      "token": 30551,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "川芎人参丸",
+      "vi_draft": "Viên xuyên khung nhân sâm",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30574",
+      "token": 30574,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "天师符水",
+      "vi_draft": "Nước bùa Thiên Sư",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30597",
+      "token": 30597,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "大还丹",
+      "vi_draft": "Đại Hoàn Đan",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30620",
+      "token": 30620,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "香蕉芭乐汤",
+      "vi_draft": "Canh chuối ổi",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30643",
+      "token": 30643,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "魔法泉水",
+      "vi_draft": "Nước suối phép thuật",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30666",
+      "token": 30666,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "强效药水",
+      "vi_draft": "Thuốc nước cường hiệu",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30689",
+      "token": 30689,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "夜光水草",
+      "vi_draft": "Rong phát sáng",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30712",
+      "token": 30712,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "八味补脑丸",
+      "vi_draft": "Viên bổ não Bát Vị",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30735",
+      "token": 30735,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "五行仙丹",
+      "vi_draft": "Tiên đan Ngũ Hành",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30758",
+      "token": 30758,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "天池湖水",
+      "vi_draft": "Nước hồ Thiên Trì",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30781",
+      "token": 30781,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "东巴树根",
+      "vi_draft": "Rễ cây Đông Ba",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30804",
+      "token": 30804,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "寒冰珀",
+      "vi_draft": "Hổ phách băng giá",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30827",
+      "token": 30827,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "皮蛋海鲜粥",
+      "vi_draft": "Cháo hải sản trứng bắc thảo",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30850",
+      "token": 30850,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "苦瓜排骨汤",
+      "vi_draft": "Canh khổ qua sườn",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30873",
+      "token": 30873,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "姜母鸭",
+      "vi_draft": "Vịt hầm gừng già",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30896",
+      "token": 30896,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "太极强功散",
+      "vi_draft": "Bột Cường Công Thái Cực",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30919",
+      "token": 30919,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "尤加利树叶",
+      "vi_draft": "Lá bạch đàn",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30942",
+      "token": 30942,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "蚕蛹酒",
+      "vi_draft": "Rượu nhộng tằm",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30965",
+      "token": 30965,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "史莱姆果冻",
+      "vi_draft": "Thạch Slime",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:30988",
+      "token": 30988,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "魔头烤布丁",
+      "vi_draft": "Pudding nướng Ma Đầu",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:31011",
+      "token": 31011,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "返老还童丹",
+      "vi_draft": "Đan cải lão hoàn đồng",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:31034",
+      "token": 31034,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "帝国三宝",
+      "vi_draft": "Tam bảo Đế quốc",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:31057",
+      "token": 31057,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "海精灵珊瑚",
+      "vi_draft": "San hô Tinh linh biển",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:31080",
+      "token": 31080,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "绿光青苔",
+      "vi_draft": "Rêu phát sáng xanh",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:31103",
+      "token": 31103,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "龟板粉",
+      "vi_draft": "Bột mai rùa",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:31126",
+      "token": 31126,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "金创药",
+      "vi_draft": "Thuốc trị thương",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:31149",
+      "token": 31149,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "谜样的药丸",
+      "vi_draft": "Viên thuốc bí ẩn",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:31172",
+      "token": 31172,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "铁打金刚丹",
+      "vi_draft": "Đan Kim Cang",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:31195",
+      "token": 31195,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "雄黄酒",
+      "vi_draft": "Rượu hùng hoàng",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:31218",
+      "token": 31218,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "提神丹",
+      "vi_draft": "Đan tỉnh thần",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:31241",
+      "token": 31241,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "发声药丸",
+      "vi_draft": "Viên phục hồi tiếng nói",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:31264",
+      "token": 31264,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "超级解冻剂",
+      "vi_draft": "Thuốc giải băng siêu cấp",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:31287",
+      "token": 31287,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "平乱符",
+      "vi_draft": "Bùa dẹp loạn",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:31310",
+      "token": 31310,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "神奇小药丸",
+      "vi_draft": "Viên thuốc thần kỳ",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:31333",
+      "token": 31333,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "静心诀",
+      "vi_draft": "Tâm quyết tĩnh tâm",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:31356",
+      "token": 31356,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "移动符水",
+      "vi_draft": "Nước bùa di chuyển",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:31379",
+      "token": 31379,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "解穴针",
+      "vi_draft": "Kim giải huyệt",
+      "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:31402",
+      "token": 31402,
+      "call": "AddItemData",
+      "argument": 1,
+      "source": "熊猫眼贴布",
+      "vi_draft": "Miếng dán mắt gấu trúc",
+      "risk": "name_may_be_used_as_lookup_key"
+    }
+  ]
+}
