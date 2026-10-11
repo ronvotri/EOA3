@@ -62,7 +62,7 @@ class GdiSurfaceAuditTests(unittest.TestCase):
         raw[target_offset] = 0x48
         row["code_window_hex"] = raw.hex()
         row["code_window_sha256"] = hashlib.sha256(raw).hexdigest()
-        with self.assertRaisesRegex(ValueError, "surface"):
+        with self.assertRaisesRegex(ValueError, "DirectDraw-compatible"):
             audit_engine(d, expected_sha="a"*64)
 
     def test_corrupt_font_charset_rejected_even_with_valid_digest(self):
