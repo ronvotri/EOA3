@@ -108,3 +108,11 @@ Cập nhật: 2026-10-11.
 - `0x4F2B38` chứa **`20 20 00 00`**: `TextOutA` đầu tiên vẽ đúng hai dấu cách ASCII. `TextOutA` thứ hai dùng `strlen([ebp+0x14])` làm `c`. Không xác minh render thoại trực tiếp.
 - Đã thêm `docs/V5_STRLEN_ENGINE_AUDIT.md`, `tools/verify_v5_strlen.py`, unit tests đối chiếu SHA/các nhánh return và bảo vệ khi dữ liệu sai. **V5 đủ cho mục tiêu hiện tại, không cần người dùng chạy lại.**
 - Kết hợp builder `ANGELSCRIPT`: token string có độ dài `uint16` theo byte `cp936`, validator nghiêm cấm thay controls. Chưa thể xây dựng patch Unicode chỉ bằng đổi font/API. Tiến độ dịch **1.881 translate**, **574 review**, **573 tên nháp ngoài runtime** không đổi.
+
+
+## V5: Đường duyệt ký tự ANSI `CharNextA` (11/10/2026)
+
+- Từ V5 ZIP đã nhận, xác minh site `0x42AD54` là `CharNextA` và nhánh so sánh `byte 0x25` (ký tự `%`), điều kiện phụ `[ebp-0x14]&0xFF`, vòng lặp trên con trỏ `[ebp-0x38]` và nhảy ngược `0x42AD79`. **Chưa xác định** đây có phải parser cho điều khiển ANGELSCRIPT.
+- Hai cửa sổ `TextOutA` overlap nhất quán; routine có `ret 0x14` tại `0x41A7E9`. Đường byte ANSI/MBCS hiện diện, cần bảo vệ khi thiết kế Unicode transport. Đây không phải kết quả đo runtime hay bằng chứng UI thoại.
+- Mới: `tools/audit_v5_text_iteration.py` + tests nhận diện exact SHA/windows và từ chối conflict; `tools/probe_text_callers.py` + tests làm **công cụ chuẩn bị** tìm xrefs và tên 7 IAT, chưa yêu cầu user chạy. Báo cáo `docs/V5_ANSI_TEXT_PATH_AUDIT.md`.
+- Không thay corpus: 1.881 translate/574 review/573 nháp; chưa có bản vá chơi được.
