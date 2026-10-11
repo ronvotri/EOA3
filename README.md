@@ -88,3 +88,6 @@ Bản Windows diagnostic **V4** xuất thêm `engine_callsite_slices.json` (tổ
 
 
 **Bản V7 sửa lỗi thu mẫu V6:** V6 chạy thành công nhưng 3/4 vùng font helper bị bỏ sót vì giới hạn 256 B, trong khi yêu cầu đến 448 B. V7 đặt giới hạn tối đa 512 B, kiểm đủ chiều dài mẫu và từ chối ZIP thiếu dữ liệu cho EXE đã xác minh. Vẫn 7 tệp báo cáo, không phải patch game. Đã giữ bằng chứng V6 về các ứng viên caller vào `0x41AA10` và marker `ANGELSCRIPT` ở `0x4F56D8`, nhưng hai helper vẫn chưa được giải mã. Xem `docs/V6_REAL_REPORT_AND_V7_FIX.md`.
+
+
+**V7 đã có kết quả thật:** Đã xác minh được hai helper font `0x41A7F0` và `0x41A8C0` ở mức mã máy: buffer `2*width*height`, một vùng `2000*height*ceil(width/8)` byte, và bảng 2.000 mục 16-bit. **Chưa khẳng định đây là 2.000 glyph hoặc hỗ trợ Unicode.** V7 báo cáo đủ 4/4 cửa sổ, user không cần chạy lại. Chi tiết `docs/V7_REAL_FONT_BUFFER_AUDIT.md`; công cụ `tools/audit_v7_font_buffers.py` kiểm thực chứng SHA/byte/IAT từ ZIP, không sửa EXE. Bản Việt hóa vẫn chưa có patch playable.
