@@ -1,5 +1,14 @@
 # Bàn giao cho cloud
 
+## Mới nhất — V6 chỉ lấy 2 body font helper có mục tiêu (11/10/2026)
+
+- Đã khai thác tối đa báo cáo **V5** hiện có: hai TextOutA, byte strlen, CharNextA, DirectDraw-compatible GetDC/ReleaseDC. Cửa sổ cuối quanh TextOutA **kết thúc ở 0x41A7EE**, còn **helper 0x41A7F0 bắt đầu ngay sau đó**; V5 không có code body của hai helper 0x41A7F0/0x41A8C0. Không nên tự gán nhãn glyph atlas.
+- Mới: **`tools/probe_engine_followup.py`** chỉ thu đoạn nhỏ tại **0x41A7F0 (288 byte), 0x41A8C0 (448), 0x41AA00 (192), 0x42AC60 (384)**, đồng thời lấy tên API IAT và raw E8 caller candidates + địa chỉ literal `ANGELSCRIPT`, tất cả khóa **SHA256 EXE chuẩn 2d7d9705837e32c72685d69e50e426fde168ea8d435de90ba937cefbf5138baf** và PE section. Kết quả mới **`engine_followup_evidence.json`** trong ZIP báo cáo V6 **7 file**. Không chạy/chỉnh EXE. Cảnh báo E8 raw có false positive; không nhận là call graph.
+- `tools/analyze_windows_report.py` tương thích V3 5 file, V4/V5 6 file, V6 7 file; `tools/package_diagnostics.py` đóng gói thêm module mới cùng caller scanner. CI Python+Windows smoke với synthetic EXE; không xác minh actual game.
+- Chi tiết **`docs/V6_FONT_HELPER_TARGETS.md`**. **Việc tiếp** khi nhận đúng ZIP V6 thực của user: disassemble hai helper; kiểm tra caller/marker xrefs thật; xác định đường ANGELSCRIPT→surface; quyết định kiến trúc Unicode trước PoC. Đừng yêu cầu user chạy lại V2-V5 hoặc gửi nguyên EXE.
+- Dịch **1.881 translate, 574 review, 573 tên nháp** giữ nguyên; **chưa có playable patch**.
+
+
 ## Checkpoint V5 — ĐÃ XÁC NHẬN ỨNG VIÊN DirectDraw Surface/HDC (11/10/2026)
 
 - Tận dụng nguyên ZIP **`EOA3-Windows-Diagnostics(2).zip`** đã gửi, không cần chạy tool Windows mới. SHA EXE **`2d7d9705837e32c72685d69e50e426fde168ea8d435de90ba937cefbf5138baf`**.
