@@ -45,3 +45,10 @@ Repo không chứa executable, nhạc/video hoặc bộ ảnh game. Cloud có đ
 ## Kiểm tra trước khi thử font tiếng Việt trên Windows
 
 Repo có `tools/probe_game.py` để lấy **báo cáo PE/GDI/font/encoding** từ `AngelSLG.exe` thực tế mà **không sửa** file game. Xem `docs/WINDOWS_RUNTIME_PREFLIGHT.md` để chạy lệnh Windows và lấy JSON. CI kiểm tra tool bằng các PE tổng hợp; **chưa chứng minh game chạy với Unicode**. Tuyệt đối không lấy 573 bản nháp tên hiển thị làm patch runtime.
+
+
+## Bộ kiểm tra Windows một cú nhấp đúp
+
+Tại mục **Actions → Validate EOA3 translations** có artifact `eoa3-windows-oneclick-diagnostic-tool`. Giải nén để lấy `EOA3-Windows-Diagnostic-Tool.zip`, rồi giải nén ZIP này và mở `EOA3-KiemTra-Windows.cmd`. Có thể chọn hoặc kéo-thả `AngelSLG.exe`, nhận **một ZIP báo cáo** trong thư mục `build/` mà không sửa game.
+
+Bộ công cụ chỉ gồm script Python + dữ liệu JSON phục vụ đọc font/encoding. Không chứa EXE, font hay tài nguyên game, chưa phải bản patch. Hướng dẫn và các giới hạn xem `docs/WINDOWS_ONECLICK_DIAGNOSTICS.md`.

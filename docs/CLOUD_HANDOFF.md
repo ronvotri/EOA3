@@ -1,5 +1,14 @@
 # Bàn giao cho cloud
 
+
+## Checkpoint mới nhất — công cụ Windows tự đóng gói (11/10/2026)
+
+- Có bộ ZIP tải riêng `eoa3-windows-oneclick-diagnostic-tool` trong GitHub Actions, chứa `EOA3-Windows-Diagnostic-Tool.zip` (40 cặp JSON kịch bản + scripts; không có game EXE/font/DLL). Người dùng chỉ cần **giải nén, mở `EOA3-KiemTra-Windows.cmd`, chọn EXE**; nhận một `build/EOA3-Windows-Diagnostics.zip` gồm 5 báo cáo.
+- Mới: `tools/windows_diagnostic_bundle.py`, `tools/font_preview.py`, `tools/package_diagnostics.py`, launcher và unit tests. Bộ ZIP báo cáo chỉ chứa metadata/hash PE, trạng thái font, thống kê Unicode và preview HTML offline. Không sửa thư mục game.
+- Đã kiểm thử bằng PE giả tự tạo và font mocks trong GitHub CI. **Chưa có kết quả chạy trên EXE thật, chưa có patch playable**. Cần người dùng cung cấp ZIP báo cáo (không cần EXE), sau đó mới thực nghiệm Unicode/font.
+- Không đổi số bản dịch: **1.881 translate, 574 review, 573 tên nháp**. Tiếp tục từ `docs/WINDOWS_ONECLICK_DIAGNOSTICS.md` và `docs/UNICODE_LAYOUT_QA.md`.
+
+
 ## Checkpoint mới nhất — đo dấu Việt và độ dài câu (11/10/2026)
 
 - Vẫn **1.881/1.881 `translate`**, **574 `review`**, **573 tên nháp ngoài runtime**. Không chuyển tên thành patch và không sửa khóa gốc.
