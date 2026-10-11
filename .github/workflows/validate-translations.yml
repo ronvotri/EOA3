@@ -48,6 +48,8 @@ jobs:
         run: python tools/test_probe_text_callers.py
       - name: Test targeted font helper and ANGELSCRIPT caller preflight
         run: python tools/test_probe_engine_followup.py
+      - name: Test consolidated V8 renderer consumer, font helpers and reference triples with synthetic PE
+        run: python tools/test_probe_renderer_v8.py
       - name: Verify observed V7 font helper byte/slot layout on synthetic x86 windows
         run: python tools/test_audit_v7_font_buffers.py
       - name: Verify V7 ANSI substring and 0x41C790 consumer handoff
@@ -110,4 +112,4 @@ jobs:
       - name: Verify actual Windows ZIP and manifest
         shell: pwsh
         run: |
-          python -c "import json,zipfile;z=zipfile.ZipFile('build/EOA3-Windows-Diagnostics.zip');m=json.loads(z.read('manifest.json'));assert m['status']=='diagnostic_bundle_not_a_patch';assert m['translation_count']==1881;assert m['review_count']==574;assert len(z.namelist())==7;code=json.loads(z.read('engine_callsite_slices.json'));f=json.loads(z.read('engine_followup_evidence.json'));assert code['status']=='read_only_code_neighborhoods_not_disassembly_or_patch';assert f['status']=='bounded_helper_caller_evidence_not_a_patch';print('Windows smoke PASS:',m['font_status'])"
+          python -c "import json,zipfile;z=zipfile.ZipFile('build/EOA3-Windows-Diagnostics.zip');m=json.loads(z.read('manifest.json'));assert m['status']=='diagnostic_bundle_not_a_patch';assert m['translation_count']==1881;assert m['review_count']==574;assert len(z.namelist())==8;code=json.loads(z.read('engine_callsite_slices.json'));f=json.loads(z.read('engine_followup_evidence.json'));v8=json.loads(z.read('renderer_trace_v8.json'));assert code['status']=='read_only_code_neighborhoods_not_disassembly_or_patch';assert f['status']=='bounded_helper_caller_evidence_not_a_patch';assert v8['status']=='read_only_v8_renderer_trace_code_fragments_not_disassembly_or_patch';print('Windows smoke PASS:',m['font_status'])"
