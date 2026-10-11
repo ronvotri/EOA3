@@ -123,7 +123,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "拉锡叶边境",
-    "vi": ""
+    "vi": "Biên giới Laxia"
   },
   {
     "id": "stage5:2146",
@@ -132,7 +132,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "Stage-5 拉锡叶边境",
-    "vi": ""
+    "vi": "Màn 5 - Biên giới Laxia"
   },
   {
     "id": "stage5:2151",
@@ -150,7 +150,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼！刚刚居然输给那几个小鬼！。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừ! Không ngờ ta lại thua mấy con nhóc đó!”"
   },
   {
     "id": "stage5:2178",
@@ -159,7 +159,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你们几个守住北边，%N这次绝不能让她们轻易离开。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Các ngươi canh chặt phía bắc.%NLần này tuyệt đối không được để chúng thoát dễ dàng!”"
   },
   {
     "id": "stage5:2203",
@@ -168,7 +168,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z30%c1“遵命！”",
-    "vi": ""
+    "vi": "%s2%t4%z30%c1“Tuân lệnh!”"
   },
   {
     "id": "stage5:2251",
@@ -177,7 +177,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你们负责封锁东北角，千万不能失误。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Các ngươi phong tỏa góc đông bắc. Không được sơ suất!”"
   },
   {
     "id": "stage5:2276",
@@ -186,7 +186,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z30%c1“是！”",
-    "vi": ""
+    "vi": "%s2%t4%z30%c1“Rõ!”"
   },
   {
     "id": "stage5:2395",
@@ -321,7 +321,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“妮雅～妮雅，路被封锁了怎么办？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Niya ơi, Niya! Đường bị chặn rồi, làm sao đây?”"
   },
   {
     "id": "stage5:2779",
@@ -330,7 +330,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我们等晚上再过去吧¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hay đợi đến tối rồi mình tìm cách qua nhé...”"
   },
   {
     "id": "stage5:2811",
@@ -339,7 +339,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z30%c1“慢着！”",
-    "vi": ""
+    "vi": "%s2%t4%z30%c1“Đứng lại!”"
   },
   {
     "id": "stage5:2822",
@@ -348,7 +348,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你们两个小朋友打哪来的呀？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hai cô nhóc kia, ở đâu chui ra đấy?”"
   },
   {
     "id": "stage5:2847",
@@ -357,7 +357,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我才想问你们是打哪来的呢！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tôi còn muốn hỏi các người ở đâu chui ra đây này!”"
   },
   {
     "id": "stage5:2858",
@@ -366,7 +366,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“一声不响就把村子的路都封起来了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tự dưng kéo đến phong tỏa hết đường làng!”"
   },
   {
     "id": "stage5:2883",
@@ -375,7 +375,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我们是欧查军队，%N想要命的话就好好给我滚回家。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Bọn ta là quân Ocha.%NMuốn giữ mạng thì mau cút về nhà!”"
   },
   {
     "id": "stage5:2908",
@@ -384,7 +384,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“安¨安洁莉娜，别跟她们吵了，%N她们看起来不好惹呐。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“An... Angelina, đừng cãi nhau với họ nữa.%NTrông họ chẳng dễ chọc đâu...”"
   },
   {
     "id": "stage5:2933",
@@ -393,7 +393,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“开玩笑！难道我就好惹呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Đùa à! Chẳng lẽ trông tôi dễ chọc lắm sao!?”"
   },
   {
     "id": "stage5:2958",
@@ -402,7 +402,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“很好！你们两个胆子够大！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hay lắm! Hai đứa cũng gan đấy!”"
   },
   {
     "id": "stage5:2983",
@@ -411,7 +411,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我们是这个村子的人，你想怎样！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Bọn tôi là người làng này đấy! Thì sao nào!?”"
   },
   {
     "id": "stage5:3008",
@@ -420,7 +420,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不怎样，只是看到两个发育不完整的小朋友%N就想欺负。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chẳng sao cả. Thấy hai con nhóc còn chưa lớn%Nthì ta chỉ muốn bắt nạt một chút thôi.”"
   },
   {
     "id": "stage5:3033",
@@ -429,7 +429,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“啊！你讲话好毒。”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Á! Miệng lưỡi cô độc địa thật đấy!”"
   },
   {
     "id": "stage5:3058",
@@ -438,7 +438,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“喔呵呵呵呵～～～我折磨人更毒。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ô hô hô hô! Ta hành hạ người còn ác hơn cơ!”"
   },
   {
     "id": "stage5:3069",
@@ -447,7 +447,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“大家上，把这两个活捉，%N晚上就慢慢来折磨这两个丫头。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tất cả xông lên! Bắt sống hai đứa nó.%NTối nay ta sẽ từ từ hành hạ chúng!”"
   },
   {
     "id": "stage5:3094",
@@ -456,7 +456,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你太嚣张了¨¨¨",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ngươi quá ngông cuồng rồi...”"
   },
   {
     "id": "stage5:3105",
@@ -465,7 +465,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“要打就来打！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Muốn đánh thì nhào vô!”"
   },
   {
     "id": "stage5:3116",
@@ -474,7 +474,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不践踏一下你这虐待狂，%N难消我心头之火¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không cho tên cuồng bạo hành như ngươi một trận%Nthì ta chẳng hả giận nổi!”"
   },
   {
     "id": "stage5:3155",
@@ -483,7 +483,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“她们有危险了，要去帮忙吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Họ gặp nguy rồi. Chúng ta có nên giúp không?”"
   },
   {
     "id": "stage5:3187",
@@ -492,7 +492,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừm...”"
   },
   {
     "id": "stage5:3198",
@@ -501,7 +501,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“看来她们也是受到欧查军攻击的受害者，%N我们去帮忙吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Có vẻ họ cũng là nạn nhân của quân Ocha.%NMình mau đến giúp họ thôi!”"
   },
   {
     "id": "stage5:3226",
@@ -510,7 +510,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：敌军全灭%N失败条件：妮雅战败",
-    "vi": ""
+    "vi": "Điều kiện thắng: Tiêu diệt toàn bộ quân địch.%NĐiều kiện thua: Niya bị đánh bại."
   },
   {
     "id": "stage5:3339",
@@ -834,7 +834,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呜呜¨¨谢谢你们帮忙。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hức hức... Cảm ơn các cậu đã cứu bọn mình.”"
   },
   {
     "id": "stage5:4055",
@@ -843,7 +843,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不要一直哭哭啼啼的，丢脸死了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đừng có khóc mãi thế! Mất mặt quá đi!”"
   },
   {
     "id": "stage5:4080",
@@ -852,7 +852,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呜¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hức...”"
   },
   {
     "id": "stage5:4105",
@@ -861,7 +861,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呃¨你们都不要紧吧？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“À... Hai cậu không sao chứ?”"
   },
   {
     "id": "stage5:4130",
@@ -870,7 +870,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯，都还活着！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừ, vẫn còn sống nhăn đây!”"
   },
   {
     "id": "stage5:4141",
@@ -879,7 +879,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“咦！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hả!?”"
   },
   {
     "id": "stage5:4152",
@@ -888,7 +888,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“对了，你们又是谁？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mà khoan, các cậu là ai vậy?”"
   },
   {
     "id": "stage5:4177",
@@ -897,7 +897,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呀¨¨忘了自我介绍了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“A... Mải quá, mình quên giới thiệu.”"
   },
   {
     "id": "stage5:4188",
@@ -906,7 +906,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我是妮雅，旁边这位是希蜜。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mình là Niya, còn bên cạnh là Shimi.”"
   },
   {
     "id": "stage5:4199",
@@ -915,7 +915,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我们是拉锡叶的军队，%N正要前往加百列求援才经过这里。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Bọn mình là binh sĩ Laxia,%Nđang trên đường đến Gabriel cầu viện.”"
   },
   {
     "id": "stage5:4224",
@@ -924,7 +924,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“求援？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cầu viện?”"
   },
   {
     "id": "stage5:4235",
@@ -933,7 +933,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“难道是欧查军干的什么好事吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Lại là chuyện tốt lành gì do quân Ocha gây ra à?”"
   },
   {
     "id": "stage5:4260",
@@ -942,7 +942,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯¨是的¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừ... đúng vậy...”"
   },
   {
     "id": "stage5:4271",
@@ -951,7 +951,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“首都厄特与翡翠神殿都让欧查军给占领了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Kinh đô Ett và Đền Ngọc Bích đều đã bị quân Ocha chiếm.”"
   },
   {
     "id": "stage5:4308",
@@ -960,7 +960,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“神殿被¨占领了¨¨？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ngôi đền... bị chiếm rồi sao...?”"
   },
   {
     "id": "stage5:4319",
@@ -969,7 +969,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“莉娜¨葛瑞丝姊姊不是也在神殿吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Lina... Chị Grace cũng ở trong đền mà, đúng không?”"
   },
   {
     "id": "stage5:4330",
@@ -978,7 +978,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呜啊～～～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Á á á!”"
   },
   {
     "id": "stage5:4341",
@@ -987,7 +987,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那葛瑞丝姊姊、葛瑞丝姊姊呢？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy... chị Grace, chị Grace giờ sao rồi?”"
   },
   {
     "id": "stage5:4378",
@@ -996,7 +996,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“葛瑞丝¨¨大主教吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ý cậu là... Đại Tổng giám mục Grace sao?”"
   },
   {
     "id": "stage5:4389",
@@ -1005,7 +1005,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我¨我们并没有她的消息¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Bọn mình... vẫn chưa có tin gì về ngài ấy...”"
   },
   {
     "id": "stage5:4414",
@@ -1023,7 +1023,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好吧¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy à...”"
   },
   {
     "id": "stage5:4436",
@@ -1032,7 +1032,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那先让我加入你们吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thế cho mình gia nhập đội các cậu nhé!”"
   },
   {
     "id": "stage5:4461",
@@ -1050,7 +1050,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你真的要加入吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cậu thật sự muốn đi cùng bọn mình sao?”"
   },
   {
     "id": "stage5:4511",
@@ -1059,7 +1059,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你看过我们的战力了，应该不比你们差吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cậu thấy bọn mình chiến đấu rồi đấy. Chắc đâu có yếu hơn các cậu, phải không?”"
   },
   {
     "id": "stage5:4536",
@@ -1068,7 +1068,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那倒是¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cũng đúng là vậy...”"
   },
   {
     "id": "stage5:4547",
@@ -1077,7 +1077,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“但是跟着我们会很危险，%N所以我想你还是要谨慎考虑。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhưng đi cùng bọn mình sẽ rất nguy hiểm,%Ncậu nên suy nghĩ kỹ đã.”"
   },
   {
     "id": "stage5:4558",
@@ -1086,7 +1086,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“另外，还有¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Với lại còn...”"
   },
   {
     "id": "stage5:4583",
@@ -1095,7 +1095,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“烦不烦啊！”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Nói lắm thế, phiền chết đi được!”"
   },
   {
     "id": "stage5:4594",
@@ -1104,7 +1104,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“我说要加入就要加入，%N废话就省省行不行！”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Tôi bảo muốn gia nhập thì cứ cho tôi gia nhập!%NBớt nói nhảm đi được không?”"
   },
   {
     "id": "stage5:4619",
@@ -1113,7 +1113,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呃¨¨好¨好吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ơ... ừ... được thôi!”"
   },
   {
     "id": "stage5:4633",
@@ -1122,7 +1122,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "安洁莉娜、米雅法儿加入队伍。",
-    "vi": ""
+    "vi": "Angelina và Miafa gia nhập đội."
   },
   {
     "id": "stage5:4697",
@@ -1131,7 +1131,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z16%c1“妮雅、妮雅，她脾气好像不太好耶¨”",
-    "vi": ""
+    "vi": "%s2%t4%z16%c1“Niya, Niya... Cậu ấy hơi nóng tính thì phải...”"
   },
   {
     "id": "stage5:4729",
@@ -1140,7 +1140,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z16%c1“嗯嗯¨”",
-    "vi": ""
+    "vi": "%s2%t4%z16%c1“Ừm, ừm...”"
   },
   {
     "id": "stage5:4761",
@@ -1149,7 +1149,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呜呜呜¨安洁莉娜¨¨那我怎么办¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hức hức... Angelina... Thế còn mình thì sao...?”"
   },
   {
     "id": "stage5:4772",
@@ -1158,7 +1158,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呜¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hức...”"
   },
   {
     "id": "stage5:4804",
@@ -1167,7 +1167,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“跟着妮雅说不定就会遇到葛瑞丝了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đi cùng Niya biết đâu cậu sẽ gặp lại chị Grace.”"
   },
   {
     "id": "stage5:4829",
@@ -1176,7 +1176,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呜¨¨真的吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hức... Thật vậy sao?”"
   },
   {
     "id": "stage5:4860",
@@ -1185,7 +1185,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那我也要加入好不好？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy mình cũng gia nhập được không?”"
   },
   {
     "id": "stage5:4885",
@@ -1194,7 +1194,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z16%c1“她一直在哭耶¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z16%c1“Cậu ấy cứ khóc suốt thôi...”"
   },
   {
     "id": "stage5:4910",
@@ -1203,7 +1203,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“请问¨她真的行吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừm... Cậu ấy thực sự chiến đấu được chứ?”"
   },
   {
     "id": "stage5:4935",
@@ -1212,7 +1212,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“随便，看你们高兴怎么使用啦！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tùy các cậu. Muốn sai bảo thế nào cũng được!”"
   },
   {
     "id": "stage5:4960",
@@ -1221,7 +1221,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“使、使用¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Sa... sai bảo á...?”"
   },
   {
     "id": "stage5:4971",
@@ -1230,7 +1230,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừm...”"
   },
   {
     "id": "stage5:4982",
@@ -1239,7 +1239,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好吧！那么也欢迎你加入！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thôi được! Vậy chào mừng cậu gia nhập!”"
   },
   {
     "id": "stage5:5007",
@@ -1248,7 +1248,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“谢谢¨我叫米雅法儿。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cảm ơn... Mình là Miafa.”"
   },
   {
     "id": "stage5:5018",
@@ -1257,7 +1257,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“她¨她是¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Còn cậu ấy... cậu ấy là...”"
   },
   {
     "id": "stage5:5043",
@@ -1266,7 +1266,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“安洁莉娜！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Angelina!”"
   },
   {
     "id": "stage5:5099",
@@ -1275,7 +1275,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我是希蜜，请多指教。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mình là Shimi. Mong được giúp đỡ nhé!”"
   },
   {
     "id": "stage5:5124",
@@ -1284,7 +1284,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừ!”"
   },
   {
     "id": "stage5:5182",
@@ -1293,7 +1293,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z16%c1“妮雅¨你不觉得她的外表跟脾气不太搭调吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z16%c1“Niya... Cậu không thấy mặt mũi cậu ấy chẳng hợp chút nào với tính nết sao?”"
   },
   {
     "id": "stage5:5214",
@@ -1302,7 +1302,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z16%c1“呃¨¨还好啦！”",
-    "vi": ""
+    "vi": "%s2%t4%z16%c1“À... Cũng bình thường mà!”"
   },
   {
     "id": "stage5:5239",
@@ -1311,7 +1311,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z26%c1“喂！不要拿我长相作文章。",
-    "vi": ""
+    "vi": "%s2%t4%z26%c1“Này! Đừng lôi vẻ ngoài của tôi ra bàn tán!”"
   },
   {
     "id": "stage5:5250",
@@ -1320,7 +1320,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừ!”"
   },
   {
     "id": "stage5:5287",
@@ -1329,7 +1329,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呃¨¨不好意思。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“À... Xin lỗi nhé!”"
   },
   {
     "id": "stage5:5298",
@@ -1338,7 +1338,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那我们就早点到加百列吧。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thôi, mau đến Gabriel đi!”"
   },
   {
     "id": "stage5:5316",
@@ -1491,6 +1491,6 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t2%z18%c1“可恶，就这样结束了吗”",
-    "vi": ""
+    "vi": "%s2%t2%z18%c1“Đáng ghét... Chẳng lẽ kết thúc ở đây sao?”"
   }
 ]
