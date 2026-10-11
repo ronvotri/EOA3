@@ -87,7 +87,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "突围响马村",
-    "vi": ""
+    "vi": "Phá vòng vây làng cướp"
   },
   {
     "id": "stage41:1928",
@@ -96,7 +96,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "Stage-7 突围响马村",
-    "vi": ""
+    "vi": "Màn 7 - Phá vòng vây làng cướp"
   },
   {
     "id": "stage41:1933",
@@ -114,7 +114,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“希蜜，你的伤没问题吧！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Shimi, vết thương của cậu không sao chứ!?”"
   },
   {
     "id": "stage41:1974",
@@ -123,7 +123,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嘿嘿～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hê hê~!”"
   },
   {
     "id": "stage41:1985",
@@ -132,7 +132,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“希蜜这么强壮，绝对不会有事的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Shimi khỏe như voi thế này thì sao có chuyện được!”"
   },
   {
     "id": "stage41:2010",
@@ -150,7 +150,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那你要转职肉搏系吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thế cậu muốn chuyển sang nghề đánh cận chiến không?”"
   },
   {
     "id": "stage41:2046",
@@ -159,7 +159,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呃¨¨¨一身肌肉的¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ơ... Cơ bắp cuồn cuộn khắp người ấy hả...”"
   },
   {
     "id": "stage41:2057",
@@ -168,7 +168,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z26%c1“我不要啊！！”",
-    "vi": ""
+    "vi": "%s2%t4%z26%c1“KHÔNG ĐÂU!!”"
   },
   {
     "id": "stage41:2082",
@@ -177,7 +177,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哈哈！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ha ha!”"
   },
   {
     "id": "stage41:2119",
@@ -186,7 +186,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这里有村子，我们先进去吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đằng kia có làng! Bọn mình vào xem đã!”"
   },
   {
     "id": "stage41:2186",
@@ -204,7 +204,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哈哈哈～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ha ha ha!”"
   },
   {
     "id": "stage41:2204",
@@ -213,7 +213,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那群人还真是笨，难怪得去别国讨救兵。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mấy đứa đó ngốc thật! Thảo nào phải chạy sang nước khác cầu viện!”"
   },
   {
     "id": "stage41:2229",
@@ -222,7 +222,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呵呵！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hê hê!”"
   },
   {
     "id": "stage41:2240",
@@ -231,7 +231,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不过呀！我本来以为那封信是情书呢！%N结果居然不是。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mà này, ta cứ tưởng lá thư đó là thư tình cơ đấy!%NAi dè chẳng phải.”"
   },
   {
     "id": "stage41:2251",
@@ -240,7 +240,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“真是不好玩。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chán phèo!”"
   },
   {
     "id": "stage41:2276",
@@ -249,7 +249,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哈哈，无所谓啦！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ha ha, sao cũng được!”"
   },
   {
     "id": "stage41:2287",
@@ -258,7 +258,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我们还是先进寨里吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cứ vào trại trước đã!”"
   },
   {
     "id": "stage41:2325",
@@ -267,7 +267,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“咦！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ủa!?”"
   },
   {
     "id": "stage41:2362",
@@ -276,7 +276,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“怎么了吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Có chuyện gì vậy?”"
   },
   {
     "id": "stage41:2378",
@@ -285,7 +285,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“啊！？她们！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Á!? Là bọn chúng!”"
   },
   {
     "id": "stage41:2389",
@@ -294,7 +294,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哈哈，她们刚刚才打输，现在还要再来呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ha ha! Vừa thua lúc nãy mà chúng còn muốn đánh tiếp sao!”"
   },
   {
     "id": "stage41:2419",
@@ -303,7 +303,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“怎么又是她们呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Sao lại là mấy đứa này nữa chứ!”"
   },
   {
     "id": "stage41:2444",
@@ -312,7 +312,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“呜啊～～”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Á á~!”"
   },
   {
     "id": "stage41:2455",
@@ -321,7 +321,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“死小偷们又出现了！”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Lũ trộm đáng ghét lại xuất hiện rồi!”"
   },
   {
     "id": "stage41:2480",
@@ -330,7 +330,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“真是不得闲¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không lúc nào được yên...”"
   },
   {
     "id": "stage41:2491",
@@ -339,7 +339,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“出击吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Xông lên thôi!”"
   },
   {
     "id": "stage41:2559",
@@ -465,7 +465,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：敌军全灭。%N失败条件：妮雅战败。",
-    "vi": ""
+    "vi": "Điều kiện thắng: Tiêu diệt toàn bộ quân địch.%NĐiều kiện thua: Niya bị đánh bại."
   },
   {
     "id": "stage41:2988",
@@ -609,6 +609,6 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“难道¨¨拉锡叶的未来¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chẳng lẽ... tương lai Laxia sẽ chấm dứt ở đây...?”"
   }
 ]
