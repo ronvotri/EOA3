@@ -11,7 +11,7 @@ class NameAuditTests(unittest.TestCase):
 
     def test_complete_display_only_draft(self):
         self.assertEqual(dict(verify_draft(self.draft, self.database)),
-                         {"AddGroundData": 14, "AddSkillData": 63, "AddItemData": 58})
+                         {"AddGroundData": 14, "AddSkillData": 63, "AddItemData": 58, "AddClassData": 360})
         self.assertTrue(all(r["mode"] == "review" for r in self.database
                             if r["token"] in {x["token"] for x in self.draft["entries"]}))
 
