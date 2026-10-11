@@ -1059,7 +1059,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你看过我们的战力了，应该不比你们差吧！”",
-    "vi": "%s2%t4%z18%c1“Cậu thấy bọn mình chiến đấu rồi đấy. Chắc đâu có yếu hơn các cậu, phải không?”"
+    "vi": "%s2%t4%z18%c1“Các cậu đã thấy bọn mình đánh rồi. Đâu có yếu hơn nhỉ?”"
   },
   {
     "id": "stage5:4536",
@@ -1293,7 +1293,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z16%c1“妮雅¨你不觉得她的外表跟脾气不太搭调吗？”",
-    "vi": "%s2%t4%z16%c1“Niya... Cậu không thấy mặt mũi cậu ấy chẳng hợp chút nào với tính nết sao?”"
+    "vi": "%s2%t4%z16%c1“Niya... Cậu không thấy vẻ ngoài và tính nết cô ấy trái ngược sao?”"
   },
   {
     "id": "stage5:5214",
