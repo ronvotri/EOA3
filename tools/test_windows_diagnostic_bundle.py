@@ -97,6 +97,14 @@ class WindowsBundleTests(unittest.TestCase):
                           source_root=self.fake_root,
                           font_analyzer=mock_font_analyzer)
 
+    def test_output_never_written_inside_game_folder(self):
+        forbidden = self.game / "report.zip"
+        with self.assertRaisesRegex(ValueError, "outside the game"):
+            create_bundle(self.exe, forbidden,
+                          source_root=self.fake_root,
+                          font_analyzer=mock_font_analyzer)
+        self.assertFalse(forbidden.exists())
+
     def test_html_escapes_untrusted_strings(self):
         report = {"status": "static_language_preflight_not_a_game_patch",
                   "font_probe_cases": [
