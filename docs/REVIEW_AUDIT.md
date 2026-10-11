@@ -52,3 +52,9 @@ python tools/test_scripts.py
 ```
 
 Hai lệnh kiểm tra nội dung kỹ thuật, **không thay thế kiểm thử hiển thị Windows**.
+
+## Đợt 2: đề xuất tên hiển thị, chưa mở khóa (2026-10-11)
+
+**574 dòng review vẫn giữ nguyên.** Đã soạn **495 bản nháp** (14 địa hình, 63 kỹ năng, 58 vật phẩm, 360 dòng tên lớp với 95 tên khác nhau) trong `translations/DISPLAY_NAMES_DRAFT.json`. Đây là lớp biên tập ngoài build, không phải 495 tên đã được game chấp nhận. Còn 79 dòng chưa có bản nháp vì rủi ro cao hơn: 12 phe, 28 user bank, 38 thẻ, 1 chuỗi stage24 không nhận diện lời gọi.
+
+Có công cụ quét 40 tập nguồn `tools/audit_names.py`, kiểm tra tên và token gốc, xuất danh sách lần xuất hiện chuỗi tương đồng. **Không tìm thấy tham chiếu ở kịch bản vẫn không chứng minh được engine không dùng tên làm khóa.** File `docs/NAME_REFERENCE_AUDIT.md` là báo cáo chi tiết và mô tả artifact CI. Không chuyển hàng nào sang `translate` trong lượt này.

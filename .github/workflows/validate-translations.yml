@@ -22,3 +22,13 @@ jobs:
         run: python tools/scripts.py check
       - name: Unit tests
         run: python tools/test_scripts.py
+      - name: Validate display-name drafts without touching lookup keys
+        run: python tools/audit_names.py check
+      - name: Static name reference unit tests
+        run: python tools/test_name_audit.py
+      - name: Export potential string references
+        run: python tools/audit_names.py report --out build/name_reference_report.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: eoa3-name-reference-report
+          path: build/name_reference_report.json
