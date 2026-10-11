@@ -32,6 +32,8 @@ jobs:
         run: python tools/audit_unicode_layout.py check
       - name: Test Unicode and line-width analyzer
         run: python tools/test_audit_unicode_layout.py
+      - name: Test optional Windows GDI font probe via mocks
+        run: python tools/test_windows_font_probe.py
       - name: Generate font and line-wrap QA report
         run: python tools/audit_unicode_layout.py report --out build/unicode_layout_report.json
       - name: Export potential string references
