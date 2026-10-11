@@ -114,6 +114,16 @@ Bảng tên hiển thị **tạm thời** phục vụ dịch, không sửa các 
 | 夜闯中途林 | Đột nhập rừng giữa đêm | Nhánh phụ màn 3 (stage40) |
 | 突围响马村 | Phá vòng vây làng cướp | Nhánh phụ màn 7 (stage41) |
 
+| 雪夜 | Xueye | Đồng đội của Yingyue xuất hiện stage42/48, phiên âm tạm |
+| 天地寨 | trại Thiên Địa | Căn cứ băng cướp của Yingyue, phiên dịch Hán Việt tạm |
+| 夕滟 | Xiyan | Tướng đối thủ ở bán kết đại hội võ thuật, phiên âm tạm |
+| 青龙郡 | quận Thanh Long | Khu vực xuất thân của Lifeng |
+| 武襄丽凤 | Võ Tương Lifeng | Danh xưng đầy đủ của Lifeng, cần QA |
+| 青色 | Qingse | Người theo bảo vệ Lifeng, phiên âm tạm |
+| 爱玉 | Aiyu | Người theo bảo vệ Lifeng, phiên âm tạm |
+| 御田胭脂米 | gạo ngự điền | Vật phẩm trợ cấp của người cai trị Shangri-La; định lượng cần rà theo giao diện |
+| 翠绿村 | làng Xanh | Làng trở về ở stage92; cách dịch tạm, có thể cần địa danh chính thức |
+
 ## Khẩu khí
 
 - Đồng đội trẻ: **mình/cậu, bọn mình**; câu thoại hoàn chỉnh, tự nhiên, có nhịp cảm xúc, không quá máy móc.
