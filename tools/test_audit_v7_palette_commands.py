@@ -31,7 +31,7 @@ class PaletteControlAuditTests(unittest.TestCase):
         self.assertEqual(result["numeric_parse_call"]["text_pointer_offset_bytes"],2)
         self.assertEqual(result["value_application"]["fallback_constant"],"0x0000fffe")
         self.assertIn("not present",result["limits"][0])
-        self.assertIn("not proven",result["limits"][1])
+        self.assertIn("not a proven visual output",result["limits"][1])
         self.assertEqual(result["status"],
                          "verified_static_palette_index_branch_not_token_mapping")
 
