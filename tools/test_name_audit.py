@@ -40,6 +40,18 @@ class NameAuditTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             verify_draft(draft, self.database)
 
+    def test_duplicate_class_names_have_one_translation(self):
+        seen = {}
+        classes = [x for x in self.draft["entries"] if x["call"] == "AddClassData"]
+        self.assertEqual(len(classes), 360)
+        for row in classes:
+            name = row["source"].strip()
+            if name in seen:
+                self.assertEqual(seen[name], row["vi_draft"])
+            else:
+                seen[name] = row["vi_draft"]
+        self.assertEqual(len(seen), 95)
+
     def test_static_scan_has_explicit_uncertainty(self):
         report = reference_report(self.database)
         self.assertEqual(report["review_rows_scanned"], 573)
