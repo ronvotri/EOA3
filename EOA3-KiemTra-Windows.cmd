@@ -74,7 +74,7 @@ echo "%REPORT%"
 echo =======================================================
 echo.
 echo Opening the build folder now...
-start "" "%CD%\build"
+if not "%EOA3_NO_OPEN%"=="1" start "" "%CD%\build"
 echo Send EOA3-Windows-Diagnostics.zip back to the chat.
 goto end
 
@@ -86,7 +86,7 @@ echo "%LOG%"
 echo =======================================================
 echo.
 echo Opening the build folder to help you find the error log...
-start "" "%CD%\build"
+if not "%EOA3_NO_OPEN%"=="1" start "" "%CD%\build"
 echo Send EOA3-Diagnostic-Log.txt or a photo of this window.
 echo An old report ZIP might still exist; use the error log from THIS run.
 echo Your game files were not modified.
