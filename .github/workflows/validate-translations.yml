@@ -56,3 +56,30 @@ jobs:
         with:
           name: eoa3-unicode-font-layout-audit
           path: build/unicode_layout_report.json
+
+  windows-oneclick-smoke:
+    name: Windows one-click report smoke
+    runs-on: windows-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run CMD launcher with a synthetic EXE on real Windows
+        shell: pwsh
+        env:
+          EOA3_NO_OPEN: "1"
+        run: |
+          New-Item -ItemType Directory -Force build\fakegame | Out-Null
+          python -c "import sys;sys.path.insert(0,'tools');from test_probe_game import fake_pe32;from pathlib import Path;Path('build/fakegame/AngelSLG.exe').write_bytes(fake_pe32())"
+          & cmd.exe /d /c 'EOA3-KiemTra-Windows.cmd build\fakegame\AngelSLG.exe'
+          if ($LASTEXITCODE -ne 0) { throw "Launcher returned exit code $LASTEXITCODE" }
+          if (-not (Test-Path 'build\EOA3-Windows-Diagnostics.zip')) {
+            if (Test-Path 'build\EOA3-Diagnostic-Log.txt') { Get-Content 'build\EOA3-Diagnostic-Log.txt' }
+            throw 'One-click launcher did not create report ZIP'
+          }
+      - name: Verify actual Windows ZIP and manifest
+        shell: pwsh
+        run: |
+          python -c "import json,zipfile;z=zipfile.ZipFile('build/EOA3-Windows-Diagnostics.zip');m=json.loads(z.read('manifest.json'));assert m['status']=='diagnostic_bundle_not_a_patch';assert m['translation_count']==1881;assert m['review_count']==574;assert len(z.namelist())==5;print('Windows smoke PASS:',m['font_status'])"
