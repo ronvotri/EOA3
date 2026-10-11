@@ -78,7 +78,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "狄道争国信",
-    "vi": ""
+    "vi": "Giành lại quốc thư tại Didao"
   },
   {
     "id": "stage7:1620",
@@ -87,7 +87,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "Stage-7 狄道争国信",
-    "vi": ""
+    "vi": "Màn 7 - Giành lại quốc thư tại Didao"
   },
   {
     "id": "stage7:1647",
@@ -105,7 +105,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呼呼～～～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hộc... hộc...”"
   },
   {
     "id": "stage7:1674",
@@ -114,7 +114,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“总算追上了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cuối cùng cũng đuổi kịp rồi!”"
   },
   {
     "id": "stage7:1699",
@@ -123,7 +123,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好！那就看我的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Được! Để mình ra tay cho!”"
   },
   {
     "id": "stage7:1749",
@@ -132,7 +132,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z28%c1“喂～～～”",
-    "vi": ""
+    "vi": "%s2%t4%z28%c1“Ê~!!”"
   },
   {
     "id": "stage7:1760",
@@ -141,7 +141,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z28%c1“死小偷们给我站住！！”",
-    "vi": ""
+    "vi": "%s2%t4%z28%c1“Lũ trộm kia, đứng lại ngay!!”"
   },
   {
     "id": "stage7:1827",
@@ -150,7 +150,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“怎么搞的？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Có chuyện gì thế?”"
   },
   {
     "id": "stage7:1838",
@@ -159,7 +159,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我好像听到有人在骂我们¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hình như có kẻ đang chửi bọn mình...”"
   },
   {
     "id": "stage7:1863",
@@ -168,7 +168,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“就是刚才那一群叶虏鞑小鬼呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Là mấy con nhóc láo toét lúc nãy ấy!”"
   },
   {
     "id": "stage7:1874",
@@ -177,7 +177,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“他们追上来了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chúng đuổi theo kịp rồi!”"
   },
   {
     "id": "stage7:1899",
@@ -186,7 +186,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哦！原来如此。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ồ, ra thế.”"
   },
   {
     "id": "stage7:1910",
@@ -195,7 +195,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“既然对我们这么有意思，那¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đã quan tâm đến bọn ta đến vậy thì...”"
   },
   {
     "id": "stage7:1921",
@@ -204,7 +204,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好，那这次就来痛宰他们一顿。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hay lắm! Lần này cho chúng một trận ra trò!”"
   },
   {
     "id": "stage7:1987",
@@ -213,7 +213,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呜啊～～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Á á!”"
   },
   {
     "id": "stage7:1998",
@@ -222,7 +222,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“她们调头过来了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Bọn chúng quay đầu lại kìa!”"
   },
   {
     "id": "stage7:2068",
@@ -231,7 +231,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“希蜜¨¨你够罗¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Shimi... Cậu làm thế đủ rồi đấy...”"
   },
   {
     "id": "stage7:2120",
@@ -240,7 +240,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼！不够不够。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừ! Chưa đủ, chưa đủ!”"
   },
   {
     "id": "stage7:2131",
@@ -249,7 +249,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“难得的出场机会怎么可能嫌够。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mãi mới có dịp lên sân khấu, sao đã đủ được!”"
   },
   {
     "id": "stage7:2163",
@@ -258,7 +258,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“真是的¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Trời ơi là trời...”"
   },
   {
     "id": "stage7:2174",
@@ -267,7 +267,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“跟在她们后面偷袭就好了，别老是想着要出%N锋头啦！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đáng lẽ cứ bám theo đánh úp là được rồi,%Nđừng có lúc nào cũng thích làm người nổi bật chứ!”"
   },
   {
     "id": "stage7:2199",
@@ -276,7 +276,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“啊！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hả!?”"
   },
   {
     "id": "stage7:2210",
@@ -285,7 +285,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“原来你有偷袭的打算呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hóa ra cậu định đánh úp họ à!”"
   },
   {
     "id": "stage7:2235",
@@ -294,7 +294,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“算了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thôi kệ vậy!”"
   },
   {
     "id": "stage7:2246",
@@ -303,7 +303,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“既然被发现，那我们就出击吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đã bị phát hiện rồi thì xông lên thôi!”"
   },
   {
     "id": "stage7:2276",
@@ -402,7 +402,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“嘿！”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Hây!”"
   },
   {
     "id": "stage7:2562",
@@ -411,7 +411,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“有本事就来打倒我们，废话不用%N那么多。”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Giỏi thì tới đây đánh bại bọn ta đi,%Nđừng có đứng đó nói nhiều!”"
   },
   {
     "id": "stage7:2587",
@@ -420,7 +420,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“可恶！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đáng ghét!”"
   },
   {
     "id": "stage7:2598",
@@ -429,7 +429,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“死小偷，你给我等着瞧。”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Lũ trộm kia, cứ đợi đấy!”"
   },
   {
     "id": "stage7:2612",
@@ -447,7 +447,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：敌大将～盈月战败。%N失败条件：妮雅战败。",
-    "vi": ""
+    "vi": "Điều kiện thắng: Đánh bại thủ lĩnh Yingyue.%NĐiều kiện thua: Niya bị đánh bại."
   },
   {
     "id": "stage7:2773",
@@ -537,7 +537,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“难道¨¨拉锡叶的未来¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chẳng lẽ... tương lai của Laxia... sẽ chấm dứt ở đây...?”"
   },
   {
     "id": "stage7:2911",
@@ -618,7 +618,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“说，信件在那里?”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Nói! Lá thư đâu rồi!?”"
   },
   {
     "id": "stage7:3151",
@@ -627,7 +627,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呜¨¨好痛！!”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ái... đau quá!!”"
   },
   {
     "id": "stage7:3162",
@@ -636,7 +636,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“小妮子下手真狠！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Con nhóc này ra tay ác thật!”"
   },
   {
     "id": "stage7:3194",
@@ -645,7 +645,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z28%c1“快说！”",
-    "vi": ""
+    "vi": "%s2%t4%z28%c1“Nói mau!”"
   },
   {
     "id": "stage7:3219",
@@ -654,7 +654,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不要打了，我说就是了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đừng đánh nữa! Để ta nói!”"
   },
   {
     "id": "stage7:3230",
@@ -663,7 +663,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“信件在¨¨就在¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Lá thư... lá thư ở...”"
   },
   {
     "id": "stage7:3241",
@@ -672,7 +672,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“就在你心里罗～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nằm ở trong tim ngươi đó~!”"
   },
   {
     "id": "stage7:3252",
@@ -681,7 +681,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z26%c1“哇哈哈哈～～”",
-    "vi": ""
+    "vi": "%s2%t4%z26%c1“Oa ha ha ha!”"
   },
   {
     "id": "stage7:3276",
@@ -690,7 +690,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“先走一步罗～～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Bọn ta đi trước đây~!”"
   },
   {
     "id": "stage7:3322",
@@ -699,7 +699,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z28%c1“啊！别跑！”",
-    "vi": ""
+    "vi": "%s2%t4%z28%c1“Á! Đứng lại!”"
   },
   {
     "id": "stage7:3347",
@@ -708,7 +708,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“谁理你！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ai thèm nghe ngươi!”"
   },
   {
     "id": "stage7:3358",
@@ -717,7 +717,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“再见罗～～”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Tạm biệt nhé~!”"
   },
   {
     "id": "stage7:3403",
@@ -726,7 +726,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呜啊～～妮雅！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Huhu... Niya ơi!”"
   },
   {
     "id": "stage7:3414",
@@ -735,7 +735,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“怎么办，信拿不回来了”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Làm sao đây? Không lấy lại được thư rồi...”"
   },
   {
     "id": "stage7:3446",
@@ -744,7 +744,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“还不都是你害的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tất cả cũng tại cậu đấy!”"
   },
   {
     "id": "stage7:3485",
@@ -753,7 +753,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“莉娜姊姊¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chị Lina...”"
   },
   {
     "id": "stage7:3510",
@@ -762,7 +762,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“丫头，怎么了？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Sao thế, nhóc?”"
   },
   {
     "id": "stage7:3535",
@@ -771,7 +771,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“拉锡叶会不会因为希蜜而灭国呐¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Liệu Laxia có mất nước vì Shimi không chị...?”"
   },
   {
     "id": "stage7:3567",
@@ -789,7 +789,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯！有可能。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừ! Cũng có thể lắm.”"
   },
   {
     "id": "stage7:3630",
@@ -807,7 +807,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "希蜜心情低落¨¨¨¨",
-    "vi": ""
+    "vi": "Shimi buồn thiu..."
   },
   {
     "id": "stage7:3660",
@@ -816,7 +816,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呜¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hức...”"
   },
   {
     "id": "stage7:3674",
@@ -825,7 +825,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "在黑暗的角落中啜泣中¨¨¨",
-    "vi": ""
+    "vi": "Ngồi thút thít trong một góc tối..."
   },
   {
     "id": "stage7:3690",
@@ -834,7 +834,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呜呜呜¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Huhu...”"
   },
   {
     "id": "stage7:3704",
@@ -843,7 +843,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "拉锡叶王国的罪人¨¨¨",
-    "vi": ""
+    "vi": "Tội đồ của Vương quốc Laxia..."
   },
   {
     "id": "stage7:3720",
@@ -852,7 +852,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“呜啊～～别再说啦～～～”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Huhu! Đừng nói nữa mà~!”"
   },
   {
     "id": "stage7:3745",
@@ -861,7 +861,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“唉¨¨算了算了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Haiz... Thôi được rồi, thôi được rồi!”"
   },
   {
     "id": "stage7:3756",
@@ -870,7 +870,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“还是先离开这里吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cứ rời khỏi chỗ này trước đã!”"
   },
   {
     "id": "stage7:3774",

@@ -168,7 +168,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "玄武城边境",
-    "vi": ""
+    "vi": "Biên giới thành Huyền Vũ"
   },
   {
     "id": "stage8:2318",
@@ -177,7 +177,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "Stage-8 玄武城边境",
-    "vi": ""
+    "vi": "Màn 8 - Biên giới thành Huyền Vũ"
   },
   {
     "id": "stage8:2328",
@@ -195,7 +195,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“总算来到香格里拉的边境了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cuối cùng cũng đến biên giới Shangri-La rồi!”"
   },
   {
     "id": "stage8:2355",
@@ -204,7 +204,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“只是没有邦联议会的国信，要过境恐怕有点难。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhưng không có quốc thư của Hội đồng Liên bang, e là khó qua cửa ải này.”"
   },
   {
     "id": "stage8:2380",
@@ -213,7 +213,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“唉¨¨¨说起来真是可悲呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Haiz... Nghĩ lại mà buồn quá đi!”"
   },
   {
     "id": "stage8:2405",
@@ -231,7 +231,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“还不都是你害的！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chẳng phải tất cả đều tại cậu sao!”"
   },
   {
     "id": "stage8:2441",
@@ -240,7 +240,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“对、对不起啦！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mình... mình xin lỗi mà!”"
   },
   {
     "id": "stage8:2466",
@@ -249,7 +249,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“算了，只能先进去问问看吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thôi, cứ vào hỏi thử xem đã!”"
   },
   {
     "id": "stage8:2572",
@@ -258,7 +258,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“站住！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đứng lại!”"
   },
   {
     "id": "stage8:2583",
@@ -267,7 +267,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你们是谁？有什么事情吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Các người là ai? Đến đây có việc gì?”"
   },
   {
     "id": "stage8:2608",
@@ -276,7 +276,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“您好！我们是爱尔达邦联所派遣的特使，%N有要事需向贵国女皇商讨。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Xin chào! Chúng tôi là đặc sứ Liên bang Elda,%Ncó việc quan trọng cần trình Nữ hoàng quý quốc.”"
   },
   {
     "id": "stage8:2633",
@@ -285,7 +285,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“爱尔达特使！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đặc sứ Elda sao!?”"
   },
   {
     "id": "stage8:2644",
@@ -294,7 +294,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“有正式的关文吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Có giấy thông hành chính thức không?”"
   },
   {
     "id": "stage8:2669",
@@ -303,7 +303,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“是这样的，原本有一封国信呈给贵国女皇。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chuyện là thế này. Chúng tôi vốn có quốc thư trình Nữ hoàng.”"
   },
   {
     "id": "stage8:2680",
@@ -312,7 +312,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“但是不久前在路上遇上了强盗，所以¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhưng dọc đường lại gặp bọn cướp, nên...”"
   },
   {
     "id": "stage8:2705",
@@ -321,7 +321,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哈哈哈～～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ha ha ha!”"
   },
   {
     "id": "stage8:2716",
@@ -330,7 +330,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“麻烦下次找个好一点的理由吧，%N你这招太老套啦！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Lần sau bịa lý do nào khá hơn một chút đi!%NTrò này cũ rích rồi!”"
   },
   {
     "id": "stage8:2741",
@@ -339,7 +339,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我们说的都是真的呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhưng chúng tôi nói thật mà!”"
   },
   {
     "id": "stage8:2766",
@@ -348,7 +348,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“走开走开，没空陪你们。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đi đi! Bọn ta không rảnh tiếp các người!”"
   },
   {
     "id": "stage8:2777",
@@ -357,7 +357,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“别再来妨碍我们，否则别怪我们不客气。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đừng đến quấy rầy nữa, không thì đừng trách bọn ta!”"
   },
   {
     "id": "stage8:2802",
@@ -366,7 +366,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我们确实是爱尔达特使，请你务必相信。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chúng tôi thật sự là đặc sứ Elda. Xin hãy tin chúng tôi!”"
   },
   {
     "id": "stage8:2816",
@@ -384,7 +384,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“没有关文，恕难照办！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không có giấy tờ, xin thứ lỗi! Không thể cho qua!”"
   },
   {
     "id": "stage8:2843",
@@ -393,7 +393,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“如果你们还是坚持不肯离开¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nếu các người vẫn nhất quyết không chịu đi...”"
   },
   {
     "id": "stage8:2852",
@@ -411,7 +411,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“来人呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Người đâu!”"
   },
   {
     "id": "stage8:2870",
@@ -420,7 +420,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“将她们全部拿下。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Bắt tất cả bọn chúng lại!”"
   },
   {
     "id": "stage8:2927",
@@ -429,7 +429,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这¨¨¨太不讲理了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Sao... sao các người vô lý thế!”"
   },
   {
     "id": "stage8:2938",
@@ -438,7 +438,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“可恶，我们也出击！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đáng ghét! Bọn mình cũng phải đánh thôi!”"
   },
   {
     "id": "stage8:3073",
@@ -447,7 +447,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "过关条件：1、敌军全灭。",
-    "vi": ""
+    "vi": "Điều kiện qua màn: 1. Tiêu diệt toàn bộ quân địch."
   },
   {
     "id": "stage8:3091",
@@ -537,7 +537,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừ!”"
   },
   {
     "id": "stage8:3228",
@@ -546,7 +546,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“通通给我押进牢房！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tống hết chúng vào ngục cho ta!”"
   },
   {
     "id": "stage8:3262",
@@ -852,7 +852,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“大胆狂贼，胆敢攻击本国官兵！”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Lũ phản tặc to gan, dám tấn công quân lính nước ta!”"
   },
   {
     "id": "stage8:4015",
@@ -861,7 +861,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“全部拿下！”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Bắt hết lại!”"
   },
   {
     "id": "stage8:4024",
@@ -879,7 +879,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“天呀！这么多人怎么可能闯得过。”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Trời ơi! Đông thế này thì làm sao mà vượt qua được!”"
   },
   {
     "id": "stage8:4068",

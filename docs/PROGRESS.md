@@ -2,22 +2,25 @@
 
 Cập nhật: 2026-10-11.
 
-- Đã xuất và xác minh **40 kịch bản** từ bộ dữ liệu bàn giao. Không sửa source/hash gốc.
-- **Đã dịch 241/1.742 dòng `mode=translate`** (13,8%). Còn **1.501 dòng** trong nhóm cho phép dịch.
-- **Stage 1**: 61/61 câu `translate`; 14 câu `review` (chủ yếu intro `SP_AddAction`) chưa thay; 41 dòng `locked` giữ nguyên.
-- **Stage 2**: 29/29 câu `translate` hoàn thành; 43 dòng `locked` giữ nguyên.
-- **Stage 3**: 13/13 câu `translate` hoàn thành. Gồm tên màn, hội thoại rừng giữa đường và hai điều kiện thắng/điều kiện thua.
-- **Stage 4**: 53/53 câu `translate` hoàn thành. Gồm sự kiện cầu viện Gabriel, quyết định lập sứ đoàn, hội thoại Ashley/Sibyl và chạm trán.
-- **Stage 5**: 85/85 câu `translate` hoàn thành. Gồm biên giới Laxia, cứu Angelina/Miafa và lời thoại sau chiến đấu.
-- Giữ nguyên vị trí/thứ tự các mã `%s`, `%t`, `%z`, `%c`, `%N` trên 151 câu dịch mới; chỉ điền `vi` tại `mode=translate`, không đổi `source`, `mode`, `id`, `call`, `argument` hay `token`.
-- Xưng hô: đồng đội trẻ dùng **mình/cậu, bọn mình**; thuộc cấp với người chỉ huy dùng **em, thưa Chỉ huy, vâng**; quân địch gây hấn dùng **ta/ngươi**. Thuật ngữ/tên mới ghi tại `docs/GLOSSARY.md`, vẫn là phiên âm dự kiến cần QA theo bản hiển thị.
-- **713 dòng `review` chưa được mở khóa**; các chuỗi `locked` không can thiệp.
-- Font Unicode, giải mã ảnh UI, đo chữ/ngắt dòng ở runtime và kiểm thử Windows **chưa thực hiện**; repo hiện là dữ liệu dịch, **chưa có patch có thể chơi bằng tiếng Việt**.
+- Đã xuất và xác minh **40 kịch bản** từ bộ dữ liệu bàn giao. Không chỉnh sửa source/hash gốc.
+- **Đã dịch 502/1.742 dòng `mode=translate`** (**28,8%**). Còn **1.240 dòng** trong nhóm cho phép dịch.
+- **Stage 1**: 61/61; còn 14 dòng `review` (nhất là intro `SP_AddAction`) chưa mở khóa.
+- **Stage 2**: 29/29.
+- **Stage 3**: 13/13; chiến đấu ở rừng giữa đường.
+- **Stage 4**: 53/53; Niya nhận nhiệm vụ cầu viện Gabriel.
+- **Stage 5**: 85/85; cứu Angelina và Miafa.
+- **Stage 6**: **170/170**; băng cướp, quốc thư, Nữ hoàng Hera, Hội đồng Liên bang và hành trình Shangri-La.
+- **Stage 7**: **58/58**; truy đuổi băng cướp tại Didao, quốc thư thất lạc, Shimi tự trách.
+- **Stage 8**: **33/33**; tại biên giới thành Huyền Vũ, sứ đoàn bị từ chối qua cửa ải vì mất quốc thư.
+- Đợt gần nhất dịch thêm **261 chuỗi (stage 6–8)**. Kiểm tra đối chiếu bản chính xác nhận **chỉ trường `vi` của `mode=translate` thay đổi**, thứ tự mã `%s`, `%t`, `%z`, `%c`, `%N` giữ nguyên. GitHub Actions chạy `python tools/scripts.py check` và `python tools/test_scripts.py`: **PASS** cho cả ba màn.
+- Tên riêng và địa danh mới đã đưa vào `docs/GLOSSARY.md` dưới dạng **phiên âm tạm**, cần QA khi đối chiếu bản game. Xưng hô đồng đội thân dùng **mình/cậu**, đội trưởng/đội viên linh hoạt theo tình huống; quân cướp khi hăm dọa dùng **ta/ngươi**; Nữ hoàng Hera dùng lời lẽ xa cách, lạnh lùng.
+- **713 dòng `review` vẫn chưa được mở khóa**, `locked` và bảng khóa nội bộ vẫn giữ nguyên.
+- **Chưa có patch chạy được**: font Unicode, mã hóa runtime, giải mã ảnh giao diện, thử ngắt dòng/hiển thị, kiểm thử Windows đều chưa làm.
 
 ## Việc tiếp theo
 
-1. Tiếp tục từ `translations/stage6.json` (170 dòng `translate`), chia thành nhóm vừa sức và theo sát câu chuyện/cách xưng hô.
-2. Rà lại tên địa danh/người và tình huống phức tạp khi có tư liệu trong game, nhất là các tên tạm phiên âm ở stage 4-6.
-3. Rà 713 dòng `review` với bằng chứng về hàm và tác dụng hiển thị; không tự đổi mode để lách validator.
-4. Chạy `python tools/scripts.py check` và `python tools/test_scripts.py` sau mỗi nhóm, cập nhật tiến độ và glossary.
-5. Hoàn thành đường hiển thị Unicode/font rồi mới tính việc đóng gói patch Windows; không ép UTF-8 vào pipeline GBK cũ.
+1. Tiếp tục `translations/stage8.json` (sang các màn tiếp theo nếu đủ thời gian), chỉ sửa `vi` tại `mode=translate`.
+2. Duy trì nhịp thoại tự nhiên, không cụt máy móc; đặc biệt các câu nói đùa giữa Shimi, Niya, Angelina/Miafa.
+3. Rà tên nhân vật và địa danh tạm theo tư liệu bản game khi có thể, không đổi khóa nội bộ.
+4. Chạy `python tools/scripts.py check` và `python tools/test_scripts.py`, cập nhật tài liệu tiến độ sau mỗi nhóm.
+5. Rà các dòng `review` có bằng chứng hàm hiển thị. Font và patch cần nghiên cứu/kiểm thử riêng, **không ép UTF-8 vào GBK**.

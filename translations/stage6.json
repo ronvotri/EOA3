@@ -177,7 +177,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "惊逢响马团",
-    "vi": ""
+    "vi": "Chạm trán băng cướp"
   },
   {
     "id": "stage6:1738",
@@ -186,7 +186,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "Stage-6 惊逢响马团",
-    "vi": ""
+    "vi": "Màn 6 - Chạm trán băng cướp"
   },
   {
     "id": "stage6:1743",
@@ -204,7 +204,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呵呵，要去香格里拉耶～～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hí hí, sắp được đến Shangri-La rồi!”"
   },
   {
     "id": "stage6:1770",
@@ -213,7 +213,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z20%c1“啦～啦啦～～”",
-    "vi": ""
+    "vi": "%s2%t4%z20%c1“La la la la~”"
   },
   {
     "id": "stage6:1795",
@@ -222,7 +222,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“希蜜，我们不是去玩的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Shimi, bọn mình đâu có đi chơi.”"
   },
   {
     "id": "stage6:1825",
@@ -231,7 +231,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不要这样嘛！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đừng nghiêm túc thế mà!”"
   },
   {
     "id": "stage6:1836",
@@ -240,7 +240,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“玩一下子不要紧吧！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chơi một chút thôi thì có sao đâu!”"
   },
   {
     "id": "stage6:1861",
@@ -249,7 +249,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“米雅法儿，你钱有带在身上吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Miafa, cậu có mang tiền theo không?”"
   },
   {
     "id": "stage6:1900",
@@ -258,7 +258,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“有¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Có...”"
   },
   {
     "id": "stage6:1925",
@@ -267,7 +267,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯，好。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừ, tốt lắm.”"
   },
   {
     "id": "stage6:1936",
@@ -276,7 +276,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这次去我们要帮朋友买些土产回来，%N所以你的钱就不能乱花了知不知道。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Lần này bọn mình phải mua đặc sản về cho bạn bè,%Nnên tiền của cậu không được tiêu lung tung đâu nhé!”"
   },
   {
     "id": "stage6:1961",
@@ -294,7 +294,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“有什么疑问吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Có thắc mắc gì không?”"
   },
   {
     "id": "stage6:2011",
@@ -303,7 +303,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“为什么是用我的钱呐¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhưng... sao lại dùng tiền của mình chứ...?”"
   },
   {
     "id": "stage6:2036",
@@ -312,7 +312,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呃¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ơ... chuyện đó...”"
   },
   {
     "id": "stage6:2047",
@@ -321,7 +321,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这是为了你好¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thì cũng là vì tốt cho cậu thôi mà...”"
   },
   {
     "id": "stage6:2072",
@@ -330,7 +330,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“咦！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hả!?”"
   },
   {
     "id": "stage6:2083",
@@ -339,7 +339,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“为了我好？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vì tốt cho mình ư?”"
   },
   {
     "id": "stage6:2108",
@@ -348,7 +348,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯¨呃¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừm... à thì...”"
   },
   {
     "id": "stage6:2119",
@@ -357,7 +357,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“因、因为有钱的人才能享有采购的乐趣呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vì... vì chỉ người có tiền mới được tận hưởng niềm vui mua sắm chứ!”"
   },
   {
     "id": "stage6:2130",
@@ -366,7 +366,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯¨¨¨对！就是这样子！！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừ... đúng! Chính là thế đấy!”"
   },
   {
     "id": "stage6:2155",
@@ -375,7 +375,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哦¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ồ...”"
   },
   {
     "id": "stage6:2166",
@@ -384,7 +384,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“采购¨¨¨那好玩吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mua sắm... vui đến thế sao?”"
   },
   {
     "id": "stage6:2191",
@@ -393,7 +393,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哈哈哈，那你就问对人了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ha ha, cậu hỏi đúng người rồi đấy!”"
   },
   {
     "id": "stage6:2202",
@@ -402,7 +402,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“采购会让你得到败家的体验与快感，%N并且有满载而归的欣喜。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mua sắm cho cậu cảm giác tiêu tiền thỏa thích,%Nrồi sung sướng khi ôm cả đống đồ về nhà!”"
   },
   {
     "id": "stage6:2213",
@@ -411,7 +411,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哈哈～～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ha ha ha!”"
   },
   {
     "id": "stage6:2257",
@@ -420,7 +420,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“妮雅你看，你看她们。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Niya, nhìn kìa! Cậu nhìn bọn họ đi!”"
   },
   {
     "id": "stage6:2268",
@@ -429,7 +429,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我也想去玩嘛！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mình cũng muốn đi chơi cơ!”"
   },
   {
     "id": "stage6:2293",
@@ -438,7 +438,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不行¨¨，你是军人，她们不是。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không được. Cậu là quân nhân, còn họ thì không.”"
   },
   {
     "id": "stage6:2304",
@@ -447,7 +447,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“所以不能学她们。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đừng có học theo họ.”"
   },
   {
     "id": "stage6:2329",
@@ -456,7 +456,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“唔¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừm...”"
   },
   {
     "id": "stage6:2340",
@@ -465,7 +465,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好吧¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thôi được...”"
   },
   {
     "id": "stage6:2365",
@@ -474,7 +474,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“为了不让你整天只想着玩，%N邦联国信就放在你身上了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Để cậu khỏi suốt ngày chỉ nghĩ đến chơi bời,%Ntớ giao quốc thư Liên bang cho cậu giữ đấy!”"
   },
   {
     "id": "stage6:2376",
@@ -483,7 +483,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你要好好保管哦！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhớ giữ cẩn thận nhé!”"
   },
   {
     "id": "stage6:2401",
@@ -492,7 +492,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“好～”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Được thôi~”"
   },
   {
     "id": "stage6:2412",
@@ -501,7 +501,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这样队长就换我当了对不对？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy tức là mình được làm đội trưởng rồi, phải không?”"
   },
   {
     "id": "stage6:2437",
@@ -510,7 +510,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你真的想太多了¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cậu nghĩ xa quá rồi đấy...”"
   },
   {
     "id": "stage6:2476",
@@ -519,7 +519,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“妮雅，你把东西交给希蜜，%N迟早会被她弄丢的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Niya, giao đồ cho Shimi giữ thì%Nsớm muộn gì cậu ấy cũng làm mất thôi.”"
   },
   {
     "id": "stage6:2501",
@@ -528,7 +528,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呃¨这个¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“À... chuyện đó...”"
   },
   {
     "id": "stage6:2526",
@@ -537,7 +537,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不要那么不相信我嘛¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đừng có thiếu lòng tin ở mình thế chứ...”"
   },
   {
     "id": "stage6:2551",
@@ -546,7 +546,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“对呀，莉娜！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đúng đấy, Lina!”"
   },
   {
     "id": "stage6:2562",
@@ -555,7 +555,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“希蜜姊姊虽然不聪明，%N但应该不会那么容易将东西弄丢呐！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chị Shimi tuy không được thông minh lắm,%Nnhưng chắc cũng chẳng dễ làm mất đồ đâu!”"
   },
   {
     "id": "stage6:2587",
@@ -564,7 +564,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这话说的¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cậu nói thế thì...”"
   },
   {
     "id": "stage6:2612",
@@ -573,7 +573,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“米雅¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Miafa...”"
   },
   {
     "id": "stage6:2623",
@@ -582,7 +582,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我怎么觉得你比我说得更讽刺¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Sao mình thấy cậu còn mỉa mai hơn cả mình vậy...”"
   },
   {
     "id": "stage6:2648",
@@ -591,7 +591,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“没、没有呐¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Khô... không có đâu mà...”"
   },
   {
     "id": "stage6:2678",
@@ -600,7 +600,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“姊妹们，又有猎物上门了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chị em ơi, lại có con mồi tự tìm đến kìa!”"
   },
   {
     "id": "stage6:2703",
@@ -609,7 +609,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“今天生意真好。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hôm nay làm ăn phát đạt thật đấy!”"
   },
   {
     "id": "stage6:2747",
@@ -618,7 +618,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“她们是谁？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Bọn họ là ai vậy?”"
   },
   {
     "id": "stage6:2772",
@@ -627,7 +627,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你不会自己过去问。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tự đến mà hỏi đi chứ!”"
   },
   {
     "id": "stage6:2817",
@@ -636,7 +636,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s14%t4%z24%c1“请问～～”",
-    "vi": ""
+    "vi": "%s14%t4%z24%c1“Cho hỏi với~”"
   },
   {
     "id": "stage6:2828",
@@ -645,7 +645,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s14%t4%z24%c1“你们是谁～～～”",
-    "vi": ""
+    "vi": "%s14%t4%z24%c1“Các người là ai vậy~?”"
   },
   {
     "id": "stage6:2858",
@@ -654,7 +654,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那¨¨那家伙没大脑吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Con nhỏ đó... không có não à?”"
   },
   {
     "id": "stage6:2883",
@@ -663,7 +663,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s14%t4%z26%c1“呀～荷～～”",
-    "vi": ""
+    "vi": "%s14%t4%z26%c1“Hú... hú~!”"
   },
   {
     "id": "stage6:2894",
@@ -672,7 +672,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s16%t4%z26%c1“请～问～你～们～是～谁～～”",
-    "vi": ""
+    "vi": "%s16%t4%z26%c1“Cho~ hỏi~ các~ người~ là~ ai~?”"
   },
   {
     "id": "stage6:2919",
@@ -681,7 +681,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“盈月大人，要我回答她们吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chị Yingyue, có cần em trả lời bọn họ không?”"
   },
   {
     "id": "stage6:2944",
@@ -690,7 +690,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嘿嘿～～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hê hê~”"
   },
   {
     "id": "stage6:2955",
@@ -699,7 +699,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我来回答。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Để ta trả lời cho.”"
   },
   {
     "id": "stage6:2993",
@@ -708,7 +708,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s5%t4%z24%c1“我～们～是～管～区～的～～”",
-    "vi": ""
+    "vi": "%s5%t4%z24%c1“Bọn~ ta~ là~ người~ quản~ khu~ này~!”"
   },
   {
     "id": "stage6:3030",
@@ -717,7 +717,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“管区？？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Người quản khu?”"
   },
   {
     "id": "stage6:3041",
@@ -726,7 +726,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那是做什么的？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Là làm gì vậy?”"
   },
   {
     "id": "stage6:3066",
@@ -735,7 +735,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不知道呐¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mình cũng chẳng biết nữa...”"
   },
   {
     "id": "stage6:3098",
@@ -744,7 +744,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“她们人好像越来越多了¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hình như người của họ càng lúc càng đông...”"
   },
   {
     "id": "stage6:3123",
@@ -753,7 +753,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“笨呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ngốc quá!”"
   },
   {
     "id": "stage6:3134",
@@ -762,7 +762,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你们还看不出来吗？她们是强盗啦！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Các cậu chưa nhận ra à? Họ là cướp đấy!”"
   },
   {
     "id": "stage6:3148",
@@ -780,7 +780,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“啊！？”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Cái gì!?”"
   },
   {
     "id": "stage6:3201",
@@ -789,7 +789,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“哈哈哈哈！”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Ha ha ha ha!”"
   },
   {
     "id": "stage6:3212",
@@ -798,7 +798,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“识相点就把钱留下来吧～”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Biết điều thì để hết tiền lại đây~!”"
   },
   {
     "id": "stage6:3223",
@@ -807,7 +807,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“姊妹们，上！”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Chị em đâu, xông lên!”"
   },
   {
     "id": "stage6:3253",
@@ -816,7 +816,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“强盗！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cướp á!?”"
   },
   {
     "id": "stage6:3264",
@@ -825,7 +825,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呵呵，地方强盗而已，%N邦联军团怎么看在眼里，对不对！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừm, chỉ là mấy tên cướp vặt thôi.%NLính Liên bang như bọn mình sợ gì chúng, phải không?”"
   },
   {
     "id": "stage6:3289",
@@ -834,7 +834,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừ!”"
   },
   {
     "id": "stage6:3300",
@@ -843,7 +843,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“倒是你要把邦联国信保管好哦！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhưng cậu nhớ giữ kỹ quốc thư Liên bang đấy nhé!”"
   },
   {
     "id": "stage6:3325",
@@ -852,7 +852,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呵呵，这种小事情没问题的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hì hì, chuyện nhỏ ấy mà. Không thành vấn đề!”"
   },
   {
     "id": "stage6:3350",
@@ -861,7 +861,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好，那我们也让她们好看！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Được! Cho chúng biết tay nào!”"
   },
   {
     "id": "stage6:3495",
@@ -879,7 +879,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：敌大将～盈月战败。%N失败条件：妮雅战败。",
-    "vi": ""
+    "vi": "Điều kiện thắng: Đánh bại thủ lĩnh Yingyue.%NĐiều kiện thua: Niya bị đánh bại."
   },
   {
     "id": "stage6:3518",
@@ -1050,7 +1050,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这群盗贼比看起来外表强。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Bọn cướp này mạnh hơn vẻ ngoài của chúng nhiều!”"
   },
   {
     "id": "stage6:3781",
@@ -1059,7 +1059,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你们都没事吧¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mọi người không sao chứ...?”"
   },
   {
     "id": "stage6:3806",
@@ -1068,7 +1068,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“妮、妮雅¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ni... Niya ơi...”"
   },
   {
     "id": "stage6:3817",
@@ -1077,7 +1077,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“有件事我不知道该不该说¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Có chuyện này... mình không biết có nên nói không...”"
   },
   {
     "id": "stage6:3842",
@@ -1086,7 +1086,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“什么事呢？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chuyện gì thế?”"
   },
   {
     "id": "stage6:3867",
@@ -1095,7 +1095,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你不会骂我吧！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cậu hứa là không mắng mình nhé!?”"
   },
   {
     "id": "stage6:3892",
@@ -1104,7 +1104,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你先说说看。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cứ nói ra xem nào.”"
   },
   {
     "id": "stage6:3917",
@@ -1113,7 +1113,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“就是¨¨就是¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thì... thì là...”"
   },
   {
     "id": "stage6:3928",
@@ -1122,7 +1122,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“邦联议会的国信被抢走了¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Quốc thư của Hội đồng Liên bang... bị cướp mất rồi...”"
   },
   {
     "id": "stage6:3942",
@@ -1149,7 +1149,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“希蜜¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Shimi...”"
   },
   {
     "id": "stage6:3980",
@@ -1158,7 +1158,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z28%c1“你这大笨蛋～～”",
-    "vi": ""
+    "vi": "%s2%t4%z28%c1“ĐỒ NGỐC NÀY!!!”"
   },
   {
     "id": "stage6:4005",
@@ -1167,7 +1167,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哈哈哈～被我说中了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ha ha! Biết ngay mà!”"
   },
   {
     "id": "stage6:4030",
@@ -1176,7 +1176,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呜¨¨¨我就知道你会骂我。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hức... Mình biết thế nào cậu cũng mắng mà!”"
   },
   {
     "id": "stage6:4055",
@@ -1185,7 +1185,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“我反悔了不行吗！”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Giờ mình đổi ý không được à!?”"
   },
   {
     "id": "stage6:4080",
@@ -1194,7 +1194,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那我们要追回来吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thế bọn mình có đi lấy lại không?”"
   },
   {
     "id": "stage6:4105",
@@ -1203,7 +1203,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“当然要，趁她们还没走远前快追！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tất nhiên rồi! Mau đuổi theo khi chúng chưa đi xa!”"
   },
   {
     "id": "stage6:4119",
@@ -1230,7 +1230,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“可恶，比想像中还强¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chết tiệt, bọn chúng mạnh hơn mình tưởng...”"
   },
   {
     "id": "stage6:4247",
@@ -1239,7 +1239,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你们都没事吧！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mọi người có sao không!?”"
   },
   {
     "id": "stage6:4272",
@@ -1248,7 +1248,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“很想骂脏话可以吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mình muốn chửi thề một câu, được không?”"
   },
   {
     "id": "stage6:4297",
@@ -1257,7 +1257,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不行！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không được!”"
   },
   {
     "id": "stage6:4308",
@@ -1266,7 +1266,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“咦！希蜜，你受伤了吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ơ! Shimi, cậu bị thương à?”"
   },
   {
     "id": "stage6:4333",
@@ -1275,7 +1275,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“没、没关系¨¨可是¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Khô... không sao đâu... nhưng mà...”"
   },
   {
     "id": "stage6:4344",
@@ -1284,7 +1284,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“邦联议会的国信被抢走了¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Quốc thư của Hội đồng Liên bang... bị cướp mất rồi...”"
   },
   {
     "id": "stage6:4358",
@@ -1302,7 +1302,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z26%c1“什么？？”",
-    "vi": ""
+    "vi": "%s2%t4%z26%c1“CÁI GÌ!?”"
   },
   {
     "id": "stage6:4399",
@@ -1311,7 +1311,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“哼！果然交给你没保障。”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Hừ! Biết ngay là giao cho cậu chẳng yên tâm mà!”"
   },
   {
     "id": "stage6:4410",
@@ -1320,7 +1320,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“我们追上去吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Mau đuổi theo chúng thôi!”"
   },
   {
     "id": "stage6:4435",
@@ -1329,7 +1329,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不行！以我们的战力胜算太低。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không được! Với sức của bọn mình, cơ hội thắng quá thấp.”"
   },
   {
     "id": "stage6:4446",
@@ -1338,7 +1338,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“先找地方重新整顿后再做打算吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Trước hết cứ tìm chỗ chỉnh đốn lại đội hình rồi tính tiếp!”"
   },
   {
     "id": "stage6:4471",
@@ -1347,7 +1347,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“可恶¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đáng ghét thật...”"
   },
   {
     "id": "stage6:4485",
@@ -1437,7 +1437,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“身手还不简单嘛！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cũng có chút bản lĩnh đấy!”"
   },
   {
     "id": "stage6:4612",
@@ -1446,7 +1446,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼！反正东西到手就好。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừ! Dù sao lấy được đồ là tốt rồi.”"
   },
   {
     "id": "stage6:4623",
@@ -1455,7 +1455,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“撤退！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Rút lui!”"
   },
   {
     "id": "stage6:4657",
@@ -1518,7 +1518,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "“加百列王国宫殿”",
-    "vi": ""
+    "vi": "“Cung điện Vương quốc Gabriel”"
   },
   {
     "id": "stage6:4809",
@@ -1527,7 +1527,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "妮雅以拉锡叶使者名义向加百列赫拉女帝说明拉锡叶现况。",
-    "vi": ""
+    "vi": "Với tư cách sứ giả Laxia, Niya trình bày tình cảnh của đất nước trước Nữ hoàng Hera của Gabriel."
   },
   {
     "id": "stage6:4814",
@@ -1536,7 +1536,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "并且请赫拉女帝出兵协助，然而¨¨¨",
-    "vi": ""
+    "vi": "Cô khẩn thiết xin Nữ hoàng Hera xuất quân giúp đỡ. Thế nhưng..."
   },
   {
     "id": "stage6:4830",
@@ -1545,7 +1545,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“要加百列出兵协助是不可能的，%N你不用再说了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Gabriel không thể đưa quân giúp các người.%NĐừng nói thêm nữa!”"
   },
   {
     "id": "stage6:4841",
@@ -1554,7 +1554,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“本国没有介入战争的理由。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nước ta không có lý do để can dự vào cuộc chiến này.”"
   },
   {
     "id": "stage6:4866",
@@ -1572,7 +1572,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“建议你们还是到邦联议会，%N以和平的方式来解决吧。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ta khuyên các người đến Hội đồng Liên bang,%Ntìm một giải pháp hòa bình thì hơn.”"
   },
   {
     "id": "stage6:4916",
@@ -1581,7 +1581,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“邦联议会是¨¨¨？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hội đồng Liên bang... là gì ạ?”"
   },
   {
     "id": "stage6:4941",
@@ -1590,7 +1590,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“什么！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cái gì!?”"
   },
   {
     "id": "stage6:4952",
@@ -1599,7 +1599,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你连邦联议会都不知道，%N看来拉锡叶的教育还真差。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đến Hội đồng Liên bang mà ngươi còn không biết?%NGiáo dục ở Laxia đúng là tệ thật!”"
   },
   {
     "id": "stage6:4977",
@@ -1617,7 +1617,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“邦联议会在米迦尔，出了城往北走，%N过了雷米尔就到了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hội đồng Liên bang ở Michael. Ra khỏi thành đi về bắc,%Nqua Remiel là tới.”"
   },
   {
     "id": "stage6:5013",
@@ -1626,7 +1626,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“离开吧！你们的战争，加百列爱莫能助。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đi đi! Gabriel không thể giúp gì trong cuộc chiến của các người.”"
   },
   {
     "id": "stage6:5038",
@@ -1644,7 +1644,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“女王，就让我带领她们前往米迦尔吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thưa Nữ hoàng, xin cho thần dẫn họ đến Michael!”"
   },
   {
     "id": "stage6:5088",
@@ -1653,7 +1653,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼！你少多管闲事。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừ! Đừng xen vào chuyện không phải của ngươi.”"
   },
   {
     "id": "stage6:5113",
@@ -1662,7 +1662,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不¨¨不用了，多谢您的好意。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Kh... không cần đâu ạ. Xin cảm ơn lòng tốt của cô.”"
   },
   {
     "id": "stage6:5138",
@@ -1680,7 +1680,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "“加百列王国宫殿”",
-    "vi": ""
+    "vi": "“Cung điện Vương quốc Gabriel”"
   },
   {
     "id": "stage6:5184",
@@ -1698,7 +1698,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“啊啊啊啊啊！！！”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Aaaaa!!!”"
   },
   {
     "id": "stage6:5211",
@@ -1707,7 +1707,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“气～死～人～啦～～～”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“TỨC~ CHẾT~ ĐI~ ĐƯỢC~!”"
   },
   {
     "id": "stage6:5222",
@@ -1716,7 +1716,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那女帝什么态度嘛！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nữ hoàng gì mà ăn nói kiểu đó chứ!”"
   },
   {
     "id": "stage6:5247",
@@ -1725,7 +1725,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“妮¨妮雅¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ni... Niya ơi...”"
   },
   {
     "id": "stage6:5258",
@@ -1734,7 +1734,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你怎么了？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cậu làm sao vậy?”"
   },
   {
     "id": "stage6:5283",
@@ -1743,7 +1743,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“还不就那女帝，说话真是太不客气了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Còn sao nữa! Nữ hoàng đó nói năng vô duyên quá mức!”"
   },
   {
     "id": "stage6:5308",
@@ -1752,7 +1752,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chuyện... chuyện này...”"
   },
   {
     "id": "stage6:5333",
@@ -1761,7 +1761,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哈哈！那是你自己看起来太没气势了，容易被%N欺负是应该的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ha ha! Tại cậu trông chẳng có chút uy nào,%Nngười ta bắt nạt cũng phải thôi!”"
   },
   {
     "id": "stage6:5358",
@@ -1770,7 +1770,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你、你到底站哪一边¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Rốt... rốt cuộc cậu về phe nào vậy hả!?”"
   },
   {
     "id": "stage6:5383",
@@ -1779,7 +1779,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“安洁莉娜¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Angelina...”"
   },
   {
     "id": "stage6:5394",
@@ -1788,7 +1788,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“对不起，她讲话本来就这样¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Xin lỗi nhé, cậu ấy xưa nay vẫn nói năng vậy đấy...”"
   },
   {
     "id": "stage6:5419",
@@ -1797,7 +1797,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好啦！你多管闲事。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thôi đi! Đừng có xen vào!”"
   },
   {
     "id": "stage6:5444",
@@ -1806,7 +1806,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呜¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hức...”"
   },
   {
     "id": "stage6:5469",
@@ -1815,7 +1815,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“算了！歇斯底里的人¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thôi kệ! Người gì mà cứ nổi cơn tam bành...”"
   },
   {
     "id": "stage6:5494",
@@ -1824,7 +1824,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừ!”"
   },
   {
     "id": "stage6:5536",
@@ -1833,7 +1833,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呃¨¨抱歉¨¨¨¨打扰了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“À... xin lỗi... tôi làm phiền một chút...”"
   },
   {
     "id": "stage6:5561",
@@ -1842,7 +1842,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“啊！你是刚才那位¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“A! Cô là người khi nãy...”"
   },
   {
     "id": "stage6:5586",
@@ -1851,7 +1851,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我是赫莉。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tôi là Heli.”"
   },
   {
     "id": "stage6:5611",
@@ -1860,7 +1860,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你好，我是妮雅，请多指教。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chào cô, tôi là Niya. Rất vui được gặp cô.”"
   },
   {
     "id": "stage6:5636",
@@ -1869,7 +1869,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“很抱歉刚才并没帮上忙¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tôi xin lỗi vì lúc nãy chẳng giúp được gì...”"
   },
   {
     "id": "stage6:5647",
@@ -1878,7 +1878,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我对女帝所说的话为您感到抱歉，希望您能见%N谅。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tôi cũng xin lỗi thay những lời Nữ hoàng đã nói.%NMong cô rộng lòng bỏ qua.”"
   },
   {
     "id": "stage6:5672",
@@ -1887,7 +1887,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不要紧的，贵国女帝其实说得¨¨有点道理¨%N¨¨¨。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không sao đâu. Thật ra Nữ hoàng nước cô nói cũng...%Ncó phần đúng...”"
   },
   {
     "id": "stage6:5697",
@@ -1896,7 +1896,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“真的吗？那我就放心了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thật sao? Vậy thì tôi yên tâm rồi.”"
   },
   {
     "id": "stage6:5708",
@@ -1905,7 +1905,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“希望你们能好好加油。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mong mọi người cố gắng lên nhé!”"
   },
   {
     "id": "stage6:5733",
@@ -1914,7 +1914,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“谢谢！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cảm ơn cô!”"
   },
   {
     "id": "stage6:5758",
@@ -1923,7 +1923,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那我先离开罗！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy tôi xin phép đi trước!”"
   },
   {
     "id": "stage6:5783",
@@ -1932,7 +1932,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯！您忙吧¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừm, cô cứ đi lo việc của mình nhé...”"
   },
   {
     "id": "stage6:5825",
@@ -1941,7 +1941,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“¨¨¨¨¨她走了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“... Cô ấy đi rồi.”"
   },
   {
     "id": "stage6:5850",
@@ -1950,7 +1950,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯，我知道。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừ, mình biết.”"
   },
   {
     "id": "stage6:5875",
@@ -1959,7 +1959,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哈哈～你真的没生气吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ha ha... Cậu thật sự không giận nữa à?”"
   },
   {
     "id": "stage6:5900",
@@ -1968,7 +1968,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“¨¨¨我现在说没有就没有。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“... Mình bảo không giận là không giận!”"
   },
   {
     "id": "stage6:5911",
@@ -1977,7 +1977,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我们到米迦尔向邦联议会求援吧。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mình đến Michael tìm Hội đồng Liên bang cầu viện thôi.”"
   },
   {
     "id": "stage6:5929",
@@ -2004,7 +2004,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "妮雅等人到达米迦尔公国。",
-    "vi": ""
+    "vi": "Niya cùng đồng đội đặt chân đến Công quốc Michael."
   },
   {
     "id": "stage6:5967",
@@ -2013,7 +2013,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "进入欧格斯市后，于邦联议会中心陈辞拉锡叶遭遇，并央请邦联派兵协助。",
-    "vi": ""
+    "vi": "Tại thành Ogas, họ trình bày thảm cảnh của Laxia trước Hội đồng Liên bang và thỉnh cầu gửi quân hỗ trợ."
   },
   {
     "id": "stage6:5972",
@@ -2022,7 +2022,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "在议会中，各国代表团分为两派争辩激烈。",
-    "vi": ""
+    "vi": "Đại biểu các nước tại hội nghị chia làm hai phe, tranh cãi vô cùng gay gắt."
   },
   {
     "id": "stage6:5977",
@@ -2031,7 +2031,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "以邦联主席，同时也是米迦尔首相为首，反对出兵的派系人数较多。",
-    "vi": ""
+    "vi": "Phe phản đối xuất quân đông hơn, đứng đầu là Chủ tịch Liên bang, đồng thời là Thủ tướng Michael."
   },
   {
     "id": "stage6:5982",
@@ -2040,7 +2040,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "而赞成派的邦联法庭大法官，雷米尔代表的坎维琪，",
-    "vi": ""
+    "vi": "Còn Đại pháp quan Tòa án Liên bang Kanviki, đại diện Remiel, thuộc phe ủng hộ,"
   },
   {
     "id": "stage6:5987",
@@ -2049,7 +2049,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "在不断为拉锡叶慷慨力争情况下，仍然不及反对派的势力。",
-    "vi": ""
+    "vi": "dù ra sức tranh luận bênh vực Laxia, vẫn không thể thắng thế phe phản đối."
   },
   {
     "id": "stage6:5992",
@@ -2058,7 +2058,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "会议结束后。",
-    "vi": ""
+    "vi": "Sau khi hội nghị kết thúc,"
   },
   {
     "id": "stage6:5997",
@@ -2067,7 +2067,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "坎维琪私下提议妮雅等人前往东方的香格里拉，向香国皇帝借兵援助。",
-    "vi": ""
+    "vi": "Kanviki gặp riêng Niya, đề nghị cô đến Shangri-La ở phía đông, xin Hoàng đế nước Shang phái quân tiếp viện."
   },
   {
     "id": "stage6:6002",
@@ -2076,7 +2076,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "坎维琪便计划于次日议会向各国代表提议，以战乱中粮食、水源取得不易的问题，",
-    "vi": ""
+    "vi": "Hôm sau, Kanviki dự định đề xuất với hội nghị rằng chiến tranh đang khiến lương thực và nước sạch khan hiếm,"
   },
   {
     "id": "stage6:6007",
@@ -2085,7 +2085,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "建议邦联议会派遣妮雅等人前往香格里拉，借调水源及粮食。",
-    "vi": ""
+    "vi": "vì vậy Hội đồng nên cử Niya đến Shangri-La xin hỗ trợ lương thực và nguồn nước."
   },
   {
     "id": "stage6:6012",
@@ -2094,7 +2094,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "而坎维琪实为香国皇帝武襄金星的幼年之交。",
-    "vi": ""
+    "vi": "Thật ra Kanviki vốn là bạn thuở nhỏ của Hoàng đế Võ Tương Kim Tinh, người trị vì nước Shang."
   },
   {
     "id": "stage6:6017",
@@ -2103,7 +2103,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "得知金星皇帝晓明大志，有维护天下和平的雄心。",
-    "vi": ""
+    "vi": "Ông biết Hoàng đế Kim Tinh có chí lớn và mong giữ gìn hòa bình cho thiên hạ."
   },
   {
     "id": "stage6:6022",
@@ -2112,7 +2112,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "因此也另交一封私函给妮雅，请妮雅见到香国皇帝，亲自将私函呈上。",
-    "vi": ""
+    "vi": "Bởi vậy, ông còn trao Niya một bức thư riêng, dặn cô tận tay trình lên Hoàng đế khi gặp ngài."
   },
   {
     "id": "stage6:6027",
@@ -2121,7 +2121,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "同时妮雅等人也可趁此机会，商请香国协助出兵。",
-    "vi": ""
+    "vi": "Nhân cơ hội ấy, Niya cũng có thể xin nước Shang xuất quân giúp Laxia."
   },
   {
     "id": "stage6:6032",
@@ -2130,7 +2130,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "次日，坎维琪的提案顺利过关。",
-    "vi": ""
+    "vi": "Ngày hôm sau, đề xuất của Kanviki thuận lợi được thông qua."
   },
   {
     "id": "stage6:6037",
@@ -2139,7 +2139,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "议会主席写下国信，并派任妮雅等人为此次传信的邦联特使团。",
-    "vi": ""
+    "vi": "Chủ tịch Hội đồng viết quốc thư, bổ nhiệm Niya và đồng đội làm sứ đoàn đặc biệt của Liên bang."
   },
   {
     "id": "stage6:6042",
