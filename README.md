@@ -70,3 +70,6 @@ Có `python tools/analyze_windows_report.py <file-bao-cao.zip>` để kiểm tra
 ## Nghiên cứu đường xử lý text `TextOutA`
 
 Bản Windows diagnostic **V4** xuất thêm `engine_callsite_slices.json` (tổng 6 file báo cáo), chỉ gồm các cửa sổ byte nhỏ quanh lời gọi GDI/encoding trên `AngelSLG.exe` **đúng SHA-256**. Mục tiêu là xác minh cách lấy buffer text và độ dài trước khi xây dựng patch Unicode có dấu; chưa phải bản patch. Không chia sẻ công khai các đoạn mã máy nếu chưa kiểm tra nội dung. Xem `docs/ENGINE_CALLSITE_EVIDENCE.md`. Bộ đọc báo cáo vẫn hỗ trợ bản V3.
+
+
+**Cập nhật từ ZIP V4 thật:** Đã xác định chính xác cách chuẩn bị 5 tham số của hai lời gọi `TextOutA`: địa chỉ 0x41A79A dùng hằng 2 byte, địa chỉ 0x41A7B9 dùng con trỏ `[ebp+0x14]` và hàm 0x4CE790 tính độ dài; cả hai vẽ tại (0,0). Font `LOGFONTA` đặt charset 134. Đọc `docs/V4_TEXTOUT_ARGUMENT_AUDIT.md`. Đây là bằng chứng mã máy tĩnh, **không phải patch tiếng Việt playable**.
