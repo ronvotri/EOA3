@@ -1,5 +1,16 @@
 # Bàn giao cho cloud
 
+## CHECKPOINT mới nhất: V7 có đủ 4 cửa sổ, đã đọc được hai helper font (11–12/10/2026)
+
+- Người dùng đã gửi **`EOA3-Windows-Diagnostics(4).zip` + `EOA3-Diagnostic-Log(5).txt`**. Báo cáo **SUCCESS**, ZIP 7 file, đúng SHA EXE **`2d7d9705837e32c72685d69e50e426fde168ea8d435de90ba937cefbf5138baf`**, `target_code_windows=4/4` (288/448/192/384 byte), warnings rỗng. **KHÔNG yêu cầu user chạy lại V7!**
+- Ba vùng font chồng lấn khớp từng byte thành **720 byte LIÊN TỤC tại `0x41A7F0..0x41AABF`**, SHA-256 **`617d8ff85d59b8178facb4a29c39281ab62a565e2cad8a68d322c72c9ed38ff0`**. Xem **`docs/V7_REAL_FONT_BUFFER_AUDIT.md`**.
+- **Helper `0x41A7F0`–`0x41A86E`**: giải phóng buffer `this+0x18` (cleanup `0x41A880`), gọi `0x41A600` với (64,64), cấp phát độ dài **`2 * width * height`** qua `0x41EF10`, lưu ptr `this+0x18`, width `this+0xFD0`, height `this+0xFD4`, gọi `0x41ABF0` (body chưa có). **Chưa chứng minh RGB565/pixel format.**
+- **Helper `0x41A8C0`–`0x41A9C3`**: cleanup `this+0xFC0` tại `0x41A9D0`; tính **`ceil(width/8)`** cho width không âm vào `this+0x1C`; cấp phát **`2000 * height * ceil(width/8)`** qua `0x41EF10` vào `this+0xFC0`; zero **2000 mục 16-bit** ở `this+0x20 + 2*i`, 0<=i<2000; khởi tạo buffer mới về zero qua helper dạng `memset` `0x4CD930`. Không khẳng định mỗi mục=1 glyph/ký tự; cache bit-row là giả thuyết.
+- `0x41AA10` font initializer: limit size 64, `gdi32.DeleteObject` ở IAT `0x4F2010` khi font cũ tồn tại, `CreateFontIndirectA` charset 134/weight 400, lưu HFONT `this+0xFCC`, gọi hai helper liên tiếp. `user32.CharNextA` tại `0x42AD54` cắt đoạn byte ANSI: sau đó copy một substring vào buffer tạm `[ebp-0x1038]` và NUL; **chưa chứng minh parser `ANGELSCRIPT`**.
+- **Mới:** `tools/audit_v7_font_buffers.py` có guard 4 SHA cửa sổ, checksum đoạn 720 byte, exact byte instruction/call targets, IAT names và magic marker, xuất JSON không chứa code bytes. `tools/test_audit_v7_font_buffers.py` dùng PE bytes giả, CI mới.
+- **VIỆC TIẾP:** phân tích `0x41ABF0` (callee helper #1), `0x41A600` (surface setup) và hàm truy index bảng 2000 phần tử; xác minh đường byte `ANGELSCRIPT` → buffer vẽ. Chỉ tổ chức lấy mẫu khi đã có câu hỏi mới rõ, không tự sinh V8. **Chưa có Unicode patch playable**. Corpus **1881 translate/574 review/573 tên nháp** giữ nguyên.
+
+
 ## Checkpoint mới: đã nhận V6 thật, phát hiện tool bỏ mất 3/4 cửa sổ; sửa V7 (11/10/2026)
 
 - Người dùng đã gửi **`EOA3-Windows-Diagnostics(3).zip` + `EOA3-Diagnostic-Log(4).txt`**, log SUCCESS, đúng EXE SHA **`2d7d9705837e32c72685d69e50e426fde168ea8d435de90ba937cefbf5138baf`** và 7-file ZIP. **Bản V6 KHÔNG có body helper**: `target_code_windows` chỉ chứa `0x41AA00` (192 B); ba mục `0x41A7F0` 288 B / `0x41A8C0` 448 B / `0x42AC60` 384 B bị chặn bởi `bounded_va_evidence` cap 256 B! Đây là lỗi bộ công cụ, không phải game.
