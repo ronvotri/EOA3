@@ -69,6 +69,42 @@ class Eoa3ProbeTests(unittest.TestCase):
         self.assertEqual(report["historical_va_hints"]["charset_134_historical"]
                          ["status"], "unverified_historical_hint_only")
 
+    def test_import_directory_size_excludes_null_descriptor(self):
+        # This reproduces the user's "Import descriptor limit exceeded":
+        # Size=20 documents one DLL, while the final zero descriptor follows.
+        sample = bytearray(fake_pe32())
+        struct.pack_into("<I", sample, 0x98 + 108, 20)
+        before = hashlib.sha256(sample).hexdigest()
+        report = analyze_bytes(bytes(sample))
+        self.assertEqual(report["sha256"], before)
+        self.assertEqual(report["gdi_and_encoding_imports"][0]["api"], "TextOutA")
+        info = report["import_table_diagnostics"]
+        self.assertTrue(info["null_terminated"])
+        self.assertEqual(info["descriptors_read"], 1)
+        self.assertIn("import_directory_size_does_not_include_null_terminator",
+                      info["warnings"])
+
+    def test_missing_import_terminator_reports_warning_not_game_failure(self):
+        sample = bytearray(fake_pe32())
+        # The next descriptor is damaged; retain valid first DLL and report
+        # partial import coverage instead of losing the whole analysis.
+        struct.pack_into("<IIIII", sample, 0x314,
+                         0xFFFFFFFF, 1, 2, 0xFFFFFFFF, 0xFFFFFFFF)
+        report = analyze_bytes(bytes(sample))
+        self.assertIn("TextOutA",
+                      [x["api"] for x in report["gdi_and_encoding_imports"]])
+        info = report["import_table_diagnostics"]
+        self.assertFalse(info["null_terminated"])
+        self.assertIn("import_descriptor_invalid_dll_name", info["warnings"])
+        self.assertEqual(report["status"], "static_diagnostic_only_not_a_patch")
+
+    def test_empty_import_directory_does_not_invent_drawing_apis(self):
+        sample = bytearray(fake_pe32())
+        struct.pack_into("<II", sample, 0x98 + 104, 0, 0)
+        report = analyze_bytes(bytes(sample))
+        self.assertFalse(report["import_table_diagnostics"]["present"])
+        self.assertEqual(report["gdi_and_encoding_imports"], [])
+
     def test_pe64_without_imports(self):
         report = analyze_bytes(fake_pe64())
         self.assertEqual(report["architecture"], "PE32+")
