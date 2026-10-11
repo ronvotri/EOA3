@@ -18,7 +18,7 @@ def fake_sites():
         before = bytearray(96)
         before[-len(prefix):] = prefix
         if rule["api"] == "CreateFontIndirectA":
-            before[4:4+8] = bytes.fromhex("c745d090010000")
+            before[4:4+7] = bytes.fromhex("c745d090010000")
             before[16:20] = bytes.fromhex("c645d786")
         signature = b"\xff\x15" + struct.pack("<I", int(rule["iat"], 16))
         payload = bytes(before) + signature + b"\x90" * 48
