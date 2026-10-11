@@ -1,11 +1,12 @@
 {
-  "_note": "DISPLAY DRAFT ONLY. NOT APPLIED TO runtime, translations/DataBase.json, or build. All review tokens stay unchanged. Confirm engine lookup safety before promotion.",
+  "_note": "DISPLAY DRAFT ONLY. 495 entries: 14 terrain, 63 skill names, 58 item names, 360 class labels (95 unique). NEVER loaded by current runtime/build. All corresponding database rows remain review; verify lookup references, original nomenclature, and in-game rendering before any promotion.",
   "stage": "DataBase",
   "status": "draft_not_approved_for_runtime",
   "counts": {
     "terrain": 14,
     "skill": 63,
-    "item": 58
+    "item": 58,
+    "classes": 360
   },
   "entries": [
     {
@@ -1222,6 +1223,3606 @@
       "source": "熊猫眼贴布",
       "vi_draft": "Miếng dán mắt gấu trúc",
       "risk": "name_may_be_used_as_lookup_key"
+    },
+    {
+      "id": "DataBase:501",
+      "token": 501,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "史莱姆",
+      "vi_draft": "Slime",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:558",
+      "token": 558,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "温蒂妮",
+      "vi_draft": "Undine",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:615",
+      "token": 615,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "赛提尔",
+      "vi_draft": "Satyr",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:672",
+      "token": 672,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": " 哈琵 ",
+      "vi_draft": "Harpy",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:729",
+      "token": 729,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": " 沙罗曼蛇 ",
+      "vi_draft": "Salamander",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:786",
+      "token": 786,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "莫梅德",
+      "vi_draft": "Momed",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "needs_name_verification"
+    },
+    {
+      "id": "DataBase:843",
+      "token": 843,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "狐仙",
+      "vi_draft": "Hồ tiên",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:900",
+      "token": 900,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "史芬克斯",
+      "vi_draft": "Sphinx",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:957",
+      "token": 957,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "参托尔",
+      "vi_draft": "Centaur",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:1014",
+      "token": 1014,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "拉米雅",
+      "vi_draft": "Lamia",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:1071",
+      "token": 1071,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "纳嘉",
+      "vi_draft": "Naga",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:1128",
+      "token": 1128,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "寇克奇斯",
+      "vi_draft": "Cockatrice",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "needs_name_verification"
+    },
+    {
+      "id": "DataBase:1185",
+      "token": 1185,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "菲尼克斯",
+      "vi_draft": "Phoenix",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:1242",
+      "token": 1242,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "奇顿",
+      "vi_draft": "Chiton",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "needs_name_verification"
+    },
+    {
+      "id": "DataBase:1299",
+      "token": 1299,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "优妮寇恩",
+      "vi_draft": "Unicorn",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:1356",
+      "token": 1356,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "曼帝寇",
+      "vi_draft": "Manticore",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:1413",
+      "token": 1413,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "凯贝洛斯",
+      "vi_draft": "Cerberus",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:1470",
+      "token": 1470,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "哥贡",
+      "vi_draft": "Gorgon",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:1527",
+      "token": 1527,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "奈魅尔",
+      "vi_draft": "Nightmare",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "needs_name_verification"
+    },
+    {
+      "id": "DataBase:1584",
+      "token": 1584,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "梅杜莎",
+      "vi_draft": "Medusa",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:1641",
+      "token": 1641,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "海德拉",
+      "vi_draft": "Hydra",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:1698",
+      "token": 1698,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "瑟伦",
+      "vi_draft": "Siren",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:1755",
+      "token": 1755,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "迦楼罗",
+      "vi_draft": "Garuda",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:1812",
+      "token": 1812,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "里拜亚森",
+      "vi_draft": "Leviathan",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:1869",
+      "token": 1869,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "麒麟",
+      "vi_draft": "Kỳ lân",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:1926",
+      "token": 1926,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "盖美拉",
+      "vi_draft": "Chimera",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:1983",
+      "token": 1983,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "芬利尔",
+      "vi_draft": "Fenrir",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:2040",
+      "token": 2040,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "米诺陶尔",
+      "vi_draft": "Minotaur",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:2097",
+      "token": 2097,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "史雷尼尔",
+      "vi_draft": "Sleipnir",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "needs_name_verification"
+    },
+    {
+      "id": "DataBase:2154",
+      "token": 2154,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "提亚玛特",
+      "vi_draft": "Tiamat",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:2211",
+      "token": 2211,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "史莱姆",
+      "vi_draft": "Slime",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:2268",
+      "token": 2268,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "温蒂妮",
+      "vi_draft": "Undine",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:2325",
+      "token": 2325,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "赛提尔",
+      "vi_draft": "Satyr",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:2382",
+      "token": 2382,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": " 哈琵 ",
+      "vi_draft": "Harpy",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:2439",
+      "token": 2439,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": " 沙罗曼蛇 ",
+      "vi_draft": "Salamander",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:2496",
+      "token": 2496,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "莫梅德",
+      "vi_draft": "Momed",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "needs_name_verification"
+    },
+    {
+      "id": "DataBase:2553",
+      "token": 2553,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "狐仙",
+      "vi_draft": "Hồ tiên",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:2610",
+      "token": 2610,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "史芬克斯",
+      "vi_draft": "Sphinx",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:2667",
+      "token": 2667,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "参托尔",
+      "vi_draft": "Centaur",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:2724",
+      "token": 2724,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "拉米雅",
+      "vi_draft": "Lamia",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:2781",
+      "token": 2781,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "纳嘉",
+      "vi_draft": "Naga",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:2838",
+      "token": 2838,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "寇克奇斯",
+      "vi_draft": "Cockatrice",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "needs_name_verification"
+    },
+    {
+      "id": "DataBase:2895",
+      "token": 2895,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "菲尼克斯",
+      "vi_draft": "Phoenix",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:2952",
+      "token": 2952,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "奇顿",
+      "vi_draft": "Chiton",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "needs_name_verification"
+    },
+    {
+      "id": "DataBase:3009",
+      "token": 3009,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "优妮寇恩",
+      "vi_draft": "Unicorn",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:3066",
+      "token": 3066,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "曼帝寇",
+      "vi_draft": "Manticore",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:3123",
+      "token": 3123,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "凯贝洛斯",
+      "vi_draft": "Cerberus",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:3180",
+      "token": 3180,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "哥贡",
+      "vi_draft": "Gorgon",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:3237",
+      "token": 3237,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "奈魅尔",
+      "vi_draft": "Nightmare",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "needs_name_verification"
+    },
+    {
+      "id": "DataBase:3294",
+      "token": 3294,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "梅杜莎",
+      "vi_draft": "Medusa",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:3351",
+      "token": 3351,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "海德拉",
+      "vi_draft": "Hydra",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:3408",
+      "token": 3408,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "瑟伦",
+      "vi_draft": "Siren",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:3465",
+      "token": 3465,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "迦楼罗",
+      "vi_draft": "Garuda",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:3522",
+      "token": 3522,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "里拜亚森",
+      "vi_draft": "Leviathan",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:3579",
+      "token": 3579,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "麒麟",
+      "vi_draft": "Kỳ lân",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:3636",
+      "token": 3636,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "盖美拉",
+      "vi_draft": "Chimera",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:3693",
+      "token": 3693,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "芬利尔",
+      "vi_draft": "Fenrir",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:3750",
+      "token": 3750,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "米诺陶尔",
+      "vi_draft": "Minotaur",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:3807",
+      "token": 3807,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "史雷尼尔",
+      "vi_draft": "Sleipnir",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "needs_name_verification"
+    },
+    {
+      "id": "DataBase:3864",
+      "token": 3864,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "提亚玛特",
+      "vi_draft": "Tiamat",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:3921",
+      "token": 3921,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "史莱姆",
+      "vi_draft": "Slime",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:3978",
+      "token": 3978,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "温蒂妮",
+      "vi_draft": "Undine",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:4035",
+      "token": 4035,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "赛提尔",
+      "vi_draft": "Satyr",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:4092",
+      "token": 4092,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": " 哈琵 ",
+      "vi_draft": "Harpy",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:4149",
+      "token": 4149,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": " 沙罗曼蛇 ",
+      "vi_draft": "Salamander",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:4206",
+      "token": 4206,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "莫梅德",
+      "vi_draft": "Momed",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "needs_name_verification"
+    },
+    {
+      "id": "DataBase:4263",
+      "token": 4263,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "狐仙",
+      "vi_draft": "Hồ tiên",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:4320",
+      "token": 4320,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "史芬克斯",
+      "vi_draft": "Sphinx",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:4377",
+      "token": 4377,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "参托尔",
+      "vi_draft": "Centaur",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:4434",
+      "token": 4434,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "拉米雅",
+      "vi_draft": "Lamia",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:4491",
+      "token": 4491,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "纳嘉",
+      "vi_draft": "Naga",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:4548",
+      "token": 4548,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "寇克奇斯",
+      "vi_draft": "Cockatrice",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "needs_name_verification"
+    },
+    {
+      "id": "DataBase:4605",
+      "token": 4605,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "菲尼克斯",
+      "vi_draft": "Phoenix",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:4662",
+      "token": 4662,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "奇顿",
+      "vi_draft": "Chiton",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "needs_name_verification"
+    },
+    {
+      "id": "DataBase:4719",
+      "token": 4719,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "优妮寇恩",
+      "vi_draft": "Unicorn",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:4776",
+      "token": 4776,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "曼帝寇",
+      "vi_draft": "Manticore",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:4833",
+      "token": 4833,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "凯贝洛斯",
+      "vi_draft": "Cerberus",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:4890",
+      "token": 4890,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "哥贡",
+      "vi_draft": "Gorgon",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:4947",
+      "token": 4947,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "奈魅尔",
+      "vi_draft": "Nightmare",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "needs_name_verification"
+    },
+    {
+      "id": "DataBase:5004",
+      "token": 5004,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "梅杜莎",
+      "vi_draft": "Medusa",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:5061",
+      "token": 5061,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "海德拉",
+      "vi_draft": "Hydra",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:5118",
+      "token": 5118,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "瑟伦",
+      "vi_draft": "Siren",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:5175",
+      "token": 5175,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "迦楼罗",
+      "vi_draft": "Garuda",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:5232",
+      "token": 5232,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "里拜亚森",
+      "vi_draft": "Leviathan",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:5289",
+      "token": 5289,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "麒麟",
+      "vi_draft": "Kỳ lân",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:5346",
+      "token": 5346,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "盖美拉",
+      "vi_draft": "Chimera",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:5403",
+      "token": 5403,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "芬利尔",
+      "vi_draft": "Fenrir",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:5460",
+      "token": 5460,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "米诺陶尔",
+      "vi_draft": "Minotaur",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:5517",
+      "token": 5517,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "史雷尼尔",
+      "vi_draft": "Sleipnir",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "needs_name_verification"
+    },
+    {
+      "id": "DataBase:5574",
+      "token": 5574,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "提亚玛特",
+      "vi_draft": "Tiamat",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:5631",
+      "token": 5631,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "卡美拉",
+      "vi_draft": "Gamera",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "needs_name_verification"
+    },
+    {
+      "id": "DataBase:5688",
+      "token": 5688,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "温蒂妮",
+      "vi_draft": "Undine",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:5745",
+      "token": 5745,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "赛提尔",
+      "vi_draft": "Satyr",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:5802",
+      "token": 5802,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": " 哈琵 ",
+      "vi_draft": "Harpy",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:5859",
+      "token": 5859,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": " 沙罗曼蛇 ",
+      "vi_draft": "Salamander",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:5916",
+      "token": 5916,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "莫梅德",
+      "vi_draft": "Momed",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "needs_name_verification"
+    },
+    {
+      "id": "DataBase:5973",
+      "token": 5973,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "狐仙",
+      "vi_draft": "Hồ tiên",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:6030",
+      "token": 6030,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "史芬克斯",
+      "vi_draft": "Sphinx",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:6087",
+      "token": 6087,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "参托尔",
+      "vi_draft": "Centaur",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:6144",
+      "token": 6144,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "拉米雅",
+      "vi_draft": "Lamia",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:6201",
+      "token": 6201,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "纳嘉",
+      "vi_draft": "Naga",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:6258",
+      "token": 6258,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "寇克奇斯",
+      "vi_draft": "Cockatrice",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "needs_name_verification"
+    },
+    {
+      "id": "DataBase:6315",
+      "token": 6315,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "菲尼克斯",
+      "vi_draft": "Phoenix",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:6372",
+      "token": 6372,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "奇顿",
+      "vi_draft": "Chiton",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "needs_name_verification"
+    },
+    {
+      "id": "DataBase:6429",
+      "token": 6429,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "优妮寇恩",
+      "vi_draft": "Unicorn",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:6486",
+      "token": 6486,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "曼帝寇",
+      "vi_draft": "Manticore",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:6543",
+      "token": 6543,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "凯贝洛斯",
+      "vi_draft": "Cerberus",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:6600",
+      "token": 6600,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "哥贡",
+      "vi_draft": "Gorgon",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:6657",
+      "token": 6657,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "奈魅尔",
+      "vi_draft": "Nightmare",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "needs_name_verification"
+    },
+    {
+      "id": "DataBase:6714",
+      "token": 6714,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "梅杜莎",
+      "vi_draft": "Medusa",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:6771",
+      "token": 6771,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "海德拉",
+      "vi_draft": "Hydra",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:6828",
+      "token": 6828,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "瑟伦",
+      "vi_draft": "Siren",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:6885",
+      "token": 6885,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "迦楼罗",
+      "vi_draft": "Garuda",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:6942",
+      "token": 6942,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "里拜亚森",
+      "vi_draft": "Leviathan",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:6999",
+      "token": 6999,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "麒麟",
+      "vi_draft": "Kỳ lân",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:7056",
+      "token": 7056,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "盖美拉",
+      "vi_draft": "Chimera",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:7113",
+      "token": 7113,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "芬利尔",
+      "vi_draft": "Fenrir",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:7170",
+      "token": 7170,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "米诺陶尔",
+      "vi_draft": "Minotaur",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:7227",
+      "token": 7227,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "史雷尼尔",
+      "vi_draft": "Sleipnir",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "needs_name_verification"
+    },
+    {
+      "id": "DataBase:7284",
+      "token": 7284,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "提亚玛特",
+      "vi_draft": "Tiamat",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:7341",
+      "token": 7341,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "小卒",
+      "vi_draft": "Tân binh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:7398",
+      "token": 7398,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "学者",
+      "vi_draft": "Học giả",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:7455",
+      "token": 7455,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "行者",
+      "vi_draft": "Lữ hành",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:7512",
+      "token": 7512,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "小偷",
+      "vi_draft": "Kẻ trộm",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:7569",
+      "token": 7569,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "僧侣",
+      "vi_draft": "Tăng lữ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:7626",
+      "token": 7626,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "风水师",
+      "vi_draft": "Thầy phong thủy",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:7683",
+      "token": 7683,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "天文生",
+      "vi_draft": "Học viên thiên văn",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:7740",
+      "token": 7740,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "武斗家",
+      "vi_draft": "Võ đấu gia",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:7797",
+      "token": 7797,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "拳法师",
+      "vi_draft": "Võ sư quyền thuật",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:7854",
+      "token": 7854,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "响马",
+      "vi_draft": "Sơn tặc",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:7911",
+      "token": 7911,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "乐师",
+      "vi_draft": "Nhạc công",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:7968",
+      "token": 7968,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "弩兵",
+      "vi_draft": "Lính nỏ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:8025",
+      "token": 8025,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "禅师",
+      "vi_draft": "Thiền sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:8082",
+      "token": 8082,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "练气士",
+      "vi_draft": "Luyện khí sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:8139",
+      "token": 8139,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "军师",
+      "vi_draft": "Quân sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:8196",
+      "token": 8196,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "侠客",
+      "vi_draft": "Hiệp khách",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:8253",
+      "token": 8253,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "将军",
+      "vi_draft": "Tướng quân",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:8310",
+      "token": 8310,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "料理师",
+      "vi_draft": "Đầu bếp",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:8367",
+      "token": 8367,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "药师",
+      "vi_draft": "Dược sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:8424",
+      "token": 8424,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "盗帅",
+      "vi_draft": "Thủ lĩnh đạo tặc",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:8481",
+      "token": 8481,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "操偶师",
+      "vi_draft": "Điều khiển rối",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:8538",
+      "token": 8538,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "枪手",
+      "vi_draft": "Xạ thủ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:8595",
+      "token": 8595,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "法王",
+      "vi_draft": "Pháp vương",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:8652",
+      "token": 8652,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "阴阳师",
+      "vi_draft": "Âm dương sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:8709",
+      "token": 8709,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "纵横家",
+      "vi_draft": "Tung hoành gia",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:8766",
+      "token": 8766,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "剑圣",
+      "vi_draft": "Kiếm thánh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:8823",
+      "token": 8823,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "圣龙将军",
+      "vi_draft": "Tướng Thánh Long",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:8880",
+      "token": 8880,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "食神",
+      "vi_draft": "Thực thần",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:8937",
+      "token": 8937,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "灸炎师",
+      "vi_draft": "Cứu viêm sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "needs_name_verification"
+    },
+    {
+      "id": "DataBase:8994",
+      "token": 8994,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "游艺人",
+      "vi_draft": "Nghệ sĩ rong",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:9051",
+      "token": 9051,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "小卒",
+      "vi_draft": "Tân binh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:9108",
+      "token": 9108,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "学者",
+      "vi_draft": "Học giả",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:9165",
+      "token": 9165,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "行者",
+      "vi_draft": "Lữ hành",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:9222",
+      "token": 9222,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "小偷",
+      "vi_draft": "Kẻ trộm",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:9279",
+      "token": 9279,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "僧侣",
+      "vi_draft": "Tăng lữ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:9336",
+      "token": 9336,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "风水师",
+      "vi_draft": "Thầy phong thủy",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:9393",
+      "token": 9393,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "天文生",
+      "vi_draft": "Học viên thiên văn",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:9450",
+      "token": 9450,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "武斗家",
+      "vi_draft": "Võ đấu gia",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:9507",
+      "token": 9507,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "拳法师",
+      "vi_draft": "Võ sư quyền thuật",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:9564",
+      "token": 9564,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "响马",
+      "vi_draft": "Sơn tặc",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:9621",
+      "token": 9621,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "乐师",
+      "vi_draft": "Nhạc công",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:9678",
+      "token": 9678,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "弩兵",
+      "vi_draft": "Lính nỏ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:9735",
+      "token": 9735,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "禅师",
+      "vi_draft": "Thiền sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:9792",
+      "token": 9792,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "练气士",
+      "vi_draft": "Luyện khí sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:9849",
+      "token": 9849,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "军师",
+      "vi_draft": "Quân sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:9906",
+      "token": 9906,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "侠客",
+      "vi_draft": "Hiệp khách",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:9963",
+      "token": 9963,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "将军",
+      "vi_draft": "Tướng quân",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:10020",
+      "token": 10020,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "料理师",
+      "vi_draft": "Đầu bếp",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:10077",
+      "token": 10077,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "药师",
+      "vi_draft": "Dược sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:10134",
+      "token": 10134,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "盗帅",
+      "vi_draft": "Thủ lĩnh đạo tặc",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:10191",
+      "token": 10191,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "操偶师",
+      "vi_draft": "Điều khiển rối",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:10248",
+      "token": 10248,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "枪手",
+      "vi_draft": "Xạ thủ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:10305",
+      "token": 10305,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "法王",
+      "vi_draft": "Pháp vương",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:10362",
+      "token": 10362,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "阴阳师",
+      "vi_draft": "Âm dương sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:10419",
+      "token": 10419,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "纵横家",
+      "vi_draft": "Tung hoành gia",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:10476",
+      "token": 10476,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "剑圣",
+      "vi_draft": "Kiếm thánh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:10533",
+      "token": 10533,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "圣龙将军",
+      "vi_draft": "Tướng Thánh Long",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:10590",
+      "token": 10590,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "食神",
+      "vi_draft": "Thực thần",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:10647",
+      "token": 10647,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "灸炎师",
+      "vi_draft": "Cứu viêm sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "needs_name_verification"
+    },
+    {
+      "id": "DataBase:10704",
+      "token": 10704,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "游艺人",
+      "vi_draft": "Nghệ sĩ rong",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:10761",
+      "token": 10761,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "小卒",
+      "vi_draft": "Tân binh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:10818",
+      "token": 10818,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "学者",
+      "vi_draft": "Học giả",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:10875",
+      "token": 10875,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "行者",
+      "vi_draft": "Lữ hành",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:10932",
+      "token": 10932,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "小偷",
+      "vi_draft": "Kẻ trộm",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:10989",
+      "token": 10989,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "僧侣",
+      "vi_draft": "Tăng lữ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:11046",
+      "token": 11046,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "风水师",
+      "vi_draft": "Thầy phong thủy",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:11103",
+      "token": 11103,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "天文生",
+      "vi_draft": "Học viên thiên văn",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:11160",
+      "token": 11160,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "武斗家",
+      "vi_draft": "Võ đấu gia",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:11217",
+      "token": 11217,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "拳法师",
+      "vi_draft": "Võ sư quyền thuật",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:11274",
+      "token": 11274,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "响马",
+      "vi_draft": "Sơn tặc",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:11331",
+      "token": 11331,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "乐师",
+      "vi_draft": "Nhạc công",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:11388",
+      "token": 11388,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "弩兵",
+      "vi_draft": "Lính nỏ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:11445",
+      "token": 11445,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "禅师",
+      "vi_draft": "Thiền sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:11502",
+      "token": 11502,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "练气士",
+      "vi_draft": "Luyện khí sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:11559",
+      "token": 11559,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "军师",
+      "vi_draft": "Quân sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:11616",
+      "token": 11616,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "侠客",
+      "vi_draft": "Hiệp khách",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:11673",
+      "token": 11673,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "将军",
+      "vi_draft": "Tướng quân",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:11730",
+      "token": 11730,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "料理师",
+      "vi_draft": "Đầu bếp",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:11787",
+      "token": 11787,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "药师",
+      "vi_draft": "Dược sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:11844",
+      "token": 11844,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "盗帅",
+      "vi_draft": "Thủ lĩnh đạo tặc",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:11901",
+      "token": 11901,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "操偶师",
+      "vi_draft": "Điều khiển rối",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:11958",
+      "token": 11958,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "枪手",
+      "vi_draft": "Xạ thủ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:12015",
+      "token": 12015,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "法王",
+      "vi_draft": "Pháp vương",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:12072",
+      "token": 12072,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "阴阳师",
+      "vi_draft": "Âm dương sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:12129",
+      "token": 12129,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "纵横家",
+      "vi_draft": "Tung hoành gia",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:12186",
+      "token": 12186,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "剑圣",
+      "vi_draft": "Kiếm thánh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:12243",
+      "token": 12243,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "圣龙将军",
+      "vi_draft": "Tướng Thánh Long",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:12300",
+      "token": 12300,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "食神",
+      "vi_draft": "Thực thần",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:12357",
+      "token": 12357,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "灸炎师",
+      "vi_draft": "Cứu viêm sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "needs_name_verification"
+    },
+    {
+      "id": "DataBase:12414",
+      "token": 12414,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "游艺人",
+      "vi_draft": "Nghệ sĩ rong",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:12471",
+      "token": 12471,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "小卒",
+      "vi_draft": "Tân binh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:12528",
+      "token": 12528,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "学者",
+      "vi_draft": "Học giả",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:12585",
+      "token": 12585,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "行者",
+      "vi_draft": "Lữ hành",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:12642",
+      "token": 12642,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "小偷",
+      "vi_draft": "Kẻ trộm",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:12699",
+      "token": 12699,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "僧侣",
+      "vi_draft": "Tăng lữ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:12756",
+      "token": 12756,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "风水师",
+      "vi_draft": "Thầy phong thủy",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:12813",
+      "token": 12813,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "天文生",
+      "vi_draft": "Học viên thiên văn",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:12870",
+      "token": 12870,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "武斗家",
+      "vi_draft": "Võ đấu gia",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:12927",
+      "token": 12927,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "拳法师",
+      "vi_draft": "Võ sư quyền thuật",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:12984",
+      "token": 12984,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "响马",
+      "vi_draft": "Sơn tặc",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:13041",
+      "token": 13041,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "乐师",
+      "vi_draft": "Nhạc công",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:13098",
+      "token": 13098,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "弩兵",
+      "vi_draft": "Lính nỏ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:13155",
+      "token": 13155,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "禅师",
+      "vi_draft": "Thiền sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:13212",
+      "token": 13212,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "练气士",
+      "vi_draft": "Luyện khí sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:13269",
+      "token": 13269,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "军师",
+      "vi_draft": "Quân sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:13326",
+      "token": 13326,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "侠客",
+      "vi_draft": "Hiệp khách",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:13383",
+      "token": 13383,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "将军",
+      "vi_draft": "Tướng quân",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:13440",
+      "token": 13440,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "料理师",
+      "vi_draft": "Đầu bếp",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:13497",
+      "token": 13497,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "药师",
+      "vi_draft": "Dược sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:13554",
+      "token": 13554,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "盗帅",
+      "vi_draft": "Thủ lĩnh đạo tặc",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:13611",
+      "token": 13611,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "操偶师",
+      "vi_draft": "Điều khiển rối",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:13668",
+      "token": 13668,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "枪手",
+      "vi_draft": "Xạ thủ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:13725",
+      "token": 13725,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "法王",
+      "vi_draft": "Pháp vương",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:13782",
+      "token": 13782,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "阴阳师",
+      "vi_draft": "Âm dương sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:13839",
+      "token": 13839,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "纵横家",
+      "vi_draft": "Tung hoành gia",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:13896",
+      "token": 13896,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "剑圣",
+      "vi_draft": "Kiếm thánh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:13953",
+      "token": 13953,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "圣龙元帅",
+      "vi_draft": "Nguyên soái Thánh Long",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:14010",
+      "token": 14010,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "食神",
+      "vi_draft": "Thực thần",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:14067",
+      "token": 14067,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "灸炎师",
+      "vi_draft": "Cứu viêm sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "needs_name_verification"
+    },
+    {
+      "id": "DataBase:14124",
+      "token": 14124,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "游艺人",
+      "vi_draft": "Nghệ sĩ rong",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:14181",
+      "token": 14181,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "小兵",
+      "vi_draft": "Lính mới",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:14238",
+      "token": 14238,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "祭司",
+      "vi_draft": "Tư tế",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:14295",
+      "token": 14295,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "枪兵",
+      "vi_draft": "Lính giáo",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:14352",
+      "token": 14352,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "盗贼",
+      "vi_draft": "Đạo tặc",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:14409",
+      "token": 14409,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "牧师",
+      "vi_draft": "Mục sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:14466",
+      "token": 14466,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "魔女",
+      "vi_draft": "Nữ phù thủy",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:14523",
+      "token": 14523,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "占星师",
+      "vi_draft": "Nhà chiêm tinh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:14580",
+      "token": 14580,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "骑士",
+      "vi_draft": "Kỵ sĩ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:14637",
+      "token": 14637,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "战士",
+      "vi_draft": "Chiến binh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:14694",
+      "token": 14694,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "吟游诗人",
+      "vi_draft": "Thi sĩ lang thang",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:14751",
+      "token": 14751,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "舞者",
+      "vi_draft": "Vũ công",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:14808",
+      "token": 14808,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "弓箭手",
+      "vi_draft": "Cung thủ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:14865",
+      "token": 14865,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "神官",
+      "vi_draft": "Giáo sĩ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:14922",
+      "token": 14922,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "魔法师",
+      "vi_draft": "Pháp sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:14979",
+      "token": 14979,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "召唤师",
+      "vi_draft": "Triệu hồi sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:15036",
+      "token": 15036,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "魔剑士",
+      "vi_draft": "Ma kiếm sĩ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:15093",
+      "token": 15093,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "飞马骑士",
+      "vi_draft": "Kỵ sĩ Phi Mã",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:15150",
+      "token": 15150,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "狂战士",
+      "vi_draft": "Cuồng chiến binh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:15207",
+      "token": 15207,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "工兵",
+      "vi_draft": "Công binh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:15264",
+      "token": 15264,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "怪杰",
+      "vi_draft": "Dị kiệt",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:15321",
+      "token": 15321,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "驯兽师",
+      "vi_draft": "Thuần thú sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:15378",
+      "token": 15378,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "游侠",
+      "vi_draft": "Du hiệp",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:15435",
+      "token": 15435,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "主教",
+      "vi_draft": "Giám mục",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:15492",
+      "token": 15492,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "亡灵法师",
+      "vi_draft": "Pháp sư Vong linh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:15549",
+      "token": 15549,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "旅法师",
+      "vi_draft": "Pháp sư lữ hành",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:15606",
+      "token": 15606,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "圣战士",
+      "vi_draft": "Thánh chiến binh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:15663",
+      "token": 15663,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "狮鹫骑士",
+      "vi_draft": "Kỵ sĩ Sư Ưng",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:15720",
+      "token": 15720,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "黑武士",
+      "vi_draft": "Hắc võ sĩ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:15777",
+      "token": 15777,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "攻城兵",
+      "vi_draft": "Công thành binh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:15834",
+      "token": 15834,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "小丑",
+      "vi_draft": "Hề",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:15891",
+      "token": 15891,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "小兵",
+      "vi_draft": "Lính mới",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:15948",
+      "token": 15948,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "祭司",
+      "vi_draft": "Tư tế",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:16005",
+      "token": 16005,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "枪兵",
+      "vi_draft": "Lính giáo",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:16062",
+      "token": 16062,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "盗贼",
+      "vi_draft": "Đạo tặc",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:16119",
+      "token": 16119,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "牧师",
+      "vi_draft": "Mục sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:16176",
+      "token": 16176,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "魔女",
+      "vi_draft": "Nữ phù thủy",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:16233",
+      "token": 16233,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "占星师",
+      "vi_draft": "Nhà chiêm tinh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:16290",
+      "token": 16290,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "骑士",
+      "vi_draft": "Kỵ sĩ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:16347",
+      "token": 16347,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "战士",
+      "vi_draft": "Chiến binh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:16404",
+      "token": 16404,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "吟游诗人",
+      "vi_draft": "Thi sĩ lang thang",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:16461",
+      "token": 16461,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "舞者",
+      "vi_draft": "Vũ công",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:16518",
+      "token": 16518,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "弓箭手",
+      "vi_draft": "Cung thủ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:16575",
+      "token": 16575,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "神官",
+      "vi_draft": "Giáo sĩ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:16632",
+      "token": 16632,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "魔法师",
+      "vi_draft": "Pháp sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:16689",
+      "token": 16689,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "召唤师",
+      "vi_draft": "Triệu hồi sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:16746",
+      "token": 16746,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "魔剑士",
+      "vi_draft": "Ma kiếm sĩ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:16803",
+      "token": 16803,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "飞马骑士",
+      "vi_draft": "Kỵ sĩ Phi Mã",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:16860",
+      "token": 16860,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "狂战士",
+      "vi_draft": "Cuồng chiến binh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:16917",
+      "token": 16917,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "工兵",
+      "vi_draft": "Công binh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:16974",
+      "token": 16974,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "怪杰",
+      "vi_draft": "Dị kiệt",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:17031",
+      "token": 17031,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "驯兽师",
+      "vi_draft": "Thuần thú sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:17088",
+      "token": 17088,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "游侠",
+      "vi_draft": "Du hiệp",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:17145",
+      "token": 17145,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "主教",
+      "vi_draft": "Giám mục",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:17202",
+      "token": 17202,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "亡灵法师",
+      "vi_draft": "Pháp sư Vong linh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:17259",
+      "token": 17259,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "旅法师",
+      "vi_draft": "Pháp sư lữ hành",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:17316",
+      "token": 17316,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "圣战士",
+      "vi_draft": "Thánh chiến binh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:17373",
+      "token": 17373,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "狮鹫骑士",
+      "vi_draft": "Kỵ sĩ Sư Ưng",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:17430",
+      "token": 17430,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "黑武士",
+      "vi_draft": "Hắc võ sĩ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:17487",
+      "token": 17487,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "攻城兵",
+      "vi_draft": "Công thành binh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:17544",
+      "token": 17544,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "小丑",
+      "vi_draft": "Hề",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:17601",
+      "token": 17601,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "小兵",
+      "vi_draft": "Lính mới",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:17658",
+      "token": 17658,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "祭司",
+      "vi_draft": "Tư tế",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:17715",
+      "token": 17715,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "枪兵",
+      "vi_draft": "Lính giáo",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:17772",
+      "token": 17772,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "盗贼",
+      "vi_draft": "Đạo tặc",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:17829",
+      "token": 17829,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "牧师",
+      "vi_draft": "Mục sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:17886",
+      "token": 17886,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "魔女",
+      "vi_draft": "Nữ phù thủy",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:17943",
+      "token": 17943,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "占星师",
+      "vi_draft": "Nhà chiêm tinh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:18000",
+      "token": 18000,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "骑士",
+      "vi_draft": "Kỵ sĩ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:18057",
+      "token": 18057,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "战士",
+      "vi_draft": "Chiến binh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:18114",
+      "token": 18114,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "吟游诗人",
+      "vi_draft": "Thi sĩ lang thang",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:18171",
+      "token": 18171,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "舞者",
+      "vi_draft": "Vũ công",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:18228",
+      "token": 18228,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "弓箭手",
+      "vi_draft": "Cung thủ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:18285",
+      "token": 18285,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "神官",
+      "vi_draft": "Giáo sĩ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:18342",
+      "token": 18342,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "魔法师",
+      "vi_draft": "Pháp sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:18399",
+      "token": 18399,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "召唤师",
+      "vi_draft": "Triệu hồi sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:18456",
+      "token": 18456,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "魔剑士",
+      "vi_draft": "Ma kiếm sĩ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:18513",
+      "token": 18513,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "飞马骑士",
+      "vi_draft": "Kỵ sĩ Phi Mã",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:18570",
+      "token": 18570,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "狂战士",
+      "vi_draft": "Cuồng chiến binh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:18627",
+      "token": 18627,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "工兵",
+      "vi_draft": "Công binh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:18684",
+      "token": 18684,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "怪杰",
+      "vi_draft": "Dị kiệt",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:18741",
+      "token": 18741,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "驯兽师",
+      "vi_draft": "Thuần thú sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:18798",
+      "token": 18798,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "游侠",
+      "vi_draft": "Du hiệp",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:18855",
+      "token": 18855,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "主教",
+      "vi_draft": "Giám mục",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:18912",
+      "token": 18912,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "亡灵法师",
+      "vi_draft": "Pháp sư Vong linh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:18969",
+      "token": 18969,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "旅法师",
+      "vi_draft": "Pháp sư lữ hành",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:19026",
+      "token": 19026,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "圣战士",
+      "vi_draft": "Thánh chiến binh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:19083",
+      "token": 19083,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "狮鹫骑士",
+      "vi_draft": "Kỵ sĩ Sư Ưng",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:19140",
+      "token": 19140,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "黑武士",
+      "vi_draft": "Hắc võ sĩ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:19197",
+      "token": 19197,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "攻城兵",
+      "vi_draft": "Công thành binh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:19254",
+      "token": 19254,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "小丑",
+      "vi_draft": "Hề",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:19311",
+      "token": 19311,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "小兵",
+      "vi_draft": "Lính mới",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:19368",
+      "token": 19368,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "祭司",
+      "vi_draft": "Tư tế",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:19425",
+      "token": 19425,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "枪兵",
+      "vi_draft": "Lính giáo",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:19482",
+      "token": 19482,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "盗贼",
+      "vi_draft": "Đạo tặc",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:19539",
+      "token": 19539,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "牧师",
+      "vi_draft": "Mục sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:19596",
+      "token": 19596,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "魔女",
+      "vi_draft": "Nữ phù thủy",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:19653",
+      "token": 19653,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "占星师",
+      "vi_draft": "Nhà chiêm tinh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:19710",
+      "token": 19710,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "骑士",
+      "vi_draft": "Kỵ sĩ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:19767",
+      "token": 19767,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "战士",
+      "vi_draft": "Chiến binh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:19824",
+      "token": 19824,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "吟游诗人",
+      "vi_draft": "Thi sĩ lang thang",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:19881",
+      "token": 19881,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "舞者",
+      "vi_draft": "Vũ công",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:19938",
+      "token": 19938,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "弓箭手",
+      "vi_draft": "Cung thủ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:19995",
+      "token": 19995,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "神官",
+      "vi_draft": "Giáo sĩ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:20052",
+      "token": 20052,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "魔法师",
+      "vi_draft": "Pháp sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:20109",
+      "token": 20109,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "召唤师",
+      "vi_draft": "Triệu hồi sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:20166",
+      "token": 20166,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "魔剑士",
+      "vi_draft": "Ma kiếm sĩ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:20223",
+      "token": 20223,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "飞马骑士",
+      "vi_draft": "Kỵ sĩ Phi Mã",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:20280",
+      "token": 20280,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "狂战士",
+      "vi_draft": "Cuồng chiến binh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:20337",
+      "token": 20337,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "工兵",
+      "vi_draft": "Công binh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:20394",
+      "token": 20394,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "怪杰",
+      "vi_draft": "Dị kiệt",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:20451",
+      "token": 20451,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "驯兽师",
+      "vi_draft": "Thuần thú sư",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:20508",
+      "token": 20508,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "游侠",
+      "vi_draft": "Du hiệp",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:20565",
+      "token": 20565,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "主教",
+      "vi_draft": "Giám mục",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:20622",
+      "token": 20622,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "末日法师",
+      "vi_draft": "Pháp sư Tận Thế",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:20679",
+      "token": 20679,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "旅法师",
+      "vi_draft": "Pháp sư lữ hành",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:20736",
+      "token": 20736,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "邪灵战士",
+      "vi_draft": "Chiến binh Tà Linh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:20793",
+      "token": 20793,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "狮鹫骑士",
+      "vi_draft": "Kỵ sĩ Sư Ưng",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:20850",
+      "token": 20850,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "幽冥武士",
+      "vi_draft": "Võ sĩ U Minh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:20907",
+      "token": 20907,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "攻城兵",
+      "vi_draft": "Công thành binh",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:20964",
+      "token": 20964,
+      "call": "AddClassData",
+      "argument": 2,
+      "source": "小丑",
+      "vi_draft": "Hề",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
     }
   ]
 }
