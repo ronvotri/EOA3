@@ -1,5 +1,14 @@
 # Bàn giao cho cloud
 
+## CHECKPOINT 12/10/2026 — V8 THẬT ĐÃ ĐỌC, GLYPH PIPELINE ĐƯỢC XÁC MINH
+
+- Người dùng gửi `EOA3-Windows-Diagnostics(5).zip` + log `(6)` từ Windows. ZIP **8/8 file, 7/7 mã x86 windows, 48/48 bytes palette**, EXE SHA `2d7d9705837e32c72685d69e50e426fde168ea8d435de90ba937cefbf5138baf`, warnings rỗng. So khớp V7 tại hai overlap 0x41A7F0..0x41A7FF và 0x42AC60..0x42ACEF.
+- **V8 MỚI:** `0x41C790` KHÔNG còn là unknown consumer: đọc `strlen` theo byte, mỗi byte >=0x80 thành **cặp hai byte** (ghi object+0xFC8/+0xFC9), ASCII single byte rồi NUL second byte; tra glyph `0x41C5B0`, path khác `0x41C650` + `0x41C470`, gọi `0x41CCC0` / style helpers. Nhưng cửa sổ mới tới `0x41CB8F`; function còn branch tới `0x41CCAC`, không có các callee body. Không chèn UTF-8 vào đường DBCS này.
+- **V8 MÀU:** `0x42A8A0` gọi numeric parser base10; `0x41AC20` gán WORD vào font+0xFE6, `0x41AC50` gán WORD font+0xFE4, `0x41ABF0` gán DWORD font+0xFE0. `0x42AED0` chỉ forward 3 tham số đến `0x414380`. Palette 16×3 thật gồm triple mỗi kênh 0/15/31 theo primary/secondary. RGB-5bit là giả thuyết mạnh; **%c mapping và RGB565 CHƯA xác minh** vì thiếu switch tables và packer body.
+- Đã thêm `docs/V8_REAL_RENDERER_TRACE_AUDIT.md`, `tools/audit_v8_renderer_trace.py`, `tools/test_audit_v8_renderer_trace.py`, CI synthetic. Không commit code bytes gốc; helper audit yêu cầu ZIP V8 thực từ người dùng để chạy real verification.
+- **NEXT:** giải bài toán transport/lookup glyph trước PoC; các mắt xích thiếu `0x41C5B0`, `0x41C650`, `0x41C470`, `0x41CCC0`, `0x414380`, `0x41CB90..0x41CCBF`, `0x42AA60..0x42AAEF`, switch tables `0x42AE3D`, `0x42AE6D`. **Không chạy lại V8**, chưa yêu cầu V9. 1.881 translate / 574 review / 573 name drafts, 1.788 không encode CP936, chưa playable patch.
+
+
 ## MỚI NHẤT 12/10/2026 — V8 một lần lấy toàn bộ mắt xích chữ, không lặp vặt
 
 - Từ V7/PR #24–25 đã xác minh đường `CharNextA` → copy substring NUL → **CALL `0x41C790`**, nhưng **không có body** `0x41C790` trong ZIP V7 nên chưa nối tới `TextOutA`. Mẫu mã vùng trước dispatcher `0x42AC60` có parser +2 và index 16×3; chưa chứng minh `%c` màu. Đừng tự suy diễn.
