@@ -15,6 +15,7 @@ from font_preview import make_html
 from probe_game import MAX_EXE_SIZE, analyze_bytes
 from probe_engine_calls import collect as collect_engine_calls
 from probe_engine_followup import collect_followup
+from probe_renderer_v8 import collect as collect_renderer_trace
 from windows_font_probe import analyze_font
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -67,6 +68,7 @@ def create_bundle(exe, out=DEFAULT_OUTPUT, font_name="Segoe UI", size_pt=16,
     exe_info = analyze_bytes(game_bytes, game_folder=exe.parent)
     engine_calls = collect_engine_calls(game_bytes)
     followup = collect_followup(game_bytes)
+    renderer_trace = collect_renderer_trace(game_bytes)
     exe_info["exe_filename"] = exe.name
 
     sources = load_sources(source_root)
@@ -96,6 +98,7 @@ def create_bundle(exe, out=DEFAULT_OUTPUT, font_name="Segoe UI", size_pt=16,
             "font_preview.html",
             "engine_callsite_slices.json",
             "engine_followup_evidence.json",
+            "renderer_trace_v8.json",
         ],
         "privacy_note": "Contains limited raw machine-code evidence around GDI and two font helpers plus possible caller bytes (NOT a complete EXE), no font files or local paths. Review before sharing publicly.",
     }
@@ -107,6 +110,7 @@ def create_bundle(exe, out=DEFAULT_OUTPUT, font_name="Segoe UI", size_pt=16,
         "font_preview.html": make_html(static_info, font_name).encode("utf-8"),
         "engine_callsite_slices.json": json_bytes(engine_calls),
         "engine_followup_evidence.json": json_bytes(followup),
+        "renderer_trace_v8.json": json_bytes(renderer_trace),
     }
     # Refuse path alias/symlink tricks before writing anywhere.
     if out.resolve() == exe.resolve() or out.is_dir():
