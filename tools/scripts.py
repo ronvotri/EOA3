@@ -7,7 +7,7 @@ SAFE_CALLS = {"Say", "MessageBox", "SetMission", "SetStageName"}
 # Manually audited text parameters: not names/IDs used as cross-resource lookup keys.
 # SP_AddAction argument 3 = cutscene overlay; skills/items argument 2 = tooltip text.
 AUDITED_TEXT_FIELDS = {("SP_AddAction", 3), ("AddSkillData", 2), ("AddItemData", 2)}
-OVERLAY_PREFIX = re.compile(r"^%s\\d+%t\\d+%z\\d+")
+OVERLAY_PREFIX = re.compile(r"^%s\d+%t\d+%z\d+")
 
 
 def is_safe_text_field(row):
