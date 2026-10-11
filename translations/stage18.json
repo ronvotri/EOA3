@@ -132,7 +132,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "合作与反间",
-    "vi": ""
+    "vi": "Liên thủ và kế phản gián"
   },
   {
     "id": "stage18:2666",
@@ -141,7 +141,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "Stage-18 合作与反间",
-    "vi": ""
+    "vi": "Màn 18 - Liên thủ và kế phản gián"
   },
   {
     "id": "stage18:2671",
@@ -159,7 +159,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“就是这里了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chính là chỗ này!”"
   },
   {
     "id": "stage18:2739",
@@ -168,7 +168,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼！不管走到哪都一直输，现在反而让敌人往%N我们欧查进攻了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừ! Đi đâu cũng thua, giờ quân địch còn đánh ngược%Nvào lãnh thổ Ocha chúng ta nữa!”"
   },
   {
     "id": "stage18:2750",
@@ -177,7 +177,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“力量之泉喝得太晚了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Giá mà ta uống Suối Sức Mạnh sớm hơn!”"
   },
   {
     "id": "stage18:2761",
@@ -186,7 +186,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“玛西亚首领，你认为这样下去真的行吗！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thủ lĩnh Marcia, cứ thế này liệu có ổn không!?”"
   },
   {
     "id": "stage18:2786",
@@ -204,7 +204,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：敌军全灭。%N失败条件：妮雅战败。",
-    "vi": ""
+    "vi": "Điều kiện thắng: Tiêu diệt toàn bộ quân địch.%NĐiều kiện thua: Niya bị đánh bại."
   },
   {
     "id": "stage18:3053",
@@ -357,7 +357,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“敌人都来了吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Quân địch đã đến đủ chưa?”"
   },
   {
     "id": "stage18:3288",
@@ -366,7 +366,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那把敌人都杀光吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thế thì giết sạch chúng đi!”"
   },
   {
     "id": "stage18:3299",
@@ -375,7 +375,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呵呵呵呵～～～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hê hê hê...”"
   },
   {
     "id": "stage18:3324",
@@ -384,7 +384,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“杀光吧！杀光吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Giết sạch! Giết sạch đi!”"
   },
   {
     "id": "stage18:3388",
@@ -393,7 +393,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“洁莉队长¨¨你¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đội trưởng Jeli... chị làm sao thế...?”"
   },
   {
     "id": "stage18:3399",
@@ -402,7 +402,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呜¨哇¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ư... a...”"
   },
   {
     "id": "stage18:3445",
@@ -411,7 +411,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“通通碎尸万段，呵呵呵¨¨¨好不好呀？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Băm chúng ra thành từng mảnh nhé? Hê hê... được không?”"
   },
   {
     "id": "stage18:3456",
@@ -420,7 +420,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“玛西亚女帝，你说好不好呀！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nữ hoàng Marcia, người thấy thế có hay không!?”"
   },
   {
     "id": "stage18:3467",
@@ -429,7 +429,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呵哈哈哈哈！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ha ha ha ha!”"
   },
   {
     "id": "stage18:3561",
@@ -438,7 +438,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“洁、洁莉¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Je... Jeli...?”"
   },
   {
     "id": "stage18:3635",
@@ -447,7 +447,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“杀光吧！哈哈哈哈哈～～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Giết sạch đi! Ha ha ha!”"
   },
   {
     "id": "stage18:3660",
@@ -456,7 +456,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ngươi...”"
   },
   {
     "id": "stage18:3705",
@@ -465,7 +465,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z32%c1“洁莉！”",
-    "vi": ""
+    "vi": "%s2%t4%z32%c1“Jeli!”"
   },
   {
     "id": "stage18:3737",
@@ -474,7 +474,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“啊！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hả!?”"
   },
   {
     "id": "stage18:3748",
@@ -483,7 +483,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我¨¨刚刚怎么了吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tôi... vừa rồi tôi làm gì thế?”"
   },
   {
     "id": "stage18:3773",
@@ -501,7 +501,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“对了！玛西亚首领，你也在这里呀！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“À đúng rồi! Thủ lĩnh Marcia, người cũng ở đây à!?”"
   },
   {
     "id": "stage18:3829",
@@ -510,7 +510,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“敌人不是来了，还不赶快进攻吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Địch đến rồi mà, sao chưa mau tấn công?”"
   },
   {
     "id": "stage18:3841",
@@ -519,7 +519,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“对！进攻！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đúng! Tấn công!”"
   },
   {
     "id": "stage18:3852",
@@ -528,7 +528,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“全军进攻！”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Toàn quân tấn công!”"
   },
   {
     "id": "stage18:3890",
@@ -537,7 +537,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“洁¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Je...”"
   },
   {
     "id": "stage18:3901",
@@ -546,7 +546,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“回来呀¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Quay lại đây...”"
   },
   {
     "id": "stage18:3926",
@@ -555,7 +555,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呵呵呵呵！进攻进攻。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hê hê hê! Tấn công, tấn công!”"
   },
   {
     "id": "stage18:3969",
@@ -564,7 +564,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chuyện... chuyện này...”"
   },
   {
     "id": "stage18:4019",
@@ -573,7 +573,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“欧查军¨¨不太对劲¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Quân Ocha... có gì đó không ổn...”"
   },
   {
     "id": "stage18:4030",
@@ -582,7 +582,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“连自己人都¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ngay cả người phe mình mà chúng cũng...”"
   },
   {
     "id": "stage18:4055",
@@ -591,7 +591,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“黑水。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nước đen.”"
   },
   {
     "id": "stage18:4080",
@@ -600,7 +600,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“咦！？温妮说话了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ơ!? Winnie vừa nói kìa!”"
   },
   {
     "id": "stage18:4105",
@@ -609,7 +609,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“黑水¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nước đen...”"
   },
   {
     "id": "stage18:4130",
@@ -618,7 +618,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“黑水？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nước đen?”"
   },
   {
     "id": "stage18:4155",
@@ -627,7 +627,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯！黑水，好个黑水！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừ! Nước đen, đúng là nước đen!”"
   },
   {
     "id": "stage18:4166",
@@ -636,7 +636,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“但¨¨什么是黑水？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhưng... nước đen là gì?”"
   },
   {
     "id": "stage18:4191",
@@ -645,7 +645,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“笨蛋¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đồ ngốc...”"
   },
   {
     "id": "stage18:4202",
@@ -654,7 +654,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“她的意思是说，喝下黑色天使之泉的人就会变%N成那样。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ý con bé là ai uống nước suối Thiên Sứ đen%Ncũng sẽ biến thành như vậy.”"
   },
   {
     "id": "stage18:4227",
@@ -663,7 +663,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“黑色泉水¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nước suối đen...”"
   },
   {
     "id": "stage18:4264",
@@ -789,7 +789,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“糟了！大家小心，沿岸出现伏兵。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nguy rồi! Mọi người cẩn thận, có phục binh ven bờ!”"
   },
   {
     "id": "stage18:4660",
@@ -834,7 +834,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“加百列 萨维尔皇城”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Gabriel - kinh thành Savel”"
   },
   {
     "id": "stage18:4831",
@@ -843,7 +843,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“没想到黑色天使之泉会有这么严重的后遗症，%N现在整个欧查军队已经四分五裂。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không ngờ nước suối Thiên Sứ đen gây hậu quả nặng nề%Nđến vậy. Quân Ocha giờ đã chia năm xẻ bảy.”"
   },
   {
     "id": "stage18:4842",
@@ -852,7 +852,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“贝力欧方面，原本的欧查军首领玛西亚已经宣%N布停战了，我也正派人积极游说拉奎尔投降。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tại Belio, thủ lĩnh Ocha là Marcia đã tuyên bố đình chiến.%NTa cũng đang cử người thuyết phục Rakuel đầu hàng.”"
   },
   {
     "id": "stage18:4867",
@@ -861,7 +861,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“真的吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thật sao ạ?”"
   },
   {
     "id": "stage18:4878",
@@ -870,7 +870,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“欧查领袖已经宣布停战，那是不是战争就结束%N了？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thủ lĩnh Ocha đã ngừng chiến rồi,%Nvậy có phải chiến tranh đã kết thúc không?”"
   },
   {
     "id": "stage18:4903",
@@ -879,7 +879,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不！你先听我说。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chưa! Hãy nghe ta nói hết đã.”"
   },
   {
     "id": "stage18:4914",
@@ -888,7 +888,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“刚刚手下传来最新的消息，包含欧查国家在内%N，亚伯登、梅塔隆等国家都受到黑色泉水严重侵%N害。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Theo tin vừa báo, không chỉ Ocha mà cả Aberdon,%NMetaron cùng nhiều nước đều bị suối đen tàn phá%Nnghiêm trọng.”"
   },
   {
     "id": "stage18:4925",
@@ -897,7 +897,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这些国家目前无论内战或对外攻击，实际运作%N都已经完全脱离欧查政府的管辖。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Quân các nước ấy giờ dù nội chiến hay đánh ra ngoài,%Nđều đã hoàn toàn vượt khỏi sự kiểm soát của chính quyền Ocha.”"
   },
   {
     "id": "stage18:4936",
@@ -906,7 +906,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“至于各位上一场在萨梅尔的战争，我方其实并%N不算获胜。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Còn trận đánh ở Samel vừa qua,%Nthật ra phe ta chưa thể coi là chiến thắng.”"
   },
   {
     "id": "stage18:4947",
@@ -915,7 +915,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“因为萨梅尔首领克诺依德被雷丝曼介入后带走%N，雷丝曼为了达到她的野心，极有可能强迫克诺%N依德喝下黑色泉水来增加战力。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Bởi Konoid, thủ lĩnh Samel, đã bị Resman đưa đi.%NĐể đạt tham vọng, rất có thể Resman sẽ ép Konoid%Nuống nước suối đen để tăng sức mạnh.”"
   },
   {
     "id": "stage18:4958",
@@ -924,7 +924,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不过，贝力欧的黑色泉水已经被玛西亚封锁，%N因此只要她们还没过境到玛雅之前，她们要喝下%N更多黑色泉水的机会并不大。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tuy nhiên, Marcia đã phong tỏa suối đen ở Belio.%NChừng nào chúng chưa tới được Maya,%Nchúng khó có cơ hội uống thêm thứ nước ấy.”"
   },
   {
     "id": "stage18:4983",
@@ -933,7 +933,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那我们要去救她吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy chúng ta có đi cứu cô ấy không?”"
   },
   {
     "id": "stage18:5008",
@@ -942,7 +942,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这要问你自己，你已经是邦联军队最高指挥官%N。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Điều đó ngươi phải tự quyết. Ngươi đã là Tổng chỉ huy%Nquân Liên bang rồi.”"
   },
   {
     "id": "stage18:5033",
@@ -951,7 +951,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chuyện này...!?”"
   },
   {
     "id": "stage18:5058",
@@ -960,7 +960,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“爱尔达的三处天使之泉如今仅存加百列的未受%N污染，我已经下令境内严加防守，因此暂时无法%N对外出战。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Trong ba suối Thiên Sứ ở Elda, chỉ suối Gabriel%Nchưa bị nhiễm bẩn. Ta đã lệnh canh phòng nghiêm ngặt,%Nnên tạm thời không thể xuất quân ra ngoài.”"
   },
   {
     "id": "stage18:5069",
@@ -969,7 +969,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“况且受黑色泉水感染的人数不断扩增，因此脱%N离欧查军的小团体不断从四面八方侵袭。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hơn nữa, số người nhiễm nước đen ngày càng nhiều.%NNhiều nhóm quân rời bỏ Ocha đang đánh phá khắp nơi.”"
   },
   {
     "id": "stage18:5080",
@@ -978,7 +978,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这些人都已经失控了，各个国家也正在严防这%N些人的入侵。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Họ đã mất kiểm soát. Các nước đều phải đề phòng%Nnhững kẻ ấy xâm nhập.”"
   },
   {
     "id": "stage18:5105",
@@ -987,7 +987,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“天使之泉变成黑色的原因呢？难道没有解决的%N方法吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vì sao suối Thiên Sứ lại hóa đen?%NThật sự không có cách nào giải quyết sao?”"
   },
   {
     "id": "stage18:5130",
@@ -996,7 +996,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“妮雅，你问的问题目前尚未找到原因，所以在%N找到答案之前，只有确保仅存的天使之泉不受污%N染才是加百列目前重视的问题。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Niya, hiện chúng ta vẫn chưa tìm được nguyên nhân.%NTrước khi có câu trả lời, điều Gabriel lo nhất%Nlà bảo vệ nguồn suối Thiên Sứ cuối cùng.”"
   },
   {
     "id": "stage18:5141",
@@ -1005,7 +1005,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你已经邦联军队的最高指挥官，你必须自己看%N清、并决定一些事情。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ngươi đã là Tổng chỉ huy quân Liên bang.%NPhải tự nhìn nhận và quyết định mọi chuyện.”"
   },
   {
     "id": "stage18:5166",
@@ -1014,7 +1014,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“是的，我知道了¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vâng, thần hiểu rồi...”"
   },
   {
     "id": "stage18:5207",
@@ -1032,7 +1032,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“加百列 萨维尔皇城走廊”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Gabriel - hành lang kinh thành Savel”"
   },
   {
     "id": "stage18:5228",
@@ -1041,7 +1041,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“目前虽然结束了与欧查军的战争，但是黑色%N天使之泉的问题要是一天不解决，那么受感染%N的人就会越来越多。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Dù chiến tranh với Ocha đã tạm kết thúc,%Nnếu không giải quyết chuyện suối Thiên Sứ đen,%Nsố người nhiễm sẽ ngày càng tăng.”"
   },
   {
     "id": "stage18:5239",
@@ -1050,7 +1050,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你们认为接下来该怎么做才能阻止事情持续%N恶化呢？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mọi người nghĩ tiếp theo nên làm gì%Nđể tình hình không tệ hơn nữa?”"
   },
   {
     "id": "stage18:5264",
@@ -1059,7 +1059,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“问问温妮，温妮应该知道些什么吧！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hay hỏi Winnie đi! Biết đâu con bé biết gì đó!?”"
   },
   {
     "id": "stage18:5289",
@@ -1077,7 +1077,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“温妮，姊姊问你哦！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Winnie, để chị hỏi nhé!”"
   },
   {
     "id": "stage18:5325",
@@ -1086,7 +1086,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你知道黑水是从哪来的吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Em biết nước đen từ đâu ra không?”"
   },
   {
     "id": "stage18:5350",
@@ -1095,7 +1095,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“黑水？？？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nước đen???”"
   },
   {
     "id": "stage18:5375",
@@ -1104,7 +1104,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯嗯！黑水。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừ, nước đen đấy!”"
   },
   {
     "id": "stage18:5386",
@@ -1113,7 +1113,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“是从哪里来的？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nó từ đâu đến vậy em?”"
   },
   {
     "id": "stage18:5411",
@@ -1122,7 +1122,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“家里¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhà...”"
   },
   {
     "id": "stage18:5436",
@@ -1131,7 +1131,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你这¨等于白问嘛¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cậu hỏi thế cũng như không mà...”"
   },
   {
     "id": "stage18:5461",
@@ -1140,7 +1140,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“谁说的！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ai bảo thế!?”"
   },
   {
     "id": "stage18:5472",
@@ -1149,7 +1149,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“既然温妮来自玛雅，那么黑水就是从玛雅来的%N呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Winnie đến từ Maya, vậy nước đen cũng từ Maya%Nchứ còn gì nữa!”"
   },
   {
     "id": "stage18:5483",
@@ -1158,7 +1158,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“连这么简单的儿童语言也不懂¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ngôn ngữ trẻ con đơn giản thế mà cũng không hiểu...”"
   },
   {
     "id": "stage18:5508",
@@ -1167,7 +1167,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我不是儿童已经很久了¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mình đâu còn là trẻ con từ lâu rồi...”"
   },
   {
     "id": "stage18:5519",
@@ -1176,7 +1176,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那么你们有想到解决的方法吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy mọi người nghĩ ra cách giải quyết chưa?”"
   },
   {
     "id": "stage18:5544",
@@ -1194,7 +1194,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“烂问题¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hỏi gì mà chán thế...”"
   },
   {
     "id": "stage18:5566",
@@ -1203,7 +1203,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“有方法解决的话还需要大家打来打去吗！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nếu biết cách thì còn phải đánh nhau mãi thế này à!?”"
   },
   {
     "id": "stage18:5591",
@@ -1212,7 +1212,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我建议我们还是到香格里拉吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mình nghĩ bọn mình nên đến Shangri-La thử xem!”"
   },
   {
     "id": "stage18:5602",
@@ -1221,7 +1221,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“玉京的纱玲长老知识丰富，也许知道究竟。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Trưởng lão Shaling ở Ngọc Kinh rất uyên bác, biết đâu bà ấy hiểu được chuyện này.”"
   },
   {
     "id": "stage18:5627",
@@ -1230,7 +1230,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“真的吗！？那我们走吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thật sao!? Vậy đi thôi!”"
   },
   {
     "id": "stage18:5673",
@@ -1248,7 +1248,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“加百列 威尔港”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Gabriel - cảng Will”"
   },
   {
     "id": "stage18:5694",
@@ -1257,7 +1257,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“搭船罗！搭船罗！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Lên thuyền nào! Lên thuyền nào!”"
   },
   {
     "id": "stage18:5705",
@@ -1266,7 +1266,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“温妮要自己游过去吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Winnie định tự bơi qua bên kia à?”"
   },
   {
     "id": "stage18:5730",
@@ -1275,7 +1275,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不要¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không...”"
   },
   {
     "id": "stage18:5755",
@@ -1284,7 +1284,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“大家快往船上移动吧。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mọi người mau lên thuyền đi!”"
   },
   {
     "id": "stage18:5780",
@@ -1302,7 +1302,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你怎么了吗！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cậu sao thế!?”"
   },
   {
     "id": "stage18:5830",
@@ -1311,7 +1311,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“啊！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hả!?”"
   },
   {
     "id": "stage18:5841",
@@ -1320,7 +1320,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“没¨¨我没事。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Khô... không có gì đâu.”"
   },
   {
     "id": "stage18:5866",
@@ -1329,7 +1329,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯¨¨¨那就快走吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừm... vậy đi nhanh thôi!”"
   },
   {
     "id": "stage18:5891",
@@ -1338,6 +1338,6 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯！好的¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừ, được rồi...”"
   }
 ]
