@@ -102,6 +102,8 @@ def create_bundle(exe, out=DEFAULT_OUTPUT, font_name="Segoe UI", size_pt=16,
     # Refuse path alias/symlink tricks before writing anywhere.
     if out.resolve() == exe.resolve() or out.is_dir():
         raise ValueError("Invalid output path")
+    if out.resolve().is_relative_to(exe.parent.resolve()):
+        raise ValueError("Output ZIP must be outside the game installation directory")
     out.parent.mkdir(parents=True, exist_ok=True)
     with zipfile.ZipFile(out, "w", compression=zipfile.ZIP_DEFLATED) as z:
         for name in manifest["contents"]:
