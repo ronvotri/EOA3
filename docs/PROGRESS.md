@@ -67,3 +67,10 @@ Cập nhật: 2026-10-11.
 - `tools/package_diagnostics.py` tạo `EOA3-Windows-Diagnostic-Tool.zip` chạy được sau khi giải nén, chứa **40 cặp JSON kịch bản**, Python stdlib, launcher và hướng dẫn, **không chứa file EXE, DLL, BIN, font, dữ liệu ảnh hay save**. GitHub Actions phát hành artifact `eoa3-windows-oneclick-diagnostic-tool` sau test.
 - Unit tests dùng **PE32 nhân tạo** và font GDI mock: kiểm tra nội dung ZIP, hash, không rò đường dẫn local, không ghi game folder, xử lý lỗi GDI, escape HTML, đủ file và không bundle tài sản trò chơi. 
 - Việc tiếp theo cần **báo cáo Windows từ đúng bản `AngelSLG.exe`**, không cần gửi EXE. Công cụ chưa vá Unicode hay đo được khung game thật; tiếp tục giữ **1.881 translate, 574 review, 573 tên nháp**. Xem `docs/WINDOWS_ONECLICK_DIAGNOSTICS.md`.
+
+
+## Fix lỗi import descriptor khi chạy trên EXE người dùng — 11/10/2026
+
+- Nhận log `Import descriptor limit exceeded`, phát hiện parser bị giới hạn bởi `import_size // 20` nên có thể không nhìn thấy descriptor kết thúc. Đã sửa bộ đọc PE thành **null-terminated RVA scan** giới hạn số bước/symbol; lỗi bất thường trả cảnh báo và cho phép xuất báo cáo phần đọc được.
+- Thêm unit test hồi quy với `ImportDirectory.Size` thiếu descriptor null, test bảng malformed và bảng import rỗng. Xem `docs/PE_IMPORT_FIX.md`.
+- Chưa có báo cáo PE của EXE người dùng để khẳng định font/renderer. Số dịch không đổi: **1.881 translate, 574 review, 573 tên nháp**; patch chơi được chưa có.
