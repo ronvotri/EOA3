@@ -1,5 +1,14 @@
 # Bàn giao cho cloud
 
+## Checkpoint V5 — ĐÃ XÁC NHẬN ỨNG VIÊN DirectDraw Surface/HDC (11/10/2026)
+
+- Tận dụng nguyên ZIP **`EOA3-Windows-Diagnostics(2).zip`** đã gửi, không cần chạy tool Windows mới. SHA EXE **`2d7d9705837e32c72685d69e50e426fde168ea8d435de90ba937cefbf5138baf`**.
+- Hai lời gọi `TextOutA` nằm giữa **vtable call `[eax+0x44]` tại `0x41A74D`** (truyền `HDC*`, kiểm HRESULT=0) và **`[ecx+0x68]` tại `0x41A7E0`** (truyền HDC). Các offset và ABI **khớp `IDirectDrawSurface::GetDC/ReleaseDC`**, có nguồn Microsoft Learn. Đây là nhận diện tĩnh có căn cứ, chưa xác minh đối tượng COM runtime hoặc thực sự render hộp thoại.
+- Sau `CreateFontIndirectA` `0x41AAAB`, engine **lưu EAX/HFONT tại object+0xFCC** (`0x41AAB4`), gọi helper **`0x41A7F0` từ `0x41AAC5`**, rồi **`0x41A8C0` từ `0x41AACD`**. Đã tính lại đích call x86 E8 rel32 từ bytes V5; chưa biết body hai helper.
+- Thêm **`tools/audit_v5_surface_pipeline.py`** + unit test synthetic, kiểm SHA, 15 landmarks x86, vtable ABI/call-target và cửa sổ overlap trên ZIP cũ. Ghi toàn bộ chứng cứ/giới hạn tại **`docs/V5_DIRECTDRAW_SURFACE_AUDIT.md`**.
+- **Bước kế:** điều tra hai helper `0x41A7F0`/`0x41A8C0` và đường `ANGELSCRIPT` → GDI/DirectDraw. Không vội áp `TextOutW`, thay charset 134 hoặc dump/patch EXE. Không có bản playable. **1.881 translate/574 review/573 tên nháp giữ nguyên**.
+
+
 ## Checkpoint (11/10/2026): V5 kiểm chứng vòng duyệt `CharNextA`, hai `TextOutA` cùng một routine
 
 - **KHÔNG cần user chạy lại V5**, đã phân tích trực tiếp báo cáo `EOA3-Windows-Diagnostics(2).zip`. Vùng mã `0x42AD2F..0x42AD7B` duyệt NUL-terminated string, kiểm tra ASCII `%` (`0x25`) và trạng thái `[ebp-0x14]&0xff`; `0x42AD54` gọi `CharNextA`, lưu con trỏ mới `[ebp-0x38]` rồi nhảy vòng. **Không kết luận vòng này là bộ parser `%N/%s/%t/%z`**.
