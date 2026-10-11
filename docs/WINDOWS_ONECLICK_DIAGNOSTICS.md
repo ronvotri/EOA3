@@ -71,3 +71,8 @@ Nếu lần trước đã chọn EXE và log hiện `Import descriptor limit exc
 **Không dùng thư mục v2 cũ:** giải nén bộ công cụ mới sang một thư mục riêng, chạy `EOA3-KiemTra-Windows.cmd`, chọn `AngelSLG.exe`. Nếu `SUCCESS` hãy gửi `build/EOA3-Windows-Diagnostics.zip`; nếu lỗi hãy gửi `build/EOA3-Diagnostic-Log.txt`. Tool không sửa/chạy game.
 
 Đọc phân tích cụ thể tại `docs/PE_IMPORT_FIX.md` trong repo. Chưa xác minh PE thực của người dùng, nên chưa thể chắc chắn mọi biến thể EXE sẽ chạy qua.
+
+
+## Checkpoint mới — đã nhận báo cáo thực tế từ người dùng
+
+ZIP báo cáo V3 được tạo thành công. EXE đúng tên `AngelSLG.exe`, SHA-256 `2d7d9705837e32c72685d69e50e426fde168ea8d435de90ba937cefbf5138baf`. GDI Segoe UI 16pt đo đủ 165 ký tự không thiếu glyph; các API vẽ chữ ANSI được tìm thấy tại cùng các địa chỉ đã phân tích trước. Dữ liệu định lượng chi tiết, rủi ro chưa giải quyết và hướng thử font/runtime có trong `docs/REAL_WINDOWS_EXE_AUDIT.md`. Có thể dùng `tools/analyze_windows_report.py` xác nhận tính nhất quán của ZIP mà không đọc file game.
