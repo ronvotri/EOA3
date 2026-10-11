@@ -1,0 +1,29 @@
+name: Restore EOA3 checkpoint
+on:
+  push:
+    branches: [main]
+    paths:
+      - EOA3-checkpoint.zip
+      - .github/workflows/restore-checkpoint.yml
+permissions:
+  contents: write
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract and validate translation project
+        shell: bash
+        run: |
+          set -euo pipefail
+          unzip -Z -1 EOA3-checkpoint.zip | awk '/(^\/|(^|\/)\.\.\/)/ {bad=1} END {exit bad}'
+          unzip -oq EOA3-checkpoint.zip -d .
+          rm -f EOA3-checkpoint.zip
+          python tools/scripts.py check
+          python tools/test_scripts.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Restore EOA3 source, tools, and Vietnamese stages 1-2"
+          git push origin HEAD:main
