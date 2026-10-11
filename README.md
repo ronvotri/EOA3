@@ -91,3 +91,6 @@ Bản Windows diagnostic **V4** xuất thêm `engine_callsite_slices.json` (tổ
 
 
 **V7 đã có kết quả thật:** Đã xác minh được hai helper font `0x41A7F0` và `0x41A8C0` ở mức mã máy: buffer `2*width*height`, một vùng `2000*height*ceil(width/8)` byte, và bảng 2.000 mục 16-bit. **Chưa khẳng định đây là 2.000 glyph hoặc hỗ trợ Unicode.** V7 báo cáo đủ 4/4 cửa sổ, user không cần chạy lại. Chi tiết `docs/V7_REAL_FONT_BUFFER_AUDIT.md`; công cụ `tools/audit_v7_font_buffers.py` kiểm thực chứng SHA/byte/IAT từ ZIP, không sửa EXE. Bản Việt hóa vẫn chưa có patch playable.
+
+
+**Mắt xích chữ mới từ V7 (12/10/2026):** đã tìm thấy đường `CharNextA` → tính byte-length → sao chép substring vào buffer tạm và kết thúc NUL → **CALL `0x41C790`** tại `0x42ADDB`. Hàm `0x41C790` là consumer được gọi trực tiếp nhưng chưa biết body/có vẽ thoại hay không; đừng nhầm nó là parser hay renderer đã xác minh. Chi tiết `docs/V7_TEXT_SEGMENT_HANDOFF.md`, tool kiểm từ ZIP V7 `tools/audit_v7_text_handoff.py`. Không cần chạy lại V7; không có Unicode patch playable.

@@ -147,3 +147,11 @@ Cập nhật: 2026-10-11.
 - Đã disassemble `0x41A7F0`: gọi chuẩn bị 64×64, cấp phát **`2*width*height`**, lưu `this+0x18`, width/height ở `this+0xFD0/+0xFD4`, gọi tiếp `0x41ABF0` chưa có body. `0x41A8C0`: tính `ceil(width/8)` (width≥0), cấp phát **`2000*height*ceil(width/8)`** vào `this+0xFC0`, zero bảng 2.000 WORD ở `this+0x20..0xFBE` và memory buffer. Không khẳng định 2000 glyph hay RGB565.
 - Font init `0x41AA10` giải phóng HFONT cũ bằng `DeleteObject` rồi tạo font ANSI charset 134, weight 400; `CharNextA` có vòng cắt chuỗi theo byte và đưa substring vào buffer tạm.
 - Tạo `docs/V7_REAL_FONT_BUFFER_AUDIT.md`, `tools/audit_v7_font_buffers.py` và synthetic test; giữ nguyên corpus **1881/574/573**, chưa có patch Unicode chạy được.
+
+
+## V7: đã tìm được hàm nhận chuỗi ANSI sau tách đoạn (12/10/2026)
+
+- Disassemble vùng `0x42AC60..0x42ADE0` từ V7 thật. `CharNextA` loop dừng khi NUL, `%` tùy điều kiện, hoặc tùy bộ đếm **bước CharNextA** khi cờ bật. `0x42AD87` tính byte_count, `0x42AD99` gọi helper dạng memcpy để đưa text vào buffer stack `[ebp-0x1038]`, ghi NUL kết thúc.
+- **`0x42ADDB` CALL trực tiếp `0x41C790`** với con trỏ chuỗi tạm và các đối số khác. Đây là đầu mối mới để lần đường từ text parser → hàm tiêu thụ chuỗi. Chưa có body `0x41C790` trong báo cáo cũ, chưa nối được ANGELSCRIPT → TextOutA.
+- **Bảo vệ QA:** không gửi UTF-8 trực tiếp vì `CharNextA` là ANSI; đoạn copy dùng số byte trong khi giới hạn tùy cờ đếm ký tự, và byte-capacity check không hiện trong cửa sổ (không đồng nghĩa đã chứng minh overflow).
+- Thêm `docs/V7_TEXT_SEGMENT_HANDOFF.md`, `tools/audit_v7_text_handoff.py` + synthetic tests; không tạo bộ Diagnostic mới. **1.881 translate, 574 review, 573 tên nháp**, không có patch playable.
