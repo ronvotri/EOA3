@@ -276,7 +276,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "追击天之顶",
-    "vi": ""
+    "vi": "Truy đuổi đến Đỉnh Trời"
   },
   {
     "id": "stage24:4117",
@@ -285,7 +285,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "Stage-24 追击天之顶",
-    "vi": ""
+    "vi": "Màn 24 - Truy đuổi đến Đỉnh Trời"
   },
   {
     "id": "stage24:4122",
@@ -294,7 +294,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "玛雅边境   亚伯登王国",
-    "vi": ""
+    "vi": "Vương quốc Aberdon, biên giới Maya"
   },
   {
     "id": "stage24:4127",
@@ -312,7 +312,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这里就是天之顶亚伯登。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đây chính là Aberdon trên Đỉnh Trời.”"
   },
   {
     "id": "stage24:4227",
@@ -321,7 +321,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“过了天之顶就到玛雅了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vượt qua Đỉnh Trời là đến Maya rồi!”"
   },
   {
     "id": "stage24:4259",
@@ -330,7 +330,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“温妮，快要回家罗。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Winnie ơi, sắp về đến nhà rồi nhé!”"
   },
   {
     "id": "stage24:4284",
@@ -339,7 +339,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“唔¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ưm...”"
   },
   {
     "id": "stage24:4309",
@@ -348,7 +348,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“咦！？她是¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hả!? Cô bé là...”"
   },
   {
     "id": "stage24:4348",
@@ -357,7 +357,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你说温妮吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Anh nói Winnie sao?”"
   },
   {
     "id": "stage24:4359",
@@ -366,7 +366,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我们在香格里拉的港口发现她被留在船上，%N所以我就带着她跟我们走了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Bọn tôi tìm thấy con bé bị bỏ lại trên thuyền%Nở cảng Shangri-La, nên đưa nó theo cùng.”"
   },
   {
     "id": "stage24:4370",
@@ -375,7 +375,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“她很厉害哦！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Con bé giỏi lắm đấy!”"
   },
   {
     "id": "stage24:4395",
@@ -384,7 +384,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“唔¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ưm...”"
   },
   {
     "id": "stage24:4527",
@@ -393,7 +393,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“曼宁，是你吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Manning, có phải cậu không?”"
   },
   {
     "id": "stage24:4552",
@@ -402,7 +402,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好久不见，帕托克。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Lâu quá không gặp, Patok.”"
   },
   {
     "id": "stage24:4563",
@@ -411,7 +411,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“旅行一阵子，接到莫梅德们的通知，%N才知道发生这么严重的事情。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mình vừa đi xa về, nghe tin từ người Momed báo lại%Nmới biết tình hình nghiêm trọng đến vậy.”"
   },
   {
     "id": "stage24:4588",
@@ -420,7 +420,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“是的，所有遗迹跟天使之泉都已经被疫病军团%N占据了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đúng thế. Các di tích và suối Thiên Sứ%Nđều bị quân nhiễm bệnh chiếm giữ rồi.”"
   },
   {
     "id": "stage24:4613",
@@ -429,7 +429,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我已经都听说。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mình đã nghe cả rồi.”"
   },
   {
     "id": "stage24:4624",
@@ -438,7 +438,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我这次回来是要协助你们。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Lần này mình về để giúp mọi người.”"
   },
   {
     "id": "stage24:4649",
@@ -447,7 +447,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“太好了，欢迎你加入。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tốt quá! Rất hoan nghênh cậu!”"
   },
   {
     "id": "stage24:4663",
@@ -465,7 +465,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：敌军全灭。%N失败条件：妮雅战败。",
-    "vi": ""
+    "vi": "Điều kiện thắng: Tiêu diệt toàn bộ quân địch.%NĐiều kiện thua: Niya bị đánh bại."
   },
   {
     "id": "stage24:5128",
@@ -528,7 +528,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t2%z18%c1“各位，好久不见！”",
-    "vi": ""
+    "vi": "%s2%t2%z18%c1“Mọi người ơi, lâu quá không gặp!”"
   },
   {
     "id": "stage24:5261",
@@ -537,7 +537,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t2%z18%c1“让大家看看我修练的成果吧！”",
-    "vi": ""
+    "vi": "%s2%t2%z18%c1“Để mọi người thấy thành quả luyện tập của mình nhé!”"
   },
   {
     "id": "stage24:5302",
@@ -546,7 +546,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“是丽凤！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Lifeng đấy sao!?”"
   },
   {
     "id": "stage24:5313",
@@ -555,7 +555,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“太好了，欢迎你回来。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tốt quá! Mừng cậu trở lại!”"
   },
   {
     "id": "stage24:5327",
@@ -618,6 +618,6 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“居然在这个时候战败，%N黑色天使之泉还没净化呀¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không ngờ lại thua lúc này,%Nsuối Thiên Sứ đen còn chưa được thanh tẩy mà...”"
   }
 ]
