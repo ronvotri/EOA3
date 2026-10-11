@@ -321,7 +321,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "哭泣的圣战",
-    "vi": ""
+    "vi": "Thánh chiến đẫm nước mắt"
   },
   {
     "id": "stage27:4580",
@@ -330,7 +330,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "Stage-27 最终的圣战",
-    "vi": ""
+    "vi": "Màn 27 - Trận thánh chiến cuối cùng"
   },
   {
     "id": "stage27:4585",
@@ -339,7 +339,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "荷洛卡斯大神殿",
-    "vi": ""
+    "vi": "Đại Đền Holokas"
   },
   {
     "id": "stage27:4590",
@@ -357,7 +357,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼！不简单，还是被你们闯到这里来。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừ, khá đấy! Các ngươi vẫn mò được đến tận đây.”"
   },
   {
     "id": "stage27:4635",
@@ -366,7 +366,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不过我已经得到了力量之泉的庇护，你们是不%N可能打倒我的！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhưng ta đã được Suối Sức Mạnh che chở.%NCác ngươi đừng hòng đánh bại ta!”"
   },
   {
     "id": "stage27:4646",
@@ -375,7 +375,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哈哈哈哈哈～～～～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ha ha ha ha!”"
   },
   {
     "id": "stage27:4678",
@@ -384,7 +384,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这里¨¨就是最后的战场吗¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đây... là chiến trường cuối cùng sao...?”"
   },
   {
     "id": "stage27:4703",
@@ -393,7 +393,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“普兰可已经开始净化各地的天使之泉了，接着%N我们的工作只要打倒这些人¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Planko đã bắt đầu thanh tẩy các suối Thiên Sứ rồi.%NGiờ việc của chúng ta là hạ bọn chúng...”"
   },
   {
     "id": "stage27:4714",
@@ -402,7 +402,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“只要打倒这些受黑水控制的人，黑水的危机就%N能解除了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chỉ cần đánh bại những kẻ bị nước đen khống chế,%Ncuộc khủng hoảng này sẽ kết thúc.”"
   },
   {
     "id": "stage27:4744",
@@ -411,7 +411,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“玛西亚，你也来啦！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Marcia! Ngươi cũng đến à!”"
   },
   {
     "id": "stage27:4755",
@@ -420,7 +420,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我怎么不知道你由欧查军变成邦联军啦！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Từ bao giờ ngươi bỏ quân Ocha để theo Liên bang thế?”"
   },
   {
     "id": "stage27:4766",
@@ -429,7 +429,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哈哈哈哈！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ha ha ha!”"
   },
   {
     "id": "stage27:4777",
@@ -438,7 +438,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“要是伊丝塔地下有知，你说她会原谅你的作法%N吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nếu Nữ hoàng Ishtar dưới suối vàng biết chuyện,%Nngươi nghĩ bà ấy sẽ tha thứ sao?”"
   },
   {
     "id": "stage27:4791",
@@ -465,7 +465,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“伊丝塔女王已经死了，欧查首领是我，欧查之%N剑在我手上。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nữ hoàng Ishtar đã mất rồi. Giờ ta là thủ lĩnh Ocha,%Nvà Lưỡi gươm Ocha đang nằm trong tay ta!”"
   },
   {
     "id": "stage27:4841",
@@ -474,7 +474,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我想怎么做，伊丝塔女王就算活着也管不了我%N。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ta muốn làm gì thì làm. Dù Nữ hoàng Ishtar%Ncòn sống, bà ấy cũng chẳng cản được ta!”"
   },
   {
     "id": "stage27:4852",
@@ -483,7 +483,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“雷丝曼！你更没资格。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Resman, càng không đến lượt ngươi phán xét!”"
   },
   {
     "id": "stage27:4882",
@@ -492,7 +492,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哦！？挺凶的嘛！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ồ!? Miệng lưỡi ghê gớm thật!”"
   },
   {
     "id": "stage27:4893",
@@ -501,7 +501,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我倒要看看你想怎么做。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Để ta xem ngươi định làm được gì nào!”"
   },
   {
     "id": "stage27:4923",
@@ -510,7 +510,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你少废话！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ngươi bớt nhiều lời đi!”"
   },
   {
     "id": "stage27:4934",
@@ -519,7 +519,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我会让你比洁莉死的痛苦千百倍！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ta sẽ bắt ngươi chịu đau đớn gấp ngàn lần Jeli!”"
   },
   {
     "id": "stage27:5403",
@@ -528,7 +528,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：敌主将雷丝曼战败。%N失败条件：妮雅战败。",
-    "vi": ""
+    "vi": "Điều kiện thắng: Đánh bại tướng Resman.%NĐiều kiện thua: Niya bị đánh bại."
   },
   {
     "id": "stage27:5421",
@@ -654,7 +654,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“现在¨¨¨终于可以回故乡了吗！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Giờ... cuối cùng chúng ta cũng được về quê nhà rồi sao!?”"
   },
   {
     "id": "stage27:5802",
@@ -663,7 +663,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“唔¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ưm...”"
   },
   {
     "id": "stage27:5827",
@@ -672,7 +672,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“对了！温妮¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“À phải rồi! Winnie...”"
   },
   {
     "id": "stage27:5838",
@@ -681,7 +681,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你也该回家罗¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cũng đến lúc em về nhà rồi...”"
   },
   {
     "id": "stage27:5863",
@@ -699,7 +699,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我会带她回到大海与她家人见面的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tôi sẽ đưa cô bé về biển, đoàn tụ với gia đình.”"
   },
   {
     "id": "stage27:5913",
@@ -708,7 +708,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“谢谢你，帕托克。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cảm ơn anh, Patok.”"
   },
   {
     "id": "stage27:5929",
@@ -717,7 +717,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“温妮¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Winnie...”"
   },
   {
     "id": "stage27:5940",
@@ -726,7 +726,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“等你长大，再次游过白列湾海峡之前，一定要%N来找我哦！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Khi nào lớn lên và bơi qua eo biển vịnh Bạch Liệt lần nữa,%Nnhất định phải đến thăm chị nhé!”"
   },
   {
     "id": "stage27:5965",
@@ -735,7 +735,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“唔！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ưm!”"
   },
   {
     "id": "stage27:5990",
@@ -744,7 +744,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那我就带她走了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy tôi đưa con bé đi nhé!”"
   },
   {
     "id": "stage27:6001",
@@ -753,7 +753,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“真的谢谢大家的帮助，请大家多保重。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thật lòng cảm ơn mọi người đã giúp đỡ. Chúc tất cả bình an!”"
   },
   {
     "id": "stage27:6012",
@@ -762,7 +762,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你们洁净的心灵，会得到太阳女神庇护的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tâm hồn trong sáng của các vị sẽ được Nữ thần Mặt Trời che chở.”"
   },
   {
     "id": "stage27:6093",
@@ -771,7 +771,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“一定要回来找我啊！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhất định phải quay lại tìm chị nhé!”"
   },
   {
     "id": "stage27:6104",
@@ -780,7 +780,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“温妮¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Winnie...”"
   },
   {
     "id": "stage27:6129",
@@ -789,7 +789,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“温妮，走罗！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Winnie, đi thôi!”"
   },
   {
     "id": "stage27:6154",
@@ -798,7 +798,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“唔¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ưm...”"
   },
   {
     "id": "stage27:6206",
@@ -807,7 +807,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呜¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hức...”"
   },
   {
     "id": "stage27:6217",
@@ -816,7 +816,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“温妮¨¨温¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Winnie... Win...”"
   },
   {
     "id": "stage27:6259",
@@ -825,7 +825,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“希蜜姊姊不哭，温妮一定回来找你¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chị Shimi đừng khóc. Winnie nhất định sẽ về thăm chị...”"
   },
   {
     "id": "stage27:6270",
@@ -834,7 +834,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“一定会找你¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhất định Winnie sẽ đến tìm chị...”"
   },
   {
     "id": "stage27:6320",
@@ -843,7 +843,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“温妮～～”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“WINNIE~!”"
   },
   {
     "id": "stage27:6350",
@@ -852,7 +852,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“她们都走了¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Họ đi cả rồi...”"
   },
   {
     "id": "stage27:6361",
@@ -861,7 +861,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“希蜜¨¨我们也该离开了¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Shimi... chúng ta cũng nên lên đường thôi...”"
   },
   {
     "id": "stage27:6386",
@@ -870,7 +870,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừm...”"
   },
   {
     "id": "stage27:6404",
@@ -888,7 +888,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "贝力欧皇城",
-    "vi": ""
+    "vi": "Hoàng cung Belio"
   },
   {
     "id": "stage27:6430",
@@ -906,7 +906,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你们还要跟多久！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Các ngươi còn định đi theo ta đến bao giờ!?”"
   },
   {
     "id": "stage27:6457",
@@ -915,7 +915,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这里已经是我寝室门口了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đã đến cửa phòng ngủ của ta rồi đấy!”"
   },
   {
     "id": "stage27:6482",
@@ -933,7 +933,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“只是还有点好奇¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chỉ là bọn mình vẫn hơi tò mò...”"
   },
   {
     "id": "stage27:6518",
@@ -951,7 +951,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我不会让你们进来看的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ta sẽ không cho các ngươi vào xem đâu!”"
   },
   {
     "id": "stage27:6540",
@@ -960,7 +960,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你们请回去吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mời các ngươi về cho!”"
   },
   {
     "id": "stage27:6565",
@@ -969,7 +969,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“玛西亚¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Marcia...”"
   },
   {
     "id": "stage27:6576",
@@ -978,7 +978,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我是要谢谢你来帮忙。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tôi chỉ muốn cảm ơn cô đã đến giúp.”"
   },
   {
     "id": "stage27:6601",
@@ -996,7 +996,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“洁莉¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Jeli...”"
   },
   {
     "id": "stage27:6623",
@@ -1005,7 +1005,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我只是想把洁莉带回来而已。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ta chỉ muốn đưa Jeli về nhà thôi.”"
   },
   {
     "id": "stage27:6648",
@@ -1014,7 +1014,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừm...”"
   },
   {
     "id": "stage27:6659",
@@ -1023,7 +1023,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“总之，真的谢谢你了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Dù sao cũng thật lòng cảm ơn cô!”"
   },
   {
     "id": "stage27:6670",
@@ -1032,7 +1032,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“希蜜，我们走吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Shimi, chúng ta đi thôi!”"
   },
   {
     "id": "stage27:6684",
@@ -1194,7 +1194,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呃¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ư...”"
   },
   {
     "id": "stage27:7215",
@@ -1203,7 +1203,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这¨¨¨可恶¨¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chuyện... khốn thật...”"
   },
   {
     "id": "stage27:7243",
@@ -1464,7 +1464,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“终于¨¨结束了¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cuối cùng... cũng kết thúc rồi...”"
   },
   {
     "id": "stage27:7660",
@@ -1482,7 +1482,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“黑色泉水带来的究竟是力量¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Rốt cuộc nước suối đen mang đến sức mạnh...”"
   },
   {
     "id": "stage27:7682",
@@ -1491,7 +1491,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“还是毁灭呢¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hay là sự hủy diệt đây...?”"
   },
   {
     "id": "stage27:7700",
@@ -1509,7 +1509,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不可能¨我不可能会输的¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không thể... ta không thể thua được...”"
   },
   {
     "id": "stage27:7741",
@@ -1518,7 +1518,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“世界是属于我的¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thế giới này là của ta...”"
   },
   {
     "id": "stage27:7750",
@@ -1536,7 +1536,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“啊啊啊啊啊～～～～～”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Aaaaa~!”"
   },
   {
     "id": "stage27:7795",
@@ -1545,7 +1545,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“神是眷顾我的，妨碍我的人都去死吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thần linh luôn che chở ta! Kẻ nào cản đường đều phải chết!”"
   },
   {
     "id": "stage27:7850",
@@ -1572,7 +1572,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“她们变得¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Bọn chúng đã biến thành...”"
   },
   {
     "id": "stage27:7922",

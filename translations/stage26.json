@@ -267,7 +267,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "失心者狂乱",
-    "vi": ""
+    "vi": "Cơn điên loạn của kẻ mất trí"
   },
   {
     "id": "stage26:4860",
@@ -276,7 +276,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "Stage-26 失心者狂乱",
-    "vi": ""
+    "vi": "Màn 26 - Cơn điên loạn của kẻ mất trí"
   },
   {
     "id": "stage26:4865",
@@ -285,7 +285,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "“玛雅  柯凡迪雅神殿”",
-    "vi": ""
+    "vi": "“Maya - Đền Covandia”"
   },
   {
     "id": "stage26:4870",
@@ -303,7 +303,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“果然已经来不及，神殿被占据了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đúng là không kịp rồi. Ngôi đền đã bị chiếm mất!”"
   },
   {
     "id": "stage26:4970",
@@ -312,7 +312,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这神殿¨¨¨热得令人窒息¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ngôi đền này... nóng đến nghẹt thở...”"
   },
   {
     "id": "stage26:5030",
@@ -321,7 +321,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“帕托克，你们终于来了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Patok! Cuối cùng các cậu cũng tới rồi!”"
   },
   {
     "id": "stage26:5060",
@@ -366,7 +366,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s6%t4%z18%c1“这¨¨惨了¨¨¨¨¨¨”",
-    "vi": ""
+    "vi": "%s6%t4%z18%c1“Chết... chết rồi...”"
   },
   {
     "id": "stage26:5231",
@@ -375,7 +375,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“帕托克～～曼宁～～～救人呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Patok! Manning! Cứu người với!”"
   },
   {
     "id": "stage26:5261",
@@ -384,7 +384,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那不是神殿守护者普兰可吗！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Kia chẳng phải Planko, người bảo vệ ngôi đền sao!?”"
   },
   {
     "id": "stage26:5272",
@@ -393,7 +393,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我们快去帮忙吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mau đến giúp cô ấy!”"
   },
   {
     "id": "stage26:5297",
@@ -402,7 +402,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好！大家一口气击败她们！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Được! Mọi người hợp sức đánh bại chúng nào!”"
   },
   {
     "id": "stage26:5719",
@@ -411,7 +411,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：敌军全灭。%N失败条件：妮雅战败。",
-    "vi": ""
+    "vi": "Điều kiện thắng: Tiêu diệt toàn bộ quân địch.%NĐiều kiện thua: Niya bị đánh bại."
   },
   {
     "id": "stage26:5736",
@@ -483,7 +483,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这里受到黑水感染的人不少，你一直在里头没%N事吧？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ở đây có rất nhiều người nhiễm nước đen.%NCậu ở giữa bọn họ suốt mà không sao chứ?”"
   },
   {
     "id": "stage26:5909",
@@ -492,7 +492,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哈哈，我混在她们里面好久动都不敢动呢！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ha ha! Tôi trà trộn trong đó lâu đến mức chẳng dám nhúc nhích!”"
   },
   {
     "id": "stage26:5920",
@@ -501,7 +501,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“只是没想到在刚刚看到你们时，一高兴过头就%N露出马脚了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ai ngờ vừa thấy mọi người, tôi mừng quá%Nnên lỡ để lộ thân phận!”"
   },
   {
     "id": "stage26:5945",
@@ -510,7 +510,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你没事就好了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“May mà cậu vẫn bình an.”"
   },
   {
     "id": "stage26:5956",
@@ -519,7 +519,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“还有其他没受感染的人吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Còn ai chưa bị nhiễm bệnh không?”"
   },
   {
     "id": "stage26:5981",
@@ -528,7 +528,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“在你们来到之前都没发现！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Trước khi các cậu đến, tôi chưa thấy ai cả!”"
   },
   {
     "id": "stage26:6006",
@@ -537,7 +537,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这样呀¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy sao...”"
   },
   {
     "id": "stage26:6017",
@@ -546,7 +546,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“对了普兰可，我身旁的这位是妮雅，远从爱尔%N达来的使者。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“À, Planko! Đây là Niya, sứ giả%Nđến từ Elda xa xôi.”"
   },
   {
     "id": "stage26:6042",
@@ -555,7 +555,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“妮雅您好，我是普兰可，柯凡迪雅神殿的守护%N者。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chào cô Niya. Tôi là Planko,%Nngười bảo vệ Đền Covandia.”"
   },
   {
     "id": "stage26:6067",
@@ -564,7 +564,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“他们手上拥有能够净化天使之泉的镇魂剂，这%N次来到玛雅是特别来帮助我们净化天使之泉的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đoàn của cô ấy có Thuốc Trấn Hồn để thanh tẩy suối Thiên Sứ.%NHọ đặc biệt đến Maya để giúp chúng ta!”"
   },
   {
     "id": "stage26:6092",
@@ -573,7 +573,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“真的吗！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thật sao!?”"
   },
   {
     "id": "stage26:6103",
@@ -582,7 +582,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那么施惠者，一切拜托你们了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy xin nhờ các ân nhân giúp đỡ!”"
   },
   {
     "id": "stage26:6114",
@@ -591,7 +591,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“有许多爱尔达人已经受到黑水严重控制，她们%N现在全都聚集在荷洛卡斯大神殿。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Rất nhiều người Elda đã bị nước đen khống chế.%NGiờ họ đều tập trung tại Đại Đền Holokas.”"
   },
   {
     "id": "stage26:6139",
@@ -600,7 +600,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“荷洛卡斯大神殿！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đại Đền Holokas ư!?”"
   },
   {
     "id": "stage26:6150",
@@ -609,7 +609,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那不就是圣地¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chẳng phải đó chính là thánh địa sao...?”"
   },
   {
     "id": "stage26:6175",
@@ -618,7 +618,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯，是呀！圣地被疫病者们占领了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đúng vậy! Thánh địa đã rơi vào tay những kẻ nhiễm bệnh.”"
   },
   {
     "id": "stage26:6186",
@@ -627,7 +627,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“让我加入你们一起打倒疫病者吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cho tôi đi cùng đánh đuổi bọn họ nhé!”"
   },
   {
     "id": "stage26:6211",
@@ -636,7 +636,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不行¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không được...”"
   },
   {
     "id": "stage26:6236",
@@ -645,7 +645,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“为什么！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tại sao!?”"
   },
   {
     "id": "stage26:6247",
@@ -654,7 +654,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“为什么不让我帮忙？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Sao không cho tôi giúp một tay?”"
   },
   {
     "id": "stage26:6272",
@@ -663,7 +663,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你有更重要的事要做。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cậu còn việc quan trọng hơn phải làm.”"
   },
   {
     "id": "stage26:6283",
@@ -672,7 +672,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你必须趁现在疫病者都聚集在圣地的时候，拿%N着镇魂剂将各地天使之泉净化。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhân lúc những kẻ nhiễm bệnh đang tụ tập ở thánh địa,%Ncậu phải mang Thuốc Trấn Hồn đi thanh tẩy các dòng suối.”"
   },
   {
     "id": "stage26:6294",
@@ -681,7 +681,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这两件事情必须分开来处理，所以打仗的事情%N就交给我们吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hai việc này phải tách ra. Chuyện chiến đấu%Ncứ giao cho bọn mình!”"
   },
   {
     "id": "stage26:6319",
@@ -690,7 +690,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“原来如此，我知道了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ra vậy, mình hiểu rồi.”"
   },
   {
     "id": "stage26:6330",
@@ -699,7 +699,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那我们就分头进行吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy chúng ta chia nhau hành động nhé!”"
   },
   {
     "id": "stage26:6352",

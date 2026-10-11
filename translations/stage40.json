@@ -105,7 +105,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "夜闯中途林",
-    "vi": ""
+    "vi": "Đột nhập rừng giữa đêm"
   },
   {
     "id": "stage40:1505",
@@ -114,7 +114,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "Stage-3 夜闯中途林",
-    "vi": ""
+    "vi": "Màn 3 - Đột nhập rừng giữa đêm"
   },
   {
     "id": "stage40:1533",
@@ -123,7 +123,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z16%c1“嘿嘿，我们逃跑的技术还蛮厉害的！”",
-    "vi": ""
+    "vi": "%s2%t4%z16%c1“Hê hê, bọn mình chạy trốn cũng giỏi phết đấy chứ!”"
   },
   {
     "id": "stage40:1544",
@@ -132,7 +132,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z16%c1“敌人想追都追不到呢！”",
-    "vi": ""
+    "vi": "%s2%t4%z16%c1“Địch có muốn đuổi cũng chẳng theo kịp!”"
   },
   {
     "id": "stage40:1569",
@@ -141,7 +141,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“别讲这种丢人现眼的话了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đừng khoe chuyện mất mặt thế chứ!”"
   },
   {
     "id": "stage40:1594",
@@ -150,7 +150,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z16%c1“我是说真的嘛，敌人本来就比我们多了！”",
-    "vi": ""
+    "vi": "%s2%t4%z16%c1“Mình nói thật mà! Quân địch đông hơn bọn mình nhiều!”"
   },
   {
     "id": "stage40:1637",
@@ -168,7 +168,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嘘！！小声一点”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Suỵt! Nói nhỏ thôi!”"
   },
   {
     "id": "stage40:1664",
@@ -177,7 +177,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“趁现在敌军人少了，我们直接闯过去吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Giờ địch đã ít đi rồi, mình xông thẳng qua thôi!”"
   },
   {
     "id": "stage40:1689",
@@ -186,7 +186,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z16%c1“嗯¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z16%c1“Ừm...”"
   },
   {
     "id": "stage40:1717",
@@ -195,7 +195,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：1、我方一人以上往最北方脱离战场。%N　　　　　2、敌军全灭%N失败条件：妮雅战败",
-    "vi": ""
+    "vi": "Điều kiện thắng: 1. Có ít nhất một đồng đội thoát về cực bắc chiến trường.%N 2. Tiêu diệt toàn bộ quân địch.%NĐiều kiện thua: Niya bị đánh bại."
   },
   {
     "id": "stage40:1747",
@@ -321,7 +321,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z20%c1“呜¨¨大家快逃¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z20%c1“Hức... Mọi người mau chạy đi...”"
   },
   {
     "id": "stage40:1967",
