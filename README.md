@@ -79,3 +79,6 @@ Bản Windows diagnostic **V4** xuất thêm `engine_callsite_slices.json` (tổ
 
 
 **Tiến trình engine (V5, 11/10/2026):** ngoài byte `strlen` `0x4CE790`, đã xác minh vòng duyệt `CharNextA` tại `0x42AD54` có nhánh byte `%` và hai lời gọi `TextOutA` nằm trong một đoạn mã liên tục. Tài liệu `docs/V5_ANSI_TEXT_PATH_AUDIT.md`. Công cụ `tools/audit_v5_text_iteration.py` dùng ZIP V5 sẵn có, không cần EXE; `tools/probe_text_callers.py` mới chỉ chuẩn bị để tìm xrefs khi cần, **chưa bắt người dùng chạy thêm**. Không có Unicode patch playable.
+
+
+**Tiến triển EOA3 font engine (11/10/2026):** từ chính báo cáo V5 cũ, các lời gọi quanh `TextOutA` **khớp `IDirectDrawSurface::GetDC/ReleaseDC`** về ABI và offsets vtable 0x44/0x68; font initializer lưu HFONT tại `this+0xFCC`, sau đó gọi hai helper `0x41A7F0`/`0x41A8C0`. Chưa khẳng định glyph atlas hay renderer thoại. Xem `docs/V5_DIRECTDRAW_SURFACE_AUDIT.md` và tool chỉ đọc `tools/audit_v5_surface_pipeline.py`. Không có patch Unicode playable; không cần user chạy Windows diagnostics mới.
