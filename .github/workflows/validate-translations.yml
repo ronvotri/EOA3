@@ -34,6 +34,8 @@ jobs:
         run: python tools/test_audit_unicode_layout.py
       - name: Test optional Windows GDI font probe via mocks
         run: python tools/test_windows_font_probe.py
+      - name: Test x86 GDI/encoding code-window collector
+        run: python tools/test_probe_engine_calls.py
       - name: Test consolidated diagnostic ZIP on synthetic EXE
         run: python tools/test_windows_diagnostic_bundle.py
       - name: Verify diagnostic ZIP reader and evidence report tests
@@ -84,4 +86,4 @@ jobs:
       - name: Verify actual Windows ZIP and manifest
         shell: pwsh
         run: |
-          python -c "import json,zipfile;z=zipfile.ZipFile('build/EOA3-Windows-Diagnostics.zip');m=json.loads(z.read('manifest.json'));assert m['status']=='diagnostic_bundle_not_a_patch';assert m['translation_count']==1881;assert m['review_count']==574;assert len(z.namelist())==5;print('Windows smoke PASS:',m['font_status'])"
+          python -c "import json,zipfile;z=zipfile.ZipFile('build/EOA3-Windows-Diagnostics.zip');m=json.loads(z.read('manifest.json'));assert m['status']=='diagnostic_bundle_not_a_patch';assert m['translation_count']==1881;assert m['review_count']==574;assert len(z.namelist())==6;code=json.loads(z.read('engine_callsite_slices.json'));assert code['status']=='read_only_code_neighborhoods_not_disassembly_or_patch';print('Windows smoke PASS:',m['font_status'])"
