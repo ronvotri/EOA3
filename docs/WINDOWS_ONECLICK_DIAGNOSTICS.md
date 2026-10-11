@@ -91,3 +91,8 @@ Công cụ Windows V6 vẫn chạy bằng cách giải nén ra **thư mục riê
 ## Chỉnh sửa V7 — V6 thành công nhưng bỏ sót vùng lớn hơn 256 B
 
 Người dùng đã chạy V6 trên `AngelSLG.exe` chuẩn; ZIP V6 có đủ 7 file nhưng chỉ **1/4** cửa sổ mã mục tiêu được thu. Nguyên nhân là module đọc PE V4 cũ chặn length >256 dù V6 cần 288/448/384. **Không phải EXE của người dùng thiếu hàm**. V7 tăng trần lên 512, kiểm đủ length và **báo lỗi** thay vì xuất ZIP chưa đủ. V7 giữ `engine_followup_evidence.json`, 7 file. Chạy launcher từ **thư mục V7 mới**, chọn lại `AngelSLG.exe`, và gửi ZIP tại `build`. Đừng chạy lại V2–V6. Chứng cứ/địa chỉ ở `docs/V6_REAL_REPORT_AND_V7_FIX.md`. Công cụ chỉ đọc, không sửa game.
+
+
+## V8 — bộ thu mẫu renderer có mục tiêu
+
+Sau V7 đã thu đủ hai helper font nhưng **vẫn thiếu code body consumer `0x41C790`**. Bộ V8 một chạm bổ sung đúng một thành viên `renderer_trace_v8.json`, nên ZIP báo cáo có **8 tệp**. Có 7 đoạn code nhỏ (3.328 byte) + bảng 48 byte quanh `0x522F44`; chỉ lấy trên `AngelSLG.exe` SHA chuẩn, không sửa/khởi chạy game. Giải nén V8 **ra thư mục mới**, chạy `EOA3-KiemTra-Windows.cmd`, chọn EXE, gửi `build/EOA3-Windows-Diagnostics.zip` nếu SUCCESS hoặc `build/EOA3-Diagnostic-Log.txt` nếu lỗi. Các báo cáo V3–V7 cũ vẫn đọc được, không cần gửi lại. Đọc `docs/V8_RENDERER_TRACE_PLAN.md` trước khi chia sẻ công khai raw code snippets.
