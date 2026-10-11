@@ -163,3 +163,10 @@ Cập nhật: 2026-10-11.
 - Kiểm `source/*.json` 40 file gốc cho **4.236 token chuỗi**: `%c1` 1.634 lần, `%s` 1.655, `%t` 1.656, `%z` 1.656, `%N` 336. Hình thức `%c1` khớp cấu trúc `start+2` nhưng **không có bằng chứng direct branch selector** trong V7.
 - Thêm `tools/audit_v7_palette_commands.py` + synthetic tests; `--source-only` cho CI xuất thống kê từ corpus thật. Chi tiết `docs/V7_PALETTE_COMMAND_CORRELATION.md`.
 - Không thay source/translation/game EXE. **1.881 translate / 574 review / 573 name drafts; không có patch chơi được**.
+
+
+## V8: gộp truy renderer/cấu trúc font/bảng lệnh thành một lần thu (12/10/2026)
+
+- V7 đã chỉ ra consumer `0x41C790` nhưng không có body, vì vậy chưa thể nghiên cứu flow `ANGELSCRIPT`→TextOutA offline. Thay vì phát hành các lượt nhỏ liên tiếp, đã chuẩn bị V8 một lần lấy **7 cửa sổ mã x86 tổng 3.328 B** và **48 B dữ liệu 16×3** tại `0x522F44`.
+- Công cụ `tools/probe_renderer_v8.py` khóa toàn EXE SHA-256, bảo vệ PE section, tối đa 512 B/window, từ chối thiếu mẫu; thêm bounded E8 caller candidates có thể false positive. Tích hợp ZIP Windows **8 thành viên** (`renderer_trace_v8.json`), backward-compatible 5–8 file reader.
+- V8 vẫn chỉ là diagnostic. Không sửa 1.881 chuỗi translate, 574 review, 573 name drafts. Không có Unicode playable patch. Chi tiết `docs/V8_RENDERER_TRACE_PLAN.md`.
