@@ -103,50 +103,96 @@ def parse_pe(data):
         return None
 
     imports = []
+    warnings = []
+    has_imports = False
+    terminated = None
+    descriptor_count = 0
     if number_rva_and_sizes > 1 and data_dir + 16 <= opt + opt_size:
         import_rva = get_u32(data, data_dir + 8)
         import_size = get_u32(data, data_dir + 12)
-        if import_rva and import_size:
-            descriptor_off = offset_for_rva(import_rva)
-            if descriptor_off is None:
-                raise ValueError("PE import table not mapped to file")
-            for desc in range(min(4096, max(1, import_size // 20))):
-                at = descriptor_off + 20*desc
-                if at + 20 > len(data):
-                    raise ValueError("Truncated import descriptor")
+        if import_rva:
+            has_imports = True
+            terminated = False
+            # IMAGE_IMPORT_DESCRIPTOR is a null-terminated list (20 bytes/entry).
+            # A PE's directory Size is NOT a reliable bound for the final zero
+            # descriptor: some old executables exclude it. Use mapped RVA
+            # bounds plus a strict record budget, never raw arbitrary offsets.
+            # The previous size//20 loop falsely raised "descriptor limit"
+            # for perfectly readable tables without an in-size terminator.
+            for desc in range(1024):
+                descriptor_rva = import_rva + 20 * desc
+                at = offset_for_rva(descriptor_rva)
+                if at is None or at + 20 > len(data):
+                    warnings.append("import_descriptors_end_at_unmapped_or_truncated_rva")
+                    break
+                # Require all 20 descriptor bytes to be file-backed; mapping
+                # only the first byte is insufficient near section boundaries.
+                if any(offset_for_rva(descriptor_rva + j) != at + j
+                       for j in (0, 4, 8, 12, 16, 19)):
+                    warnings.append("import_descriptor_crosses_raw_section_boundary")
+                    break
                 oft, timestamp, forwarder, dll_rva, ft = struct.unpack_from("<IIIII", data, at)
                 if not (oft or timestamp or forwarder or dll_rva or ft):
+                    terminated = True
+                    if import_size and 20 * (desc + 1) > import_size:
+                        warnings.append("import_directory_size_does_not_include_null_terminator")
                     break
-                dll = c_string(data, offset_for_rva(dll_rva))
+                if not dll_rva or not ft:
+                    warnings.append("import_descriptor_missing_dll_or_iat")
+                    break
+                try:
+                    dll = c_string(data, offset_for_rva(dll_rva))
+                except ValueError:
+                    warnings.append("import_descriptor_invalid_dll_name")
+                    break
+                descriptor_count += 1
                 thunk_rva = oft or ft
                 ptr_size = 8 if is64 else 4
                 highbit = 1 << (ptr_size * 8 - 1)
                 for index in range(4096):
-                    thunk_off = offset_for_rva(thunk_rva + index*ptr_size)
-                    if thunk_off is None:
-                        raise ValueError("Truncated PE import thunk")
-                    val = get_u64(data, thunk_off) if is64 else get_u32(data, thunk_off)
-                    if val == 0:
+                    thunk_off = offset_for_rva(thunk_rva + index * ptr_size)
+                    if thunk_off is None or thunk_off + ptr_size > len(data):
+                        warnings.append("import_thunk_unmapped_or_truncated")
                         break
-                    if val & highbit:
-                        name = "#ordinal:%d" % (val & 0xFFFF)
+                    value = get_u64(data, thunk_off) if is64 else get_u32(data, thunk_off)
+                    if value == 0:
+                        break
+                    if len(imports) >= 16384:
+                        warnings.append("import_symbol_safety_budget_reached")
+                        break
+                    if value & highbit:
+                        name = "#ordinal:%d" % (value & 0xFFFF)
                     else:
-                        hint_offset = offset_for_rva(val)
+                        hint_offset = offset_for_rva(value)
                         if hint_offset is None:
-                            raise ValueError("PE import name unmapped")
-                        name = c_string(data, hint_offset + 2)
+                            warnings.append("import_symbol_unmapped_hint_name")
+                            break
+                        try:
+                            name = c_string(data, hint_offset + 2)
+                        except ValueError:
+                            warnings.append("import_symbol_invalid_hint_name")
+                            break
                     imports.append({
-                        "dll": dll, "api": name, "iat_rva": ft + index*ptr_size,
-                        "iat_va": imagebase + ft + index*ptr_size,
+                        "dll": dll, "api": name, "iat_rva": ft + index * ptr_size,
+                        "iat_va": imagebase + ft + index * ptr_size,
                     })
                 else:
-                    raise ValueError("Import thunk limit exceeded")
+                    warnings.append("import_thunk_safety_budget_reached")
+                if len(imports) >= 16384:
+                    break
             else:
-                raise ValueError("Import descriptor limit exceeded")
+                warnings.append("import_descriptor_safety_budget_reached")
+            if not terminated and not warnings:
+                warnings.append("import_table_not_null_terminated")
+
     return {
         "machine": machine, "architecture": "PE32+" if is64 else "PE32",
         "imagebase": imagebase, "entry_rva": entry_rva, "sections": sections,
-        "imports": imports, "_offset_for_rva": offset_for_rva,
+        "imports": imports, "has_import_table": has_imports,
+        "import_descriptors_read": descriptor_count,
+        "import_descriptors_null_terminated": terminated,
+        "import_parse_warnings": warnings,
+        "_offset_for_rva": offset_for_rva,
     }
 
 
@@ -233,6 +279,13 @@ def analyze_bytes(data, game_folder=None):
         "imagebase": hex(imagebase), "entry_rva": hex(pe["entry_rva"]),
         "sections": pe["sections"],
         "gdi_and_encoding_imports": wanted,
+        "import_table_diagnostics": {
+            "present": pe["has_import_table"],
+            "descriptors_read": pe["import_descriptors_read"],
+            "null_terminated": pe["import_descriptors_null_terminated"],
+            "warnings": pe["import_parse_warnings"],
+            "interpretation": "Partial or absent imports do not prove a drawing API is unused.",
+        },
         "potential_x86_iat_calls": xrefs,
         "font_name_byte_offsets": {name: byte_matches(data, needle) for name, needle in encoded.items()},
         "historical_va_hints": legacy,
