@@ -23,13 +23,14 @@ BEFORE = 96
 AFTER = 48
 MAX_MATCHES_PER_API = 32
 MAX_WINDOWS = 128
+MAX_TARGET_WINDOW_BYTES = 512  # largest documented V6 helper request: 448 bytes
 
 
 def bounded_va_evidence(data, pe, va, length, executable):
     """Capture only a few bytes at a grounded RVA and inside its PE section."""
     base = pe["imagebase"]
     rva = va - base
-    if rva < 0 or length < 1 or length > 256:
+    if rva < 0 or length < 1 or length > MAX_TARGET_WINDOW_BYTES:
         return None
     off = pe["_offset_for_rva"](rva)
     section = next((

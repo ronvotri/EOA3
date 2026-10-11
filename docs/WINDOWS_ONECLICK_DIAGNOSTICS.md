@@ -86,3 +86,8 @@ Sau khi nhấp đúp launcher, ZIP kết quả vẫn ở `build/EOA3-Windows-Dia
 ## V6: một lần thu đúng 2 font helpers còn thiếu (11/10/2026)
 
 Công cụ Windows V6 vẫn chạy bằng cách giải nén ra **thư mục riêng** và nhấp đúp `EOA3-KiemTra-Windows.cmd`, chọn `AngelSLG.exe` thật. Báo cáo vẫn được tự mở tại `build/EOA3-Windows-Diagnostics.zip`, nhưng nay có **7 file**, thêm `engine_followup_evidence.json`. Nó chứa tối đa 1312 byte cửa sổ mã máy tại hai helper font, vùng initializer và parser ANSI, kèm ứng viên caller và tên IAT, **không chứa cả EXE hay file game**. Đây là mẫu tĩnh chỉ có giá trị khi SHA-256 khớp đúng bản EXE đã xác minh; không chứng minh hỗ trợ Unicode. Nếu lỗi, gửi `build/EOA3-Diagnostic-Log.txt` thay vì ZIP cũ. Xem `docs/V6_FONT_HELPER_TARGETS.md` để biết tại sao cần mẫu mới và giới hạn an toàn.
+
+
+## Chỉnh sửa V7 — V6 thành công nhưng bỏ sót vùng lớn hơn 256 B
+
+Người dùng đã chạy V6 trên `AngelSLG.exe` chuẩn; ZIP V6 có đủ 7 file nhưng chỉ **1/4** cửa sổ mã mục tiêu được thu. Nguyên nhân là module đọc PE V4 cũ chặn length >256 dù V6 cần 288/448/384. **Không phải EXE của người dùng thiếu hàm**. V7 tăng trần lên 512, kiểm đủ length và **báo lỗi** thay vì xuất ZIP chưa đủ. V7 giữ `engine_followup_evidence.json`, 7 file. Chạy launcher từ **thư mục V7 mới**, chọn lại `AngelSLG.exe`, và gửi ZIP tại `build`. Đừng chạy lại V2–V6. Chứng cứ/địa chỉ ở `docs/V6_REAL_REPORT_AND_V7_FIX.md`. Công cụ chỉ đọc, không sửa game.

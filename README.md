@@ -85,3 +85,6 @@ Bản Windows diagnostic **V4** xuất thêm `engine_callsite_slices.json` (tổ
 
 
 **Chẩn đoán V6 có mục tiêu:** Khác với V5, ZIP V6 thêm `engine_followup_evidence.json` để lấy những byte máy trước đây **không có**: body hai helper font ở VA `0x41A7F0`/`0x41A8C0`, plus IAT và raw caller candidates. Bản mới chỉ đọc trên EXE **SHA khớp**, không tạo patch và không thay font. `tools/analyze_windows_report.py` vẫn đọc được ZIP báo cáo V3–V5. Xem `docs/V6_FONT_HELPER_TARGETS.md`.
+
+
+**Bản V7 sửa lỗi thu mẫu V6:** V6 chạy thành công nhưng 3/4 vùng font helper bị bỏ sót vì giới hạn 256 B, trong khi yêu cầu đến 448 B. V7 đặt giới hạn tối đa 512 B, kiểm đủ chiều dài mẫu và từ chối ZIP thiếu dữ liệu cho EXE đã xác minh. Vẫn 7 tệp báo cáo, không phải patch game. Đã giữ bằng chứng V6 về các ứng viên caller vào `0x41AA10` và marker `ANGELSCRIPT` ở `0x4F56D8`, nhưng hai helper vẫn chưa được giải mã. Xem `docs/V6_REAL_REPORT_AND_V7_FIX.md`.

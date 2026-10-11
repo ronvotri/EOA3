@@ -132,3 +132,10 @@ Cập nhật: 2026-10-11.
 - Xây `tools/probe_engine_followup.py`: thu bốn code windows giới hạn tổng 1312 byte ở các VA 0x41A7F0, 0x41A8C0, 0x41AA00, 0x42AC60 trên đúng SHA EXE. Thu raw E8 rel32 candidate xrefs, tên 7 IAT, địa chỉ marker `ANGELSCRIPT` nếu có (không kết luận nếu vắng), không patch game.
 - ZIP Windows diagnostic V6 thêm `engine_followup_evidence.json` (7 file). Bộ đọc/validator chấp nhận V3 5 file, V4/5 6 file và V6 7 file; CI synthetic PE và Windows one-click smoke. Chi tiết `docs/V6_FONT_HELPER_TARGETS.md`.
 - Tất cả nguồn, dịch, danh sách review và tên nháp giữ nguyên; **1.881 translate, 574 review, 573 tên nháp; chưa có patch playable**.
+
+
+## Đã nhận V6, sửa lỗi giới hạn báo cáo V7 (11/10/2026)
+
+- V6 ZIP từ người dùng chạy thành công nhưng dữ liệu helper không đủ: code sampler tự chặn length>256 dù yêu cầu 288, 448 và 384 byte. Báo cáo chỉ chứa `0x41AA00` 192 byte. **Đã nâng giới hạn an toàn lên 512**, thêm test đầy đủ 4 length và cơ chế từ chối báo cáo thiếu khi SHA EXE đã biết. Đây là lỗi tool, không phải hỏng EXE.
+- V6 xác minh 7 tên IAT GDI, 4 ứng viên caller vào `0x41AA10`, literal `ANGELSCRIPT` tại VA `0x4F56D8` trong `.rdata` nhưng chưa có raw 4-byte VA ref vào code. Trên mã initializer đã có, kích cỡ bị giới hạn 64 và HFONT cũ được xóa/reset trước khi tạo mới. **Chưa biết function của hai helper**; chưa có patch.
+- Chi tiết `docs/V6_REAL_REPORT_AND_V7_FIX.md`. V7 ZIP vẫn 7 file, không đổi game hay 1.881/574/573 corpus.

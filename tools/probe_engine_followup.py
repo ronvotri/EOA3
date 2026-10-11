@@ -13,7 +13,8 @@ import hashlib
 import json
 from pathlib import Path
 
-from probe_engine_calls import REFERENCE_EXE_SHA256, bounded_va_evidence
+from probe_engine_calls import (REFERENCE_EXE_SHA256, bounded_va_evidence,
+                                MAX_TARGET_WINDOW_BYTES)
 from probe_game import parse_pe, MAX_EXE_SIZE
 from probe_text_callers import collect as probe_caller_candidates
 
@@ -73,7 +74,7 @@ def find_magic_references(data, pe):
     return markers
 
 
-def collect_followup(data, expected_sha=REFERENCE_EXE_SHA256):
+def collect_followup(data, expected_sha=REFERENCE_EXE_SHA256, targets=TARGETS):
     sha = hashlib.sha256(data).hexdigest()
     result = {
         "schema_version": 1,
@@ -102,13 +103,17 @@ def collect_followup(data, expected_sha=REFERENCE_EXE_SHA256):
     if pe["architecture"] != "PE32" or pe["imagebase"] != 0x400000:
         raise ValueError("Expected documented EOA3 PE32/x86 ImageBase 0x400000")
 
-    for name, va, limit in TARGETS:
+    for name, va, limit in targets:
+        if limit > MAX_TARGET_WINDOW_BYTES or limit < 1:
+            raise ValueError("Target size exceeds bounded section reader cap: " + name)
         fragment = bounded_va_evidence(data, pe, va, limit, True)
-        if fragment is None:
-            result["warnings"].append("unmapped_code_target_" + name)
+        if fragment is None or fragment["byte_count"] != limit:
+            result["warnings"].append("unmapped_or_truncated_code_target_" + name)
             continue
         fragment["purpose"] = name
         result["target_code_windows"].append(fragment)
+    if sha == REFERENCE_EXE_SHA256 and len(result["target_code_windows"]) != len(targets):
+        raise ValueError("Known EOA3 EXE must yield all requested font/helper windows; refusing incomplete report")
     xrefs = probe_caller_candidates(data, expected_sha=expected_sha)
     result["raw_call_reference_scan"] = {
         "status": xrefs["status"],
