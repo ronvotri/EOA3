@@ -54,7 +54,7 @@ class AnsiTextPathTests(unittest.TestCase):
         self.assertEqual(result["status"], "verified_static_ansi_iteration_evidence_not_a_patch")
         self.assertEqual(result["text_out"]["call_vas"], ["0x41a79a", "0x41a7b9"])
         self.assertEqual(result["char_iteration"]["call_va"], "0x42ad54")
-        self.assertIn("Unverified", result["char_iteration"]["unverified"].capitalize())
+        self.assertIn("ANGELSCRIPT", result["char_iteration"]["unverified"])
         self.assertIn("not proven", result["encoding_risk"][2])
 
     def test_sha_guard_rejects_unrelated_build(self):
