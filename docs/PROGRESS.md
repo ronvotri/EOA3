@@ -41,3 +41,11 @@ Cập nhật: 2026-10-11.
 - Cần điều tra tiếp mã gọi class/skill/item thực tế trong executable, sau đó mới cân nhắc mở khóa nhãn nào. Tên phiên âm quái vật chưa có xác minh chính thức, một số được đánh dấu `needs_name_verification`.
 - Ghi nhận bổ sung: `stage24:4663` nằm sau biểu tượng `Message` được gọi kèm chuỗi, không phải `Say`/`MessageBox` thuần; vẫn phải xác minh dispatch thực tế trước khi dịch.
 - Bằng chứng và hướng dẫn xem `docs/NAME_REFERENCE_AUDIT.md`.
+
+## Giai đoạn PE/font preflight — 2026-10-11
+
+- Đã soạn nốt **78 tên đề xuất** gồm 12 phe, 28 nhân vật, 38 thẻ (hai tên khác nhau). Tổng cộng **573/573 bản ghi `review` của `DataBase.json` có nháp hiển thị** trong `translations/DISPLAY_NAMES_DRAFT.json`; **574 review còn nguyên trong bản game** vì chuỗi `stage24:4663` chưa xác minh chủ lệnh.
+- Tạo **`tools/probe_game.py`**: đọc **AngelSLG.exe** trên máy Windows, tính SHA-256, phân tích PE32/PE32+, import GDI/encoding, tìm mẫu gọi IAT và chuỗi font, kiểm kê file Data mà **không sửa/chạy** game. Địa chỉ VA lịch sử chỉ là gợi ý chưa xác minh.
+- **`tools/test_probe_game.py`** kiểm tra bằng file PE giả lập tổng hợp, không cần game hoặc EXE trên GitHub; GitHub Actions chạy các test này cùng bộ kiểm tra trước. Chưa kiểm nghiệm probe trên EXE thật, chưa có patch Unicode.
+- Hướng dẫn cụ thể: `docs/WINDOWS_RUNTIME_PREFLIGHT.md`. Sau khi có báo cáo JSON từ đúng bản game thật, mới xác minh nơi vẽ chữ và chọn phương án chuyển mã/font.
+- Mốc chính thức **1.881/1.881 chuỗi `translate`**, còn **574 `review`**; không cộng 573 nhãn đề xuất vào số đã áp dụng.
