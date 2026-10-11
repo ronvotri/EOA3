@@ -42,6 +42,8 @@ jobs:
         run: python tools/test_verify_v5_strlen.py
       - name: Verify V5 ANSI CharNextA percent loop and TextOutA overlapping snapshots
         run: python tools/test_audit_v5_text_iteration.py
+      - name: Verify DirectDraw-compatible HDC lifecycle and font helpers from V5
+        run: python tools/test_audit_v5_surface_pipeline.py
       - name: Test read-only x86 direct-call candidate scanner and IAT labels
         run: python tools/test_probe_text_callers.py
       - name: Test consolidated diagnostic ZIP on synthetic EXE
