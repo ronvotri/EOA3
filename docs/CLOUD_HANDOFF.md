@@ -1,5 +1,14 @@
 # Bàn giao cho cloud
 
+## Checkpoint mới: đã nhận V6 thật, phát hiện tool bỏ mất 3/4 cửa sổ; sửa V7 (11/10/2026)
+
+- Người dùng đã gửi **`EOA3-Windows-Diagnostics(3).zip` + `EOA3-Diagnostic-Log(4).txt`**, log SUCCESS, đúng EXE SHA **`2d7d9705837e32c72685d69e50e426fde168ea8d435de90ba937cefbf5138baf`** và 7-file ZIP. **Bản V6 KHÔNG có body helper**: `target_code_windows` chỉ chứa `0x41AA00` (192 B); ba mục `0x41A7F0` 288 B / `0x41A8C0` 448 B / `0x42AC60` 384 B bị chặn bởi `bounded_va_evidence` cap 256 B! Đây là lỗi bộ công cụ, không phải game.
+- **Sửa V7**: `MAX_TARGET_WINDOW_BYTES=512`, kiểm tra length đúng và ranh giới PE. **Với SHA EXE đã biết**, mọi bốn đoạn phải có đủ, nếu thiếu báo lỗi thay vì SUCCESS sai. Unit tests dựng PE giả xác minh 288/448/192/384, từ chối 513 B và fail-closed. V7 vẫn xuất **7 tệp ZIP**, cùng tên kết quả `engine_followup_evidence.json`.
+- Các chứng cứ V6 thật vẫn giữ: 7 IAT đã map `TextOutA`/`SetTextColor`/`CreateFontIndirectA`/`SetBkColor`/`SelectObject`/`SetBkMode`/`CharNextA`; 4 ứng viên E8 gọi entry font `0x41AA10` (caller `0x402BA4`, `0x41A507`, `0x42A57C`, `0x42AB61`); literal `ANGELSCRIPT` ở `.rdata` VA `0x4F56D8`, chưa tìm raw little-endian VA ref trong code, **không chứng minh vắng parser**. 64 E8 ứng viên `strlen` là **đạt trần quét**, không phải tổng số caller.
+- V6 code window `0x41AA00` xác nhận font initializer thực ở `0x41AA10` giới hạn size đối số `<=64`, kiểm tra/xóa HFONT cũ tại `this+0xFCC`, rồi tạo font charset 134; tên API ở IAT `0x4F2010` chưa biết. V7 tra thêm IAT `0x4F2010`, `0x4F2014`, `0x4F2158`. Đọc **`docs/V6_REAL_REPORT_AND_V7_FIX.md`**.
+- **Việc tiếp theo**: lấy một ZIP chạy bằng V7 **đúng SHA EXE** để xem đủ hai helper body; rồi disassemble/cross-reference thật. Không yêu cầu gửi EXE hoặc chạy lại các V2–V6 cũ. Chưa có patch playable; corpus **1.881 translate / 574 review / 573 tên nháp** giữ nguyên.
+
+
 ## Mới nhất — V6 chỉ lấy 2 body font helper có mục tiêu (11/10/2026)
 
 - Đã khai thác tối đa báo cáo **V5** hiện có: hai TextOutA, byte strlen, CharNextA, DirectDraw-compatible GetDC/ReleaseDC. Cửa sổ cuối quanh TextOutA **kết thúc ở 0x41A7EE**, còn **helper 0x41A7F0 bắt đầu ngay sau đó**; V5 không có code body của hai helper 0x41A7F0/0x41A8C0. Không nên tự gán nhãn glyph atlas.
