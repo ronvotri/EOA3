@@ -147,6 +147,36 @@ class RealReportInspectionTests(unittest.TestCase):
             self.assertEqual(len(parsed), 5)
             self.assertTrue(analyze_reports(parsed)["engine_code_slice_evidence"]["present"])
 
+    def test_seven_member_v6_zip_validates_followup_sha_and_counts(self):
+        with tempfile.TemporaryDirectory() as root:
+            path = Path(root)/"diag-v6.zip"
+            docs = data()
+            docs["engine_callsite_slices.json"] = {
+                "status": "read_only_code_neighborhoods_not_disassembly_or_patch",
+                "exe_sha256": "a"*64,
+                "matches_documented_exe_sha256": False,
+            }
+            docs["engine_followup_evidence.json"] = {
+                "status": "bounded_helper_caller_evidence_not_a_patch",
+                "exe_sha256": "a"*64,
+                "matches_documented_exe_sha256": False,
+                "target_code_windows": [],
+                "raw_call_reference_scan": None,
+                "angelscript_marker_locations": [],
+            }
+            with ZipFile(path, "w") as z:
+                for name, content in docs.items():
+                    z.writestr(name, json.dumps(content))
+                z.writestr("font_preview.html", "<p>QA only</p>")
+            parsed = read_zip(path)
+            self.assertEqual(len(parsed), 6)
+            follow = analyze_reports(parsed)["engine_followup_evidence"]
+            self.assertTrue(follow["present"])
+            self.assertEqual(follow["target_windows_read"], 0)
+            docs["engine_followup_evidence.json"]["exe_sha256"] = "b"*64
+            with self.assertRaisesRegex(ValueError, "Followup EXE SHA"):
+                analyze_reports(docs)
+
     def test_zip_is_never_extracted_and_rejects_unexpected_files(self):
         with tempfile.TemporaryDirectory() as root:
             path = Path(root)/"diag.zip"
