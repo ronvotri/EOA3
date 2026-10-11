@@ -18,7 +18,6 @@ if not exist "build" (
 )
 set "REPORT=%CD%\build\EOA3-Windows-Diagnostics.zip"
 set "LOG=%CD%\build\EOA3-Diagnostic-Log.txt"
-if exist "%REPORT%" del /q "%REPORT%"
 
 set "PYTHON_CMD="
 where py >nul 2>nul
@@ -89,6 +88,7 @@ echo.
 echo Opening the build folder to help you find the error log...
 start "" "%CD%\build"
 echo Send EOA3-Diagnostic-Log.txt or a photo of this window.
+echo An old report ZIP might still exist; use the error log from THIS run.
 echo Your game files were not modified.
 
 :end
