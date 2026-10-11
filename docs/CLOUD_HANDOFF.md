@@ -59,3 +59,12 @@ Empire of Angels 3 đã có bản dịch cho **1.881/1.881 trường `mode=trans
 - Không sửa `locked`; `review` chỉ được chuyển thành `translate` sau khi có bằng chứng rõ và cập nhật validator/test.
 - Tên Hán–Latin trong glossary là phiên âm tạm, chưa được kiểm chứng toàn game. 
 - Chỉ nói patch chơi được khi có bản build đã thử trên Windows.
+
+ 
+## Bổ sung sửa UX launcher — 11/10/2026
+
+- Người dùng đã chọn EXE nhưng không tìm thấy `build/EOA3-Windows-Diagnostics.zip`. Làm rõ đường dẫn: `build` nằm **bên cạnh file `.cmd` trong thư mục đã giải nén**, không phải cạnh `AngelSLG.exe`.
+- Đã sửa `EOA3-KiemTra-Windows.cmd` tự mở đúng thư mục `build` khi kết thúc, ghi `build/EOA3-Diagnostic-Log.txt` cho mọi lượt, có nhãn **SUCCESS** hoặc **REPORT NOT CREATED** và kiểm tra Python ≥3.9/thiếu bộ source. Bảo toàn report cũ nếu thất bại; chỉ khẳng định report mới khi thực sự xuất thành công.
+- Bổ sung smoke test trên GitHub Actions Windows thật với EXE PE nhân tạo, không phân phối file game. Cần CI PASS trước merge, đóng gói lại artifact để người dùng dùng bản launcher mới.
+- Sau khi user gửi ZIP báo cáo thực tế (hoặc LOG nếu lỗi), tiếp tục chẩn đoán font/encoding; chưa có patch playable.
+

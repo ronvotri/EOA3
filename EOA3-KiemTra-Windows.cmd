@@ -1,48 +1,97 @@
 @echo off
-setlocal
+setlocal EnableExtensions
 cd /d "%~dp0"
+if errorlevel 1 (
+    echo Could not open the diagnostic tool folder.
+    goto end
+)
 echo =======================================================
 echo EOA3 Windows Diagnostic - READ ONLY
-echo Does not modify, patch, install, or launch the game.
+echo This tool will NOT modify or launch your game.
 echo =======================================================
 echo.
+if not exist "build" mkdir "build"
+if not exist "build" (
+    echo ERROR: Cannot create report folder next to this CMD.
+    echo Extract the ZIP to your Desktop or Downloads first.
+    goto end
+)
+set "REPORT=%CD%\build\EOA3-Windows-Diagnostics.zip"
+set "LOG=%CD%\build\EOA3-Diagnostic-Log.txt"
+
+set "PYTHON_CMD="
 where py >nul 2>nul
-if not errorlevel 1 goto use_py
-where python >nul 2>nul
-if not errorlevel 1 goto use_python
-echo Python 3.9 or newer is needed. Install Python and try again.
-goto end
+if not errorlevel 1 (
+    py -3 -c "import sys; assert sys.version_info >= (3, 9)" >nul 2>nul
+    if not errorlevel 1 set "PYTHON_CMD=py -3"
+)
+if not defined PYTHON_CMD (
+    where python >nul 2>nul
+    if not errorlevel 1 (
+        python -c "import sys; assert sys.version_info >= (3, 9)" >nul 2>nul
+        if not errorlevel 1 set "PYTHON_CMD=python"
+    )
+)
+if not defined PYTHON_CMD (
+    echo ERROR: Python 3.9 or newer was not found.
+    >"%LOG%" echo Python 3.9 or newer is required. Install Python and retry.
+    goto fail
+)
 
-:use_py
-set "PYTHON_CMD=py -3"
-goto run
+if not exist "tools\windows_diagnostic_bundle.py" (
+    echo ERROR: Missing tools folder.
+    >"%LOG%" echo Extract ALL the files from EOA3-Windows-Diagnostic-Tool.zip before running.
+    goto fail
+)
+if not exist "source\DataBase.json" (
+    echo ERROR: Missing source files.
+    >"%LOG%" echo Extract ALL the files from EOA3-Windows-Diagnostic-Tool.zip before running.
+    goto fail
+)
 
-:use_python
-set "PYTHON_CMD=python"
-goto run
-
-:run
 if "%~1"=="" goto choose_exe
-echo Checking the AngelSLG.exe file you dragged onto this script.
-%PYTHON_CMD% "tools\windows_diagnostic_bundle.py" --exe "%~1" --out "build\EOA3-Windows-Diagnostics.zip"
+echo Checking the AngelSLG.exe that you dragged onto this CMD.
+%PYTHON_CMD% "tools\windows_diagnostic_bundle.py" --exe "%~1" --out "%REPORT%" >"%LOG%" 2>&1
 goto result
 
 :choose_exe
-echo Choose the ORIGINAL AngelSLG.exe in the window that appears.
-%PYTHON_CMD% "tools\windows_diagnostic_bundle.py" --out "build\EOA3-Windows-Diagnostics.zip"
+echo Choose AngelSLG.exe in the file selection window.
+echo.
+%PYTHON_CMD% "tools\windows_diagnostic_bundle.py" --out "%REPORT%" >"%LOG%" 2>&1
 
 :result
-if errorlevel 1 (
-    echo.
-    echo The check did not finish. No game files were changed.
-) else (
-    echo.
-    echo Report: build\EOA3-Windows-Diagnostics.zip
-    echo Check this ZIP before sharing it.
-    echo No EXE or font file is included.
+set "RESULT_CODE=%ERRORLEVEL%"
+type "%LOG%"
+if not "%RESULT_CODE%"=="0" goto fail
+if not exist "%REPORT%" (
+    echo ERROR: The command finished but the report ZIP is missing.
+    goto fail
 )
+echo.
+echo =======================================================
+echo SUCCESS! Report created at:
+echo "%REPORT%"
+echo =======================================================
+echo.
+echo Opening the build folder now...
+if not "%EOA3_NO_OPEN%"=="1" start "" "%CD%\build"
+echo Send EOA3-Windows-Diagnostics.zip back to the chat.
+goto end
+
+:fail
+echo.
+echo =======================================================
+echo REPORT NOT CREATED. See:
+echo "%LOG%"
+echo =======================================================
+echo.
+echo Opening the build folder to help you find the error log...
+if not "%EOA3_NO_OPEN%"=="1" start "" "%CD%\build"
+echo Send EOA3-Diagnostic-Log.txt or a photo of this window.
+echo An old report ZIP might still exist; use the error log from THIS run.
+echo Your game files were not modified.
 
 :end
 echo.
-pause
+if not "%EOA3_NO_OPEN%"=="1" pause
 endlocal
