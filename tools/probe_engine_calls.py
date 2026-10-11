@@ -25,6 +25,32 @@ MAX_MATCHES_PER_API = 32
 MAX_WINDOWS = 128
 
 
+def bounded_va_evidence(data, pe, va, length, executable):
+    """Capture only a few bytes at a grounded RVA and inside its PE section."""
+    base = pe["imagebase"]
+    rva = va - base
+    if rva < 0 or length < 1 or length > 256:
+        return None
+    off = pe["_offset_for_rva"](rva)
+    section = next((
+        sec for sec in pe["sections"]
+        if sec["executable"] == executable
+        and sec["rva"] <= rva < sec["rva"] + sec["file_size"]
+        and sec["file_offset"] + (rva - sec["rva"]) == off
+    ), None)
+    if off is None or section is None:
+        return None
+    available = min(length, section["file_size"] - (rva - section["rva"]), len(data) - off)
+    if available < 1:
+        return None
+    raw = data[off:off+available]
+    return {
+        "va": hex(va), "section": section["name"], "file_offset": off,
+        "bytes_hex": raw.hex(), "bytes_sha256": hashlib.sha256(raw).hexdigest(),
+        "byte_count": len(raw), "truncated_to_section_boundary": len(raw) < length,
+    }
+
+
 def collect(data, expected_sha256=REFERENCE_EXE_SHA256):
     pe = parse_pe(data)
     sha = hashlib.sha256(data).hexdigest()
@@ -39,6 +65,7 @@ def collect(data, expected_sha256=REFERENCE_EXE_SHA256):
         "window_radius_bytes": {"before": BEFORE, "after": AFTER},
         "candidate_call_sites": [],
         "reference_charset_context": None,
+        "dependent_code_targets": [],
         "warnings": list(pe.get("import_parse_warnings", [])),
         "limitations": [
             "FF 15 references in executable sections are candidate x86 IAT CALLs, not complete disassembly.",
@@ -46,6 +73,7 @@ def collect(data, expected_sha256=REFERENCE_EXE_SHA256):
             "No exact return/call graph or complete string-buffer origin is derived here.",
             "The charset context is included only if the executable matches the documented SHA-256.",
             "Small machine-code fragments are included for private analysis; review before sharing publicly.",
+            "Additional helper/data excerpts are only extracted when full EXE SHA-256 matches the documented build.",
             "This diagnostic cannot safely patch a game or validate Vietnamese runtime rendering.",
         ],
     }
@@ -96,6 +124,21 @@ def collect(data, expected_sha256=REFERENCE_EXE_SHA256):
     result["candidate_call_sites"].sort(key=lambda r: (int(r["site_va"], 16), r["api"]))
     result["candidate_count_by_api"] = dict(sorted(counts.items()))
     if sha == expected_sha256:
+        # These follow directly from two V4 TextOutA argument patterns.
+        # The 0x4CE790 callee could compute a length, but V4 did NOT have its
+        # body. The 0x4F2B38 pointer was used for a two-byte TextOutA call.
+        # Do not label either one as strlen / literal text before inspection.
+        dependent = [
+            ("length_helper_candidate", 0x4CE790, 192, True),
+            ("fixed_two_byte_string_pointer", 0x4F2B38, 16, False),
+        ]
+        for purpose, va, limit, code in dependent:
+            excerpt = bounded_va_evidence(data, pe, va, limit, code)
+            if excerpt is None:
+                result["warnings"].append("unmapped_dependent_target_" + purpose)
+            else:
+                excerpt["purpose"] = purpose
+                result["dependent_code_targets"].append(excerpt)
         # This instruction was found by the user's original PE scan; only
         # reuse the VA for the exact corresponding SHA-256 build.
         known_va = 0x41AA85

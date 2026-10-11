@@ -3,8 +3,9 @@ import hashlib
 import struct
 import unittest
 
-from probe_engine_calls import APIS, collect
+from probe_engine_calls import APIS, collect, bounded_va_evidence
 from test_probe_game import fake_pe32, fake_pe64
+from probe_game import parse_pe
 
 
 class EngineCallsiteProbeTests(unittest.TestCase):
@@ -50,6 +51,27 @@ class EngineCallsiteProbeTests(unittest.TestCase):
         self.assertIn("CreateFontIndirectA", APIS)
         self.assertIn("MultiByteToWideChar", APIS)
         self.assertNotIn("CloseHandle", APIS)
+
+    def test_read_only_dependent_va_sampling_and_section_type(self):
+        source = fake_pe32()
+        pe = parse_pe(source)
+        site = bounded_va_evidence(source, pe, 0x401010, 12, True)
+        self.assertEqual(site["byte_count"], 12)
+        self.assertEqual(site["va"], "0x401010")
+        self.assertEqual(site["bytes_sha256"], hashlib.sha256(bytes.fromhex(site["bytes_hex"])).hexdigest())
+        self.assertIsNone(bounded_va_evidence(source, pe, 0x401010, 12, False))
+        self.assertIsNone(bounded_va_evidence(source, pe, 0x4CE790, 12, True))
+        self.assertIsNone(bounded_va_evidence(source, pe, 0x401010, 1000, True))
+
+    def test_dependent_targets_are_guarded_by_whole_exe_sha(self):
+        sample = fake_pe32()
+        unrelated = collect(sample)
+        self.assertEqual(unrelated["dependent_code_targets"], [])
+        # Faking a matching expected hash still does not allow out-of-section
+        # reads for the historical addresses on this small PE fixture.
+        same = collect(sample, expected_sha256=hashlib.sha256(sample).hexdigest())
+        self.assertEqual(same["dependent_code_targets"], [])
+        self.assertIn("unmapped_dependent_target_length_helper_candidate", same["warnings"])
 
     def test_reference_hash_never_matches_unrelated_binary(self):
         sample = fake_pe32()
