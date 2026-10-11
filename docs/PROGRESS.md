@@ -116,3 +116,11 @@ Cập nhật: 2026-10-11.
 - Hai cửa sổ `TextOutA` overlap nhất quán; routine có `ret 0x14` tại `0x41A7E9`. Đường byte ANSI/MBCS hiện diện, cần bảo vệ khi thiết kế Unicode transport. Đây không phải kết quả đo runtime hay bằng chứng UI thoại.
 - Mới: `tools/audit_v5_text_iteration.py` + tests nhận diện exact SHA/windows và từ chối conflict; `tools/probe_text_callers.py` + tests làm **công cụ chuẩn bị** tìm xrefs và tên 7 IAT, chưa yêu cầu user chạy. Báo cáo `docs/V5_ANSI_TEXT_PATH_AUDIT.md`.
 - Không thay corpus: 1.881 translate/574 review/573 nháp; chưa có bản vá chơi được.
+
+
+## V5: xác nhận vòng đời GDI tương thích DirectDraw Surface — 11/10/2026
+
+- Không bắt người dùng chạy diagnostic mới: tái dùng 2 code windows `TextOutA` trong ZIP V5. **Vtable call 0x41A74D offset +0x44** nhận `HDC*` và kiểm HRESULT=0; **0x41A7E0 offset +0x68** nhận HDC cũ. ABI trùng `IDirectDrawSurface::GetDC/ReleaseDC`; đường vẽ có thể sử dụng DirectDraw surface trung gian, chưa xác minh vtable/runtime/thoại.
+- Phân tích vùng `CreateFontIndirectA`: trả về HFONT lưu **`this+0xFCC`**, sau đó gọi **`0x41A7F0`** và **`0x41A8C0`**. Hai target được giải mã từ `E8 rel32`, chưa biết chức năng; là mục tiêu truy vết kế tiếp.
+- Mới: `tools/audit_v5_surface_pipeline.py` + unit tests kiểm chứng từ V5 ZIP cũ bằng SHA, overlap và các signature bytes; `docs/V5_DIRECTDRAW_SURFACE_AUDIT.md` chứa đầy đủ căn cứ, nguồn ABI và giới hạn.
+- Không sửa corpus, code runtime hay font. **1.881 translate, 574 review, 573 tên nháp**, chưa có patch playable.
