@@ -168,7 +168,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "狄道首领战",
-    "vi": ""
+    "vi": "Đối đầu thủ lĩnh ở Didao"
   },
   {
     "id": "stage10:1911",
@@ -177,7 +177,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "Stage-10 狄道首领战",
-    "vi": ""
+    "vi": "Màn 10 - Đối đầu thủ lĩnh ở Didao"
   },
   {
     "id": "stage10:1916",
@@ -195,7 +195,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“结果还是没有得到香格里拉女帝出兵%N支援，我们还赢得了欧查军吗¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cuối cùng vẫn không xin được Nữ hoàng Shangri-La%Nđem quân giúp. Liệu ta có thắng nổi Ocha không...?”"
   },
   {
     "id": "stage10:1957",
@@ -204,7 +204,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừm...”"
   },
   {
     "id": "stage10:1968",
@@ -213,7 +213,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不过还是很感谢丽凤的加入，相信对我们的%N战力有很大帮助的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Dù sao cũng cảm ơn Lifeng đã gia nhập. Có cậu,%Nsức chiến đấu của bọn mình chắc sẽ khá hơn nhiều!”"
   },
   {
     "id": "stage10:1993",
@@ -222,7 +222,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“就别说得这么客气了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đừng khách sáo thế.”"
   },
   {
     "id": "stage10:2004",
@@ -231,7 +231,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“以我们这些人要对付你们所说的欧查军，%N我想确实是没有那么容易。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhưng với chừng này người mà muốn đánh quân Ocha%Nnhư các cậu kể thì quả thật không dễ đâu.”"
   },
   {
     "id": "stage10:2029",
@@ -240,7 +240,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯，的确¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừ... đúng là vậy...”"
   },
   {
     "id": "stage10:2040",
@@ -249,7 +249,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“但无论如何，我们都必须先回拉锡叶将受困的%N人救出。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Dẫu sao cũng phải về Laxia trước, cứu những người%Ncòn đang mắc kẹt đã.”"
   },
   {
     "id": "stage10:2065",
@@ -258,7 +258,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừ!”"
   },
   {
     "id": "stage10:2090",
@@ -276,7 +276,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呦～呦～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ồ~ xem ai kìa~!”"
   },
   {
     "id": "stage10:2117",
@@ -285,7 +285,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你们看看这群家伙，不又是那群寒酸的军队%N吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhìn cái đám đó đi, chẳng phải lại là bọn lính%Nnghèo rớt mồng tơi lần trước sao?”"
   },
   {
     "id": "stage10:2142",
@@ -294,7 +294,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哈哈哈！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ha ha ha!”"
   },
   {
     "id": "stage10:2167",
@@ -303,7 +303,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“真是可惜呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tiếc quá đi mất!”"
   },
   {
     "id": "stage10:2178",
@@ -312,7 +312,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“可惜咱们行规是同一批人不抢第二次，%N这回就算她们走运了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tiếc là luật băng ta không cướp cùng một nhóm hai lần.%NLần này coi như chúng may mắn!”"
   },
   {
     "id": "stage10:2203",
@@ -321,7 +321,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不过话说回来¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhưng mà nghĩ lại...”"
   },
   {
     "id": "stage10:2214",
@@ -330,7 +330,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“盈月大人，最近景气差得很，叶虏鞑现在夸张%N到连水都不能喝了，这节骨眼再不抢行吗！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chị Yingyue, dạo này làm ăn ế ẩm quá!%NỞ Yeluda giờ đến nước còn khó uống, không cướp thì sống sao?”"
   },
   {
     "id": "stage10:2239",
@@ -339,7 +339,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯，照这么说来¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừm, nghe ngươi nói vậy...”"
   },
   {
     "id": "stage10:2250",
@@ -348,7 +348,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“当然是不行。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tất nhiên là không được!”"
   },
   {
     "id": "stage10:2261",
@@ -357,7 +357,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好，管他什么啥行规的，咱们照抢！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Được! Kệ luật lệ, cứ cướp như thường!”"
   },
   {
     "id": "stage10:2286",
@@ -366,7 +366,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“盈月老大¨¨¨您变心还变得真快¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đại ca Yingyue... chị đổi ý nhanh thật đấy...”"
   },
   {
     "id": "stage10:2311",
@@ -375,7 +375,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“唉呀！高兴就好了，谁管那么多。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ôi dào! Vui là được, ai quan tâm lắm thứ đó!”"
   },
   {
     "id": "stage10:2349",
@@ -384,7 +384,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那些人是¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Những kẻ kia là...”"
   },
   {
     "id": "stage10:2381",
@@ -393,7 +393,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“盗贼，就是她们将我们从邦联带来的国信%N抢走的¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Bọn cướp đấy. Chính chúng đã giật mất quốc thư%Nmà bọn mình mang từ Liên bang đến...”"
   },
   {
     "id": "stage10:2406",
@@ -402,7 +402,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“原来如此，那我倒要看看她们究竟多大本事。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ra vậy. Thế để tôi xem chúng giỏi giang tới đâu!”"
   },
   {
     "id": "stage10:2417",
@@ -411,7 +411,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“妮雅，我们就回应她们一下吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Niya, bọn mình tiếp chiêu chúng một trận đi!”"
   },
   {
     "id": "stage10:2442",
@@ -420,7 +420,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“没问题！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Được thôi!”"
   },
   {
     "id": "stage10:2479",
@@ -429,7 +429,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“咦¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ơ...?”"
   },
   {
     "id": "stage10:2493",
@@ -447,7 +447,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“丽凤，你¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Lifeng, cậu...”"
   },
   {
     "id": "stage10:2554",
@@ -456,7 +456,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哈哈！我还以为谁，原来就是你呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ha ha! Ta cứ tưởng là ai, hóa ra là ngươi!”"
   },
   {
     "id": "stage10:2579",
@@ -465,7 +465,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừ!”"
   },
   {
     "id": "stage10:2604",
@@ -474,7 +474,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“别闹别扭了，不高兴就过来打我呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đừng có làm bộ giận dỗi nữa! Tức thì cứ đến đánh ta đi!”"
   },
   {
     "id": "stage10:2629",
@@ -483,7 +483,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼！就看我怎么教训你。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừ! Để xem ta trị ngươi thế nào!”"
   },
   {
     "id": "stage10:2809",
@@ -501,7 +501,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：敌军主将 盈月 战败。%N失败条件：我军全灭。",
-    "vi": ""
+    "vi": "Điều kiện thắng: Đánh bại thủ lĩnh Yingyue.%NĐiều kiện thua: Toàn đội bị tiêu diệt."
   },
   {
     "id": "stage10:2832",
@@ -555,7 +555,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“唉呀！好痛！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ái da! Đau quá!”"
   },
   {
     "id": "stage10:2954",
@@ -564,7 +564,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“¨¨竟然输给你们。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không ngờ... lại thua các ngươi...”"
   },
   {
     "id": "stage10:2977",
@@ -582,7 +582,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“可恶¨¨¨丽凤！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Khốn thật... Lifeng!”"
   },
   {
     "id": "stage10:3016",
@@ -591,7 +591,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“有胆子就堂堂正正来挑一场。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Có gan thì đấu tay đôi cho đàng hoàng!”"
   },
   {
     "id": "stage10:3046",
@@ -600,7 +600,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“谁怕谁，来呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ai sợ ai! Đến đây!”"
   },
   {
     "id": "stage10:3073",
