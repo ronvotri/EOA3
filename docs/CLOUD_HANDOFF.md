@@ -1,5 +1,13 @@
 # Bàn giao cho cloud
 
+## MỚI NHẤT 12/10/2026 — V8 một lần lấy toàn bộ mắt xích chữ, không lặp vặt
+
+- Từ V7/PR #24–25 đã xác minh đường `CharNextA` → copy substring NUL → **CALL `0x41C790`**, nhưng **không có body** `0x41C790` trong ZIP V7 nên chưa nối tới `TextOutA`. Mẫu mã vùng trước dispatcher `0x42AC60` có parser +2 và index 16×3; chưa chứng minh `%c` màu. Đừng tự suy diễn.
+- Đã làm **`tools/probe_renderer_v8.py`** và tích hợp vào gói Windows. **Bảy mẩu code** mục tiêu: `0x41C790` 512, `0x41C990` 512, `0x41ABF0` 512, `0x41A600` 512, `0x42A8A0` 448, `0x42AED0` 320, `0x42AAF0` 512; thêm **48 byte bảng 16×3** tại `0x522F44`; thêm bounded raw E8 caller candidates. Chỉ đọc EXE khớp SHA `2d7d9705837e32c72685d69e50e426fde168ea8d435de90ba937cefbf5138baf`; **fail-closed** nếu thiếu mẫu, không lặp lỗi V6.
+- V8 ZIP vẫn tên `EOA3-Windows-Diagnostics.zip` nhưng có **8 file**, mới `renderer_trace_v8.json`. Reader tiếp tục nhận 5/6/7 file cũ. Unit tests PE giả/Windows smoke, **không xác minh game thật**. Hướng dẫn/chứng cứ tại **`docs/V8_RENDERER_TRACE_PLAN.md`**.
+- **Sau khi user gửi ZIP V8 thật:** xác minh sample SHA/window overlap với V7, disassemble 0x41C790 và các helper, làm rõ `%c` và callback để thiết kế PoC tiếng Việt không phá byte code. Không giả danh là patch playable. Corpus `1.881 translate / 574 review / 573 name drafts` giữ nguyên.
+
+
 ## CHECKPOINT 12/10/2026: V7 đã lộ bộ lập chỉ số 16 nhóm ba byte, đối chiếu corpus %c
 
 - **KHÔNG CẦN THÊM DIAGNOSTIC**: từ `EOA3-Windows-Diagnostics(4).zip` V7 đã nhận, vùng `0x42AC60..0x42ADE0` (SHA `e9ae3aa27d9d2531fb99d4a6ede2efb4668359e9fd1806c900e7a741a213ea86`) còn lộ branch mới tại `0x42AC6E`: truyền **pointer+2** vào `0x42A8A0` (parser-like), nếu parse số khác zero tính signed modulo **16** rồi **`*3`** để tra ba byte nguồn `0x522F44..46`, gọi `0x42AED0` và truyền giá trị tới `0x41AC20`. Nếu parsed number zero, truyền `0x0000FFFE` vào `0x41AC20`. Các địa chỉ call/bytes đã xác minh từ V7. **Giả thuyết mạnh: điều khiển màu/thuộc tính chữ, CHƯA chứng minh đó là RGB hoặc nhánh `%c`**.
