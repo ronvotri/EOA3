@@ -1,5 +1,14 @@
 # Bàn giao cho cloud
 
+## Checkpoint: có công cụ lấy mẫu mã máy quanh TextOutA (11/10/2026)
+
+- Báo cáo **EXE Windows thật** đã nhận ở phiên trước: SHA-256 `2d7d9705837e32c72685d69e50e426fde168ea8d435de90ba937cefbf5138baf`. Chưa có bản full EXE trong môi trường; ZIP V3 chỉ chứa 16 bytes sau callsite, **chưa thể suy ra buffer/length của TextOutA**.
+- Thêm `tools/probe_engine_calls.py`: lấy cửa sổ x86 có giới hạn **96 byte trước + 48 byte sau** các lời gọi IAT đến `TextOutA`, `CreateFontIndirectA`, `MultiByteToWideChar`, `WideCharToMultiByte`, `CharNextA`, `GetCPInfo`, `GetACP` trên PE32. Không chỉnh game, không dump EXE nguyên tệp.
+- Bản ZIP chẩn đoán **V4 có sáu file**, thêm `engine_callsite_slices.json`. Bộ đọc `tools/analyze_windows_report.py` chấp nhận V3 (5) hoặc V4 (6), đối chiếu SHA. `tools/package_diagnostics.py` đóng gói thêm chương trình trên vào kit tải riêng.
+- CI có unit tests mẫu PE, kiểm tra ZIP 5/6, Windows launcher smoke. Các byte ở report là **raw evidence** không phải disassembly xác nhận được đầu vào chuỗi.
+- Chi tiết đọc `docs/ENGINE_CALLSITE_EVIDENCE.md`. **Việc tiếp theo:** phân tích vùng mã quanh hai lời gọi `TextOutA` thực sự từ V4, rồi xác minh đường mã đến chuỗi ANGELSCRIPT. Chưa có patch playable. Giữ **1.881 translate, 574 review, 573 tên nháp**; không tự mở khóa tên dùng như lookup.
+
+
 ## Checkpoint: ĐÃ CÓ BÁO CÁO EXE WINDOWS THẬT — 11/10/2026
 
 - Người dùng đã chạy V3 **SUCCESS** và gửi `EOA3-Windows-Diagnostics.zip` + log thành công. Không cần yêu cầu gửi lại bộ chẩn đoán hoặc EXE. Đã phân tích chi tiết và ghi toàn bộ vào **`docs/REAL_WINDOWS_EXE_AUDIT.md`**.
