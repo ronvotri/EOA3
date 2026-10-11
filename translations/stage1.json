@@ -105,7 +105,7 @@
     "argument": 3,
     "mode": "translate",
     "source": "%s8%t4%z20“我恳求生命女神赐与我生存的力量与勇气，”",
-    "vi": "%s8%t4%z20“Con cầu xin Nữ thần Sinh Mệnh ban cho con sức mạnh và lòng can đảm để sống,”"
+    "vi": "%s8%t4%z20“Con xin Nữ thần Sinh Mệnh ban sức sống và lòng can đảm,”"
   },
   {
     "id": "stage1:829",
@@ -114,7 +114,7 @@
     "argument": 3,
     "mode": "translate",
     "source": "%s8%t4%z20“绝不容许战争破坏生命的可贵与存在的价值¨¨¨”",
-    "vi": "%s8%t4%z20“Con quyết không để chiến tranh chà đạp giá trị và sự quý báu của sinh mệnh...”"
+    "vi": "%s8%t4%z20“Con sẽ không để chiến tranh chà đạp giá trị sự sống...”"
   },
   {
     "id": "stage1:854",
@@ -132,7 +132,7 @@
     "argument": 3,
     "mode": "translate",
     "source": "%s6%t4%z18以欧查帝国为首的欧查叛军对爱尔达联邦发起的%N%N全面侵略行动持续十二年之后¨¨¨",
-    "vi": "%s6%t4%z18Cuộc xâm lược toàn diện của quân nổi loạn Ocha, do Đế quốc Ocha đứng đầu,%N%Nkéo dài suốt mười hai năm trên lục địa Elda..."
+    "vi": "%s6%t4%z18Cuộc xâm lược Liên bang Elda do phe Ocha khởi xướng%N%Nkéo dài suốt mười hai năm..."
   },
   {
     "id": "stage1:944",
@@ -141,7 +141,7 @@
     "argument": 3,
     "mode": "translate",
     "source": "%s6%t4%z18最后一场战争在拉锡叶首都厄特终结，欧查联军败战后%N%N撤返回国¨¨",
-    "vi": "%s6%t4%z18Trận chiến cuối cùng khép lại tại Ett, kinh đô Laxia. Quân liên minh Ocha đại bại%N%Nvà rút về nước..."
+    "vi": "%s6%t4%z18Trận chiến cuối tại Ett, kinh đô Laxia, kết thúc. Quân Ocha bại trận%N%Nvà rút về nước..."
   },
   {
     "id": "stage1:989",
@@ -177,7 +177,7 @@
     "argument": 3,
     "mode": "translate",
     "source": "%s6%t4%z18十二年战争结束后，贪婪的人心并未重新反省¨¨¨",
-    "vi": "%s6%t4%z18Sau cuộc chiến kéo dài mười hai năm, lòng tham của con người vẫn chưa chịu thức tỉnh..."
+    "vi": "%s6%t4%z18Mười hai năm chiến tranh qua đi, lòng tham vẫn chẳng nguôi..."
   },
   {
     "id": "stage1:1102",
@@ -204,7 +204,7 @@
     "argument": 3,
     "mode": "translate",
     "source": "%s4%t4%z18罗历一六七六年，拉锡叶公国首当其冲¨¨",
-    "vi": "%s4%t4%z18Năm 1676 theo lịch La, công quốc Laxia trở thành mục tiêu đầu tiên..."
+    "vi": "%s4%t4%z18Năm La lịch 1676, Laxia hứng đòn xâm lược đầu tiên..."
   },
   {
     "id": "stage1:1199",
@@ -213,7 +213,7 @@
     "argument": 3,
     "mode": "translate",
     "source": "%s0%t4%z18“拉锡叶左翼正规部队遭拉奎尔及萨梅尔夹击下全军覆没，”",
-    "vi": "%s0%t4%z18“Cánh quân chính quy bên trái Laxia bị Rakuel và Samel đánh kẹp, toàn quân bị tiêu diệt,”"
+    "vi": "%s0%t4%z18“Cánh trái Laxia bị Rakuel và Samel kẹp đánh, toàn quân tan rã,”"
   },
   {
     "id": "stage1:1224",
@@ -231,7 +231,7 @@
     "argument": 3,
     "mode": "translate",
     "source": "%s0%t4%z18“王室卫队护卫皇室以及残余部队退负东南隅宾斯坦城¨¨¨”",
-    "vi": "%s0%t4%z18“Cận vệ hoàng gia hộ tống vương thất và tàn quân rút về thành Benstein phía đông nam...”"
+    "vi": "%s0%t4%z18“Cận vệ đưa hoàng tộc và tàn quân về Benstein ở đông nam...”"
   },
   {
     "id": "stage1:1274",
