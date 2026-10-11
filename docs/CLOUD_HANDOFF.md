@@ -1,5 +1,16 @@
 # Bàn giao cho cloud
 
+## Checkpoint mới nhất: V5 ĐÃ XÁC MINH BYTE STRLEN (11/10/2026)
+
+- Đã nhận `EOA3-Windows-Diagnostics(2).zip` + `EOA3-Diagnostic-Log(3).txt` từ Windows thật, **SUCCESS**, đúng SHA `2d7d9705837e32c72685d69e50e426fde168ea8d435de90ba937cefbf5138baf`. Không yêu cầu người dùng chạy lại V5. Đọc **`docs/V5_STRLEN_ENGINE_AUDIT.md`**.
+- Thân hàm `0x4CE790` trong `.text` được đọc 192 byte, hash `2d06c948ce8060b68cb73d0d06f2b2cf08d561f7ddb5a5ac1860e02e752c8c21`. X86 disassembly chứng minh **`strlen` tối ưu bằng vòng quét 4 byte và 4 đường trả về con trỏ cuối trừ con trỏ đầu**. Thân hàm **123 byte**, digest `ee3a394138000e43710e1f46da55d9eed3240ac7510488da765689c5aea446c7`; phần sau là `CC` rồi hàm khác.
+- Địa chỉ `0x4F2B38` ở `.rdata`: **`20 20 00 00`**, hằng là **hai dấu cách ASCII**. Đây là hai byte được `TextOutA` đầu tiên vẽ; không phải chữ Trung/Việt. Sample 16 byte hash `8e8a8af6d93387203012ad120b92a57a1fa55b27a6efef6d940f2528b7dbbadf`.
+- Lời gọi `TextOutA` thứ hai tại `0x41A7B9` nhận `LPCSTR=[ebp+0x14]` và `c=strlen(LPCSTR)` tính theo **byte**, không phải ký tự Unicode. Không chứng minh đây là renderer hội thoại; có thể offscreen/glyph bitmap.
+- `tools/scripts.py` hiện đóng gói `ANGELSCRIPT` bằng **`uint16 byte length + cp936 bytes`**, validate control codes. **1.788/1.881** chuỗi Việt chưa thể mã hóa vào `cp936`; không bỏ dấu, không `errors=replace`, không tráo `TextOutA`→`TextOutW` trực tiếp.
+- Thêm `tools/verify_v5_strlen.py` + tests tổng hợp: buộc SHA và exact byte-pattern mới xác nhận ngữ nghĩa. **KHÔNG xuất patch game**, không đưa mã máy thực tế nguyên vùng vào repo.
+- **Việc tiếp theo:** truy caller/trình đọc `ANGELSCRIPT`, xác định buffer và API render thật rồi thiết kế Unicode bridge trên bản sao. Không chạy thêm diagnostic nếu chưa có mục tiêu; giữ **1.881 translate, 574 review, 573 tên nháp**.
+
+
 ## Checkpoint V4: đã giải mã được tham số TextOutA trên EXE thật (11/10/2026)
 
 - Người dùng đã cung cấp **`EOA3-Windows-Diagnostics(1).zip` (V4)** và log SUCCESS. **KHÔNG yêu cầu chạy lại V4.** ZIP gồm 6 báo cáo, 26 ứng viên callsites GDI/encoding, SHA EXE trùng `2d7d9705837e32c72685d69e50e426fde168ea8d435de90ba937cefbf5138baf`.

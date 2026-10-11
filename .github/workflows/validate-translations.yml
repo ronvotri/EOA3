@@ -38,6 +38,8 @@ jobs:
         run: python tools/test_probe_engine_calls.py
       - name: Verify exact TextOutA stack args without modifying EXE
         run: python tools/test_inspect_textout_args.py
+      - name: Verify V5 byte-strlen evidence guard using synthetic x86 signatures
+        run: python tools/test_verify_v5_strlen.py
       - name: Test consolidated diagnostic ZIP on synthetic EXE
         run: python tools/test_windows_diagnostic_bundle.py
       - name: Verify diagnostic ZIP reader and evidence report tests

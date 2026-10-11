@@ -100,3 +100,11 @@ Cập nhật: 2026-10-11.
 - Font `CreateFontIndirectA` **0x41AAAB** dùng `LOGFONTA`, `lfWeight=400`, `lfCharSet=134` (offset 23) và tên mặt chữ từ đối số hàm. Hai lời gọi `TextOutA` cùng vị trí (0,0), có thể là offscreen glyph/surface; chưa chứng minh là điểm render thoại cuối.
 - Thêm `tools/inspect_textout_args.py` và tests đối chiếu exact bytes+hash. Mở rộng tool collector cho tối đa 192 byte `0x4CE790` + 16 byte `0x4F2B38` trên đúng EXE SHA; tên trường `dependent_code_targets`. Không thay cấu trúc ZIP 6 file và không ghi vào game.
 - Đọc **`docs/V4_TEXTOUT_ARGUMENT_AUDIT.md`**. Chưa vá Unicode hay font. Giữ **1.881 translate, 574 review**; 573 tên nháp không đưa vào runtime.
+
+
+## V5: chứng minh hàm strlen và hằng 2 dấu cách — 11/10/2026
+
+- Người dùng đã gửi báo cáo Windows V5 thành công, SHA EXE khớp. Thân `0x4CE790` dài **123 byte**, dùng phép dò NUL theo từng word 4-byte và 4 nhánh `return (pointer - start)`: đây là **strlen trên chuỗi byte**, không phải đếm Unicode.
+- `0x4F2B38` chứa **`20 20 00 00`**: `TextOutA` đầu tiên vẽ đúng hai dấu cách ASCII. `TextOutA` thứ hai dùng `strlen([ebp+0x14])` làm `c`. Không xác minh render thoại trực tiếp.
+- Đã thêm `docs/V5_STRLEN_ENGINE_AUDIT.md`, `tools/verify_v5_strlen.py`, unit tests đối chiếu SHA/các nhánh return và bảo vệ khi dữ liệu sai. **V5 đủ cho mục tiêu hiện tại, không cần người dùng chạy lại.**
+- Kết hợp builder `ANGELSCRIPT`: token string có độ dài `uint16` theo byte `cp936`, validator nghiêm cấm thay controls. Chưa thể xây dựng patch Unicode chỉ bằng đổi font/API. Tiến độ dịch **1.881 translate**, **574 review**, **573 tên nháp ngoài runtime** không đổi.
