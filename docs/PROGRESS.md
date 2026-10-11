@@ -2,18 +2,22 @@
 
 Cập nhật: 2026-10-11.
 
-- Đã xuất và xác minh **40 kịch bản** từ bộ dữ liệu bàn giao. Tất cả hash nguồn vẫn khớp.
-- **Đã dịch 90/1.742 dòng `mode=translate`** (stage1: 61/61; stage2: 29/29). Còn **1.652 dòng** trong nhóm cho phép dịch.
-- **Stage 1**: hoàn thành toàn bộ 61 dòng cho phép dịch, gồm tên màn, thoại, mục tiêu và hướng dẫn. Còn 14 dòng `review`, chủ yếu lời dẫn mở đầu từ `SP_AddAction`; chưa sửa vì validator chưa cho phép. Giữ 41 dòng `locked` nguyên trạng.
-- **Stage 2**: hoàn thành toàn bộ 29 dòng cho phép dịch, giữ 43 dòng `locked` nguyên trạng.
-- Hai màn đã qua `python tools/scripts.py check` và `python tools/test_scripts.py`: 40 nguồn SHA-256 hợp lệ, **90 bản dịch hợp lệ**, 2 unit test PASS.
-- Xưng hô tạm thống nhất: đồng đội trẻ dùng **mình/cậu, bọn mình**; cấp dưới với Đại Tổng giám mục dùng **em / bẩm, vâng**; quân địch hung hăng dùng **ta/ngươi**, không lạm dụng lời thoại cụt.
-- Tên riêng phiên âm tạm đã ghi tại `docs/GLOSSARY.md`. Niya là dạng La-tinh đã xác minh qua tài liệu series; các tên khác cần đối chiếu thêm khi có bản hiển thị trong game.
-- Phần font tiếng Việt, giải mã ảnh giao diện, kiểm tra độ dài/ngắt dòng tại runtime, và kiểm thử Windows: **chưa thực hiện**. Hiện chỉ là gói dữ liệu dịch, **chưa phải patch chơi được**.
+- Đã xuất và xác minh **40 kịch bản** từ bộ dữ liệu bàn giao. Không sửa source/hash gốc.
+- **Đã dịch 241/1.742 dòng `mode=translate`** (13,8%). Còn **1.501 dòng** trong nhóm cho phép dịch.
+- **Stage 1**: 61/61 câu `translate`; 14 câu `review` (chủ yếu intro `SP_AddAction`) chưa thay; 41 dòng `locked` giữ nguyên.
+- **Stage 2**: 29/29 câu `translate` hoàn thành; 43 dòng `locked` giữ nguyên.
+- **Stage 3**: 13/13 câu `translate` hoàn thành. Gồm tên màn, hội thoại rừng giữa đường và hai điều kiện thắng/điều kiện thua.
+- **Stage 4**: 53/53 câu `translate` hoàn thành. Gồm sự kiện cầu viện Gabriel, quyết định lập sứ đoàn, hội thoại Ashley/Sibyl và chạm trán.
+- **Stage 5**: 85/85 câu `translate` hoàn thành. Gồm biên giới Laxia, cứu Angelina/Miafa và lời thoại sau chiến đấu.
+- Giữ nguyên vị trí/thứ tự các mã `%s`, `%t`, `%z`, `%c`, `%N` trên 151 câu dịch mới; chỉ điền `vi` tại `mode=translate`, không đổi `source`, `mode`, `id`, `call`, `argument` hay `token`.
+- Xưng hô: đồng đội trẻ dùng **mình/cậu, bọn mình**; thuộc cấp với người chỉ huy dùng **em, thưa Chỉ huy, vâng**; quân địch gây hấn dùng **ta/ngươi**. Thuật ngữ/tên mới ghi tại `docs/GLOSSARY.md`, vẫn là phiên âm dự kiến cần QA theo bản hiển thị.
+- **713 dòng `review` chưa được mở khóa**; các chuỗi `locked` không can thiệp.
+- Font Unicode, giải mã ảnh UI, đo chữ/ngắt dòng ở runtime và kiểm thử Windows **chưa thực hiện**; repo hiện là dữ liệu dịch, **chưa có patch có thể chơi bằng tiếng Việt**.
 
 ## Việc tiếp theo
 
-1. Dịch từ `translations/stage3.json`, chỉ sửa `vi` ở `mode=translate`.
-2. Rà 713 dòng `review` sau khi có bằng chứng về mục đích hiển thị; riêng intro stage1 dùng `SP_AddAction` không được tự mở khóa.
-3. Chạy `python tools/scripts.py check` sau từng nhóm và cập nhật file này.
-4. Hoàn thành tích hợp Unicode/font trước khi đóng gói patch chạy trong game; không ép UTF-8 vào pipeline GBK cũ.
+1. Tiếp tục từ `translations/stage6.json` (170 dòng `translate`), chia thành nhóm vừa sức và theo sát câu chuyện/cách xưng hô.
+2. Rà lại tên địa danh/người và tình huống phức tạp khi có tư liệu trong game, nhất là các tên tạm phiên âm ở stage 4-6.
+3. Rà 713 dòng `review` với bằng chứng về hàm và tác dụng hiển thị; không tự đổi mode để lách validator.
+4. Chạy `python tools/scripts.py check` và `python tools/test_scripts.py` sau mỗi nhóm, cập nhật tiến độ và glossary.
+5. Hoàn thành đường hiển thị Unicode/font rồi mới tính việc đóng gói patch Windows; không ép UTF-8 vào pipeline GBK cũ.
