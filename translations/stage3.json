@@ -222,7 +222,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "中途林之战",
-    "vi": ""
+    "vi": "Trận chiến ở rừng giữa đường"
   },
   {
     "id": "stage3:1872",
@@ -231,7 +231,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "Stage-3 中途林之战",
-    "vi": ""
+    "vi": "Màn 3 - Trận chiến ở rừng giữa đường"
   },
   {
     "id": "stage3:1907",
@@ -240,7 +240,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这一带不管怎么绕都有敌军，该怎么办呢？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đi vòng hướng nào cũng gặp quân địch. Giờ phải làm sao đây?”"
   },
   {
     "id": "stage3:1921",
@@ -258,7 +258,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我观察过了，这里的敌人是这附近最少的。%N我们冲过去吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mình quan sát rồi, quân địch ở đây ít nhất vùng này.%NHay cứ xông qua đi!”"
   },
   {
     "id": "stage3:1989",
@@ -267,7 +267,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z26%c1“冲啊！！！”",
-    "vi": ""
+    "vi": "%s2%t4%z26%c1“Xông lên!!!”"
   },
   {
     "id": "stage3:2033",
@@ -276,7 +276,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z22%c1“嗯？！什么人！！”",
-    "vi": ""
+    "vi": "%s2%t4%z22%c1“Hả!? Ai đó!?”"
   },
   {
     "id": "stage3:2077",
@@ -285,7 +285,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“希蜜¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Shimi...”"
   },
   {
     "id": "stage3:2109",
@@ -294,7 +294,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“什么事？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Gì thế?”"
   },
   {
     "id": "stage3:2134",
@@ -303,7 +303,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你可以不用喊那么大声¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cậu không cần hét to đến thế đâu...”"
   },
   {
     "id": "stage3:2184",
@@ -312,7 +312,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z20%c1“你们几个鬼鬼祟祟在做什么？%N%t4%z25%c1快出来！”",
-    "vi": ""
+    "vi": "%s2%t4%z20%c1“Mấy người lén lút làm gì ở đó?%N%t4%z25%c1Ra đây mau!”"
   },
   {
     "id": "stage3:2241",
@@ -321,7 +321,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“啊¨被发现了¨¨，对不起¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Á... Bị phát hiện rồi... Xin lỗi mà...”"
   },
   {
     "id": "stage3:2264",
@@ -339,7 +339,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：1、我方一人以上往最北方脱离战场。%N　　　　　2、敌军全灭%N失败条件：妮雅战败",
-    "vi": ""
+    "vi": "Điều kiện thắng: 1. Ít nhất một đồng minh thoát ở phía bắc.%N                       2. Tiêu diệt toàn bộ quân địch.%NĐiều kiện thua: Niya bị đánh bại."
   },
   {
     "id": "stage3:2333",
@@ -690,7 +690,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z20%c1“呜¨¨大家快逃¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z20%c1“Ôi... Mọi người mau chạy đi...”"
   },
   {
     "id": "stage3:3124",
