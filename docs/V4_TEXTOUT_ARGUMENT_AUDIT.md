@@ -73,3 +73,8 @@ Bước kỹ thuật tiếp theo nên tập trung **đúng hai đích**: body h�
 - Nếu hash EXE khác, không đọc các địa chỉ cố định: `dependent_code_targets=[]`. Nếu RVA không hợp lệ, báo `unmapped_dependent_target_...` thay vì đọc vượt phạm vi.
 
 Chưa có patch playable. **1.881 bản dịch chính thức, 574 review và 573 tên nháp vẫn nguyên trạng.** Không đẩy bản vá lên `AngelSLG.exe` của người dùng mà chưa có đủ bằng chứng.
+
+
+## V5 đã xác minh hàm và hằng còn thiếu
+
+**V5 chạy thành công và đã được phân tích.** `0x4CE790` là **hàm `strlen` tối ưu tính byte-length trước NUL**, không còn là helper chưa xác định. `0x4F2B38` chứa hai dấu cách ASCII `20 20`, sau đó là `00 00`. Lời gọi `TextOutA` thứ hai thực sự dùng byte `strlen` cho `c`. Xem `docs/V5_STRLEN_ENGINE_AUDIT.md` để đọc disassembly, SHA từng vùng mã và các giới hạn kỹ thuật; các khẳng định 'chưa biết' ở phần V4 phía trên là lịch sử đúng tại thời điểm chưa nhận báo cáo V5.
