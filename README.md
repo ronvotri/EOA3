@@ -58,3 +58,10 @@ Bộ công cụ chỉ gồm script Python + dữ liệu JSON phục vụ đọc 
 
 
 **Sửa lỗi Windows diagnostic v3:** Nếu bản cũ báo `Import descriptor limit exceeded` sau khi chọn EXE, dùng gói công cụ mới. Parser giờ xử lý bảng import PE dùng descriptor null mà không dựa hoàn toàn vào `Size` của directory; sẽ ghi cảnh báo nếu bảng không hoàn chỉnh. Đây là sửa công cụ, không phải vá game. Xem `docs/PE_IMPORT_FIX.md`.
+
+
+## Báo cáo game Windows thực tế (11/10/2026)
+
+Đã có kết quả V3 từ `AngelSLG.exe` thật: PE32 SHA-256 `2d7d9705837e32c72685d69e50e426fde168ea8d435de90ba937cefbf5138baf`, 40 file BIN, chứng cứ xref `TextOutA`/`CreateFontIndirectA` đúng vị trí phân tích trước. Segoe UI trên máy thử có **0/165 ký tự bị thiếu glyph**, nhưng **1.788 câu tiếng Việt không viết được nguyên vẹn bằng CP936** nên chỉ sửa font là chưa đủ. Chi tiết: `docs/REAL_WINDOWS_EXE_AUDIT.md`.
+
+Có `python tools/analyze_windows_report.py <file-bao-cao.zip>` để kiểm tra và tóm tắt kết quả, không cần mở EXE hoặc thay game. Chưa có patch playable.
