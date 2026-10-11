@@ -69,7 +69,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "狄道首领战",
-    "vi": ""
+    "vi": "Đối đầu thủ lĩnh ở Didao"
   },
   {
     "id": "stage42:1566",
@@ -87,7 +87,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“拖泥带水的不像你呀，想单挑就早点说嘛！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Muốn đấu tay đôi thì cứ nói sớm, dây dưa đâu giống cậu!”"
   },
   {
     "id": "stage42:1607",
@@ -96,7 +96,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“早呀！怎么会不早呢！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Sớm chứ! Còn gì sớm hơn nữa!”"
   },
   {
     "id": "stage42:1618",
@@ -105,7 +105,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“在你身材走样前都还算早罗！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Trước khi cậu phát tướng thì vẫn còn sớm chán!”"
   },
   {
     "id": "stage42:1643",
@@ -114,7 +114,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừ!”"
   },
   {
     "id": "stage42:1654",
@@ -123,7 +123,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你嘴还是很利嘛！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Miệng lưỡi cậu vẫn sắc như dao nhỉ!”"
   },
   {
     "id": "stage42:1679",
@@ -132,7 +132,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嘿嘿～～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hê hê~”"
   },
   {
     "id": "stage42:1690",
@@ -141,7 +141,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“承让、承让。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Quá khen, quá khen!”"
   },
   {
     "id": "stage42:1704",
@@ -150,7 +150,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：敌军主将盈月战败。%N失败条件：我军主将丽凤战败。",
-    "vi": ""
+    "vi": "Điều kiện thắng: Đánh bại Yingyue.%NĐiều kiện thua: Lifeng bị đánh bại."
   },
   {
     "id": "stage42:1721",
@@ -240,7 +240,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“丽凤、丽凤，不要紧吧？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Lifeng, Lifeng! Cậu không sao chứ?”"
   },
   {
     "id": "stage42:1948",
@@ -249,7 +249,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯，我没事。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừ, mình không sao.”"
   },
   {
     "id": "stage42:1973",
@@ -258,7 +258,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“原来你们早就认识呀！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hóa ra hai người đã quen nhau từ trước à!?”"
   },
   {
     "id": "stage42:1998",
@@ -267,7 +267,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“是啊！当初她在武斗大会败给我，没想到当不%N上武林盟主就来沙漠当贼主啦！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừ! Ngày xưa cô ta thua mình ở đại hội võ thuật.%NKhông làm nổi minh chủ võ lâm nên ra sa mạc làm trùm cướp!”"
   },
   {
     "id": "stage42:2023",
@@ -276,7 +276,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你再说一次试看看！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Giỏi thì nói lại lần nữa xem!”"
   },
   {
     "id": "stage42:2053",
@@ -285,7 +285,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好啦，你们别再争了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thôi nào! Hai người đừng cãi nhau nữa!”"
   },
   {
     "id": "stage42:2064",
@@ -294,7 +294,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“既然彼此都认识，一切有话好说嘛！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đã quen biết cả rồi, có gì từ từ nói chứ!”"
   },
   {
     "id": "stage42:2089",
@@ -303,7 +303,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“唉呀～我也不想认识一个贼呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ôi trời, mình cũng chẳng muốn quen một tên cướp đâu!”"
   },
   {
     "id": "stage42:2100",
@@ -312,7 +312,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“她不认出我就没事了嘛！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Giá mà cô ta không nhận ra mình thì tốt!”"
   },
   {
     "id": "stage42:2125",
@@ -321,7 +321,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“少装清高了，谁不知道你只是搭着别人的风，%N过来叶虏鞑这儿游山玩水罢了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đừng làm bộ thanh cao! Ai chẳng biết cô chỉ theo chân%Nngười khác đến Yeluda chơi bời ngắm cảnh thôi!”"
   },
   {
     "id": "stage42:2136",
@@ -330,7 +330,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“早看清你的脑袋在想些什么了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ta nhìn thấu cô nghĩ gì từ lâu rồi!”"
   },
   {
     "id": "stage42:2161",
@@ -339,7 +339,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哦！？你倒是挺了解我嘛！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ồ!? Cậu hiểu mình đến thế cơ à!”"
   },
   {
     "id": "stage42:2186",
@@ -348,7 +348,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呃¨¨这¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ơ... chuyện đó...”"
   },
   {
     "id": "stage42:2211",
@@ -357,7 +357,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你们邦联的信我看过了，现在叶虏鞑的状况我%N比谁都还清楚。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ta đã xem quốc thư của Liên bang rồi.%NTình hình Yeluda bây giờ ta hiểu hơn ai hết.”"
   },
   {
     "id": "stage42:2222",
@@ -366,7 +366,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你们放心好了！有我在绝对不会让丽凤无法无%N天的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Yên tâm! Có ta ở đây, Lifeng đừng hòng%Nmuốn làm gì thì làm!”"
   },
   {
     "id": "stage42:2247",
@@ -375,7 +375,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你这家伙¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cái tên này...”"
   },
   {
     "id": "stage42:2272",
@@ -384,7 +384,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呃¨¨稍等一下¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ơ... khoan đã...”"
   },
   {
     "id": "stage42:2283",
@@ -393,7 +393,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你是说¨¨你要加入我们吗¨¨？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ý cô là... cô muốn gia nhập đội chúng tôi sao?”"
   },
   {
     "id": "stage42:2308",
@@ -402,7 +402,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“怎样！不行吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Sao? Không được à?”"
   },
   {
     "id": "stage42:2319",
@@ -411,7 +411,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“谁敢说不行，那我就叫出所有人来，再给你们%N一点颜色瞧瞧。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ai dám bảo không, ta gọi cả băng đến%Ncho các ngươi biết tay lần nữa!”"
   },
   {
     "id": "stage42:2344",
@@ -420,7 +420,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呃¨¨¨好吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ơ... được rồi!”"
   },
   {
     "id": "stage42:2355",
@@ -429,7 +429,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“希蜜，你觉得呢？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Shimi, cậu nghĩ sao?”"
   },
   {
     "id": "stage42:2380",
@@ -438,7 +438,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好啊好啊，我也想跟盈月学当山寨寨主。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hay quá! Mình cũng muốn học Yingyue làm trại chủ!”"
   },
   {
     "id": "stage42:2405",
@@ -447,7 +447,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嘿！这位小姐¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Này, cô nương...”"
   },
   {
     "id": "stage42:2416",
@@ -456,7 +456,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你打算转职盗贼系吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cậu định chuyển sang nghề đạo tặc thật à?”"
   },
   {
     "id": "stage42:2441",
@@ -465,7 +465,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“并、并没有啦。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Kh... không đâu mà!”"
   },
   {
     "id": "stage42:2455",
@@ -474,7 +474,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "盈月、雪夜加入成为伙伴",
-    "vi": ""
+    "vi": "Yingyue và Xueye trở thành đồng đội."
   },
   {
     "id": "stage42:2485",
@@ -483,7 +483,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那么¨¨夏美！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy thì... Xia Mei!”"
   },
   {
     "id": "stage42:2510",
@@ -492,7 +492,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“啊¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Dạ...?”"
   },
   {
     "id": "stage42:2521",
@@ -501,7 +501,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“盈月老大，你真的要加入他们呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đại ca Yingyue, chị thật sự theo họ sao!?”"
   },
   {
     "id": "stage42:2546",
@@ -510,7 +510,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“是啊！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừ!”"
   },
   {
     "id": "stage42:2557",
@@ -519,7 +519,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“所以天地寨就暂时交给你处理了，%N我过一阵子就会回来。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy trại Thiên Địa tạm giao cho em trông nom.%NÍt lâu nữa chị sẽ về.”"
   },
   {
     "id": "stage42:2582",
@@ -528,7 +528,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好的，那就交给我没问题！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Được, cứ giao cho em!”"
   },
   {
     "id": "stage42:2596",
@@ -537,7 +537,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "盈月、雪夜加入队伍",
-    "vi": ""
+    "vi": "Yingyue và Xueye gia nhập đội."
   },
   {
     "id": "stage42:2640",
@@ -555,7 +555,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“报告队长，刚刚去探过尤利尔的情况后发现，%N当地已经被大批敌军封锁，无法通行。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Báo đội trưởng! Tôi vừa thăm dò Uriel,%Nđịch đã phong tỏa kín, không thể đi qua.”"
   },
   {
     "id": "stage42:2713",
@@ -564,7 +564,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“居然连尤利尔都被占领¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ngay cả Uriel cũng thất thủ rồi sao...?”"
   },
   {
     "id": "stage42:2745",
@@ -573,7 +573,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“叶虏鞑北方的消息问我就对了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Muốn biết tin vùng bắc Yeluda thì cứ hỏi ta!”"
   },
   {
     "id": "stage42:2756",
@@ -582,7 +582,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“近期除了尤利尔之外，邻近的拉斐尔、沙利叶%N还有梅塔隆也都被占领了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Gần đây không chỉ Uriel mà Raphael, Sariel%Nvà Metaron quanh đó cũng đều thất thủ!”"
   },
   {
     "id": "stage42:2781",
@@ -591,7 +591,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“为、为什么会这样¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“T... tại sao lại như vậy...?”"
   },
   {
     "id": "stage42:2792",
@@ -600,7 +600,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“欧查军再强，也不可能在这么短暂的时间下将%N这几个国家占领呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Quân Ocha mạnh đến mấy cũng không thể%Nchiếm từng ấy nước trong thời gian ngắn được!”"
   },
   {
     "id": "stage42:2817",
@@ -609,7 +609,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“很简单。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đơn giản thôi.”"
   },
   {
     "id": "stage42:2828",
@@ -618,7 +618,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“只要她们取得不属于她们的力量¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chúng có được thứ sức mạnh vốn chẳng thuộc về mình...”"
   },
   {
     "id": "stage42:2853",
@@ -627,7 +627,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不属于她们的力量！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Sức mạnh không thuộc về chúng ư!?”"
   },
   {
     "id": "stage42:2878",
@@ -636,7 +636,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你们最近都没听说吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Gần đây mọi người không nghe chuyện đó sao?”"
   },
   {
     "id": "stage42:2889",
@@ -645,7 +645,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“叶虏鞑多处的天使之泉都变成黑色的泉水了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhiều suối Thiên Sứ ở Yeluda đã hóa đen rồi.”"
   },
   {
     "id": "stage42:2914",
@@ -654,7 +654,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“天使之泉变成黑色¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Suối Thiên Sứ biến thành màu đen sao...?”"
   },
   {
     "id": "stage42:2925",
@@ -663,7 +663,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那是怎么回事，可以说清楚点吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chuyện gì vậy? Cậu nói rõ hơn được không?”"
   },
   {
     "id": "stage42:2950",
@@ -672,7 +672,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“据说几个月前，欧查方面的贝力欧王国，他们%N境内的天使之泉从原本清澈透明的泉水逐渐变得%N黑浊。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nghe nói vài tháng trước, suối Thiên Sứ ở Belio%Nthuộc phe Ocha đã dần chuyển từ trong veo%Nsang đen đục.”"
   },
   {
     "id": "stage42:2961",
@@ -681,7 +681,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“但是喝下黑色泉水的人似乎都没有任何异状。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhưng lúc mới uống, người ta chẳng thấy gì khác thường.”"
   },
   {
     "id": "stage42:2972",
@@ -690,7 +690,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“只是当时间过得越久之后，渐渐发现有部分的%N人变强了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mãi về sau, người ta mới nhận ra một số người%Ndần trở nên mạnh hơn.”"
   },
   {
     "id": "stage42:2997",
@@ -699,7 +699,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“所谓的变强是指战力方面吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mạnh hơn là về sức chiến đấu sao?”"
   },
   {
     "id": "stage42:3022",
@@ -708,7 +708,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯！算是。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừ, đại khái thế!”"
   },
   {
     "id": "stage42:3033",
@@ -717,7 +717,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“其实应该说，喝下黑色天使之泉的人，无论在%N战斗的力量或魔法的力量，都会毫无自主的大幅%N提升。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ai uống nước suối Thiên Sứ đen cũng bị tăng mạnh%Nsức chiến đấu lẫn ma lực, hoàn toàn ngoài%Nkhả năng kiểm soát của bản thân.”"
   },
   {
     "id": "stage42:3044",
@@ -726,7 +726,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“贝力欧女王，就是欧查的首领，听说她得知这%N种事情发生后，曾经试着禁止国家内任何人喝下%N这种黑色泉水。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nghe nói Nữ hoàng Belio, tức thủ lĩnh Ocha,%Ntừng cấm dân chúng uống loại nước đen đó%Nkhi biết chuyện.”"
   },
   {
     "id": "stage42:3055",
@@ -735,7 +735,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不过大家听说喝了泉水会变得更强都求之不得%N了，所以要阻止恐怕是不可能的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhưng ai nghe uống vào sẽ mạnh lên cũng muốn thử,%Nnên e rằng chẳng thể ngăn nổi.”"
   },
   {
     "id": "stage42:3080",
@@ -744,7 +744,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“原来如此，所以她们能在短时间占领下这么多%N个国家，就是因为黑色泉水的缘故了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ra vậy! Chúng chiếm nhanh ngần ấy quốc gia%Nđều nhờ nước suối đen!”"
   },
   {
     "id": "stage42:3105",
@@ -753,7 +753,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯，就是这样。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừ, chính thế.”"
   },
   {
     "id": "stage42:3130",
@@ -762,7 +762,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“原来如此，原来如此。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thì ra là vậy, thì ra là vậy!”"
   },
   {
     "id": "stage42:3141",
@@ -771,7 +771,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“怪不得你这次跟我打得特别起劲。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thảo nào lần này cô đấu với ta hăng thế!”"
   },
   {
     "id": "stage42:3166",
@@ -780,7 +780,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你别乱说。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đừng có nói bậy!”"
   },
   {
     "id": "stage42:3177",
@@ -789,7 +789,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我可没喝黑色泉水呦。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ta có uống nước suối đen đâu nhé!”"
   },
   {
     "id": "stage42:3202",
@@ -798,7 +798,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我也没说你有喝呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ta có bảo cô đã uống đâu!”"
   },
   {
     "id": "stage42:3213",
@@ -807,7 +807,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“紧张什么，作贼心虚呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Sao căng thẳng thế? Có tật giật mình à?”"
   },
   {
     "id": "stage42:3238",
@@ -816,7 +816,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我知道你做郡主更心虚，只怕哪天被人暗杀。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ta biết cô làm quận chúa còn chột dạ hơn, cứ sợ một ngày bị ám sát mà!”"
   },
   {
     "id": "stage42:3263",
@@ -825,7 +825,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“会来暗杀我的，看来绝对不会有别人了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nếu có kẻ đến ám sát ta, chắc chắn chỉ có một người!”"
   },
   {
     "id": "stage42:3274",
@@ -834,7 +834,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“盈月，等你哦～～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Yingyue, ta chờ đấy~!”"
   },
   {
     "id": "stage42:3299",
@@ -843,7 +843,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好了，你们别斗了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thôi! Hai người đừng chọc nhau nữa!”"
   },
   {
     "id": "stage42:3324",
@@ -852,7 +852,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“没办法，那家伙的态度让人看了很想打！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tại cái thái độ của cô ta khiến người ta ngứa tay thôi!”"
   },
   {
     "id": "stage42:3349",
@@ -861,7 +861,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“别生气了，已经不是拌嘴的时候了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đừng giận nữa! Giờ đâu phải lúc cãi nhau!”"
   },
   {
     "id": "stage42:3360",
@@ -870,7 +870,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“现在各个地方都被封锁占领了，我们该找个%N办法先回到拉锡叶吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Các ngả đều bị phong tỏa chiếm đóng cả rồi.%NPhải tìm cách về Laxia trước đã!”"
   },
   {
     "id": "stage42:3385",
@@ -879,7 +879,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“坐船。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đi thuyền.”"
   },
   {
     "id": "stage42:3396",
@@ -888,7 +888,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“回香格里拉，从白虎郡搭商船到加百列就省%N得遇上敌人罗。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Quay lại Shangri-La, từ quận Bạch Hổ%Nđón thuyền buôn sang Gabriel để tránh quân địch.”"
   },
   {
     "id": "stage42:3421",
@@ -897,7 +897,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好主意，那我们走吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ý hay đấy! Đi thôi!”"
   },
   {
     "id": "stage42:3435",
@@ -951,7 +951,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呃¨¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ơ...”"
   },
   {
     "id": "stage42:3569",
@@ -960,7 +960,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“想跑哪去！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Định chạy đi đâu!”"
   },
   {
     "id": "stage42:3614",
@@ -969,7 +969,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“可恶¨¨我就不信每次都会输你¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Khốn kiếp... Ta không tin lần nào cũng thua ngươi...”"
   },
   {
     "id": "stage42:3625",
@@ -978,7 +978,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嘿嘿～看招！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hê hê~ Xem chiêu đây!”"
   },
   {
     "id": "stage42:3657",
@@ -987,7 +987,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呃啊！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Á!”"
   },
   {
     "id": "stage42:3668",
@@ -996,7 +996,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“小人¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đồ tiểu nhân...”"
   },
   {
     "id": "stage42:3679",
@@ -1005,7 +1005,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“刚刚应该先让你消失才对¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Lẽ ra lúc nãy ta phải xử ngươi trước mới đúng...”"
   },
   {
     "id": "stage42:3704",
@@ -1014,7 +1014,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这叫败部复活！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thua keo này, bày keo khác!”"
   },
   {
     "id": "stage42:3715",
@@ -1023,7 +1023,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“懂不懂！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hiểu chưa!”"
   },
   {
     "id": "stage42:3741",
@@ -1050,7 +1050,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你好样的！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Khá lắm!”"
   },
   {
     "id": "stage42:3808",
@@ -1059,7 +1059,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那是我训练有素。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đó là nhờ ta luyện tập kỹ càng!”"
   },
   {
     "id": "stage42:3833",
@@ -1068,7 +1068,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừ!”"
   },
   {
     "id": "stage42:3859",
