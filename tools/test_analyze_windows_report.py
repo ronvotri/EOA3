@@ -114,6 +114,21 @@ class RealReportInspectionTests(unittest.TestCase):
         self.assertIsNone(report["font_probe"]["missing_glyph_candidate_count"])
         self.assertFalse(report["measured_desktop_font_samples_sorted_by_ratio"])
 
+    def test_optional_engine_windows_verify_sha_and_scope(self):
+        docs = data()
+        docs["engine_callsite_slices.json"] = {
+            "status": "read_only_code_neighborhoods_not_disassembly_or_patch",
+            "exe_sha256": "a"*64,
+            "matches_documented_exe_sha256": False,
+            "candidate_count_by_api": {"TextOutA": 2},
+        }
+        summary = analyze_reports(docs)
+        self.assertTrue(summary["engine_code_slice_evidence"]["present"])
+        self.assertEqual(summary["engine_code_slice_evidence"]["candidate_count_by_api"]["TextOutA"], 2)
+        docs["engine_callsite_slices.json"]["exe_sha256"] = "b"*64
+        with self.assertRaisesRegex(ValueError, "SHA-256"):
+            analyze_reports(docs)
+
     def test_zip_is_never_extracted_and_rejects_unexpected_files(self):
         with tempfile.TemporaryDirectory() as root:
             path = Path(root)/"diag.zip"
