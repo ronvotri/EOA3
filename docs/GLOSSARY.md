@@ -102,6 +102,18 @@ Bảng tên hiển thị **tạm thời** phục vụ dịch, không sửa các 
 | 港湾驱逐战 | Đánh đuổi quân địch ở cảng | Tên màn 22 |
 | 追击天之顶 | Truy đuổi đến Đỉnh Trời | Tên màn 24 |
 
+| 伊丝塔 | Ishtar | Nữ hoàng quá cố của Ocha được nhắc ở stage27; phiên âm tạm |
+| 柯凡迪雅神殿 | Đền Covandia | Đền tại Maya bị người nhiễm nước đen chiếm, stage26 |
+| 普兰可 | Planko | Người bảo vệ Đền Covandia, stage26; phiên âm tạm |
+| 荷洛卡斯大神殿 | Đại Đền Holokas | Thánh địa tại Maya, chiến trường stage27; phiên âm tạm |
+| 太阳女神 | Nữ thần Mặt Trời | Tín ngưỡng được nhắc trong lời tiễn biệt Winnie |
+| 镇魂者之剑 | Lưỡi kiếm Trấn Hồn | Tên kịch bản stage25; không đồng nhất với thuốc Thuốc Trấn Hồn |
+| 失心者狂乱 | Cơn điên loạn của kẻ mất trí | Tên màn 26 |
+| 哭泣的圣战 | Thánh chiến đẫm nước mắt | Tên nội bộ màn 27; khác tên màn hiển thị |
+| 最终的圣战 | Trận thánh chiến cuối cùng | Tiêu đề hiển thị màn 27 |
+| 夜闯中途林 | Đột nhập rừng giữa đêm | Nhánh phụ màn 3 (stage40) |
+| 突围响马村 | Phá vòng vây làng cướp | Nhánh phụ màn 7 (stage41) |
+
 ## Khẩu khí
 
 - Đồng đội trẻ: **mình/cậu, bọn mình**; câu thoại hoàn chỉnh, tự nhiên, có nhịp cảm xúc, không quá máy móc.
