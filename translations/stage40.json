@@ -195,7 +195,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：1、我方一人以上往最北方脱离战场。%N　　　　　2、敌军全灭%N失败条件：妮雅战败",
-    "vi": "Điều kiện thắng: 1. Có ít nhất một đồng đội thoát về cực bắc chiến trường.%N2. Tiêu diệt toàn bộ quân địch.%NĐiều kiện thua: Niya bị đánh bại."
+    "vi": "Điều kiện thắng: 1. Có ít nhất một đồng đội thoát về cực bắc chiến trường.%N 2. Tiêu diệt toàn bộ quân địch.%NĐiều kiện thua: Niya bị đánh bại."
   },
   {
     "id": "stage40:1747",
