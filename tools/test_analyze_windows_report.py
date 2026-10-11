@@ -147,6 +147,46 @@ class RealReportInspectionTests(unittest.TestCase):
             self.assertEqual(len(parsed), 5)
             self.assertTrue(analyze_reports(parsed)["engine_code_slice_evidence"]["present"])
 
+    def test_eight_member_v8_zip_accepts_new_evidence_and_validates_sha(self):
+        with tempfile.TemporaryDirectory() as root:
+            path = Path(root)/"diag-v8.zip"
+            docs = data()
+            docs["engine_callsite_slices.json"] = {
+                "status": "read_only_code_neighborhoods_not_disassembly_or_patch",
+                "exe_sha256": "a"*64,
+                "matches_documented_exe_sha256": False,
+            }
+            docs["engine_followup_evidence.json"] = {
+                "status": "bounded_helper_caller_evidence_not_a_patch",
+                "exe_sha256": "a"*64,
+                "matches_documented_exe_sha256": False,
+                "target_code_windows": [],
+                "raw_call_reference_scan": None,
+                "angelscript_marker_locations": [],
+            }
+            docs["renderer_trace_v8.json"] = {
+                "status": "read_only_v8_renderer_trace_code_fragments_not_disassembly_or_patch",
+                "exe_sha256": "a"*64,
+                "matches_documented_exe_sha256": False,
+                "samples": [], "palette_reference_bytes": None,
+                "candidate_calls": None,
+            }
+            with ZipFile(path, "w") as z:
+                for name, item in docs.items():
+                    z.writestr(name, json.dumps(item))
+                z.writestr("font_preview.html","<p>font preview test</p>")
+            result = analyze_reports(read_zip(path))["renderer_trace_v8"]
+            self.assertTrue(result["present"])
+            self.assertFalse(result["known_exe_matched"])
+            self.assertEqual(result["bounded_code_windows"], 0)
+            docs["renderer_trace_v8.json"]["exe_sha256"] = "b"*64
+            with self.assertRaisesRegex(ValueError, "V8 renderer trace SHA-256"):
+                analyze_reports(docs)
+            docs["renderer_trace_v8.json"]["exe_sha256"] = "a"*64
+            docs["renderer_trace_v8.json"]["matches_documented_exe_sha256"] = True
+            with self.assertRaisesRegex(ValueError, "incomplete V8"):
+                analyze_reports(docs)
+
     def test_seven_member_v6_zip_validates_followup_sha_and_counts(self):
         with tempfile.TemporaryDirectory() as root:
             path = Path(root)/"diag-v6.zip"
