@@ -155,3 +155,11 @@ Cập nhật: 2026-10-11.
 - **`0x42ADDB` CALL trực tiếp `0x41C790`** với con trỏ chuỗi tạm và các đối số khác. Đây là đầu mối mới để lần đường từ text parser → hàm tiêu thụ chuỗi. Chưa có body `0x41C790` trong báo cáo cũ, chưa nối được ANGELSCRIPT → TextOutA.
 - **Bảo vệ QA:** không gửi UTF-8 trực tiếp vì `CharNextA` là ANSI; đoạn copy dùng số byte trong khi giới hạn tùy cờ đếm ký tự, và byte-capacity check không hiện trong cửa sổ (không đồng nghĩa đã chứng minh overflow).
 - Thêm `docs/V7_TEXT_SEGMENT_HANDOFF.md`, `tools/audit_v7_text_handoff.py` + synthetic tests; không tạo bộ Diagnostic mới. **1.881 translate, 574 review, 573 tên nháp**, không có patch playable.
+
+
+## V7: nhánh chọn thuộc tính theo bảng 16×3, đối chiếu mã `%c` (12/10/2026)
+
+- Từ V7 `0x42AC6E..0x42ACEC` đã xác minh: helper nhận pointer+2, trả numeric index; với số khác zero, **signed `%16` rồi `*3`**, lấy 3 signed bytes từ bảng `0x522F44`, gọi `0x42AED0` → `0x41AC20`; với số 0 truyền `0x0000FFFE` vào `0x41AC20`. Chưa được phép khẳng định màu RGB hay code kích hoạt là `%c`.
+- Kiểm `source/*.json` 40 file gốc cho **4.236 token chuỗi**: `%c1` 1.634 lần, `%s` 1.655, `%t` 1.656, `%z` 1.656, `%N` 336. Hình thức `%c1` khớp cấu trúc `start+2` nhưng **không có bằng chứng direct branch selector** trong V7.
+- Thêm `tools/audit_v7_palette_commands.py` + synthetic tests; `--source-only` cho CI xuất thống kê từ corpus thật. Chi tiết `docs/V7_PALETTE_COMMAND_CORRELATION.md`.
+- Không thay source/translation/game EXE. **1.881 translate / 574 review / 573 name drafts; không có patch chơi được**.
