@@ -52,7 +52,7 @@ class FontBufferAuditTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,"every required"):
             verify_windows(report,expected,sha)
         report,expected,sha=sample()
-        report["target_code_windows"][0]["purpose"]="font_helper_two_0x41a8c0"
+        report["target_code_windows"][1]=dict(report["target_code_windows"][0])
         with self.assertRaisesRegex(ValueError,"Unexpected/duplicated"):
             verify_windows(report,expected,sha)
 
