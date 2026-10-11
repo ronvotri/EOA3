@@ -1,5 +1,15 @@
 # Bàn giao cho cloud
 
+## CHECKPOINT MỚI NHẤT: V7 truy được đoạn chữ ANSI → callee 0x41C790 (12/10/2026)
+
+- Từ **ZIP V7 thật đã có** `EOA3-Windows-Diagnostics(4).zip`, SHA EXE `2d7d9705837e32c72685d69e50e426fde168ea8d435de90ba937cefbf5138baf`, disassemble đầy đủ vùng `0x42AC60..0x42ADE0`, **không cần người dùng gửi lại file hoặc chạy tool mới**.
+- Xác minh vòng `0x42AD2F`: stop ở NUL; dấu `%` stop nếu `[ebp-0x14]&0xff==0`; mỗi bước `user32.CharNextA` tại `0x42AD54` cập nhật con trỏ. Nếu cờ `[owner+0x1C]` khác zero, dừng khi số bước CharNextA đạt `[ebp-0x0c]` (số ký tự ANSI, **không phải số byte**). Đừng đồng nhất `owner+0x1c` ở đây với font object `this+0x1c` từ 0x41A8C0.
+- **MỚI:** tại `0x42AD87` tính **byte_count = current_ptr - start_ptr**; `0x42AD99` gọi `0x4CD5F0` bằng (dest=[ebp-0x1038], src, byte_count) kiểu `memcpy`; `0x42ADA7` gắn NUL vào buffer tạm; `0x42ADDB` **CALL trực tiếp `0x41C790`** với ECX=owner+0x3C, con trỏ buffer tạm, 2 đối số hàm, 2 WORD owner và con trỏ global. Đây là **mắt xích được chứng minh từ routine tách chuỗi sang một consumer chưa biết chức năng**, chưa đủ chứng minh parser ANGELSCRIPT → renderer TextOutA.
+- Có **rủi ro cần kiểm tra**: chưa thấy kiểm tra dung lượng buffer tạm `[ebp-0x1038]` ngay trước copy; không được khẳng định lỗ hổng vì có thể giới hạn thượng nguồn.
+- Thêm `tools/audit_v7_text_handoff.py` (khóa SHA V7, exact landmarks x86 + rel32 CALL, output JSON summary) và `tools/test_audit_v7_text_handoff.py` (test chỉ dùng byte giả). Toàn bộ chứng cứ tại **`docs/V7_TEXT_SEGMENT_HANDOFF.md`**.
+- **ĐIỂM CẦN THEO TIẾP:** `0x41C790` **ưu tiên cao hơn** `0x41ABF0` và `0x41A600` để xác minh đường text vào font/surface; body callee không có trong V7. Không tự động tạo V8 hoặc sửa EXE. Corpus **1.881 translate/574 review/573 name drafts**, chưa có playable patch.
+
+
 ## CHECKPOINT mới nhất: V7 có đủ 4 cửa sổ, đã đọc được hai helper font (11–12/10/2026)
 
 - Người dùng đã gửi **`EOA3-Windows-Diagnostics(4).zip` + `EOA3-Diagnostic-Log(5).txt`**. Báo cáo **SUCCESS**, ZIP 7 file, đúng SHA EXE **`2d7d9705837e32c72685d69e50e426fde168ea8d435de90ba937cefbf5138baf`**, `target_code_windows=4/4` (288/448/192/384 byte), warnings rỗng. **KHÔNG yêu cầu user chạy lại V7!**
