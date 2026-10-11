@@ -1,12 +1,15 @@
 {
-  "_note": "DISPLAY DRAFT ONLY. 495 entries: 14 terrain, 63 skill names, 58 item names, 360 class labels (95 unique). NEVER loaded by current runtime/build. All corresponding database rows remain review; verify lookup references, original nomenclature, and in-game rendering before any promotion.",
+  "_note": "DISPLAY-ONLY EDITORIAL DRAFT, not loaded by game/packer. 573 DataBase review rows have optional candidate labels; one additional unknown-call review exists at stage24:4663. Preserve all original name lookup keys pending verified executable/runtime analysis.",
   "stage": "DataBase",
   "status": "draft_not_approved_for_runtime",
   "counts": {
     "terrain": 14,
     "skill": 63,
     "item": 58,
-    "classes": 360
+    "classes": 360,
+    "race": 12,
+    "card": 38,
+    "user_bank": 28
   },
   "entries": [
     {
@@ -4823,6 +4826,786 @@
       "vi_draft": "Hề",
       "risk": "name_may_be_used_as_lookup_key",
       "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:247",
+      "token": 247,
+      "call": "AddRaceData",
+      "argument": 1,
+      "source": "玛雅",
+      "vi_draft": "Maya",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "internal_or_display_needs_runtime_check"
+    },
+    {
+      "id": "DataBase:268",
+      "token": 268,
+      "call": "AddRaceData",
+      "argument": 1,
+      "source": "香格里拉",
+      "vi_draft": "Shangri-La",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "internal_or_display_needs_runtime_check"
+    },
+    {
+      "id": "DataBase:289",
+      "token": 289,
+      "call": "AddRaceData",
+      "argument": 1,
+      "source": "爱尔达",
+      "vi_draft": "Elda",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "internal_or_display_needs_runtime_check"
+    },
+    {
+      "id": "DataBase:310",
+      "token": 310,
+      "call": "AddRaceData",
+      "argument": 1,
+      "source": "玛雅__敌军",
+      "vi_draft": "Maya — quân địch",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "internal_or_display_needs_runtime_check"
+    },
+    {
+      "id": "DataBase:331",
+      "token": 331,
+      "call": "AddRaceData",
+      "argument": 1,
+      "source": "香格里拉__敌军",
+      "vi_draft": "Shangri-La — quân địch",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "internal_or_display_needs_runtime_check"
+    },
+    {
+      "id": "DataBase:352",
+      "token": 352,
+      "call": "AddRaceData",
+      "argument": 1,
+      "source": "爱尔达__敌军",
+      "vi_draft": "Elda — quân địch",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "internal_or_display_needs_runtime_check"
+    },
+    {
+      "id": "DataBase:373",
+      "token": 373,
+      "call": "AddRaceData",
+      "argument": 1,
+      "source": "玛雅疫病军",
+      "vi_draft": "Quân dịch bệnh Maya",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "internal_or_display_needs_runtime_check"
+    },
+    {
+      "id": "DataBase:394",
+      "token": 394,
+      "call": "AddRaceData",
+      "argument": 1,
+      "source": "香格里拉II",
+      "vi_draft": "Shangri-La II",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "internal_or_display_needs_runtime_check"
+    },
+    {
+      "id": "DataBase:415",
+      "token": 415,
+      "call": "AddRaceData",
+      "argument": 1,
+      "source": "爱尔达疫病军",
+      "vi_draft": "Quân dịch bệnh Elda",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "internal_or_display_needs_runtime_check"
+    },
+    {
+      "id": "DataBase:436",
+      "token": 436,
+      "call": "AddRaceData",
+      "argument": 1,
+      "source": "古世纪玛雅",
+      "vi_draft": "Maya thời cổ",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "internal_or_display_needs_runtime_check"
+    },
+    {
+      "id": "DataBase:457",
+      "token": 457,
+      "call": "AddRaceData",
+      "argument": 1,
+      "source": "香格里拉III",
+      "vi_draft": "Shangri-La III",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "internal_or_display_needs_runtime_check"
+    },
+    {
+      "id": "DataBase:478",
+      "token": 478,
+      "call": "AddRaceData",
+      "argument": 1,
+      "source": "爱尔达恶魔军",
+      "vi_draft": "Quân quỷ Elda",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "internal_or_display_needs_runtime_check"
+    },
+    {
+      "id": "DataBase:33135",
+      "token": 33135,
+      "call": "AddUserBank",
+      "argument": 1,
+      "source": "妮雅",
+      "vi_draft": "Niya",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:33208",
+      "token": 33208,
+      "call": "AddUserBank",
+      "argument": 1,
+      "source": "希蜜",
+      "vi_draft": "Shimi",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:33281",
+      "token": 33281,
+      "call": "AddUserBank",
+      "argument": 1,
+      "source": "伊恩",
+      "vi_draft": "Ian",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:33354",
+      "token": 33354,
+      "call": "AddUserBank",
+      "argument": 1,
+      "source": "爱希莉",
+      "vi_draft": "Ashley",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:33427",
+      "token": 33427,
+      "call": "AddUserBank",
+      "argument": 1,
+      "source": "西碧儿",
+      "vi_draft": "Sibyl",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:33500",
+      "token": 33500,
+      "call": "AddUserBank",
+      "argument": 1,
+      "source": "安洁莉娜",
+      "vi_draft": "Angelina",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:33573",
+      "token": 33573,
+      "call": "AddUserBank",
+      "argument": 1,
+      "source": "米雅法儿",
+      "vi_draft": "Miafa",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:33646",
+      "token": 33646,
+      "call": "AddUserBank",
+      "argument": 1,
+      "source": "丽凤",
+      "vi_draft": "Lifeng",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:33719",
+      "token": 33719,
+      "call": "AddUserBank",
+      "argument": 1,
+      "source": "青色",
+      "vi_draft": "Qingse",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:33792",
+      "token": 33792,
+      "call": "AddUserBank",
+      "argument": 1,
+      "source": "爱玉",
+      "vi_draft": "Aiyu",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:33865",
+      "token": 33865,
+      "call": "AddUserBank",
+      "argument": 1,
+      "source": "盈月",
+      "vi_draft": "Yingyue",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:33938",
+      "token": 33938,
+      "call": "AddUserBank",
+      "argument": 1,
+      "source": "雪夜",
+      "vi_draft": "Xueye",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:34011",
+      "token": 34011,
+      "call": "AddUserBank",
+      "argument": 1,
+      "source": "温妮菲德",
+      "vi_draft": "Winifred",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:34084",
+      "token": 34084,
+      "call": "AddUserBank",
+      "argument": 1,
+      "source": "英格丽",
+      "vi_draft": "Ingrid",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:34157",
+      "token": 34157,
+      "call": "AddUserBank",
+      "argument": 1,
+      "source": "赫莉",
+      "vi_draft": "Heli",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:34230",
+      "token": 34230,
+      "call": "AddUserBank",
+      "argument": 1,
+      "source": "夏美",
+      "vi_draft": "Xia Mei",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:34303",
+      "token": 34303,
+      "call": "AddUserBank",
+      "argument": 1,
+      "source": "多儿莉卡",
+      "vi_draft": "Dorlica",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:34376",
+      "token": 34376,
+      "call": "AddUserBank",
+      "argument": 1,
+      "source": "耶里朵",
+      "vi_draft": "Yerido",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:34449",
+      "token": 34449,
+      "call": "AddUserBank",
+      "argument": 1,
+      "source": "焰舞",
+      "vi_draft": "Yanwu",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:34522",
+      "token": 34522,
+      "call": "AddUserBank",
+      "argument": 1,
+      "source": "百灵",
+      "vi_draft": "Bailing",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:34595",
+      "token": 34595,
+      "call": "AddUserBank",
+      "argument": 1,
+      "source": "玛西亚",
+      "vi_draft": "Marcia",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:34668",
+      "token": 34668,
+      "call": "AddUserBank",
+      "argument": 1,
+      "source": "多明妮卡",
+      "vi_draft": "Dominica",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:34741",
+      "token": 34741,
+      "call": "AddUserBank",
+      "argument": 1,
+      "source": "帕托克",
+      "vi_draft": "Patok",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:34814",
+      "token": 34814,
+      "call": "AddUserBank",
+      "argument": 1,
+      "source": "爱琪可",
+      "vi_draft": "Aiqike",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:34887",
+      "token": 34887,
+      "call": "AddUserBank",
+      "argument": 1,
+      "source": "卡缇拉",
+      "vi_draft": "Katila",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:34960",
+      "token": 34960,
+      "call": "AddUserBank",
+      "argument": 1,
+      "source": "曼宁",
+      "vi_draft": "Manning",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:35033",
+      "token": 35033,
+      "call": "AddUserBank",
+      "argument": 1,
+      "source": "艾若绮",
+      "vi_draft": "Enoki",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:35106",
+      "token": 35106,
+      "call": "AddUserBank",
+      "argument": 1,
+      "source": "普兰可",
+      "vi_draft": "Planko",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "tentative"
+    },
+    {
+      "id": "DataBase:32442",
+      "token": 32442,
+      "call": "AddCard",
+      "argument": 1,
+      "source": "有马拓也",
+      "vi_draft": "Arima Takuya",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:32451",
+      "token": 32451,
+      "call": "AddCard",
+      "argument": 1,
+      "source": "有马拓也",
+      "vi_draft": "Arima Takuya",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:32460",
+      "token": 32460,
+      "call": "AddCard",
+      "argument": 1,
+      "source": "有马拓也",
+      "vi_draft": "Arima Takuya",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:32469",
+      "token": 32469,
+      "call": "AddCard",
+      "argument": 1,
+      "source": "有马拓也",
+      "vi_draft": "Arima Takuya",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:32478",
+      "token": 32478,
+      "call": "AddCard",
+      "argument": 1,
+      "source": "有马拓也",
+      "vi_draft": "Arima Takuya",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:32487",
+      "token": 32487,
+      "call": "AddCard",
+      "argument": 1,
+      "source": "有马拓也",
+      "vi_draft": "Arima Takuya",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:32496",
+      "token": 32496,
+      "call": "AddCard",
+      "argument": 1,
+      "source": "有马拓也",
+      "vi_draft": "Arima Takuya",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:32820",
+      "token": 32820,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:32829",
+      "token": 32829,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:32838",
+      "token": 32838,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:32847",
+      "token": 32847,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:32856",
+      "token": 32856,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:32865",
+      "token": 32865,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:32874",
+      "token": 32874,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:32883",
+      "token": 32883,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:32892",
+      "token": 32892,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:32901",
+      "token": 32901,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:32910",
+      "token": 32910,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:32919",
+      "token": 32919,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:32928",
+      "token": 32928,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:32937",
+      "token": 32937,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:32946",
+      "token": 32946,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:32955",
+      "token": 32955,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:32964",
+      "token": 32964,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:32973",
+      "token": 32973,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:32982",
+      "token": 32982,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:32991",
+      "token": 32991,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:33000",
+      "token": 33000,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:33009",
+      "token": 33009,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:33018",
+      "token": 33018,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:33027",
+      "token": 33027,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:33036",
+      "token": 33036,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:33045",
+      "token": 33045,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:33054",
+      "token": 33054,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:33063",
+      "token": 33063,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:33072",
+      "token": 33072,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:33081",
+      "token": 33081,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
+    },
+    {
+      "id": "DataBase:33090",
+      "token": 33090,
+      "call": "AddCard",
+      "argument": 1,
+      "source": " 小 婷 ",
+      "vi_draft": "Tiểu Đình",
+      "risk": "name_may_be_used_as_lookup_key",
+      "confidence": "name_transliteration_tentative"
     }
   ]
 }
