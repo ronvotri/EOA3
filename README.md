@@ -25,6 +25,13 @@ Số dòng là số chuỗi xuất hiện, bao gồm lặp lại; không phải 
 
 Đã dịch xong toàn bộ 1.881 chuỗi thuộc `mode=translate` hiện hành. Chưa có bản build/font Unicode chạy được; xem `docs/PROGRESS.md` và `docs/REVIEW_AUDIT.md` về tiến độ thực tế và các khóa dữ liệu chưa thể đổi.
 
+
+## Bản nháp tên hiển thị chưa dùng trong game
+
+`translations/DISPLAY_NAMES_DRAFT.json` chứa **495 đề xuất Việt hóa** cho 14 loại địa hình, 63 tên kỹ năng, 58 tên vật phẩm và 360 bản ghi lớp nhân vật. **Không được đưa file này vào bản vá/packer** cho đến khi biết chắc tên nào chỉ phục vụ UI, tên nào được engine dùng làm khóa.
+
+Kiểm tra bằng `python tools/audit_names.py check` và `python tools/test_name_audit.py`; báo cáo tham chiếu tạo bởi `python tools/audit_names.py report --out build/name_reference_report.json`. Xem `docs/NAME_REFERENCE_AUDIT.md`.
+
 ## Giới hạn đóng gói
 
 `python tools/scripts.py build` chỉ tạo bản mã GBK cũ. Công cụ sẽ dừng nếu bản dịch có ký tự không biểu diễn được, không xóa dấu hay thay ký tự âm thầm. Cần hoàn thành phần font/mã hóa và kiểm thử Windows trước khi có bản Việt hóa dùng được. `check` chấp nhận bản dịch Unicode để công việc dịch trên cloud có thể tiến hành trước.
