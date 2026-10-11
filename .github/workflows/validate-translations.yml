@@ -36,6 +36,14 @@ jobs:
         run: python tools/test_windows_font_probe.py
       - name: Test consolidated diagnostic ZIP on synthetic EXE
         run: python tools/test_windows_diagnostic_bundle.py
+      - name: Test safe portable Windows tool packaging
+        run: python tools/test_package_diagnostics.py
+      - name: Package portable Windows diagnostics (no game files)
+        run: python tools/package_diagnostics.py --out build/EOA3-Windows-Diagnostic-Tool.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: eoa3-windows-oneclick-diagnostic-tool
+          path: build/EOA3-Windows-Diagnostic-Tool.zip
       - name: Generate font and line-wrap QA report
         run: python tools/audit_unicode_layout.py report --out build/unicode_layout_report.json
       - name: Export potential string references
