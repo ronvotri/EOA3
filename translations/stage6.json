@@ -1527,7 +1527,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "妮雅以拉锡叶使者名义向加百列赫拉女帝说明拉锡叶现况。",
-    "vi": "Với tư cách sứ giả Laxia, Niya trình bày tình cảnh của đất nước trước Nữ hoàng Hera của Gabriel."
+    "vi": "Đặc sứ Niya báo tình hình Laxia với Nữ hoàng Hera xứ Gabriel."
   },
   {
     "id": "stage6:4814",
@@ -1536,7 +1536,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "并且请赫拉女帝出兵协助，然而¨¨¨",
-    "vi": "Cô khẩn thiết xin Nữ hoàng Hera xuất quân giúp đỡ. Thế nhưng..."
+    "vi": "Cô xin Nữ hoàng Hera gửi quân giúp, nhưng..."
   },
   {
     "id": "stage6:4830",
@@ -2013,7 +2013,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "进入欧格斯市后，于邦联议会中心陈辞拉锡叶遭遇，并央请邦联派兵协助。",
-    "vi": "Tại thành Ogas, họ trình bày thảm cảnh của Laxia trước Hội đồng Liên bang và thỉnh cầu gửi quân hỗ trợ."
+    "vi": "Tại Ogas, họ kể nỗi khổ của Laxia và xin Liên bang viện binh."
   },
   {
     "id": "stage6:5972",
@@ -2022,7 +2022,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "在议会中，各国代表团分为两派争辩激烈。",
-    "vi": "Đại biểu các nước tại hội nghị chia làm hai phe, tranh cãi vô cùng gay gắt."
+    "vi": "Đại biểu Hội đồng chia hai phe, tranh cãi nảy lửa."
   },
   {
     "id": "stage6:5977",
@@ -2031,7 +2031,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "以邦联主席，同时也是米迦尔首相为首，反对出兵的派系人数较多。",
-    "vi": "Phe phản đối xuất quân đông hơn, đứng đầu là Chủ tịch Liên bang, đồng thời là Thủ tướng Michael."
+    "vi": "Phe phản đối viện binh đông hơn, do Chủ tịch Liên bang kiêm Thủ tướng Michael đứng đầu."
   },
   {
     "id": "stage6:5982",
@@ -2040,7 +2040,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "而赞成派的邦联法庭大法官，雷米尔代表的坎维琪，",
-    "vi": "Còn Đại pháp quan Tòa án Liên bang Kanviki, đại diện Remiel, thuộc phe ủng hộ,"
+    "vi": "Còn Đại pháp quan Kanviki, đại diện Remiel, thuộc phe ủng hộ,"
   },
   {
     "id": "stage6:5987",
@@ -2067,7 +2067,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "坎维琪私下提议妮雅等人前往东方的香格里拉，向香国皇帝借兵援助。",
-    "vi": "Kanviki gặp riêng Niya, đề nghị cô đến Shangri-La ở phía đông, xin Hoàng đế nước Shang phái quân tiếp viện."
+    "vi": "Kanviki khuyên riêng Niya sang Shangri-La xin Hoàng đế viện binh."
   },
   {
     "id": "stage6:6002",
@@ -2076,7 +2076,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "坎维琪便计划于次日议会向各国代表提议，以战乱中粮食、水源取得不易的问题，",
-    "vi": "Hôm sau, Kanviki dự định đề xuất với hội nghị rằng chiến tranh đang khiến lương thực và nước sạch khan hiếm,"
+    "vi": "Hôm sau, Kanviki định nêu chuyện thiếu lương thực, nước sạch vì chiến tranh,"
   },
   {
     "id": "stage6:6007",
@@ -2094,7 +2094,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "而坎维琪实为香国皇帝武襄金星的幼年之交。",
-    "vi": "Thật ra Kanviki vốn là bạn thuở nhỏ của Hoàng đế Võ Tương Kim Tinh, người trị vì nước Shang."
+    "vi": "Kanviki là bạn thuở nhỏ của Hoàng đế Võ Tương Kim Tinh."
   },
   {
     "id": "stage6:6017",
@@ -2103,7 +2103,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "得知金星皇帝晓明大志，有维护天下和平的雄心。",
-    "vi": "Ông biết Hoàng đế Kim Tinh có chí lớn và mong giữ gìn hòa bình cho thiên hạ."
+    "vi": "Ông biết Hoàng đế Kim Tinh có chí giữ hòa bình thiên hạ."
   },
   {
     "id": "stage6:6022",
@@ -2112,7 +2112,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "因此也另交一封私函给妮雅，请妮雅见到香国皇帝，亲自将私函呈上。",
-    "vi": "Bởi vậy, ông còn trao Niya một bức thư riêng, dặn cô tận tay trình lên Hoàng đế khi gặp ngài."
+    "vi": "Ông còn đưa Niya thư riêng, dặn tận tay trình Hoàng đế."
   },
   {
     "id": "stage6:6027",
@@ -2130,7 +2130,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "次日，坎维琪的提案顺利过关。",
-    "vi": "Ngày hôm sau, đề xuất của Kanviki thuận lợi được thông qua."
+    "vi": "Hôm sau, đề nghị của Kanviki được thông qua."
   },
   {
     "id": "stage6:6037",
@@ -2139,7 +2139,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "议会主席写下国信，并派任妮雅等人为此次传信的邦联特使团。",
-    "vi": "Chủ tịch Hội đồng viết quốc thư, bổ nhiệm Niya và đồng đội làm sứ đoàn đặc biệt của Liên bang."
+    "vi": "Chủ tịch Hội đồng viết quốc thư, cử đoàn Niya làm đặc sứ Liên bang."
   },
   {
     "id": "stage6:6042",
