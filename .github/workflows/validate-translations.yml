@@ -40,6 +40,10 @@ jobs:
         run: python tools/test_inspect_textout_args.py
       - name: Verify V5 byte-strlen evidence guard using synthetic x86 signatures
         run: python tools/test_verify_v5_strlen.py
+      - name: Verify V5 ANSI CharNextA percent loop and TextOutA overlapping snapshots
+        run: python tools/test_audit_v5_text_iteration.py
+      - name: Test read-only x86 direct-call candidate scanner and IAT labels
+        run: python tools/test_probe_text_callers.py
       - name: Test consolidated diagnostic ZIP on synthetic EXE
         run: python tools/test_windows_diagnostic_bundle.py
       - name: Verify diagnostic ZIP reader and evidence report tests
