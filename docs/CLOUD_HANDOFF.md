@@ -1,5 +1,14 @@
 # Bàn giao cho cloud
 
+## Checkpoint V4: đã giải mã được tham số TextOutA trên EXE thật (11/10/2026)
+
+- Người dùng đã cung cấp **`EOA3-Windows-Diagnostics(1).zip` (V4)** và log SUCCESS. **KHÔNG yêu cầu chạy lại V4.** ZIP gồm 6 báo cáo, 26 ứng viên callsites GDI/encoding, SHA EXE trùng `2d7d9705837e32c72685d69e50e426fde168ea8d435de90ba937cefbf5138baf`.
+- Đã giải mã x86 tĩnh hai lời gọi `TextOutA` và `CreateFontIndirectA`: tại `0x41A79A` text pointer `0x4F2B38`, byte length 2, x=y=0; tại `0x41A7B9` text pointer `[ebp+0x14]`, length lấy từ EAX sau `call 0x4CE790`, x=y=0; cả hai HDC `[ebp-8]`. Tại `0x41AAAB`, `LOGFONTA` có `lfCharSet=134`, `lfWeight=400`, mặt chữ từ tham số `[ebp+8]`. **Không có chứng cứ các lời gọi này trực tiếp render hộp thoại onscreen.**
+- Thêm `tools/inspect_textout_args.py` + unit tests: chỉ diễn giải khi đối chiếu đúng SHA, IAT, site VA, prefix byte. Chưa biết thân hàm `0x4CE790`, nội dung hai byte tại `0x4F2B38`, hay đường dẫn từ `ANGELSCRIPT` tới HDC.
+- Mở rộng `tools/probe_engine_calls.py`: bản tiếp theo **cùng ZIP sáu file** có thêm `dependent_code_targets` lấy tối đa 192 byte helper `0x4CE790` và 16 byte tại hằng `0x4F2B38`, **chỉ khi khớp SHA-256 toàn EXE**. Không đụng game. Đọc `docs/V4_TEXTOUT_ARGUMENT_AUDIT.md`.
+- **Bước tiếp:** phân tích thân `0x4CE790` và con trỏ `0x4F2B38` từ báo cáo mở rộng, chưa phát hành patch Unicode. Giữ **1.881 translate, 574 review, 573 tên nháp**.
+
+
 ## Checkpoint: có công cụ lấy mẫu mã máy quanh TextOutA (11/10/2026)
 
 - Báo cáo **EXE Windows thật** đã nhận ở phiên trước: SHA-256 `2d7d9705837e32c72685d69e50e426fde168ea8d435de90ba937cefbf5138baf`. Chưa có bản full EXE trong môi trường; ZIP V3 chỉ chứa 16 bytes sau callsite, **chưa thể suy ra buffer/length của TextOutA**.
