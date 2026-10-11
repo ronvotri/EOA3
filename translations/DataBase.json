@@ -3631,9 +3631,9 @@
     "token": 26628,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程４格，范围单人，-Hp200基础伤害。",
-    "vi": ""
+    "vi": "Tầm 4 ô, 1 mục tiêu, gây 200 sát thương HP cơ bản."
   },
   {
     "id": "DataBase:26681",
@@ -3649,9 +3649,9 @@
     "token": 26683,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程４格，范围２格，-Hp250基础伤害。",
-    "vi": ""
+    "vi": "Tầm 4 ô, phạm vi 2 ô, gây 250 sát thương HP cơ bản."
   },
   {
     "id": "DataBase:26736",
@@ -3667,9 +3667,9 @@
     "token": 26738,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程４格，范围３格，-Hp350基础伤害。",
-    "vi": ""
+    "vi": "Tầm 4 ô, phạm vi 3 ô, gây 350 sát thương HP cơ bản."
   },
   {
     "id": "DataBase:26791",
@@ -3685,9 +3685,9 @@
     "token": 26793,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程４格，直线４格，-Hp170基础伤害。",
-    "vi": ""
+    "vi": "Tầm 4 ô, theo đường thẳng 4 ô, gây 170 sát thương HP cơ bản."
   },
   {
     "id": "DataBase:26846",
@@ -3703,9 +3703,9 @@
     "token": 26848,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程５格，直线５格，-Hp210基础伤害。",
-    "vi": ""
+    "vi": "Tầm 5 ô, theo đường thẳng 5 ô, gây 210 sát thương HP cơ bản."
   },
   {
     "id": "DataBase:26901",
@@ -3721,9 +3721,9 @@
     "token": 26903,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程６格，直线６格，-Hp270基础伤害。",
-    "vi": ""
+    "vi": "Tầm 6 ô, theo đường thẳng 6 ô, gây 270 sát thương HP cơ bản."
   },
   {
     "id": "DataBase:26956",
@@ -3739,9 +3739,9 @@
     "token": 26958,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "自身发动，范围２格，-Hp 20附加冰冻。",
-    "vi": ""
+    "vi": "Thi triển tại chỗ, phạm vi 2 ô, gây 20 sát thương HP và đóng băng."
   },
   {
     "id": "DataBase:27011",
@@ -3757,9 +3757,9 @@
     "token": 27013,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "自身发动，范围３格，-Hp 30附加冰冻。",
-    "vi": ""
+    "vi": "Thi triển tại chỗ, phạm vi 3 ô, gây 30 sát thương HP và đóng băng."
   },
   {
     "id": "DataBase:27066",
@@ -3775,9 +3775,9 @@
     "token": 27068,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "自身发动，范围４格，-Hp 40附加冰冻。",
-    "vi": ""
+    "vi": "Thi triển tại chỗ, phạm vi 4 ô, gây 40 sát thương HP và đóng băng."
   },
   {
     "id": "DataBase:27121",
@@ -3793,9 +3793,9 @@
     "token": 27123,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程２格，范围２格，-Hp 20附加冰冻。",
-    "vi": ""
+    "vi": "Tầm 2 ô, phạm vi 2 ô, gây 20 sát thương HP và đóng băng."
   },
   {
     "id": "DataBase:27176",
@@ -3811,9 +3811,9 @@
     "token": 27178,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程３格，范围２格，-Hp 30附加冰冻。",
-    "vi": ""
+    "vi": "Tầm 3 ô, phạm vi 2 ô, gây 30 sát thương HP và đóng băng."
   },
   {
     "id": "DataBase:27231",
@@ -3829,9 +3829,9 @@
     "token": 27233,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程４格，范围２格，-Hp 40附加冰冻。",
-    "vi": ""
+    "vi": "Tầm 4 ô, phạm vi 2 ô, gây 40 sát thương HP và đóng băng."
   },
   {
     "id": "DataBase:27286",
@@ -3847,9 +3847,9 @@
     "token": 27288,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程３格，范围１格，-Hp150基础伤害。",
-    "vi": ""
+    "vi": "Tầm 3 ô, phạm vi 1 ô, gây 150 sát thương HP cơ bản."
   },
   {
     "id": "DataBase:27341",
@@ -3865,9 +3865,9 @@
     "token": 27343,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程４格，范围２格，-Hp170基础伤害。",
-    "vi": ""
+    "vi": "Tầm 4 ô, phạm vi 2 ô, gây 170 sát thương HP cơ bản."
   },
   {
     "id": "DataBase:27396",
@@ -3883,9 +3883,9 @@
     "token": 27398,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程５格，范围３格，-Hp200基础伤害。",
-    "vi": ""
+    "vi": "Tầm 5 ô, phạm vi 3 ô, gây 200 sát thương HP cơ bản."
   },
   {
     "id": "DataBase:27451",
@@ -3901,9 +3901,9 @@
     "token": 27453,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程４格，直线４格，-Hp150基础伤害。",
-    "vi": ""
+    "vi": "Tầm 4 ô, theo đường thẳng 4 ô, gây 150 sát thương HP cơ bản."
   },
   {
     "id": "DataBase:27506",
@@ -3919,9 +3919,9 @@
     "token": 27508,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程５格，直线５格，-Hp200基础伤害。",
-    "vi": ""
+    "vi": "Tầm 5 ô, theo đường thẳng 5 ô, gây 200 sát thương HP cơ bản."
   },
   {
     "id": "DataBase:27561",
@@ -3937,9 +3937,9 @@
     "token": 27563,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程６格，直线６格，-Hp250基础伤害。",
-    "vi": ""
+    "vi": "Tầm 6 ô, theo đường thẳng 6 ô, gây 250 sát thương HP cơ bản."
   },
   {
     "id": "DataBase:27616",
@@ -3955,9 +3955,9 @@
     "token": 27618,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程３格，范围２格，-Hp190基础伤害。",
-    "vi": ""
+    "vi": "Tầm 3 ô, phạm vi 2 ô, gây 190 sát thương HP cơ bản."
   },
   {
     "id": "DataBase:27671",
@@ -3973,9 +3973,9 @@
     "token": 27673,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程４格，范围２格，-Hp240基础伤害。",
-    "vi": ""
+    "vi": "Tầm 4 ô, phạm vi 2 ô, gây 240 sát thương HP cơ bản."
   },
   {
     "id": "DataBase:27726",
@@ -3991,9 +3991,9 @@
     "token": 27728,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程５格，范围２格，-Hp290基础伤害。",
-    "vi": ""
+    "vi": "Tầm 5 ô, phạm vi 2 ô, gây 290 sát thương HP cơ bản."
   },
   {
     "id": "DataBase:27781",
@@ -4009,9 +4009,9 @@
     "token": 27783,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "自身发动，范围２格，-Hp200基础伤害。",
-    "vi": ""
+    "vi": "Thi triển tại chỗ, phạm vi 2 ô, gây 200 sát thương HP cơ bản."
   },
   {
     "id": "DataBase:27836",
@@ -4027,9 +4027,9 @@
     "token": 27838,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "自身发动，范围３格，-Hp240基础伤害。",
-    "vi": ""
+    "vi": "Thi triển tại chỗ, phạm vi 3 ô, gây 240 sát thương HP cơ bản."
   },
   {
     "id": "DataBase:27891",
@@ -4045,9 +4045,9 @@
     "token": 27893,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "自身发动，范围４格，-Hp280基础伤害。",
-    "vi": ""
+    "vi": "Thi triển tại chỗ, phạm vi 4 ô, gây 280 sát thương HP cơ bản."
   },
   {
     "id": "DataBase:27946",
@@ -4063,9 +4063,9 @@
     "token": 27948,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程２格，范围单人，+Hp 25％。      ",
-    "vi": ""
+    "vi": "Tầm 2 ô, 1 mục tiêu, hồi 25% HP."
   },
   {
     "id": "DataBase:28001",
@@ -4081,9 +4081,9 @@
     "token": 28003,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程３格，范围单人，+Hp 35％。      ",
-    "vi": ""
+    "vi": "Tầm 3 ô, 1 mục tiêu, hồi 35% HP."
   },
   {
     "id": "DataBase:28056",
@@ -4099,9 +4099,9 @@
     "token": 28058,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程４格，范围单人，+Hp 45％。      ",
-    "vi": ""
+    "vi": "Tầm 4 ô, 1 mục tiêu, hồi 45% HP."
   },
   {
     "id": "DataBase:28111",
@@ -4117,9 +4117,9 @@
     "token": 28113,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "自身发动，范围２格，+Hp 20％。      ",
-    "vi": ""
+    "vi": "Thi triển tại chỗ, phạm vi 2 ô, hồi 20% HP."
   },
   {
     "id": "DataBase:28166",
@@ -4135,9 +4135,9 @@
     "token": 28168,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "自身发动，范围３格，+Hp 20％。      ",
-    "vi": ""
+    "vi": "Thi triển tại chỗ, phạm vi 3 ô, hồi 20% HP."
   },
   {
     "id": "DataBase:28221",
@@ -4153,9 +4153,9 @@
     "token": 28223,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "自身发动，范围４格，+Hp 20％。      ",
-    "vi": ""
+    "vi": "Thi triển tại chỗ, phạm vi 4 ô, hồi 20% HP."
   },
   {
     "id": "DataBase:28276",
@@ -4171,9 +4171,9 @@
     "token": 28278,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程４格，范围１格，提升防御３回合。",
-    "vi": ""
+    "vi": "Tầm 4 ô, phạm vi 1 ô, tăng phòng thủ trong 3 lượt."
   },
   {
     "id": "DataBase:28331",
@@ -4189,9 +4189,9 @@
     "token": 28333,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程４格，范围２格，提升防御３回合。",
-    "vi": ""
+    "vi": "Tầm 4 ô, phạm vi 2 ô, tăng phòng thủ trong 3 lượt."
   },
   {
     "id": "DataBase:28386",
@@ -4207,9 +4207,9 @@
     "token": 28388,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程４格，范围３格，提升防御３回合。",
-    "vi": ""
+    "vi": "Tầm 4 ô, phạm vi 3 ô, tăng phòng thủ trong 3 lượt."
   },
   {
     "id": "DataBase:28441",
@@ -4225,9 +4225,9 @@
     "token": 28443,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程４格，范围１格，提升攻击３回合。",
-    "vi": ""
+    "vi": "Tầm 4 ô, phạm vi 1 ô, tăng sức tấn công trong 3 lượt."
   },
   {
     "id": "DataBase:28496",
@@ -4243,9 +4243,9 @@
     "token": 28498,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程４格，范围２格，提升攻击３回合。",
-    "vi": ""
+    "vi": "Tầm 4 ô, phạm vi 2 ô, tăng sức tấn công trong 3 lượt."
   },
   {
     "id": "DataBase:28551",
@@ -4261,9 +4261,9 @@
     "token": 28553,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程４格，范围３格，提升攻击３回合。",
-    "vi": ""
+    "vi": "Tầm 4 ô, phạm vi 3 ô, tăng sức tấn công trong 3 lượt."
   },
   {
     "id": "DataBase:28606",
@@ -4279,9 +4279,9 @@
     "token": 28608,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "自身发动，范围２格，状态任何解除。  ",
-    "vi": ""
+    "vi": "Thi triển tại chỗ, phạm vi 2 ô, xóa mọi trạng thái."
   },
   {
     "id": "DataBase:28661",
@@ -4297,9 +4297,9 @@
     "token": 28663,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "自身发动，范围３格，状态任何解除。  ",
-    "vi": ""
+    "vi": "Thi triển tại chỗ, phạm vi 3 ô, xóa mọi trạng thái."
   },
   {
     "id": "DataBase:28716",
@@ -4315,9 +4315,9 @@
     "token": 28718,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "自身发动，范围４格，状态任何解除。  ",
-    "vi": ""
+    "vi": "Thi triển tại chỗ, phạm vi 4 ô, xóa mọi trạng thái."
   },
   {
     "id": "DataBase:28771",
@@ -4333,9 +4333,9 @@
     "token": 28773,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程４格，范围１格，禁咒效果３回合。",
-    "vi": ""
+    "vi": "Tầm 4 ô, phạm vi 1 ô, gây cấm phép trong 3 lượt."
   },
   {
     "id": "DataBase:28826",
@@ -4351,9 +4351,9 @@
     "token": 28828,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程４格，范围２格，禁咒效果３回合。",
-    "vi": ""
+    "vi": "Tầm 4 ô, phạm vi 2 ô, gây cấm phép trong 3 lượt."
   },
   {
     "id": "DataBase:28881",
@@ -4369,9 +4369,9 @@
     "token": 28883,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程４格，范围３格，禁咒效果３回合。",
-    "vi": ""
+    "vi": "Tầm 4 ô, phạm vi 3 ô, gây cấm phép trong 3 lượt."
   },
   {
     "id": "DataBase:28936",
@@ -4387,9 +4387,9 @@
     "token": 28938,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程３格，范围１格，中毒效果３回合。",
-    "vi": ""
+    "vi": "Tầm 3 ô, phạm vi 1 ô, gây trúng độc trong 3 lượt."
   },
   {
     "id": "DataBase:28991",
@@ -4405,9 +4405,9 @@
     "token": 28993,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程３格，范围２格，中毒效果３回合。",
-    "vi": ""
+    "vi": "Tầm 3 ô, phạm vi 2 ô, gây trúng độc trong 3 lượt."
   },
   {
     "id": "DataBase:29046",
@@ -4423,9 +4423,9 @@
     "token": 29048,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程３格，范围３格，中毒效果３回合。",
-    "vi": ""
+    "vi": "Tầm 3 ô, phạm vi 3 ô, gây trúng độc trong 3 lượt."
   },
   {
     "id": "DataBase:29101",
@@ -4441,9 +4441,9 @@
     "token": 29103,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程３格，范围１格，吸血效果＋10％。",
-    "vi": ""
+    "vi": "Tầm 3 ô, phạm vi 1 ô, hút máu 10%."
   },
   {
     "id": "DataBase:29156",
@@ -4459,9 +4459,9 @@
     "token": 29158,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程３格，范围２格，吸血效果＋15％。",
-    "vi": ""
+    "vi": "Tầm 3 ô, phạm vi 2 ô, hút máu 15%."
   },
   {
     "id": "DataBase:29211",
@@ -4477,9 +4477,9 @@
     "token": 29213,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程３格，范围３格，吸血效果＋20％。",
-    "vi": ""
+    "vi": "Tầm 3 ô, phạm vi 3 ô, hút máu 20%."
   },
   {
     "id": "DataBase:29266",
@@ -4495,9 +4495,9 @@
     "token": 29268,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程４格，范围１格，睡眠效果３回合。",
-    "vi": ""
+    "vi": "Tầm 4 ô, phạm vi 1 ô, gây ngủ trong 3 lượt."
   },
   {
     "id": "DataBase:29321",
@@ -4513,9 +4513,9 @@
     "token": 29323,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程４格，范围２格，睡眠效果３回合。",
-    "vi": ""
+    "vi": "Tầm 4 ô, phạm vi 2 ô, gây ngủ trong 3 lượt."
   },
   {
     "id": "DataBase:29376",
@@ -4531,9 +4531,9 @@
     "token": 29378,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程４格，范围３格，睡眠效果３回合。",
-    "vi": ""
+    "vi": "Tầm 4 ô, phạm vi 3 ô, gây ngủ trong 3 lượt."
   },
   {
     "id": "DataBase:29431",
@@ -4549,9 +4549,9 @@
     "token": 29433,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "自身发动，范围２格，混乱效果３回合。",
-    "vi": ""
+    "vi": "Thi triển tại chỗ, phạm vi 2 ô, gây hỗn loạn trong 3 lượt."
   },
   {
     "id": "DataBase:29486",
@@ -4567,9 +4567,9 @@
     "token": 29488,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "自身发动，范围３格，混乱效果３回合。",
-    "vi": ""
+    "vi": "Thi triển tại chỗ, phạm vi 3 ô, gây hỗn loạn trong 3 lượt."
   },
   {
     "id": "DataBase:29541",
@@ -4585,9 +4585,9 @@
     "token": 29543,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "自身发动，范围４格，混乱效果３回合。",
-    "vi": ""
+    "vi": "Thi triển tại chỗ, phạm vi 4 ô, gây hỗn loạn trong 3 lượt."
   },
   {
     "id": "DataBase:29596",
@@ -4675,9 +4675,9 @@
     "token": 29818,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程４格，范围４格，-Hp300基础伤害。",
-    "vi": ""
+    "vi": "Tầm 4 ô, phạm vi 4 ô, gây 300 sát thương HP cơ bản."
   },
   {
     "id": "DataBase:29871",
@@ -4693,9 +4693,9 @@
     "token": 29873,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程６格，范围单人，-Hp170基础伤害。",
-    "vi": ""
+    "vi": "Tầm 6 ô, 1 mục tiêu, gây 170 sát thương HP cơ bản."
   },
   {
     "id": "DataBase:29926",
@@ -4711,9 +4711,9 @@
     "token": 29928,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程５格，范围单人，-Hp220基础伤害。",
-    "vi": ""
+    "vi": "Tầm 5 ô, 1 mục tiêu, gây 220 sát thương HP cơ bản."
   },
   {
     "id": "DataBase:29981",
@@ -4729,9 +4729,9 @@
     "token": 29983,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程５格，直线５格，-Hp140基础伤害。",
-    "vi": ""
+    "vi": "Tầm 5 ô, theo đường thẳng 5 ô, gây 140 sát thương HP cơ bản."
   },
   {
     "id": "DataBase:30036",
@@ -4747,9 +4747,9 @@
     "token": 30038,
     "call": "AddSkillData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "射程４格，直线４格，-Hp190基础伤害。",
-    "vi": ""
+    "vi": "Tầm 4 ô, theo đường thẳng 4 ô, gây 190 sát thương HP cơ bản."
   },
   {
     "id": "DataBase:30091",
@@ -4765,9 +4765,9 @@
     "token": 30093,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP200点",
-    "vi": ""
+    "vi": "Hồi 200 HP cho một nhân vật."
   },
   {
     "id": "DataBase:30114",
@@ -4783,9 +4783,9 @@
     "token": 30116,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP400点",
-    "vi": ""
+    "vi": "Hồi 400 HP cho một nhân vật."
   },
   {
     "id": "DataBase:30137",
@@ -4801,9 +4801,9 @@
     "token": 30139,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP600点",
-    "vi": ""
+    "vi": "Hồi 600 HP cho một nhân vật."
   },
   {
     "id": "DataBase:30160",
@@ -4819,9 +4819,9 @@
     "token": 30162,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP800点",
-    "vi": ""
+    "vi": "Hồi 800 HP cho một nhân vật."
   },
   {
     "id": "DataBase:30183",
@@ -4837,9 +4837,9 @@
     "token": 30185,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP1000点",
-    "vi": ""
+    "vi": "Hồi 1000 HP cho một nhân vật."
   },
   {
     "id": "DataBase:30206",
@@ -4855,9 +4855,9 @@
     "token": 30208,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP1500点",
-    "vi": ""
+    "vi": "Hồi 1500 HP cho một nhân vật."
   },
   {
     "id": "DataBase:30229",
@@ -4873,9 +4873,9 @@
     "token": 30231,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP2000点",
-    "vi": ""
+    "vi": "Hồi 2000 HP cho một nhân vật."
   },
   {
     "id": "DataBase:30252",
@@ -4891,9 +4891,9 @@
     "token": 30254,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP2500点",
-    "vi": ""
+    "vi": "Hồi 2500 HP cho một nhân vật."
   },
   {
     "id": "DataBase:30275",
@@ -4909,9 +4909,9 @@
     "token": 30277,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP300点",
-    "vi": ""
+    "vi": "Hồi 300 HP cho một nhân vật."
   },
   {
     "id": "DataBase:30298",
@@ -4927,9 +4927,9 @@
     "token": 30300,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP500点",
-    "vi": ""
+    "vi": "Hồi 500 HP cho một nhân vật."
   },
   {
     "id": "DataBase:30321",
@@ -4945,9 +4945,9 @@
     "token": 30323,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP700点",
-    "vi": ""
+    "vi": "Hồi 700 HP cho một nhân vật."
   },
   {
     "id": "DataBase:30344",
@@ -4963,9 +4963,9 @@
     "token": 30346,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP900点",
-    "vi": ""
+    "vi": "Hồi 900 HP cho một nhân vật."
   },
   {
     "id": "DataBase:30367",
@@ -4981,9 +4981,9 @@
     "token": 30369,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP1250点",
-    "vi": ""
+    "vi": "Hồi 1250 HP cho một nhân vật."
   },
   {
     "id": "DataBase:30390",
@@ -4999,9 +4999,9 @@
     "token": 30392,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP1750点",
-    "vi": ""
+    "vi": "Hồi 1750 HP cho một nhân vật."
   },
   {
     "id": "DataBase:30413",
@@ -5017,9 +5017,9 @@
     "token": 30415,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP2250点",
-    "vi": ""
+    "vi": "Hồi 2250 HP cho một nhân vật."
   },
   {
     "id": "DataBase:30436",
@@ -5035,9 +5035,9 @@
     "token": 30438,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP2750点",
-    "vi": ""
+    "vi": "Hồi 2750 HP cho một nhân vật."
   },
   {
     "id": "DataBase:30459",
@@ -5053,9 +5053,9 @@
     "token": 30461,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人MP50点",
-    "vi": ""
+    "vi": "Hồi 50 MP cho một nhân vật."
   },
   {
     "id": "DataBase:30482",
@@ -5071,9 +5071,9 @@
     "token": 30484,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人MP100点",
-    "vi": ""
+    "vi": "Hồi 100 MP cho một nhân vật."
   },
   {
     "id": "DataBase:30505",
@@ -5089,9 +5089,9 @@
     "token": 30507,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人MP150点",
-    "vi": ""
+    "vi": "Hồi 150 MP cho một nhân vật."
   },
   {
     "id": "DataBase:30528",
@@ -5107,9 +5107,9 @@
     "token": 30530,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人MP200点",
-    "vi": ""
+    "vi": "Hồi 200 MP cho một nhân vật."
   },
   {
     "id": "DataBase:30551",
@@ -5125,9 +5125,9 @@
     "token": 30553,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人MP250点",
-    "vi": ""
+    "vi": "Hồi 250 MP cho một nhân vật."
   },
   {
     "id": "DataBase:30574",
@@ -5143,9 +5143,9 @@
     "token": 30576,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人MP300点",
-    "vi": ""
+    "vi": "Hồi 300 MP cho một nhân vật."
   },
   {
     "id": "DataBase:30597",
@@ -5161,9 +5161,9 @@
     "token": 30599,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人MP350点",
-    "vi": ""
+    "vi": "Hồi 350 MP cho một nhân vật."
   },
   {
     "id": "DataBase:30620",
@@ -5179,9 +5179,9 @@
     "token": 30622,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人MP400点",
-    "vi": ""
+    "vi": "Hồi 400 MP cho một nhân vật."
   },
   {
     "id": "DataBase:30643",
@@ -5197,9 +5197,9 @@
     "token": 30645,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人MP75点",
-    "vi": ""
+    "vi": "Hồi 75 MP cho một nhân vật."
   },
   {
     "id": "DataBase:30666",
@@ -5215,9 +5215,9 @@
     "token": 30668,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人MP125点",
-    "vi": ""
+    "vi": "Hồi 125 MP cho một nhân vật."
   },
   {
     "id": "DataBase:30689",
@@ -5233,9 +5233,9 @@
     "token": 30691,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人MP175点",
-    "vi": ""
+    "vi": "Hồi 175 MP cho một nhân vật."
   },
   {
     "id": "DataBase:30712",
@@ -5251,9 +5251,9 @@
     "token": 30714,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人MP225点",
-    "vi": ""
+    "vi": "Hồi 225 MP cho một nhân vật."
   },
   {
     "id": "DataBase:30735",
@@ -5269,9 +5269,9 @@
     "token": 30737,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人MP275点",
-    "vi": ""
+    "vi": "Hồi 275 MP cho một nhân vật."
   },
   {
     "id": "DataBase:30758",
@@ -5287,9 +5287,9 @@
     "token": 30760,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人MP325点",
-    "vi": ""
+    "vi": "Hồi 325 MP cho một nhân vật."
   },
   {
     "id": "DataBase:30781",
@@ -5305,9 +5305,9 @@
     "token": 30783,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人MP375点",
-    "vi": ""
+    "vi": "Hồi 375 MP cho một nhân vật."
   },
   {
     "id": "DataBase:30804",
@@ -5323,9 +5323,9 @@
     "token": 30806,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人MP425点",
-    "vi": ""
+    "vi": "Hồi 425 MP cho một nhân vật."
   },
   {
     "id": "DataBase:30827",
@@ -5341,9 +5341,9 @@
     "token": 30829,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP100点,MP50点",
-    "vi": ""
+    "vi": "Hồi 100 HP và 50 MP cho một nhân vật."
   },
   {
     "id": "DataBase:30850",
@@ -5359,9 +5359,9 @@
     "token": 30852,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP300点,MP100点",
-    "vi": ""
+    "vi": "Hồi 300 HP và 100 MP cho một nhân vật."
   },
   {
     "id": "DataBase:30873",
@@ -5377,9 +5377,9 @@
     "token": 30875,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP500点,MP150点",
-    "vi": ""
+    "vi": "Hồi 500 HP và 150 MP cho một nhân vật."
   },
   {
     "id": "DataBase:30896",
@@ -5395,9 +5395,9 @@
     "token": 30898,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP700点,MP200点",
-    "vi": ""
+    "vi": "Hồi 700 HP và 200 MP cho một nhân vật."
   },
   {
     "id": "DataBase:30919",
@@ -5413,9 +5413,9 @@
     "token": 30921,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP900点,MP250点",
-    "vi": ""
+    "vi": "Hồi 900 HP và 250 MP cho một nhân vật."
   },
   {
     "id": "DataBase:30942",
@@ -5431,9 +5431,9 @@
     "token": 30944,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP1200点,MP300点",
-    "vi": ""
+    "vi": "Hồi 1200 HP và 300 MP cho một nhân vật."
   },
   {
     "id": "DataBase:30965",
@@ -5449,9 +5449,9 @@
     "token": 30967,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP1800点,MP350点",
-    "vi": ""
+    "vi": "Hồi 1800 HP và 350 MP cho một nhân vật."
   },
   {
     "id": "DataBase:30988",
@@ -5467,9 +5467,9 @@
     "token": 30990,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP2300点,MP400点",
-    "vi": ""
+    "vi": "Hồi 2300 HP và 400 MP cho một nhân vật."
   },
   {
     "id": "DataBase:31011",
@@ -5485,9 +5485,9 @@
     "token": 31013,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP300点,MP50点",
-    "vi": ""
+    "vi": "Hồi 300 HP và 50 MP cho một nhân vật."
   },
   {
     "id": "DataBase:31034",
@@ -5503,9 +5503,9 @@
     "token": 31036,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP500点,MP100点",
-    "vi": ""
+    "vi": "Hồi 500 HP và 100 MP cho một nhân vật."
   },
   {
     "id": "DataBase:31057",
@@ -5521,9 +5521,9 @@
     "token": 31059,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP700点,MP150点",
-    "vi": ""
+    "vi": "Hồi 700 HP và 150 MP cho một nhân vật."
   },
   {
     "id": "DataBase:31080",
@@ -5539,9 +5539,9 @@
     "token": 31082,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP900点,MP200点",
-    "vi": ""
+    "vi": "Hồi 900 HP và 200 MP cho một nhân vật."
   },
   {
     "id": "DataBase:31103",
@@ -5557,9 +5557,9 @@
     "token": 31105,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP1250点,MP250点",
-    "vi": ""
+    "vi": "Hồi 1250 HP và 250 MP cho một nhân vật."
   },
   {
     "id": "DataBase:31126",
@@ -5575,9 +5575,9 @@
     "token": 31128,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP1750点,MP300点",
-    "vi": ""
+    "vi": "Hồi 1750 HP và 300 MP cho một nhân vật."
   },
   {
     "id": "DataBase:31149",
@@ -5593,9 +5593,9 @@
     "token": 31151,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP2250点,MP350点",
-    "vi": ""
+    "vi": "Hồi 2250 HP và 350 MP cho một nhân vật."
   },
   {
     "id": "DataBase:31172",
@@ -5611,9 +5611,9 @@
     "token": 31174,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "恢复个人HP2750点,MP400点",
-    "vi": ""
+    "vi": "Hồi 2750 HP và 400 MP cho một nhân vật."
   },
   {
     "id": "DataBase:31195",
@@ -5629,9 +5629,9 @@
     "token": 31197,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "解除中毒状态",
-    "vi": ""
+    "vi": "Xóa trạng thái trúng độc."
   },
   {
     "id": "DataBase:31218",
@@ -5647,9 +5647,9 @@
     "token": 31220,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "解除睡眠状态",
-    "vi": ""
+    "vi": "Xóa trạng thái ngủ."
   },
   {
     "id": "DataBase:31241",
@@ -5665,9 +5665,9 @@
     "token": 31243,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "解除禁咒状态",
-    "vi": ""
+    "vi": "Xóa trạng thái bị cấm phép."
   },
   {
     "id": "DataBase:31264",
@@ -5683,9 +5683,9 @@
     "token": 31266,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "解除冰冻状态",
-    "vi": ""
+    "vi": "Xóa trạng thái đóng băng."
   },
   {
     "id": "DataBase:31287",
@@ -5701,9 +5701,9 @@
     "token": 31289,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "解除混乱状态",
-    "vi": ""
+    "vi": "Xóa trạng thái hỗn loạn."
   },
   {
     "id": "DataBase:31310",
@@ -5719,9 +5719,9 @@
     "token": 31312,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "解除狂暴状态",
-    "vi": ""
+    "vi": "Xóa trạng thái cuồng nộ."
   },
   {
     "id": "DataBase:31333",
@@ -5737,9 +5737,9 @@
     "token": 31335,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "解除死亡宣告",
-    "vi": ""
+    "vi": "Xóa trạng thái bị tuyên án tử."
   },
   {
     "id": "DataBase:31356",
@@ -5755,9 +5755,9 @@
     "token": 31358,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "解除死亡宣告",
-    "vi": ""
+    "vi": "Xóa trạng thái bị tuyên án tử."
   },
   {
     "id": "DataBase:31379",
@@ -5773,9 +5773,9 @@
     "token": 31381,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "解除不能行动状态",
-    "vi": ""
+    "vi": "Xóa trạng thái không thể hành động."
   },
   {
     "id": "DataBase:31402",
@@ -5791,9 +5791,9 @@
     "token": 31404,
     "call": "AddItemData",
     "argument": 2,
-    "mode": "review",
+    "mode": "translate",
     "source": "解除盲目状态",
-    "vi": ""
+    "vi": "Xóa trạng thái mù."
   },
   {
     "id": "DataBase:31425",
