@@ -76,3 +76,6 @@ Bản Windows diagnostic **V4** xuất thêm `engine_callsite_slices.json` (tổ
 
 
 **Đã có kết quả Windows V5 thực tế (11/10/2026):** `0x4CE790` được xác minh là `strlen` x86 tính **số byte trước NUL**; `0x4F2B38` là **hai dấu cách `20 20`**. `TextOutA` thứ hai dùng số byte do hàm này trả về, vì thế không thể thay thẳng sang `TextOutW`/UTF-16. Báo cáo kỹ thuật chi tiết: `docs/V5_STRLEN_ENGINE_AUDIT.md`, lệnh kiểm tra tái lập: `python tools/verify_v5_strlen.py <V5-Report.zip>`. Chưa có patch playable, chưa đổi 1.881 bản dịch.
+
+
+**Tiến trình engine (V5, 11/10/2026):** ngoài byte `strlen` `0x4CE790`, đã xác minh vòng duyệt `CharNextA` tại `0x42AD54` có nhánh byte `%` và hai lời gọi `TextOutA` nằm trong một đoạn mã liên tục. Tài liệu `docs/V5_ANSI_TEXT_PATH_AUDIT.md`. Công cụ `tools/audit_v5_text_iteration.py` dùng ZIP V5 sẵn có, không cần EXE; `tools/probe_text_callers.py` mới chỉ chuẩn bị để tìm xrefs khi cần, **chưa bắt người dùng chạy thêm**. Không có Unicode patch playable.
