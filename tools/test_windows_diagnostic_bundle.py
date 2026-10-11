@@ -59,6 +59,10 @@ class WindowsBundleTests(unittest.TestCase):
         with ZipFile(out) as z:
             self.assertEqual(z.namelist(), result["manifest"]["contents"])
             exe_report = json.loads(z.read("exe_preflight.json"))
+            engine = json.loads(z.read("engine_callsite_slices.json"))
+            self.assertEqual(engine["status"], "read_only_code_neighborhoods_not_disassembly_or_patch")
+            self.assertEqual(engine["exe_sha256"], exe_report["sha256"])
+            self.assertEqual(engine["candidate_count_by_api"]["TextOutA"], 1)
             self.assertEqual(exe_report["architecture"], "PE32")
             static_report = json.loads(z.read("unicode_layout_report.json"))
             self.assertEqual(static_report["counts"]["translated"], 1)
