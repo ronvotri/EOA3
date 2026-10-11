@@ -29,7 +29,7 @@ class ValidationTests(unittest.TestCase):
 
     def test_audited_cutscene_overlay(self):
         row = next(r for r in self.rows if r["call"] == "SP_AddAction"
-                   and r["argument"] == 3 and r["mode"] == "review")
+                   and r["argument"] == 3)
         row["mode"] = "translate"
         row["vi"] = row["source"].replace("爱尔达大陆", "lục địa Elda")
         self.assertIn(row["token"], validate_rows(self.doc, self.rows))
@@ -49,7 +49,7 @@ class ValidationTests(unittest.TestCase):
                 validate_rows(doc, rows)
             name["mode"], name["vi"] = "review", ""
             description = next(r for r in rows if r["call"] == call
-                               and r["argument"] == 2 and r["mode"] == "review")
+                               and r["argument"] == 2)
             description["mode"] = "translate"
             description["vi"] = "Mô tả đã dịch"
             self.assertIn(description["token"], validate_rows(doc, rows))
@@ -57,7 +57,7 @@ class ValidationTests(unittest.TestCase):
 
     def test_wrong_overlay_argument_stays_restricted(self):
         row = next(r for r in self.rows if r["call"] == "SP_AddAction"
-                   and r["mode"] == "review")
+                   and r["argument"] == 3)
         row["argument"] = 2
         row["mode"] = "translate"
         row["vi"] = row["source"].replace("爱尔达大陆", "lục địa Elda")
