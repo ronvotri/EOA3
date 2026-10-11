@@ -1,6 +1,7 @@
 """Synthetic PE tests for bounded, SHA-locked code follow-up collection."""
 import hashlib
 import unittest
+from unittest.mock import patch
 
 from probe_engine_followup import (
     TARGET_MAGIC, TARGETS, collect_followup, find_magic_references, MAX_MAGIC_HITS
@@ -91,6 +92,15 @@ class EngineFollowupTests(unittest.TestCase):
             collect_followup(
                 sample, expected_sha=hashlib.sha256(sample).hexdigest(),
                 targets=(("over_cap", 0x401010, 513),))
+
+    def test_known_exe_fails_closed_if_required_helper_window_missing(self):
+        sample = fake_pe32()
+        sha = hashlib.sha256(sample).hexdigest()
+        # Treat this synthetic file as a known build to exercise the safety
+        # branch: historically matched addresses must not silently vanish.
+        with patch("probe_engine_followup.REFERENCE_EXE_SHA256", sha):
+            with self.assertRaisesRegex(ValueError, "refusing incomplete report"):
+                collect_followup(sample, expected_sha=sha)
 
     def test_no_executable_modified_during_bounded_read(self):
         sample=fake_pe32()
