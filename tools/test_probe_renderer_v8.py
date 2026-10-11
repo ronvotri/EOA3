@@ -73,13 +73,9 @@ class V8RendererProbeTests(unittest.TestCase):
                     candidate_ranges=())
         with self.assertRaisesRegex(ValueError,"missing or truncating"):
             collect(data,expected_sha=sha,
-                    targets=(("one",0x401001,512),),
+                    targets=(("straddles_end",0x401401,512),),
                     palette_target=("synthetic_palette",0x402000,48),
-                    candidate_ranges=()) if False else collect(
-                        data,expected_sha=sha,
-                        targets=(("one",0x401401,512),),
-                        palette_target=("synthetic_palette",0x402000,48),
-                        candidate_ranges=())
+                    candidate_ranges=())
 
     def test_rejects_budget_overrun_and_duplicate_targets(self):
         data=artificial_two_section_pe()
