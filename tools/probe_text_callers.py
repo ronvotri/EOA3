@@ -31,7 +31,8 @@ MAX_PER_REGION = 64
 MAX_RESULTS = 160
 
 
-def collect(data, expected_sha=REFERENCE_EXE_SHA256):
+def collect(data, expected_sha=REFERENCE_EXE_SHA256,
+            target_ranges=TARGET_RANGES, iat_addresses=KNOWN_IATS):
     sha = hashlib.sha256(data).hexdigest()
     if sha != expected_sha:
         return {
@@ -46,9 +47,9 @@ def collect(data, expected_sha=REFERENCE_EXE_SHA256):
         raise ValueError("Expected PE32 with imagebase 0x400000 for known build")
 
     iats = {i["iat_va"]: {"iat_va": hex(i["iat_va"]), "dll": i["dll"], "api": i["api"]}
-            for i in pe["imports"] if i["iat_va"] in KNOWN_IATS}
+            for i in pe["imports"] if i["iat_va"] in iat_addresses}
     mapped_iats = [iats.get(va, {"iat_va": hex(va), "status": "not_import_mapped"})
-                   for va in KNOWN_IATS]
+                   for va in iat_addresses]
     candidates = []
     counts = Counter()
     for sec in pe["sections"]:
@@ -64,7 +65,7 @@ def collect(data, expected_sha=REFERENCE_EXE_SHA256):
             rel = struct.unpack_from("<i", raw, off + 1)[0]
             site_va = pe["imagebase"] + sec["rva"] + off
             target = site_va + 5 + rel
-            matching = [(label, low, high) for label, low, high in TARGET_RANGES
+            matching = [(label, low, high) for label, low, high in target_ranges
                         if low <= target < high]
             if not matching:
                 continue
