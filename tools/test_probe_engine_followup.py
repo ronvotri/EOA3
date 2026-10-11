@@ -6,6 +6,7 @@ from probe_engine_followup import (
     TARGET_MAGIC, TARGETS, collect_followup, find_magic_references, MAX_MAGIC_HITS
 )
 from probe_game import parse_pe
+from probe_engine_calls import bounded_va_evidence, MAX_TARGET_WINDOW_BYTES
 from test_probe_game import fake_pe32
 
 
@@ -33,7 +34,7 @@ class EngineFollowupTests(unittest.TestCase):
         self.assertTrue(report["matches_documented_exe_sha256"])
         self.assertEqual(report["target_code_windows"], [])
         self.assertEqual(len([w for w in report["warnings"]
-                              if w.startswith("unmapped_code_target_")]),4)
+                              if w.startswith("unmapped_or_truncated_code_target_")]),4)
         self.assertEqual(report["raw_call_reference_scan"]["status"],
                          "bounded_raw_rel32_call_candidate_scan_not_disassembly")
         self.assertTrue(any("false positives" in s for s in report["limitations"]))
@@ -56,6 +57,40 @@ class EngineFollowupTests(unittest.TestCase):
             sample[offset:offset+len(TARGET_MAGIC)]=TARGET_MAGIC
         out=find_magic_references(bytes(sample),parse_pe(bytes(sample)))
         self.assertEqual(len(out),MAX_MAGIC_HITS)
+
+    def test_all_four_actual_v6_lengths_are_allowed_and_exact(self):
+        sample = fake_pe32()
+        sha = hashlib.sha256(sample).hexdigest()
+        targets = (
+            ("first_288", 0x401010, 288),
+            ("second_448", 0x401070, 448),
+            ("init_192", 0x4010D0, 192),
+            ("loop_384", 0x401130, 384),
+        )
+        report = collect_followup(sample, expected_sha=sha, targets=targets)
+        self.assertEqual(len(report["target_code_windows"]), 4)
+        self.assertEqual(
+            [w["byte_count"] for w in report["target_code_windows"]],
+            [288, 448, 192, 384])
+        for item in report["target_code_windows"]:
+            actual = bytes.fromhex(item["bytes_hex"])
+            self.assertEqual(hashlib.sha256(actual).hexdigest(), item["bytes_sha256"])
+            self.assertFalse(item["truncated_to_section_boundary"])
+
+    def test_reader_cap_and_section_boundary_enforced(self):
+        sample = fake_pe32()
+        metadata = parse_pe(sample)
+        self.assertEqual(MAX_TARGET_WINDOW_BYTES, 512)
+        self.assertEqual(
+            bounded_va_evidence(sample, metadata, 0x401010, 448, True)["byte_count"], 448)
+        self.assertIsNone(
+            bounded_va_evidence(sample, metadata, 0x401010, 513, True))
+        self.assertIsNone(
+            bounded_va_evidence(sample, metadata, 0x401010, 448, False))
+        with self.assertRaisesRegex(ValueError, "bounded section reader cap"):
+            collect_followup(
+                sample, expected_sha=hashlib.sha256(sample).hexdigest(),
+                targets=(("over_cap", 0x401010, 513),))
 
     def test_no_executable_modified_during_bounded_read(self):
         sample=fake_pe32()
