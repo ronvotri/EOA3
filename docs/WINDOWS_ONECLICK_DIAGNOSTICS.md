@@ -62,3 +62,12 @@ So sánh SHA-256 và PE import của **đúng bản game** với kết quả l�
 - Kiểm tra thao tác trong **thư mục bộ công cụ đã giải nén**; không cố tìm file trong ZIP vẫn còn nén hoặc trong thư mục cài game.
 
 CI hiện có thêm job Windows thật chạy launcher bằng EXE **mẫu tổng hợp**, chỉ kiểm tra quy trình đóng gói. Đây không phải kiểm thử engine game thật.
+
+
+## Bản cập nhật xử lý lỗi PE import (v3, 11/10/2026)
+
+Nếu lần trước đã chọn EXE và log hiện `Import descriptor limit exceeded`, đó là **lỗi dừng sớm của bộ phân tích PE cũ**, không phải xác nhận EXE bị hỏng. Bản mới kiểm tra bảng import qua mục kết thúc null thay vì tin tuyệt đối vào trường size; dữ liệu bất thường sẽ được ghi trong `exe_preflight.json.import_table_diagnostics.warnings`.
+
+**Không dùng thư mục v2 cũ:** giải nén bộ công cụ mới sang một thư mục riêng, chạy `EOA3-KiemTra-Windows.cmd`, chọn `AngelSLG.exe`. Nếu `SUCCESS` hãy gửi `build/EOA3-Windows-Diagnostics.zip`; nếu lỗi hãy gửi `build/EOA3-Diagnostic-Log.txt`. Tool không sửa/chạy game.
+
+Đọc phân tích cụ thể tại `docs/PE_IMPORT_FIX.md` trong repo. Chưa xác minh PE thực của người dùng, nên chưa thể chắc chắn mọi biến thể EXE sẽ chạy qua.

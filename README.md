@@ -55,3 +55,6 @@ Bộ công cụ chỉ gồm script Python + dữ liệu JSON phục vụ đọc 
 
 
 **Lưu ý vị trí báo cáo:** Sau khi mở `EOA3-KiemTra-Windows.cmd` và chọn EXE, bản launcher mới tự mở thư mục `build` *cạnh file CMD* (không ở thư mục game). Thành công gửi `EOA3-Windows-Diagnostics.zip`; lỗi gửi `EOA3-Diagnostic-Log.txt` trong cùng thư mục. Xem `docs/WINDOWS_ONECLICK_DIAGNOSTICS.md`.
+
+
+**Sửa lỗi Windows diagnostic v3:** Nếu bản cũ báo `Import descriptor limit exceeded` sau khi chọn EXE, dùng gói công cụ mới. Parser giờ xử lý bảng import PE dùng descriptor null mà không dựa hoàn toàn vào `Size` của directory; sẽ ghi cảnh báo nếu bảng không hoàn chỉnh. Đây là sửa công cụ, không phải vá game. Xem `docs/PE_IMPORT_FIX.md`.
