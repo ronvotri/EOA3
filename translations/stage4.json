@@ -177,7 +177,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "孤军求援战",
-    "vi": ""
+    "vi": "Đơn độc cầu viện"
   },
   {
     "id": "stage4:2333",
@@ -186,7 +186,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "Stage-4 前往加百列公国求援",
-    "vi": ""
+    "vi": "Màn 4 - Đến Công quốc Gabriel cầu viện"
   },
   {
     "id": "stage4:2342",
@@ -204,7 +204,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“啊！妮雅，你们回来了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“A! Niya, các em về rồi đấy à!”"
   },
   {
     "id": "stage4:2428",
@@ -213,7 +213,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“辛苦了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vất vả cho các em rồi!”"
   },
   {
     "id": "stage4:2453",
@@ -222,7 +222,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“报告督卫长，翡翠神殿¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Báo cáo Chỉ huy, Đền Ngọc Bích...”"
   },
   {
     "id": "stage4:2478",
@@ -231,7 +231,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“妮雅，我已经知道了¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Niya, ta biết chuyện rồi...”"
   },
   {
     "id": "stage4:2489",
@@ -240,7 +240,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“其实在你们到达之前，卡莫本的自由骑士%N曾经过这里。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thật ra, trước khi các em về, một nữ hiệp sĩ tự do%Nđến từ Camobon đã ghé qua đây.”"
   },
   {
     "id": "stage4:2500",
@@ -249,7 +249,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“她传达了翡翠神殿已经沦陷的消息了¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cô ấy báo tin Đền Ngọc Bích đã thất thủ...”"
   },
   {
     "id": "stage4:2525",
@@ -258,7 +258,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“什么！？”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Cái gì!?”"
   },
   {
     "id": "stage4:2536",
@@ -267,7 +267,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“神殿¨沦陷了¨¨%N怎么会¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ngôi đền... thất thủ rồi sao?%NSao lại có thể như thế...”"
   },
   {
     "id": "stage4:2561",
@@ -276,7 +276,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“宾斯坦城已经是我们拉锡叶的最后一个据点。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thành Benstein là cứ điểm cuối cùng của Laxia chúng ta.”"
   },
   {
     "id": "stage4:2572",
@@ -285,7 +285,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“被欧查攻击的国家不仅我们拉锡叶，据说连%N北方的拉奎尔及梅塔隆两国都已经被占领了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không chỉ Laxia bị Ocha tấn công. Nghe nói cả Rakuel%Nvà Metaron ở phương bắc cũng đã bị chiếm đóng.”"
   },
   {
     "id": "stage4:2597",
@@ -294,7 +294,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“督卫长，我们不反击吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thưa Chỉ huy, chúng ta không phản công sao ạ?”"
   },
   {
     "id": "stage4:2622",
@@ -303,7 +303,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不行，我们的剩下的兵力只能用于防守。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không được. Quân còn lại chỉ đủ sức phòng thủ thôi.”"
   },
   {
     "id": "stage4:2647",
@@ -312,7 +312,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这不等于眼睁睁看着欧查军侵略吗！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy chẳng lẽ cứ đứng nhìn quân Ocha xâm lược sao ạ!?”"
   },
   {
     "id": "stage4:2672",
@@ -321,7 +321,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不全那么糟糕。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tình hình cũng chưa đến nỗi hết hy vọng đâu.”"
   },
   {
     "id": "stage4:2683",
@@ -330,7 +330,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“刚才我接下了贝拉肯陛下的命令，陛下要求%N编制使者团前往加百列执行求援任务。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ta vừa nhận lệnh của Nữ hoàng Belaken: thành lập%Nmột đoàn sứ giả đến Gabriel cầu viện.”"
   },
   {
     "id": "stage4:2694",
@@ -339,7 +339,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“希望能获得加百列的协助击退欧查军。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hy vọng Gabriel sẽ giúp chúng ta đẩy lùi quân Ocha.”"
   },
   {
     "id": "stage4:2719",
@@ -348,7 +348,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“向加百列求援¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đến Gabriel cầu viện sao...”"
   },
   {
     "id": "stage4:2730",
@@ -357,7 +357,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那么督卫长要派哪些人前往呢？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy Chỉ huy định cử những ai đi ạ?”"
   },
   {
     "id": "stage4:2755",
@@ -366,7 +366,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“还没确定，我现在才正要执行编制的工作。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ta vẫn chưa chọn xong. Giờ mới bắt đầu lập đoàn.”"
   },
   {
     "id": "stage4:2780",
@@ -375,7 +375,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那¨督卫长¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy... thưa Chỉ huy...”"
   },
   {
     "id": "stage4:2791",
@@ -384,7 +384,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“能让我也协助进行这个工作吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cho em tham gia nhiệm vụ này được không ạ?”"
   },
   {
     "id": "stage4:2816",
@@ -393,7 +393,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“咦？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hả?”"
   },
   {
     "id": "stage4:2827",
@@ -402,7 +402,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“妮雅¨¨，你自愿前往加百列吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Niya... Em tình nguyện đến Gabriel sao?”"
   },
   {
     "id": "stage4:2852",
@@ -411,7 +411,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“是的，督卫长。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vâng, thưa Chỉ huy.”"
   },
   {
     "id": "stage4:2877",
@@ -420,7 +420,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好，那么督卫长在此成立拉锡叶使者团。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Được! Ta tuyên bố thành lập sứ đoàn Laxia ngay tại đây.”"
   },
   {
     "id": "stage4:2888",
@@ -429,7 +429,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我伊莉莎奉贝拉肯陛下之名晋升妮雅为小队长%N来带领使者团。妮雅，这个任务就由你来执行。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ta, Elisa, phụng lệnh Nữ hoàng Belaken thăng Niya%Nlàm đội trưởng, dẫn đầu sứ đoàn. Ta giao nhiệm vụ này cho em.”"
   },
   {
     "id": "stage4:2899",
@@ -438,7 +438,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你的队员除了希蜜与伊恩之外，%N我身后的两位士兵也编制在你的队伍中。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ngoài Shimi và Ian, hai binh sĩ đứng sau ta%Ncũng sẽ được điều vào đội của em.”"
   },
   {
     "id": "stage4:2910",
@@ -447,7 +447,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“请你谨慎小心完成这项工作，%N旅途上将危机重重。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hãy hết sức cẩn trọng để hoàn thành nhiệm vụ.%NChuyến đi này sẽ đầy hiểm nguy.”"
   },
   {
     "id": "stage4:2935",
@@ -456,7 +456,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我会完成求援任务的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Em nhất định sẽ hoàn thành nhiệm vụ cầu viện!”"
   },
   {
     "id": "stage4:2960",
@@ -465,7 +465,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“妮雅，千万不要小看这个求援任务。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Niya, đừng xem nhẹ chuyến đi cầu viện lần này.”"
   },
   {
     "id": "stage4:2971",
@@ -474,7 +474,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“虽然加百列国势强盛，但加百列女王想统一%N南爱尔达的野心一直不小，因此从她手上借到%N兵力的机会并不高。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Gabriel rất hùng mạnh, nhưng Nữ hoàng nước đó%Nluôn có tham vọng thống nhất Nam Elda.%NCơ hội mượn được quân từ bà ta chẳng cao đâu.”"
   },
   {
     "id": "stage4:2982",
@@ -483,7 +483,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“所以我希望你在与加百列女王的应对时，%N随时都能做好心理准备。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vì vậy, khi đối diện Nữ hoàng Gabriel,%Nem phải chuẩn bị tinh thần cho mọi tình huống.”"
   },
   {
     "id": "stage4:3007",
@@ -492,7 +492,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“请督卫长放心。%N为了拉锡叶，我们一定会达成任务。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Xin Chỉ huy yên tâm.%NVì Laxia, chúng em nhất định sẽ làm được!”"
   },
   {
     "id": "stage4:3032",
@@ -501,7 +501,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯¨¨我只能祝福你们了，好好加油吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừm... Ta chỉ có thể chúc các em may mắn. Cố lên!”"
   },
   {
     "id": "stage4:3093",
@@ -519,7 +519,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“大家好，我是艾希莉。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chào mọi người! Mình là Ashley.”"
   },
   {
     "id": "stage4:3154",
@@ -528,7 +528,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我是西碧儿。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mình là Sibyl.”"
   },
   {
     "id": "stage4:3165",
@@ -537,7 +537,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“终于可以登场了，好兴奋喔。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cuối cùng cũng được ra mắt rồi! Háo hức quá!”"
   },
   {
     "id": "stage4:3190",
@@ -546,7 +546,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“欢迎你们，请多指教。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Rất vui được gặp các cậu. Mong được giúp đỡ nhé!”"
   },
   {
     "id": "stage4:3201",
@@ -555,7 +555,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那么我们赶紧往加百列出发吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy mau lên đường đến Gabriel thôi!”"
   },
   {
     "id": "stage4:3238",
@@ -564,7 +564,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“走吧！走吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đi thôi! Đi thôi!”"
   },
   {
     "id": "stage4:3283",
@@ -573,7 +573,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“加百列该往哪一边呢？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhưng Gabriel nằm hướng nào nhỉ?”"
   },
   {
     "id": "stage4:3328",
@@ -582,7 +582,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“应该是走这里没错吧¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hình như phải đi lối này...”"
   },
   {
     "id": "stage4:3365",
@@ -600,7 +600,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“希蜜！小心！”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Shimi! Cẩn thận!”"
   },
   {
     "id": "stage4:3404",
@@ -609,7 +609,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“咦！？怎么了？”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Hả!? Có chuyện gì thế?”"
   },
   {
     "id": "stage4:3469",
@@ -618,7 +618,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呜啊～～～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Á á á!”"
   },
   {
     "id": "stage4:3525",
@@ -627,7 +627,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“四个包围一个太过份了啦～～”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Bốn đánh một, bất công quá đi!”"
   },
   {
     "id": "stage4:3550",
@@ -636,7 +636,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这家伙好吵，先把她处理掉。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Con nhỏ này ồn ào quá! Xử nó trước đi.”"
   },
   {
     "id": "stage4:3575",
@@ -645,7 +645,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“呜啊～～”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Á á!”"
   },
   {
     "id": "stage4:3586",
@@ -654,7 +654,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“妮雅，救我啊！”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Niya, cứu mình với!”"
   },
   {
     "id": "stage4:3611",
@@ -663,7 +663,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我们快去帮忙。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mau tới giúp cậu ấy!”"
   },
   {
     "id": "stage4:3625",
@@ -672,7 +672,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：敌军全灭%N失败条件：我方全灭",
-    "vi": ""
+    "vi": "Điều kiện thắng: Tiêu diệt toàn bộ quân địch.%NĐiều kiện thua: Toàn đội bị tiêu diệt."
   },
   {
     "id": "stage4:3643",
