@@ -76,3 +76,8 @@ Nếu lần trước đã chọn EXE và log hiện `Import descriptor limit exc
 ## Checkpoint mới — đã nhận báo cáo thực tế từ người dùng
 
 ZIP báo cáo V3 được tạo thành công. EXE đúng tên `AngelSLG.exe`, SHA-256 `2d7d9705837e32c72685d69e50e426fde168ea8d435de90ba937cefbf5138baf`. GDI Segoe UI 16pt đo đủ 165 ký tự không thiếu glyph; các API vẽ chữ ANSI được tìm thấy tại cùng các địa chỉ đã phân tích trước. Dữ liệu định lượng chi tiết, rủi ro chưa giải quyết và hướng thử font/runtime có trong `docs/REAL_WINDOWS_EXE_AUDIT.md`. Có thể dùng `tools/analyze_windows_report.py` xác nhận tính nhất quán của ZIP mà không đọc file game.
+
+
+## V4: bổ sung cửa sổ mã quanh TextOutA (11/10/2026)
+
+Sau khi nhấp đúp launcher, ZIP kết quả vẫn ở `build/EOA3-Windows-Diagnostics.zip` nhưng có **6 file** (thêm `engine_callsite_slices.json`). Tệp này ghi hex mã máy rất ngắn quanh các lời gọi GDI/encoding và đối chiếu SHA EXE thật, **không chứa toàn bộ EXE hay patch**. Hướng kỹ thuật ở `docs/ENGINE_CALLSITE_EVIDENCE.md`. Người dùng cần chọn đúng `AngelSLG.exe`, tuyệt đối không áp byte patches từ báo cáo. V3 với 5 file vẫn đọc được.

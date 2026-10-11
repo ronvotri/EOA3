@@ -83,3 +83,12 @@ Cập nhật: 2026-10-11.
 - Font GDI desktop Segoe UI 16pt/96DPI: **165 ký tự kiểm tra, 0 glyph thiếu**. Không chứng minh game hỗ trợ Unicode; engine vẫn có đường `TextOutA` ANSI và 1.788/1.881 câu không thể pack CP936. Pixel sample `stage1:1149` nguồn 523 px→Việt 768 px, `stage45:1540` 815→1042 px; đây không phải độ rộng hộp game.
 - Toàn bộ bằng chứng và phân biệt static/runtime nằm ở `docs/REAL_WINDOWS_EXE_AUDIT.md`. Đã có `tools/analyze_windows_report.py` + test để xác minh ZIP báo cáo khác, không cần tải EXE.
 - Đợt này **không chỉnh bản dịch**, không thay dữ liệu gốc, không phát hành patch. Giữ **1.881 translate, 574 review, 573 tên nháp ngoài runtime**. Bước tiếp theo phải xác minh luồng giải mã→GDI và thử 1 câu/tooltip trên bản sao game.
+
+
+## Đợt phân tích mã máy GDI — 2026-10-11
+
+- Đã có mẫu gọi `TextOutA` ở **VA 0x41A79A và 0x41A7B9** trên EXE thật, nhưng V3 chỉ lưu 16 byte **sau** lời gọi, chưa biết đủ tham số buffer/byte count. Không thể viết patch engine an toàn từ thông tin đó.
+- Tạo `tools/probe_engine_calls.py` lấy từng đoạn mã máy **96 byte trước + 48 byte sau** các ứng viên gọi import, chỉ trong executable PE sections, có SHA để khóa đúng phiên bản, giữ giới hạn 128 đoạn và không can thiệp game. Chỉ ghi charset lịch sử khi trùng hash EXE thật.
+- Tích hợp `engine_callsite_slices.json` vào V4 của bộ ZIP Windows (tăng từ 5 lên 6 file). Tool kiểm tra báo cáo đọc được cả bản cũ V3; artifact công cụ Windows tự động có script mới.
+- CI kiểm tra bằng EXE mẫu, thuật toán byte-window, bảo toàn SHA, section và an toàn ZIP; job Windows One-click vẫn kiểm tra tạo archive hợp lệ.
+- Hướng nghiên cứu và giới hạn tại `docs/ENGINE_CALLSITE_EVIDENCE.md`; **chưa biết con trỏ chuỗi hoặc quy tắc xử lý Unicode trong runtime**, chưa có bản vá chơi được. Dịch chính thức **1.881/1.881**, `review` **574** giữ nguyên.
