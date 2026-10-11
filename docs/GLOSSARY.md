@@ -54,6 +54,27 @@ Bảng tên hiển thị **tạm thời** phục vụ dịch, không sửa các 
 | 玄武城 | thành Huyền Vũ | Cửa ải sát biên giới Shangri-La (stage 8); cách đọc Hán Việt tạm |
 | 关文 | giấy thông hành | Giấy tờ chính thức để vượt cửa ải; phân biệt với quốc thư Liên bang |
 
+| 玉京 | Ngọc Kinh | Kinh đô Shangri-La, stage 9; Hán Việt tạm |
+| 织娘 | Zhiniang | Tướng đối phương tại vòng loại đại hội võ thuật, phiên âm tạm |
+| 丽凤 | Lifeng | Nhân vật gia nhập sau đại hội, được gọi là Điện hạ; phiên âm tạm |
+| 叶虏鞑 | Yeluda | Địa danh/thuật ngữ trong lời băng cướp stage 10, **chưa đủ ngữ cảnh**, bắt buộc QA |
+| 白虎国 | nước Bạch Hổ | Quốc gia nơi có cảng Bạch Liệt, Hán Việt tạm |
+| 白列湾 | vịnh Bạch Liệt | Cảng stage 11; Hán Việt tạm |
+| 水星 | Shuixing | Tướng nhóm sinh vật biển ở stage 11; phiên âm tạm |
+| 温妮菲德 | Winifred | Bé được Shimi nhận chăm sóc ở stage 11 |
+| 温妮 | Winnie | Tên gọi ngắn của Winifred, stage 12 |
+| 威尔港 | cảng Will | Cảng Gabriel; phiên âm tạm |
+| 萨维尔 | Savel | Kinh thành Gabriel; phiên âm tạm |
+| 雷萨林 | Resalin | Vịnh phía đông nam Laxia, phiên âm tạm |
+| 英格丽 | Ingrid | Nhân vật được giải cứu ở stage 13 |
+| 洁莉 | Jeli | Tướng địch stage 13, phiên âm tạm |
+| 雷丝曼 | Resman | Nhân vật phía Ocha được nhắc ở stage 14; phiên âm tạm |
+| 克诺依德 | Konoid | Tướng phía Ocha stage 14; phiên âm tạm |
+| 沙利叶 | Sariel | Quốc gia cần giành lại |
+| 尤利尔 | Uriel | Quốc gia cần giành lại |
+| 拉斐尔 | Raphael | Quốc gia cần giành lại |
+| 天使之泉 | suối Thiên Sứ | Nguồn nước có hiện tượng hóa đen, cần theo dõi cốt truyện |
+
 ## Khẩu khí
 
 - Đồng đội trẻ: **mình/cậu, bọn mình**; câu thoại hoàn chỉnh, tự nhiên, có nhịp cảm xúc, không quá máy móc.
