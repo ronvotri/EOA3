@@ -50,6 +50,8 @@ jobs:
         run: python tools/test_probe_engine_followup.py
       - name: Test consolidated V8 renderer consumer, font helpers and reference triples with synthetic PE
         run: python tools/test_probe_renderer_v8.py
+      - name: Verify real V8 sample evidence schema with synthetic x86 only
+        run: python tools/test_audit_v8_renderer_trace.py
       - name: Verify observed V7 font helper byte/slot layout on synthetic x86 windows
         run: python tools/test_audit_v7_font_buffers.py
       - name: Verify V7 ANSI substring and 0x41C790 consumer handoff
