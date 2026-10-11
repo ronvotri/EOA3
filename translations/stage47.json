@@ -357,7 +357,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“粮食、物资方面的支援绝无问题！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Lương thực và vật tư thì ta sẵn lòng hỗ trợ!”"
   },
   {
     "id": "stage47:1677",
@@ -366,7 +366,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“赐你们御田胭脂米五万万石！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ta ban cho các ngươi năm trăm triệu thạch gạo ngự điền!”"
   },
   {
     "id": "stage47:1688",
@@ -375,7 +375,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“但我国绝不发兵支援！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhưng nước ta tuyệt đối không xuất binh!”"
   },
   {
     "id": "stage47:1713",
@@ -384,7 +384,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那我以修行的名义加入邦联军队呢？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy nếu thần gia nhập quân Liên bang để tu luyện thì sao?”"
   },
   {
     "id": "stage47:1738",
@@ -393,7 +393,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你是刚刚¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cô chính là người lúc nãy...?”"
   },
   {
     "id": "stage47:1763",
@@ -402,7 +402,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“吾乃青龙郡国武者——武襄丽凤，%N请多指教。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ta là Võ Tương Lifeng, võ sĩ quận Thanh Long.%NRất mong được mọi người chỉ giáo!”"
   },
   {
     "id": "stage47:1774",
@@ -411,7 +411,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我很欣赏你，有我加入的话不介意吧。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ta rất quý cô. Có ta gia nhập, cô không phiền chứ?”"
   },
   {
     "id": "stage47:1799",
@@ -420,7 +420,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“当然欢迎¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tất nhiên là hoan nghênh...”"
   },
   {
     "id": "stage47:1824",
@@ -429,7 +429,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“嗯¨¨咳！”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Ừm... khụ!”"
   },
   {
     "id": "stage47:1849",
@@ -438,7 +438,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“啊，陛下¨¨不好意思！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“À, Bệ hạ... thần thất lễ!”"
   },
   {
     "id": "stage47:1874",
@@ -447,7 +447,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好吧，如果皇妹你个人要去的话，朕不阻止。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Được thôi. Nếu hoàng muội muốn tự đi thì trẫm không cản.”"
   },
   {
     "id": "stage47:1899",
@@ -456,7 +456,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哈哈哈～～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ha ha ha!”"
   },
   {
     "id": "stage47:1910",
@@ -465,7 +465,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“陛下，多谢啦！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đa tạ Bệ hạ!”"
   },
   {
     "id": "stage47:1935",
@@ -474,7 +474,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“谢谢女帝。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Xin cảm tạ Nữ hoàng.”"
   },
   {
     "id": "stage47:1960",
@@ -483,7 +483,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“丽凤，你也别太得意，%N朕会指派两个人日夜跟着你的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Lifeng, đừng đắc ý quá!%NTrẫm sẽ cử hai người theo sát ngươi ngày đêm.”"
   },
   {
     "id": "stage47:1985",
@@ -492,7 +492,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼！真是的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừ! Thật tình!”"
   },
   {
     "id": "stage47:1999",
@@ -501,7 +501,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "丽凤、青色、爱玉加入队伍",
-    "vi": ""
+    "vi": "Lifeng, Qingse và Aiyu gia nhập đội."
   },
   {
     "id": "stage47:2019",
