@@ -73,3 +73,8 @@ py -3 tools/windows_font_probe.py --font "Segoe UI" --size 16 --out "build\eoa3-
 Tool `windows_font_probe.py` kiểm tra toàn bộ ký tự được dùng trong **1.881 trường tiếng Việt** và một chuỗi tổng hợp có nhiều dấu, báo `font_requested` so với `font_selected` để phát hiện Windows đã chọn font thay thế. Bản báo cáo còn có `GetTextExtentPoint32W` pixel-width của mẫu lời thoại, mô tả, lời dẫn. Chưa biết kích thước bounding box của game nên chưa thể khẳng định câu nào thực sự tràn.
 
 **Kết quả CI tĩnh hiện có:** 1.788 câu không thể đóng GBK nguyên vẹn, 74 ký tự không biểu diễn được; 240 câu nghi dài, 120 câu quá dài so với bản nguồn theo heuristic. Xem chi tiết `docs/UNICODE_LAYOUT_QA.md`.
+
+
+## Cách đơn giản hơn: gói một cú nhấp đúp
+
+Có thể bỏ qua những lệnh Python riêng lẻ ở trên: tải artifact GitHub Actions tên `eoa3-windows-oneclick-diagnostic-tool` rồi giải nén ZIP bộ công cụ, mở `EOA3-KiemTra-Windows.cmd`. Nó mở cửa sổ chọn EXE hoặc chấp nhận kéo-thả, gom kết quả PE, font GDI, Unicode và trang kiểm tra chữ vào một ZIP báo cáo. Cần Python 3.9+. **Không chứa game EXE, không tự sửa game**. Xem `docs/WINDOWS_ONECLICK_DIAGNOSTICS.md`.
