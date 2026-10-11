@@ -71,3 +71,10 @@ Sau khi có bản mới, xác nhận `matches_documented_exe_sha256=true` rồi 
 GitHub Actions chạy `tools/test_probe_engine_calls.py` bằng PE x86 giả, kiểm chứng signature, SHA và section boundary; chạy `test_windows_diagnostic_bundle.py` cho đủ 6 file; chạy `test_analyze_windows_report.py` cho báo cáo 5/6 file và sai SHA; và job Windows one-click smoke trên EXE mẫu.
 
 **Kết luận:** Đã chuẩn bị công cụ truy vết có bằng chứng từ đúng phiên bản game; **chưa patch font, chưa chứng minh game vẽ tiếng Việt có dấu**.
+
+
+## Kết quả thực nghiệm V4 từ EXE người dùng — 11/10/2026
+
+**Đã nhận V4 ZIP và xác minh mã máy:** Hai lời gọi `TextOutA` đều nhận `HDC=[ebp-8]`, vẽ tại (0,0). Tại `0x41A79A`, độ dài byte là 2, địa chỉ chuỗi cố định `0x4F2B38`; tại `0x41A7B9`, chuỗi đến từ `[ebp+0x14]`, độ dài/value do hàm `0x4CE790` trả về trong EAX. `CreateFontIndirectA` ở `0x41AAAB` nhận `LOGFONTA` có `lfWeight=400` và `lfCharSet=134` tại offset 23. Chi tiết ở **`docs/V4_TEXTOUT_ARGUMENT_AUDIT.md`**.
+
+Các đoạn byte chưa đủ để xác định nguồn `ANGELSCRIPT`/vị trí hiển thị thực. V4 không có body `0x4CE790`; không nên đổi `TextOutA` thành `TextOutW` trực tiếp. Công cụ mở rộng sẽ thu riêng đoạn helper và con trỏ 2-byte theo đúng SHA, **trong cùng file `engine_callsite_slices.json`**.
