@@ -285,7 +285,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "新欧查之剑",
-    "vi": ""
+    "vi": "Lưỡi gươm Ocha mới"
   },
   {
     "id": "stage23:4261",
@@ -294,7 +294,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "Stage-23 新欧查之剑",
-    "vi": ""
+    "vi": "Màn 23 - Lưỡi gươm Ocha mới"
   },
   {
     "id": "stage23:4266",
@@ -303,7 +303,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "梅塔隆～约森河",
-    "vi": ""
+    "vi": "Sông Yosen, Metaron"
   },
   {
     "id": "stage23:4271",
@@ -321,7 +321,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你们快点过来。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mau đến đây!”"
   },
   {
     "id": "stage23:4432",
@@ -330,7 +330,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嘿嘿！来追我呀～～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hê hê! Giỏi thì đuổi theo ta đi~!”"
   },
   {
     "id": "stage23:4537",
@@ -339,7 +339,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你¨¨你要趁机偷袭我们。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ngươi... ngươi định nhân cơ hội đánh lén chúng ta!”"
   },
   {
     "id": "stage23:4562",
@@ -348,7 +348,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“别想太多，我只是来把洁莉带走的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đừng nghĩ xa thế. Ta chỉ đến đưa Jeli về thôi.”"
   },
   {
     "id": "stage23:4592",
@@ -357,7 +357,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“玛西亚姊姊你也来啦！%N你们都来追我呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chị Marcia cũng đến rồi à!%NMọi người cùng đuổi bắt em đi!”"
   },
   {
     "id": "stage23:4603",
@@ -366,7 +366,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哈哈哈哈哈～～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ha ha ha ha!”"
   },
   {
     "id": "stage23:4718",
@@ -375,7 +375,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你们是哪里来的，有喝下黑水吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Các vị từ đâu tới? Đã uống nước đen chưa?”"
   },
   {
     "id": "stage23:4743",
@@ -384,7 +384,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我们是爱尔达人，%N我们并没有喝下黑色泉水。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chúng tôi đến từ Elda,%Nvà chưa từng uống nước suối đen.”"
   },
   {
     "id": "stage23:4754",
@@ -393,7 +393,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“请问你是？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Xin hỏi anh là ai?”"
   },
   {
     "id": "stage23:4779",
@@ -402,7 +402,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“帕托克，玛雅人。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ta là Patok, người Maya.”"
   },
   {
     "id": "stage23:4790",
@@ -411,7 +411,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“有族人从玛雅到了爱尔达来，%N我们是来将她们逐回的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Có người trong tộc tôi từ Maya sang Elda.%NChúng tôi đến để đưa họ trở về.”"
   },
   {
     "id": "stage23:4835",
@@ -420,7 +420,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我认得你，你是贝力欧的女帝。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ta biết cô. Cô là Nữ hoàng Belio.”"
   },
   {
     "id": "stage23:4860",
@@ -429,7 +429,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯！你没认错。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừ, ngươi không nhận nhầm đâu.”"
   },
   {
     "id": "stage23:4885",
@@ -438,7 +438,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“梅塔隆与亚伯登女帝已经在玛雅喝下太多黑水%N了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nữ hoàng Metaron và Aberdon đã uống quá nhiều%Nnước đen ở Maya.”"
   },
   {
     "id": "stage23:4896",
@@ -447,7 +447,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“还有一个贵族被她们带着，%N被迫喝下很多黑水，但我不认识她。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Họ còn đem theo một nữ quý tộc khác,%Nép cô ấy uống rất nhiều nước đen. Ta không biết cô ấy là ai.”"
   },
   {
     "id": "stage23:4921",
@@ -465,7 +465,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“应该是萨梅尔女帝¨¨克诺依德¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chắc là Nữ hoàng Samel... Konoid...”"
   },
   {
     "id": "stage23:4957",
@@ -474,7 +474,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“她也是爱尔达国家的女帝？？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cô ấy cũng là Nữ hoàng một nước Elda sao?”"
   },
   {
     "id": "stage23:4982",
@@ -483,7 +483,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯！她是。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừ, đúng vậy.”"
   },
   {
     "id": "stage23:5007",
@@ -492,7 +492,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你！还有你！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ngươi! Cả ngươi nữa!”"
   },
   {
     "id": "stage23:5018",
@@ -501,7 +501,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你怎么没受到黑水感染？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Sao các ngươi không bị nước đen ảnh hưởng?”"
   },
   {
     "id": "stage23:5043",
@@ -510,7 +510,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“之前有一点，现在已经解除了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Trước đây có đôi chút, giờ đã khỏi rồi.”"
   },
   {
     "id": "stage23:5068",
@@ -519,7 +519,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“解除？可以说出如何解除吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Khỏi ư? Có thể nói làm sao khỏi được không?”"
   },
   {
     "id": "stage23:5093",
@@ -528,7 +528,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你身后的人。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Những người đứng phía sau ngươi ấy.”"
   },
   {
     "id": "stage23:5104",
@@ -537,7 +537,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“她们有药剂。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Họ có thuốc giải.”"
   },
   {
     "id": "stage23:5168",
@@ -555,7 +555,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“真的有解药？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thật sự có thuốc giải ư?”"
   },
   {
     "id": "stage23:5204",
@@ -564,7 +564,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“是的，我们从香格里拉取的的镇魂剂，%N可以净化黑色天使之泉。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vâng, chúng tôi lấy Thuốc Trấn Hồn từ Shangri-La.%NThuốc có thể thanh tẩy suối Thiên Sứ đen.”"
   },
   {
     "id": "stage23:5229",
@@ -573,7 +573,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那么可以请你们帮忙吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy các người giúp chúng tôi được không?”"
   },
   {
     "id": "stage23:5240",
@@ -582,7 +582,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“玛雅有多处天使之泉都是黑色的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhiều suối Thiên Sứ ở Maya cũng đã hóa đen.”"
   },
   {
     "id": "stage23:5265",
@@ -591,7 +591,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我们前来就是为了净化所有天使之泉的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chúng tôi đến đây chính là để thanh tẩy tất cả các dòng suối.”"
   },
   {
     "id": "stage23:5290",
@@ -600,7 +600,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“真的吗！？那我会带你们到玛雅！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thật sao!? Vậy tôi sẽ đưa các vị đến Maya!”"
   },
   {
     "id": "stage23:5315",
@@ -609,7 +609,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“没问题。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không vấn đề gì.”"
   },
   {
     "id": "stage23:5326",
@@ -618,7 +618,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“就请您带路了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy nhờ anh dẫn đường!”"
   },
   {
     "id": "stage23:5384",
@@ -627,7 +627,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你们都抓不到我的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chẳng ai bắt được ta đâu!”"
   },
   {
     "id": "stage23:5395",
@@ -636,7 +636,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哈哈哈哈哈～～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ha ha ha ha!”"
   },
   {
     "id": "stage23:5445",
@@ -654,7 +654,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：敌军全灭。%N失败条件：妮雅战败。",
-    "vi": ""
+    "vi": "Điều kiện thắng: Tiêu diệt toàn bộ quân địch.%NĐiều kiện thua: Niya bị đánh bại."
   },
   {
     "id": "stage23:5817",
@@ -726,7 +726,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“没想到除了玛雅人，%N爱尔达也有这么多人受到感染¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không ngờ ngoài người Maya,%Nở Elda cũng có nhiều người bị nhiễm như vậy...”"
   },
   {
     "id": "stage23:5978",
@@ -735,7 +735,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“受到黑水感染的人，%N会变得越来越好战。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Người nhiễm nước đen%Nsẽ ngày càng hiếu chiến và hung hăng.”"
   },
   {
     "id": "stage23:5989",
@@ -744,7 +744,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“药剂来得虽然迟，但我们还是很感谢你们提供%N药剂。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Dù thuốc giải đến hơi muộn, chúng tôi vẫn cảm ơn%Ncác vị đã mang thuốc đến.”"
   },
   {
     "id": "stage23:6000",
@@ -753,7 +753,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“至少已经可以不让更多人受到感染。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ít nhất từ nay có thể ngăn thêm nhiều người bị nhiễm.”"
   },
   {
     "id": "stage23:6025",
@@ -762,7 +762,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我们也只希望无谓的战争能够早点停止。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chúng tôi chỉ mong cuộc chiến vô nghĩa này sớm kết thúc.”"
   },
   {
     "id": "stage23:6050",
@@ -771,7 +771,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我只是来带回我的部下！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ta chỉ đến đưa thuộc hạ của mình về!”"
   },
   {
     "id": "stage23:6075",
@@ -780,7 +780,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“她¨¨也许来不及了¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“E rằng... cô ấy không còn kịp nữa rồi...”"
   },
   {
     "id": "stage23:6100",
@@ -798,7 +798,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“她们已经逃到天之顶了，%N千万不能让她们到玛雅继续喝下黑色天使之泉，%N不然她们会变得越来越¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Họ đã trốn đến Đỉnh Trời.%NTuyệt đối không được để họ đến Maya tiếp tục uống nước đen,%Nkhông thì họ sẽ ngày càng...”"
   },
   {
     "id": "stage23:6150",
@@ -807,7 +807,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“会如何？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Sẽ thế nào?”"
   },
   {
     "id": "stage23:6175",
@@ -816,7 +816,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不、没事¨¨%N总之不希望发生这种事¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Kh... không có gì đâu.%NChỉ mong chuyện đó đừng xảy ra...”"
   },
   {
     "id": "stage23:6200",
@@ -834,7 +834,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“走吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đi thôi!”"
   },
   {
     "id": "stage23:6250",
@@ -843,7 +843,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我也跟你们去¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tôi cũng đi cùng mọi người...”"
   },
   {
     "id": "stage23:6264",
@@ -852,7 +852,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "玛西亚、帕托克、爱琪可、卡缇拉加入队伍",
-    "vi": ""
+    "vi": "Marcia, Patok, Aiqike và Katila gia nhập đội."
   },
   {
     "id": "stage23:6293",
@@ -888,6 +888,6 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“居然在这个时候战败，%N黑色天使之泉还没净化呀¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Sao lại thua lúc này chứ?%NCác dòng suối đen còn chưa được thanh tẩy mà...”"
   }
 ]

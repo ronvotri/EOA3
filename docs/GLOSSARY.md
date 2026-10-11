@@ -88,6 +88,20 @@ Bảng tên hiển thị **tạm thời** phục vụ dịch, không sửa các 
 | 焰舞 | Yanwu | Đồng đội do trưởng lão Shaling cử đến, stage 21; phiên âm tạm |
 | 百灵 | Bailing | Đồng đội do trưởng lão Shaling cử đến, stage 21; phiên âm tạm |
 
+| 镇魂剂 | Thuốc Trấn Hồn | Thuốc thanh tẩy suối Thiên Sứ đen, không phải nước suối đã lọc |
+| 净化 | thanh tẩy | Quá trình làm nước suối đen trở lại bình thường |
+| 帕托克 | Patok | Người Maya gặp ở stage23, phiên âm tạm |
+| 约森河 | sông Yosen | Địa danh ở Metaron, phiên âm tạm |
+| 新欧查之剑 | Lưỡi gươm Ocha mới | Tên màn 23, diễn giải tạm |
+| 天之顶 | Đỉnh Trời | Vùng dẫn đến Maya, địa danh stage23–24 |
+| 爱琪可 | Aiqike | Nhân vật gia nhập ở stage23, phiên âm tạm |
+| 卡缇拉 | Katila | Nhân vật gia nhập ở stage23, phiên âm tạm |
+| 亚伯登 | Aberdon | Vương quốc ở biên giới Maya, đã nhắc stage18 |
+| 曼宁 | Manning | Người quen Patok trở về stage24, phiên âm tạm |
+| 莫梅德 | Momed | Danh xưng/nhóm báo tin cho Manning, ngữ nghĩa chưa đủ chắc chắn |
+| 港湾驱逐战 | Đánh đuổi quân địch ở cảng | Tên màn 22 |
+| 追击天之顶 | Truy đuổi đến Đỉnh Trời | Tên màn 24 |
+
 ## Khẩu khí
 
 - Đồng đội trẻ: **mình/cậu, bọn mình**; câu thoại hoàn chỉnh, tự nhiên, có nhịp cảm xúc, không quá máy móc.
