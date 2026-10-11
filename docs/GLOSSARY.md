@@ -35,6 +35,20 @@ Bảng tên hiển thị **tạm thời** phục vụ dịch, không sửa các 
 | 米雅法儿 | Miafa | Đồng đội mới stage 5; dễ xúc động, phiên âm tạm |
 | 葛瑞丝 | Grace | Đại Tổng giám mục, quen biết Angelina/Miafa |
 
+| 邦联议会 | Hội đồng Liên bang | Hội nghị các nước tại Michael, thuật ngữ chính trị |
+| 邦联国信 | quốc thư Liên bang | Văn kiện chính thức để nhận diện/phái cử sứ đoàn, không phải lá thư thường |
+| 狄道 | Didao | Địa danh xảy ra vụ truy đuổi quốc thư ở stage 7; phiên âm tạm |
+| 盈月 | Yingyue | Thủ lĩnh băng cướp; phiên âm tạm |
+| 香格里拉 | Shangri-La | Điểm đến ở phía đông, phiên âm quen dùng |
+| 香国 | nước Shang | Quốc gia do Hoàng đế Kim Tinh trị vì; phiên âm tạm |
+| 赫拉 | Hera | Nữ hoàng Gabriel; phiên âm tạm |
+| 赫莉 | Heli | Nhân vật đến xin lỗi thay Nữ hoàng Hera; phiên âm tạm |
+| 米迦尔 | Michael | Công quốc đặt Hội đồng Liên bang; phiên âm tạm |
+| 雷米尔 | Remiel | Quốc gia, có đại diện tại Hội đồng Liên bang; phiên âm tạm |
+| 欧格斯 | Ogas | Thành phố tổ chức hội nghị; phiên âm tạm |
+| 坎维琪 | Kanviki | Đại pháp quan Tòa án Liên bang, đại diện Remiel; phiên âm tạm |
+| 武襄金星 | Võ Tương Kim Tinh | Tên Hoàng đế nước Shang, phiên âm Hán Việt tạm chờ đối chiếu |
+| 管区 | người quản khu | Lời lừa bịp hài hước của băng cướp tại stage 6 |
 
 ## Khẩu khí
 
