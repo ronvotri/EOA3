@@ -93,5 +93,5 @@ echo Your game files were not modified.
 
 :end
 echo.
-pause
+if not "%EOA3_NO_OPEN%"=="1" pause
 endlocal
