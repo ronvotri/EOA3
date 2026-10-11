@@ -50,3 +50,15 @@ CI chạy `python tools/test_windows_diagnostic_bundle.py` để kiểm tra ZIP 
 ### Sau khi có báo cáo
 
 So sánh SHA-256 và PE import của **đúng bản game** với kết quả lịch sử. Nghiên cứu nơi giải mã CP936, đếm byte, vẽ GDI và phân đoạn `%N`, rồi mới thử một đoạn hội thoại và tooltip Unicode với bản game đã sao lưu. Tuyệt đối chưa mở khóa 574 dòng review và 573 tên nháp chỉ dựa trên kết quả scan tĩnh.
+
+ 
+## Nếu đã chọn EXE nhưng không thấy báo cáo
+
+- **Sau khi chọn `AngelSLG.exe`, không phải tự tạo file gì cả.** Chờ chương trình kết thúc và xem cửa sổ chạy.
+- Bản launcher mới **tự mở thư mục `build` của bộ công cụ** khi kết thúc. Chú ý đây là thư mục nằm *cạnh* `EOA3-KiemTra-Windows.cmd`, **không phải `build` của game**.
+- Nếu màn hình ghi **SUCCESS**, gửi `build/EOA3-Windows-Diagnostics.zip` (chính là báo cáo, không phải ZIP bộ công cụ ban đầu).
+- Nếu ghi **REPORT NOT CREATED**, mở `build/EOA3-Diagnostic-Log.txt` rồi gửi nội dung hoặc chụp cửa sổ chạy. Các lỗi hay gặp: máy chưa có Python ≥ 3.9, chọn không đúng `AngelSLG.exe`, chưa giải nén đủ các thư mục `tools/source/translations`, hoặc EXE có định dạng khác với PE parser dự kiến.
+- Launcher **không xóa báo cáo cũ** nếu lượt chạy mới thất bại. Vì thế chỉ gửi ZIP khi màn hình của lượt chạy mới ghi **SUCCESS**; nếu lỗi hãy gửi **LOG**.
+- Kiểm tra thao tác trong **thư mục bộ công cụ đã giải nén**; không cố tìm file trong ZIP vẫn còn nén hoặc trong thư mục cài game.
+
+CI hiện có thêm job Windows thật chạy launcher bằng EXE **mẫu tổng hợp**, chỉ kiểm tra quy trình đóng gói. Đây không phải kiểm thử engine game thật.
