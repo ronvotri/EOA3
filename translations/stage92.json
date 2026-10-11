@@ -60,7 +60,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "拉锡叶  翠绿村",
-    "vi": ""
+    "vi": "Làng Xanh, Laxia"
   },
   {
     "id": "stage92:1395",
@@ -78,7 +78,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“终于回到家了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cuối cùng cũng về nhà rồi!”"
   },
   {
     "id": "stage92:1422",
@@ -87,7 +87,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“虽然整趟旅程都没找到葛瑞丝大主教，但仍然%N觉得这段路很值得。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Dù cả chuyến đi không tìm được Đại Tổng giám mục Grace,%Nnhưng mình vẫn thấy chuyến này đáng lắm.”"
   },
   {
     "id": "stage92:1447",
@@ -96,7 +96,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯嗯！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừ, đúng vậy!”"
   },
   {
     "id": "stage92:1458",
@@ -105,7 +105,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“对了你们有时间也要来城里找我们哦！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“À, khi nào rảnh nhớ đến thành thăm bọn mình nhé!”"
   },
   {
     "id": "stage92:1483",
@@ -114,7 +114,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“军队还缺人吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Trong quân đội còn tuyển người không?”"
   },
   {
     "id": "stage92:1508",
@@ -123,7 +123,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“咦！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ơ!?”"
   },
   {
     "id": "stage92:1519",
@@ -132,7 +132,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你想加入吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cậu muốn gia nhập sao?”"
   },
   {
     "id": "stage92:1544",
@@ -141,7 +141,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“如果哪天我失业的话¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nếu có ngày mình thất nghiệp thì...”"
   },
   {
     "id": "stage92:1569",
@@ -150,7 +150,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那¨¨等你考虑清楚，随时欢迎你加入。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy... khi nào quyết định xong, cứ tới gia nhập nhé!”"
   },
   {
     "id": "stage92:1580",
@@ -159,7 +159,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“希蜜！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Shimi!”"
   },
   {
     "id": "stage92:1591",
@@ -168,7 +168,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我们也回首都吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Bọn mình cũng về kinh đô thôi!”"
   },
   {
     "id": "stage92:1616",
@@ -177,7 +177,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Được!”"
   },
   {
     "id": "stage92:1641",
@@ -186,7 +186,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“要保重哦！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhớ giữ gìn sức khỏe nhé!”"
   },
   {
     "id": "stage92:1666",
@@ -195,7 +195,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你们也是。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mọi người cũng vậy!”"
   },
   {
     "id": "stage92:1720",
