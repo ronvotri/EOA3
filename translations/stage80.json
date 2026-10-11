@@ -105,7 +105,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "再次夜闯中途林",
-    "vi": ""
+    "vi": "Lại đột nhập rừng giữa đêm"
   },
   {
     "id": "stage80:1505",
@@ -114,7 +114,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "Stage-3 再次夜闯中途林",
-    "vi": ""
+    "vi": "Màn 3 - Lại đột nhập rừng giữa đêm"
   },
   {
     "id": "stage80:1533",
@@ -123,7 +123,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z16%c1“呜，这些家伙难道都不睡吗？！”",
-    "vi": ""
+    "vi": "%s2%t4%z16%c1“Trời! Bộ mấy người này không bao giờ ngủ sao!?”"
   },
   {
     "id": "stage80:1576",
@@ -141,7 +141,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嘘！！小声一点”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Suỵt! Nói nhỏ thôi!”"
   },
   {
     "id": "stage80:1603",
@@ -150,7 +150,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“无论如何我们一定要冲过去！！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Dù thế nào cũng phải vượt qua đây!”"
   },
   {
     "id": "stage80:1628",
@@ -159,7 +159,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z16%c1“嗯¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z16%c1“Ừm...”"
   },
   {
     "id": "stage80:1656",
@@ -168,7 +168,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：1、我方一人以上往最北方脱离战场。%N　　　　　2、敌军全灭%N失败条件：妮雅战败",
-    "vi": ""
+    "vi": "Điều kiện thắng: 1. Có ít nhất một đồng đội thoát lên cực bắc.%N 2. Tiêu diệt toàn bộ quân địch.%NĐiều kiện thua: Niya bị đánh bại."
   },
   {
     "id": "stage80:1686",
@@ -294,7 +294,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z20%c1“呜¨¨大家快逃¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z20%c1“Ư... Mọi người mau chạy đi...”"
   },
   {
     "id": "stage80:1906",
