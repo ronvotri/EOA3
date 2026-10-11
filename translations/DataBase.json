@@ -3741,7 +3741,7 @@
     "argument": 2,
     "mode": "translate",
     "source": "自身发动，范围２格，-Hp 20附加冰冻。",
-    "vi": "Thi triển tại chỗ, phạm vi 2 ô, gây 20 sát thương HP và đóng băng."
+    "vi": "Tại chỗ, vùng 2 ô: -20 HP, kèm đóng băng."
   },
   {
     "id": "DataBase:27011",
@@ -3759,7 +3759,7 @@
     "argument": 2,
     "mode": "translate",
     "source": "自身发动，范围３格，-Hp 30附加冰冻。",
-    "vi": "Thi triển tại chỗ, phạm vi 3 ô, gây 30 sát thương HP và đóng băng."
+    "vi": "Tại chỗ, vùng 3 ô: -30 HP, kèm đóng băng."
   },
   {
     "id": "DataBase:27066",
@@ -3777,7 +3777,7 @@
     "argument": 2,
     "mode": "translate",
     "source": "自身发动，范围４格，-Hp 40附加冰冻。",
-    "vi": "Thi triển tại chỗ, phạm vi 4 ô, gây 40 sát thương HP và đóng băng."
+    "vi": "Tại chỗ, vùng 4 ô: -40 HP, kèm đóng băng."
   },
   {
     "id": "DataBase:27121",
