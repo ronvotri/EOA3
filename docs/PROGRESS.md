@@ -92,3 +92,11 @@ Cập nhật: 2026-10-11.
 - Tích hợp `engine_callsite_slices.json` vào V4 của bộ ZIP Windows (tăng từ 5 lên 6 file). Tool kiểm tra báo cáo đọc được cả bản cũ V3; artifact công cụ Windows tự động có script mới.
 - CI kiểm tra bằng EXE mẫu, thuật toán byte-window, bảo toàn SHA, section và an toàn ZIP; job Windows One-click vẫn kiểm tra tạo archive hợp lệ.
 - Hướng nghiên cứu và giới hạn tại `docs/ENGINE_CALLSITE_EVIDENCE.md`; **chưa biết con trỏ chuỗi hoặc quy tắc xử lý Unicode trong runtime**, chưa có bản vá chơi được. Dịch chính thức **1.881/1.881**, `review` **574** giữ nguyên.
+
+
+## Truy vết tham số thực của TextOutA — 2026-10-11
+
+- Phân tích thành công ZIP V4 EXE người dùng, SHA đúng, 26 vị trí import code. `TextOutA` site **0x41A79A** có HDC `[ebp-8]`, `x=0`, `y=0`, LPCSTR `0x4F2B38`, **c=2 byte**. Site **0x41A7B9** nhận LPCSTR từ `[ebp+0x14]` và c từ EAX do `call 0x4CE790` tính; hàm này chưa có body nên không mặc định gọi `strlen`.
+- Font `CreateFontIndirectA` **0x41AAAB** dùng `LOGFONTA`, `lfWeight=400`, `lfCharSet=134` (offset 23) và tên mặt chữ từ đối số hàm. Hai lời gọi `TextOutA` cùng vị trí (0,0), có thể là offscreen glyph/surface; chưa chứng minh là điểm render thoại cuối.
+- Thêm `tools/inspect_textout_args.py` và tests đối chiếu exact bytes+hash. Mở rộng tool collector cho tối đa 192 byte `0x4CE790` + 16 byte `0x4F2B38` trên đúng EXE SHA; tên trường `dependent_code_targets`. Không thay cấu trúc ZIP 6 file và không ghi vào game.
+- Đọc **`docs/V4_TEXTOUT_ARGUMENT_AUDIT.md`**. Chưa vá Unicode hay font. Giữ **1.881 translate, 574 review**; 573 tên nháp không đưa vào runtime.
