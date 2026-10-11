@@ -69,7 +69,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "镇魂者之剑",
-    "vi": ""
+    "vi": "Lưỡi kiếm Trấn Hồn"
   },
   {
     "id": "stage25:2035",
@@ -78,7 +78,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "Stage-25 镇魂者之剑",
-    "vi": ""
+    "vi": "Màn 25 - Lưỡi kiếm Trấn Hồn"
   },
   {
     "id": "stage25:2040",
@@ -87,7 +87,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "玛雅  天使之泉遗迹",
-    "vi": ""
+    "vi": "Maya - Phế tích suối Thiên Sứ"
   },
   {
     "id": "stage25:2045",
@@ -105,7 +105,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“要变得更强¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Phải mạnh hơn nữa...”"
   },
   {
     "id": "stage25:2089",
@@ -114,7 +114,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我一定要变得更强。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhất định mình phải mạnh hơn!”"
   },
   {
     "id": "stage25:2134",
@@ -123,7 +123,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“给我黑色的力量之泉。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mang Suối Sức Mạnh đen đến đây cho ta!”"
   },
   {
     "id": "stage25:2241",
@@ -132,7 +132,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“只要喝下这黑色的力量之泉，%N我就可以变得更强了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chỉ cần uống thứ Suối Sức Mạnh đen này,%Nta sẽ còn mạnh hơn nữa!”"
   },
   {
     "id": "stage25:2252",
@@ -141,7 +141,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼哈哈哈哈～～～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ha ha ha ha!”"
   },
   {
     "id": "stage25:2304",
@@ -150,7 +150,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“洁莉！”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Jeli!”"
   },
   {
     "id": "stage25:2341",
@@ -168,7 +168,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“那不是天使之泉，醒一醒呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Đó đâu phải suối Thiên Sứ! Tỉnh lại đi em!”"
   },
   {
     "id": "stage25:2401",
@@ -177,7 +177,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼！你不要阻止我，我才不像你那么懦弱，%N居然还跟敌人在一起。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừ! Đừng cản tôi! Tôi đâu hèn nhát như chị,%Nlại còn đi cùng quân địch nữa chứ!”"
   },
   {
     "id": "stage25:2412",
@@ -186,7 +186,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我只要变得更强¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tôi chỉ cần trở nên mạnh hơn...”"
   },
   {
     "id": "stage25:2423",
@@ -195,7 +195,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“只要我们都变得更强就能再像以前一样了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chỉ cần chúng ta cùng mạnh lên, mọi chuyện sẽ lại như xưa!”"
   },
   {
     "id": "stage25:2434",
@@ -204,7 +204,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“对吧？玛西亚你说对不对呢！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đúng không? Chị Marcia, chị cũng nghĩ thế mà, phải không?”"
   },
   {
     "id": "stage25:2445",
@@ -213,7 +213,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“哼哈哈哈哈～～”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Ha ha ha ha!”"
   },
   {
     "id": "stage25:2475",
@@ -222,7 +222,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“洁莉！你给我醒一醒呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Jeli! Em tỉnh lại đi!”"
   },
   {
     "id": "stage25:2486",
@@ -231,7 +231,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“跟我回去吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Theo chị về nhà nhé!”"
   },
   {
     "id": "stage25:2516",
@@ -240,7 +240,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好啊！等你打倒我再说呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Được thôi! Đánh bại tôi trước đã!”"
   },
   {
     "id": "stage25:2527",
@@ -249,7 +249,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“只要我们喝下更多黑色的力量之泉，%N我们是绝对无敌的！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chỉ cần uống thêm Suối Sức Mạnh đen,%Nchúng ta sẽ trở thành bất khả chiến bại!”"
   },
   {
     "id": "stage25:2538",
@@ -258,7 +258,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“还有谁能打倒我们的大军呢！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Còn đội quân nào có thể đánh bại chúng ta chứ!?”"
   },
   {
     "id": "stage25:2549",
@@ -267,7 +267,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“都出来吧！哈哈哈哈哈～～～～”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Tất cả ra đây! Ha ha ha!”"
   },
   {
     "id": "stage25:2583",
@@ -402,7 +402,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“都来了吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Các ngươi ra đủ cả rồi chứ?”"
   },
   {
     "id": "stage25:2990",
@@ -411,7 +411,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好！我就来领教你的大军。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Được! Để ta xem đội quân của ngươi lợi hại đến đâu!”"
   },
   {
     "id": "stage25:3001",
@@ -420,7 +420,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“要是你输了就跟我回贝力欧。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nếu thua, ngươi phải theo ta về Belio!”"
   },
   {
     "id": "stage25:3078",
@@ -429,7 +429,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z28%c1“慢着！”",
-    "vi": ""
+    "vi": "%s2%t4%z28%c1“Khoan đã!”"
   },
   {
     "id": "stage25:3116",
@@ -438,7 +438,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这件事我想亲自解决，你们不用来太多人。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chuyện này ta muốn tự mình giải quyết, không cần nhiều người cùng tham chiến.”"
   },
   {
     "id": "stage25:3141",
@@ -447,7 +447,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừm...”"
   },
   {
     "id": "stage25:3152",
@@ -456,7 +456,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Được thôi!”"
   },
   {
     "id": "stage25:3375",
@@ -465,7 +465,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：洁莉战败。%N失败条件：玛西亚战败。",
-    "vi": ""
+    "vi": "Điều kiện thắng: Đánh bại Jeli.%NĐiều kiện thua: Marcia bị đánh bại."
   },
   {
     "id": "stage25:3392",
@@ -528,7 +528,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s8%t4%z18%c1“呜¨¨好痛苦¨¨¨¨”",
-    "vi": ""
+    "vi": "%s8%t4%z18%c1“Ư... đau quá...”"
   },
   {
     "id": "stage25:3581",
@@ -537,7 +537,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s8%t4%z18%c1“给我¨¨我要¨¨¨”",
-    "vi": ""
+    "vi": "%s8%t4%z18%c1“Đưa cho ta... Ta muốn...”"
   },
   {
     "id": "stage25:3619",
@@ -546,7 +546,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s8%t4%z18%c1“我¨¨一定要再喝多一点¨¨¨”",
-    "vi": ""
+    "vi": "%s8%t4%z18%c1“Ta... phải uống thêm nữa...”"
   },
   {
     "id": "stage25:3657",
@@ -555,7 +555,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“洁、洁莉¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Je... Jeli...”"
   },
   {
     "id": "stage25:3668",
@@ -564,7 +564,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不要在过去了¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đừng đến gần nữa...”"
   },
   {
     "id": "stage25:3700",
@@ -573,7 +573,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s8%t4%z18%c1“你是谁！？”",
-    "vi": ""
+    "vi": "%s8%t4%z18%c1“Ngươi là ai!?”"
   },
   {
     "id": "stage25:3711",
@@ -582,7 +582,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s8%t4%z18%c1“你不要过来¨¨¨¨”",
-    "vi": ""
+    "vi": "%s8%t4%z18%c1“Đừng đến đây...”"
   },
   {
     "id": "stage25:3722",
@@ -591,7 +591,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s8%t4%z18%c1“我要力量之泉¨¨¨”",
-    "vi": ""
+    "vi": "%s8%t4%z18%c1“Ta muốn Suối Sức Mạnh...”"
   },
   {
     "id": "stage25:3760",
@@ -600,7 +600,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z28%c1“洁莉，你醒醒呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z28%c1“Jeli, em tỉnh lại đi!”"
   },
   {
     "id": "stage25:3798",
@@ -609,7 +609,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s8%t4%z18%c1“我¨¨让我更强¨¨¨”",
-    "vi": ""
+    "vi": "%s8%t4%z18%c1“Ta... Cho ta thêm sức mạnh...”"
   },
   {
     "id": "stage25:3828",
@@ -618,7 +618,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“洁莉¨¨洁莉¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Jeli... Jeli ơi...”"
   },
   {
     "id": "stage25:3839",
@@ -627,7 +627,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你不记得我了吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Em không nhận ra chị nữa sao?”"
   },
   {
     "id": "stage25:3850",
@@ -636,7 +636,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我是玛西亚，你醒醒呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chị là Marcia đây! Em tỉnh lại đi!”"
   },
   {
     "id": "stage25:3882",
@@ -645,7 +645,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s6%t4%z18%c1“我¨我¨¨¨”",
-    "vi": ""
+    "vi": "%s6%t4%z18%c1“Em... em...”"
   },
   {
     "id": "stage25:3893",
@@ -654,7 +654,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s6%t4%z18%c1“呜¨身体¨¨%N我的身体好难受呀¨¨¨¨”",
-    "vi": ""
+    "vi": "%s6%t4%z18%c1“Ư... cơ thể em...%NCả người em đau quá...”"
   },
   {
     "id": "stage25:3979",
@@ -663,7 +663,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你真的不认得了吗¨¨洁莉¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Em thật sự không nhận ra chị sao, Jeli...?”"
   },
   {
     "id": "stage25:3990",
@@ -672,7 +672,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我是玛西亚啊¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chị là Marcia mà...”"
   },
   {
     "id": "stage25:4020",
@@ -681,7 +681,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s6%t4%z18%c1“玛¨玛西亚¨¨我¨¨”",
-    "vi": ""
+    "vi": "%s6%t4%z18%c1“Ma... Marcia... Em...”"
   },
   {
     "id": "stage25:4045",
@@ -690,7 +690,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“洁莉¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Jeli...”"
   },
   {
     "id": "stage25:4070",
@@ -699,7 +699,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s6%t4%z18%c1“呜¨¨我¨¨¨”",
-    "vi": ""
+    "vi": "%s6%t4%z18%c1“Ư... em...”"
   },
   {
     "id": "stage25:4081",
@@ -708,7 +708,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s6%t4%z18%c1“呜呜呜¨¨¨¨”",
-    "vi": ""
+    "vi": "%s6%t4%z18%c1“Hức... hức...”"
   },
   {
     "id": "stage25:4092",
@@ -717,7 +717,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s6%t4%z18%c1“玛西亚姊姊¨¨我到底做了什么¨¨¨”",
-    "vi": ""
+    "vi": "%s6%t4%z18%c1“Chị Marcia... Rốt cuộc em đã làm gì vậy...?”"
   },
   {
     "id": "stage25:4126",
@@ -735,7 +735,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“洁莉，你恢复了吗¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Jeli, em tỉnh táo lại rồi sao...?”"
   },
   {
     "id": "stage25:4156",
@@ -753,7 +753,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s6%t4%z18%c1“玛西亚姊姊¨¨我倒底¨做错了什么¨¨¨¨”",
-    "vi": ""
+    "vi": "%s6%t4%z18%c1“Chị Marcia... Rốt cuộc em đã làm sai chuyện gì...?”"
   },
   {
     "id": "stage25:4197",
@@ -762,7 +762,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你什么都没做错¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Em chẳng làm gì sai cả...”"
   },
   {
     "id": "stage25:4208",
@@ -771,7 +771,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“跟我回贝力欧¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Về Belio với chị nhé...”"
   },
   {
     "id": "stage25:4219",
@@ -780,7 +780,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“只要跟我回贝力欧就好了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chỉ cần theo chị về Belio là được rồi.”"
   },
   {
     "id": "stage25:4244",
@@ -789,7 +789,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s6%t4%z18%c1“呜¨¨¨”",
-    "vi": ""
+    "vi": "%s6%t4%z18%c1“Hức...”"
   },
   {
     "id": "stage25:4255",
@@ -798,7 +798,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s6%t4%z18%c1“对不起¨¨对不起¨¨玛西亚姊姊¨¨”",
-    "vi": ""
+    "vi": "%s6%t4%z18%c1“Em xin lỗi... Xin lỗi chị, Marcia...”"
   },
   {
     "id": "stage25:4266",
@@ -807,7 +807,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s6%t4%z18%c1“变成这样都是我自己不好¨¨¨”",
-    "vi": ""
+    "vi": "%s6%t4%z18%c1“Đều tại em, em mới thành ra thế này...”"
   },
   {
     "id": "stage25:4277",
@@ -816,7 +816,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s6%t4%z18%c1“一切都已经来不及了¨¨¨”",
-    "vi": ""
+    "vi": "%s6%t4%z18%c1“Mọi chuyện... đã quá muộn rồi...”"
   },
   {
     "id": "stage25:4288",
@@ -825,7 +825,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s6%t4%z18%c1“请¨请杀了我吧¨¨¨”",
-    "vi": ""
+    "vi": "%s6%t4%z18%c1“Xin chị... hãy giết em đi...”"
   },
   {
     "id": "stage25:4313",
@@ -843,7 +843,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s6%t4%z18%c1“我知道我已经¨¨¨”",
-    "vi": ""
+    "vi": "%s6%t4%z18%c1“Em biết mình đã...”"
   },
   {
     "id": "stage25:4349",
@@ -852,7 +852,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s8%t4%z18%c1“呜¨¨呃¨¨¨¨”",
-    "vi": ""
+    "vi": "%s8%t4%z18%c1“Ư... a...”"
   },
   {
     "id": "stage25:4374",
@@ -861,7 +861,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不¨我不会杀你。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không... chị sẽ không giết em đâu!”"
   },
   {
     "id": "stage25:4385",
@@ -870,7 +870,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你不会有事的¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Em sẽ ổn thôi mà...”"
   },
   {
     "id": "stage25:4410",
@@ -879,7 +879,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s6%t4%z18%c1“克诺依德姊姊¨¨¨%N还有雷丝曼他们都比我还严重¨¨”",
-    "vi": ""
+    "vi": "%s6%t4%z18%c1“Chị Konoid... và cả Resman nữa,%Nhọ còn nặng hơn em nhiều...”"
   },
   {
     "id": "stage25:4421",
@@ -888,7 +888,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s6%t4%z18%c1“她们变得¨¨¨”",
-    "vi": ""
+    "vi": "%s6%t4%z18%c1“Họ đã biến thành...”"
   },
   {
     "id": "stage25:4432",
@@ -897,7 +897,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s6%t4%z18%c1“呃¨¨好难过¨¨¨%N我、我不要变得更他们一样啊¨¨¨%N杀了我吧¨¨”",
-    "vi": ""
+    "vi": "%s6%t4%z18%c1“Ư... đau quá...%NEm... em không muốn biến thành như họ đâu...%NChị giết em đi...”"
   },
   {
     "id": "stage25:4457",
@@ -906,7 +906,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“洁莉，我不会杀你的¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Jeli, chị sẽ không giết em đâu...”"
   },
   {
     "id": "stage25:4468",
@@ -915,7 +915,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我们一起回贝力欧好吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chúng ta cùng về Belio nhé?”"
   },
   {
     "id": "stage25:4479",
@@ -924,7 +924,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“走吧，我们回¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đi nào, mình về...”"
   },
   {
     "id": "stage25:4504",
@@ -933,7 +933,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s6%t4%z18%c1“我好痛苦¨¨一切都太迟了¨¨¨¨”",
-    "vi": ""
+    "vi": "%s6%t4%z18%c1“Em đau đớn quá... Tất cả đã quá muộn rồi...”"
   },
   {
     "id": "stage25:4515",
@@ -942,7 +942,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s6%t4%z18%c1“玛西亚姊姊求求你¨¨%N我不要再成为你的敌人了¨¨¨”",
-    "vi": ""
+    "vi": "%s6%t4%z18%c1“Chị Marcia, em xin chị...%NEm không muốn trở thành kẻ thù của chị nữa...”"
   },
   {
     "id": "stage25:4540",
@@ -960,7 +960,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s6%t4%z18%c1“杀了我¨¨玛西亚姊姊¨¨”",
-    "vi": ""
+    "vi": "%s6%t4%z18%c1“Hãy giết em đi... chị Marcia...”"
   },
   {
     "id": "stage25:4576",
@@ -969,7 +969,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s6%t4%z18%c1“请杀了我吧¨¨¨”",
-    "vi": ""
+    "vi": "%s6%t4%z18%c1“Xin chị hãy giết em...”"
   },
   {
     "id": "stage25:4600",
@@ -978,7 +978,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chị...”"
   },
   {
     "id": "stage25:4611",
@@ -987,7 +987,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我¨¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chị... chị...”"
   },
   {
     "id": "stage25:4622",
@@ -996,7 +996,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“洁莉¨¨原谅我¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Jeli... Hãy tha thứ cho chị...”"
   },
   {
     "id": "stage25:4633",
@@ -1005,7 +1005,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“请原谅我！”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Xin em tha thứ cho chị!”"
   },
   {
     "id": "stage25:4665",
@@ -1014,7 +1014,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呃¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ư...”"
   },
   {
     "id": "stage25:4674",
@@ -1050,7 +1050,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“洁莉¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Jeli...”"
   },
   {
     "id": "stage25:4804",
@@ -1059,7 +1059,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s8%t4%z18%c1“对不起¨¨¨玛西亚姊姊¨¨¨”",
-    "vi": ""
+    "vi": "%s8%t4%z18%c1“Em xin lỗi... chị Marcia...”"
   },
   {
     "id": "stage25:4815",
@@ -1068,7 +1068,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s8%t4%z18%c1“你说要一起统治爱尔达¨¨”",
-    "vi": ""
+    "vi": "%s8%t4%z18%c1“Chị từng nói chúng ta sẽ cùng cai trị Elda...”"
   },
   {
     "id": "stage25:4826",
@@ -1077,7 +1077,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s8%t4%z18%c1“我¨我不能陪你了¨¨”",
-    "vi": ""
+    "vi": "%s8%t4%z18%c1“Nhưng em... không thể đi cùng chị nữa rồi...”"
   },
   {
     "id": "stage25:4851",
@@ -1086,7 +1086,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“是我对不起你¨¨¨%N都是我不好，洁莉¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chị mới là người có lỗi với em...%NTất cả là tại chị, Jeli à...”"
   },
   {
     "id": "stage25:4862",
@@ -1095,7 +1095,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“洁¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Je...”"
   },
   {
     "id": "stage25:4887",
@@ -1104,7 +1104,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s8%t4%z18%c1“好希望能继续跟你在一起¨¨¨”",
-    "vi": ""
+    "vi": "%s8%t4%z18%c1“Em ước gì mình còn được ở bên chị...”"
   },
   {
     "id": "stage25:4898",
@@ -1113,7 +1113,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s8%t4%z18%c1“永¨永别了¨¨¨”",
-    "vi": ""
+    "vi": "%s8%t4%z18%c1“Vĩnh... vĩnh biệt...”"
   },
   {
     "id": "stage25:4923",
@@ -1122,7 +1122,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“洁莉¨¨不要¨¨%N不要走啊¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Jeli... Không...%NĐừng bỏ chị mà...”"
   },
   {
     "id": "stage25:4934",
@@ -1131,7 +1131,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“洁莉¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Jeli...”"
   },
   {
     "id": "stage25:4950",
@@ -1149,7 +1149,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“洁莉！！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“JELI!!”"
   },
   {
     "id": "stage25:5004",
@@ -1158,7 +1158,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“洁¨¨莉¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Je... li...”"
   },
   {
     "id": "stage25:5018",
@@ -1176,7 +1176,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“玛西亚¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Marcia...”"
   },
   {
     "id": "stage25:5091",
@@ -1185,7 +1185,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“让我一个人静一静好吗¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Để tôi ở một mình một lát, được không...?”"
   },
   {
     "id": "stage25:5198",
@@ -1194,7 +1194,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“希蜜。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Shimi.”"
   },
   {
     "id": "stage25:5235",
@@ -1203,7 +1203,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“啊！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Dạ!?”"
   },
   {
     "id": "stage25:5260",
@@ -1212,7 +1212,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“将泉水净化吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hãy thanh tẩy dòng suối đi!”"
   },
   {
     "id": "stage25:5285",
@@ -1221,7 +1221,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哦¨好¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“À... vâng...”"
   },
   {
     "id": "stage25:5307",
@@ -1284,6 +1284,6 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“洁莉¨¨洁¨莉¨¨¨，%N永¨别¨¨了¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Jeli... Je... li...%NVĩnh... biệt em...”"
   }
 ]
