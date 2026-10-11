@@ -12,14 +12,18 @@ python tools/scripts.py roundtrip --out build/original/Data
 ```
 
 - `translations/`: 40 file, tổng 4.236 chuỗi. Chỉ điền trường `vi` của các dòng `mode: translate`.
-- 1.742 dòng `translate`: lời thoại, thông báo, tên màn và nhiệm vụ có chữ Hán.
-- 713 dòng `review`: ứng viên như tên/mô tả kỹ năng, vật phẩm, lớp nhân vật; chưa tự động cho phép dịch vì cần xem tham số và liên kết.
+- **1.881 dòng `translate` hiện tại** (1.742 ban đầu + 139 trường `review` đã chứng minh là mô tả/lời dẫn); tất cả đã có bản dịch tiếng Việt.
+- **574 dòng `review` còn lại**: tên kỹ năng/vật phẩm/lớp nhân vật, phe, địa hình, thẻ và trường chưa xác định lệnh; phải kiểm chứng tham chiếu trước khi mở khóa. Xem `docs/REVIEW_AUDIT.md`.
 - 1.781 dòng `locked`: khóa nội bộ, tên tra cứu, nhãn kịch bản, tài nguyên hoặc chuỗi chưa xác định là nội dung cần dịch.
 - `source/`: bản biểu diễn đầy đủ kịch bản gốc; không chỉnh sửa. Dựng lại khớp SHA-256 cả 40 file.
 - `reference/ui-assets.json`: chỉ mục tài nguyên giao diện, chưa có ảnh giải mã.
 - `docs/PHAN_TICH.md`: bằng chứng kỹ thuật và giới hạn hiện tại.
 
 Số dòng là số chuỗi xuất hiện, bao gồm lặp lại; không phải số câu duy nhất. Phân loại là bước sàng lọc ban đầu, vẫn cần đọc ngữ cảnh.
+
+## Tiến độ mới nhất
+
+Đã dịch xong toàn bộ 1.881 chuỗi thuộc `mode=translate` hiện hành. Chưa có bản build/font Unicode chạy được; xem `docs/PROGRESS.md` và `docs/REVIEW_AUDIT.md` về tiến độ thực tế và các khóa dữ liệu chưa thể đổi.
 
 ## Giới hạn đóng gói
 

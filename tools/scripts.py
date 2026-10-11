@@ -4,6 +4,24 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CONTROL = re.compile(r"%[A-Za-z](?:[+-]?\d+)?")
 SAFE_CALLS = {"Say", "MessageBox", "SetMission", "SetStageName"}
+# Manually audited text parameters: not names/IDs used as cross-resource lookup keys.
+# SP_AddAction argument 3 = cutscene overlay; skills/items argument 2 = tooltip text.
+AUDITED_TEXT_FIELDS = {("SP_AddAction", 3), ("AddSkillData", 2), ("AddItemData", 2)}
+OVERLAY_PREFIX = re.compile(r"^%s\d+%t\d+%z\d+")
+
+
+def is_safe_text_field(row):
+    if row["call"] in SAFE_CALLS:
+        return True
+    field = (row["call"], row["argument"])
+    if field not in AUDITED_TEXT_FIELDS:
+        return False
+    if row["call"] == "SP_AddAction":
+        return bool(OVERLAY_PREFIX.match(row["source"]))
+    # Descriptions have no display control prefix. Their adjacent name
+    # parameters remain non-translatable pending key-reference analysis.
+    return not row["source"].startswith("%")
+
 
 def read(path):
     return json.loads(path.read_text(encoding="utf-8"))
@@ -45,7 +63,7 @@ def validate_rows(doc, rows):
             raise ValueError(f"vi must be a string: {row['id']}")
         if not text:
             continue
-        if row["mode"] != "translate" or row["call"] not in SAFE_CALLS:
+        if row["mode"] != "translate" or not is_safe_text_field(row):
             raise ValueError(f"Requires separate semantic review: {row['id']}")
         if CONTROL.findall(text) != CONTROL.findall(row["source"]):
             raise ValueError(f"Control codes changed: {row['id']}")

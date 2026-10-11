@@ -1,28 +1,29 @@
 # Bàn giao cho cloud
 
-## Trạng thái
+## Checkpoint mới nhất — 2026-10-11
 
-Dự án Việt hóa **Empire of Angels 3**. Đã xuất dữ liệu 40 kịch bản (4.236 chuỗi), lưu trong `source/` và `translations/`. **1.742/1.742 dòng `mode=translate` đã được dịch (100%)** trên tất cả kịch bản hiện có, bao gồm các nhánh phụ stage40–48, stage80 và stage90–93. **Không còn màn `translate` kế tiếp**. Không cần dịch lại hoặc phân tích lại từ đầu.
+Empire of Angels 3 đã có bản dịch cho **1.881/1.881 trường `mode=translate` hiện tại**, gồm **1.742 trường ban đầu và 139 trường đã thẩm định để mở khóa**. Số `review` giảm từ **713 còn 574**. Có 40 file kịch bản trong `source/` và `translations/`.
 
-**Chưa có bản vá game chạy được**. Font tiếng Việt có dấu, pipeline mã hóa, UI ngoài kịch bản và kiểm thử Windows vẫn chưa làm xong.
+**Không dịch lại các stage đã xong. Không có bản patch chơi được.** Việc quan trọng là tiếp tục phân loại `review`, nghiên cứu font tiếng Việt/đường truyền Unicode và kiểm thử Windows.
 
-## Công việc tiếp theo
+## Những gì lượt trước vừa làm
 
-1. Đọc `AGENTS.md`, `docs/PROGRESS.md`, `docs/GLOSSARY.md`, `README.md`.
-2. Kiểm kê và phân loại **713 dòng `mode=review`**, trong đó `translations/DataBase.json` có **690**. `SP_AddAction` ở `stage27.json` có 8 dòng review; không được tự thay bằng `translate` chỉ vì chứa chữ Hán. Xác minh chữ ký hàm và nguồn tham chiếu cụ thể trước khi mở khóa; giữ nguyên mọi khóa nội bộ dùng cho CreateNPC/FindIdByName, SUBSCRIPT/CALLSUB.
-3. Nếu đủ bằng chứng rằng một hàng `review` là văn bản hiển thị, xác định cách cho phép dịch an toàn bằng validator, bổ sung test và ghi tài liệu quyết định trước khi đổi mode. Không hạ thấp điều kiện check.
-4. Tiếp tục nghiên cứu engine TextOutA/CreateFontIndirectA, SimSun charset 134, bảng mã GBK hiện tại; thử chiến lược Unicode/font riêng và đo độ rộng, ngắt dòng/hiệu ứng hiển thị trong game. Không xuất bản patch giả hoặc nén dữ liệu UTF-8 như thể game đã hỗ trợ.
-5. Rà tên riêng và khẩu khí người nói, thử nhiều nhánh/kết cục. Ghi phát hiện QA rõ token và stage, không tự thay source/hash.
-6. Chạy `python tools/scripts.py check`, `python tools/test_scripts.py` sau mỗi nhóm thay đổi. Cập nhật `docs/PROGRESS.md`, `docs/GLOSSARY.md`.
+1. `docs/REVIEW_AUDIT.md`: bảng phân nhóm 713 ứng viên cũ, 139 đã dịch, 574 còn lại. Gồm bằng chứng từ token `SP_AddAction` (stage1/stage27), `AddSkillData`, `AddItemData`.
+2. `stage1.json` và `stage27.json`: dịch **22 lời dẫn cảnh** đối số 3 của `SP_AddAction`.
+3. `DataBase.json`: dịch **59 mô tả kỹ năng** (`AddSkillData` đối số 2) và **58 mô tả vật phẩm** (`AddItemData` đối số 2). **Không đổi các tên** ở đối số 1, không đổi 360 tên lớp.
+4. `tools/scripts.py`: thêm allowlist theo *lệnh + đối số*, và kiểm tra tiền tố cho lớp lời dẫn. `tools/test_scripts.py`: bổ sung kiểm thử chấp nhận văn bản, từ chối tên/khóa chưa xác minh.
 
-## Ràng buộc kỹ thuật
+## Làm gì tiếp
 
-- Chỉ đổi `vi` tại `mode=translate` khi dịch. `review` cần nghiên cứu, không được đổi hàng loạt.
-- Giữ nguyên `source/id/token/call/argument/mode` và thứ tự mã `%s/%t/%z/%c/%N`; regex validator `%[A-Za-z](?:[+-]?\d+)?`.
-- Tên/địa danh Hán–Latin trong glossary đều có thể là phiên âm tạm. Không sửa khóa tên nhân vật để thống nhất chữ hiển thị.
-- Không có `stage28.json`; danh sách file kịch bản từ cây thực tế repo, không từ số thứ tự liên tục.
-- Bản dịch UTF-8 là dữ liệu trung gian, builder legacy `cp936` không đóng gói được chữ tiếng Việt có dấu.
+- Đọc `AGENTS.md`, `docs/PROGRESS.md`, `docs/REVIEW_AUDIT.md`, `docs/GLOSSARY.md`, `docs/PHAN_TICH.md`.
+- Rà **574 `review` còn lại**. Theo token tham số và lời gọi thực, xem trường tên nào dùng làm lookup. Ưu tiên tên skill/item trước khi đến 360 tên class. `stage24:4663` chưa có lệnh chủ, phải truy vết opcode trước.
+- Nếu một trường được chứng minh an toàn và nên dịch, ghi bằng chứng trong audit, nâng validator đúng lệnh/đối số, thêm test chống lỗi khóa, rồi mới chỉnh `mode` và `vi`. Không mở khóa hàng loạt hoặc giảm điều kiện validate.
+- Tạo thử nghiệm font/runtime Unicode theo đúng `AngelSLG.exe` bản gốc. Dữ liệu nguồn dùng `cp936` và bảng chữ SimSun/charset 134; cần điều tra `TextOutA`, `CreateFontIndirectA`, đo chiều rộng, xử lý `%N`/hiệu ứng chữ. Không lấy bản dịch UTF-8 làm bản patch chưa thử.
+- Chạy `python tools/scripts.py check` và `python tools/test_scripts.py`; cập nhật tiến độ và bàn giao ngay sau mỗi nhóm.
 
-## Prompt để tiếp tục
+## Nguyên tắc bất biến
 
-Tiếp tục EOA3 từ checkpoint đạt 1.742/1.742 `translate`. Không dịch lại những màn đã hoàn tất. Hãy audit các hàng `review` theo mức an toàn hiển thị/khóa nội bộ, chứng minh bằng nguồn và test nếu mở khóa. Song song có thể nghiên cứu pipeline font Unicode/GBK để đi đến bản patch Windows kiểm thử được; chưa khẳng định có bản playable khi chưa chạy thử.
+- Giữ nguyên `source/`, bảng token, `id/token/call/argument/source`, hash nguồn, thứ tự mã `%s/%t/%z/%c/%N`.
+- Không sửa `locked`; `review` chỉ được chuyển thành `translate` sau khi có bằng chứng rõ và cập nhật validator/test.
+- Tên Hán–Latin trong glossary là phiên âm tạm, chưa được kiểm chứng toàn game. 
+- Chỉ nói patch chơi được khi có bản build đã thử trên Windows.

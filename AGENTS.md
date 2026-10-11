@@ -9,3 +9,5 @@
 - Chạy python tools/scripts.py check sau mỗi nhóm dịch.
 - Không khẳng định game đã hỗ trợ tiếng Việt có dấu hoặc chạy ổn khi chưa thử bản font và kiểm thử Windows.
 - Cập nhật docs/PROGRESS.md sau mỗi nhóm; thuật ngữ thống nhất trong docs/GLOSSARY.md.
+
+- Ở giai đoạn audit `review`, chỉ được đổi `mode`/`vi` cho trường đã xác minh bằng chữ ký hàm và tham số, có ghi `docs/REVIEW_AUDIT.md`, bổ sung validator/test. Không dịch tên đang là khóa chỉ vì nhìn giống chữ UI.

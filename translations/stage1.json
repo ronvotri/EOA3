@@ -94,72 +94,72 @@
     "token": 739,
     "call": "SP_AddAction",
     "argument": 3,
-    "mode": "review",
+    "mode": "translate",
     "source": "%s1%t3%z20罗历一六七九年%N%N%N%N  爱尔达大陆",
-    "vi": ""
+    "vi": "%s1%t3%z20Năm 1679 theo lịch La%N%N%N%N  Lục địa Elda"
   },
   {
     "id": "stage1:764",
     "token": 764,
     "call": "SP_AddAction",
     "argument": 3,
-    "mode": "review",
+    "mode": "translate",
     "source": "%s8%t4%z20“我恳求生命女神赐与我生存的力量与勇气，”",
-    "vi": ""
+    "vi": "%s8%t4%z20“Con cầu xin Nữ thần Sinh Mệnh ban cho con sức mạnh và lòng can đảm để sống,”"
   },
   {
     "id": "stage1:829",
     "token": 829,
     "call": "SP_AddAction",
     "argument": 3,
-    "mode": "review",
+    "mode": "translate",
     "source": "%s8%t4%z20“绝不容许战争破坏生命的可贵与存在的价值¨¨¨”",
-    "vi": ""
+    "vi": "%s8%t4%z20“Con quyết không để chiến tranh chà đạp giá trị và sự quý báu của sinh mệnh...”"
   },
   {
     "id": "stage1:854",
     "token": 854,
     "call": "SP_AddAction",
     "argument": 3,
-    "mode": "review",
+    "mode": "translate",
     "source": "%s0%t1%z18妮雅%N%N%N%N%N%N       于  拉锡叶",
-    "vi": ""
+    "vi": "%s0%t1%z18Niya%N%N%N%N%N%N       Tại Laxia"
   },
   {
     "id": "stage1:872",
     "token": 872,
     "call": "SP_AddAction",
     "argument": 3,
-    "mode": "review",
+    "mode": "translate",
     "source": "%s6%t4%z18以欧查帝国为首的欧查叛军对爱尔达联邦发起的%N%N全面侵略行动持续十二年之后¨¨¨",
-    "vi": ""
+    "vi": "%s6%t4%z18Cuộc xâm lược toàn diện của quân nổi loạn Ocha, do Đế quốc Ocha đứng đầu,%N%Nkéo dài suốt mười hai năm trên lục địa Elda..."
   },
   {
     "id": "stage1:944",
     "token": 944,
     "call": "SP_AddAction",
     "argument": 3,
-    "mode": "review",
+    "mode": "translate",
     "source": "%s6%t4%z18最后一场战争在拉锡叶首都厄特终结，欧查联军败战后%N%N撤返回国¨¨",
-    "vi": ""
+    "vi": "%s6%t4%z18Trận chiến cuối cùng khép lại tại Ett, kinh đô Laxia. Quân liên minh Ocha đại bại%N%Nvà rút về nước..."
   },
   {
     "id": "stage1:989",
     "token": 989,
     "call": "SP_AddAction",
     "argument": 3,
-    "mode": "review",
+    "mode": "translate",
     "source": "%s6%t4%z18号称“欧查之剑”的贝力欧女王“伊丝塔”于战役中身亡。",
-    "vi": ""
+    "vi": "%s6%t4%z18Nữ hoàng Belio là Ishtar, người được mệnh danh “Lưỡi gươm Ocha”, tử trận."
   },
   {
     "id": "stage1:1034",
     "token": 1034,
     "call": "SP_AddAction",
     "argument": 3,
-    "mode": "review",
+    "mode": "translate",
     "source": "%s6%t4%z18新女王玛西亚受封王位后，带领欧查三国重新加入%N%N邦联议会¨¨¨",
-    "vi": ""
+    "vi": "%s6%t4%z18Nữ hoàng mới Marcia kế vị, đưa ba nước Ocha trở lại%N%NHội đồng Liên bang..."
   },
   {
     "id": "stage1:1075",
@@ -175,9 +175,9 @@
     "token": 1088,
     "call": "SP_AddAction",
     "argument": 3,
-    "mode": "review",
+    "mode": "translate",
     "source": "%s6%t4%z18十二年战争结束后，贪婪的人心并未重新反省¨¨¨",
-    "vi": ""
+    "vi": "%s6%t4%z18Sau cuộc chiến kéo dài mười hai năm, lòng tham của con người vẫn chưa chịu thức tỉnh..."
   },
   {
     "id": "stage1:1102",
@@ -193,45 +193,45 @@
     "token": 1149,
     "call": "SP_AddAction",
     "argument": 3,
-    "mode": "review",
+    "mode": "translate",
     "source": "%s4%t4%z18欧查联军野心未灭，七年后欧查重振大军再起¨¨¨%N%N贝力欧、亚伯登及萨梅尔等三国联军再度侵袭邦联各国¨¨",
-    "vi": ""
+    "vi": "%s4%t4%z18Tham vọng của quân Ocha chưa hề tắt. Bảy năm sau, chúng lại tập hợp đại quân...%N%NBelio, Aberdon và Samel lần nữa xâm lược các nước Liên bang..."
   },
   {
     "id": "stage1:1174",
     "token": 1174,
     "call": "SP_AddAction",
     "argument": 3,
-    "mode": "review",
+    "mode": "translate",
     "source": "%s4%t4%z18罗历一六七六年，拉锡叶公国首当其冲¨¨",
-    "vi": ""
+    "vi": "%s4%t4%z18Năm 1676 theo lịch La, công quốc Laxia trở thành mục tiêu đầu tiên..."
   },
   {
     "id": "stage1:1199",
     "token": 1199,
     "call": "SP_AddAction",
     "argument": 3,
-    "mode": "review",
+    "mode": "translate",
     "source": "%s0%t4%z18“拉锡叶左翼正规部队遭拉奎尔及萨梅尔夹击下全军覆没，”",
-    "vi": ""
+    "vi": "%s0%t4%z18“Cánh quân chính quy bên trái Laxia bị Rakuel và Samel đánh kẹp, toàn quân bị tiêu diệt,”"
   },
   {
     "id": "stage1:1224",
     "token": 1224,
     "call": "SP_AddAction",
     "argument": 3,
-    "mode": "review",
+    "mode": "translate",
     "source": "%s0%t4%z18“右翼正规军主将阵亡导致部队瞬间崩溃，%N%N王城守卫失利使拉锡叶首都厄特陷落。”",
-    "vi": ""
+    "vi": "%s0%t4%z18“Tướng cánh phải tử trận khiến quân đội nhanh chóng tan rã.%N%NPhòng tuyến hoàng thành bị phá, kinh đô Ett của Laxia thất thủ.”"
   },
   {
     "id": "stage1:1249",
     "token": 1249,
     "call": "SP_AddAction",
     "argument": 3,
-    "mode": "review",
+    "mode": "translate",
     "source": "%s0%t4%z18“王室卫队护卫皇室以及残余部队退负东南隅宾斯坦城¨¨¨”",
-    "vi": ""
+    "vi": "%s0%t4%z18“Cận vệ hoàng gia hộ tống vương thất và tàn quân rút về thành Benstein phía đông nam...”"
   },
   {
     "id": "stage1:1274",

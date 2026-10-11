@@ -1057,72 +1057,72 @@
     "token": 6827,
     "call": "SP_AddAction",
     "argument": 3,
-    "mode": "review",
+    "mode": "translate",
     "source": "%s8%t4%z20玛西亚：“洁莉！？是你吗¨¨¨¨”",
-    "vi": ""
+    "vi": "%s8%t4%z20Marcia: “Jeli!? Là em đấy sao...?”"
   },
   {
     "id": "stage27:6899",
     "token": 6899,
     "call": "SP_AddAction",
     "argument": 3,
-    "mode": "review",
+    "mode": "translate",
     "source": "%s8%t4%z20洁莉：“玛西亚首领¨¨¨¨”",
-    "vi": ""
+    "vi": "%s8%t4%z20Jeli: “Thủ lĩnh Marcia...”"
   },
   {
     "id": "stage27:6924",
     "token": 6924,
     "call": "SP_AddAction",
     "argument": 3,
-    "mode": "review",
+    "mode": "translate",
     "source": "%s8%t4%z20洁莉：“这么多年来您总是最照顾我。”",
-    "vi": ""
+    "vi": "%s8%t4%z20Jeli: “Suốt bao năm qua, người luôn quan tâm chăm sóc em nhất.”"
   },
   {
     "id": "stage27:6949",
     "token": 6949,
     "call": "SP_AddAction",
     "argument": 3,
-    "mode": "review",
+    "mode": "translate",
     "source": "%s8%t4%z20洁莉：“能在我还清醒的时候由新欧查之剑来结束性命，%N        我真的觉得很光荣也很高兴。”",
-    "vi": ""
+    "vi": "%s8%t4%z20Jeli: “Được chính Lưỡi gươm Ocha mới kết liễu khi em còn tỉnh táo,%N        em thật sự thấy vinh dự và mãn nguyện.”"
   },
   {
     "id": "stage27:6974",
     "token": 6974,
     "call": "SP_AddAction",
     "argument": 3,
-    "mode": "review",
+    "mode": "translate",
     "source": "%s8%t4%z20洁莉：“如果还有机会的话¨¨¨¨¨”",
-    "vi": ""
+    "vi": "%s8%t4%z20Jeli: “Nếu vẫn còn một cơ hội nữa...”"
   },
   {
     "id": "stage27:6999",
     "token": 6999,
     "call": "SP_AddAction",
     "argument": 3,
-    "mode": "review",
+    "mode": "translate",
     "source": "%s8%t4%z20洁莉：“我绝对还是选择跟随您。”",
-    "vi": ""
+    "vi": "%s8%t4%z20Jeli: “Em nhất định vẫn chọn đi theo người.”"
   },
   {
     "id": "stage27:7024",
     "token": 7024,
     "call": "SP_AddAction",
     "argument": 3,
-    "mode": "review",
+    "mode": "translate",
     "source": "%s8%t4%z20洁莉：“绝对¨¨¨¨¨”",
-    "vi": ""
+    "vi": "%s8%t4%z20Jeli: “Nhất định...”"
   },
   {
     "id": "stage27:7049",
     "token": 7049,
     "call": "SP_AddAction",
     "argument": 3,
-    "mode": "review",
+    "mode": "translate",
     "source": "%s8%t4%z20洁莉：“绝对！”",
-    "vi": ""
+    "vi": "%s8%t4%z20Jeli: “Nhất định!”"
   },
   {
     "id": "stage27:7072",
