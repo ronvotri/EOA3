@@ -1,5 +1,15 @@
 # Bàn giao cho cloud
 
+## Checkpoint (11/10/2026): V5 kiểm chứng vòng duyệt `CharNextA`, hai `TextOutA` cùng một routine
+
+- **KHÔNG cần user chạy lại V5**, đã phân tích trực tiếp báo cáo `EOA3-Windows-Diagnostics(2).zip`. Vùng mã `0x42AD2F..0x42AD7B` duyệt NUL-terminated string, kiểm tra ASCII `%` (`0x25`) và trạng thái `[ebp-0x14]&0xff`; `0x42AD54` gọi `CharNextA`, lưu con trỏ mới `[ebp-0x38]` rồi nhảy vòng. **Không kết luận vòng này là bộ parser `%N/%s/%t/%z`**.
+- Hai cửa sổ `TextOutA` tại `0x41A79A` và `0x41A7B9` overlap khớp từng byte; sau lời gọi thứ hai có `ret 0x14` tại `0x41A7E9`, cùng routine liên tục quan sát được; vẫn chưa có caller hoặc chứng minh render hội thoại.
+- Thêm `tools/audit_v5_text_iteration.py`: đọc ZIP V5 có sẵn, kiểm tra hash và overlap cùng exact byte landmarks, không sửa game; unit tests nhân tạo. Mở vấn đề **Unicode byte transport phải xử lý cả CharNextA**, không chỉ font và `strlen`.
+- Chuẩn bị `tools/probe_text_callers.py` **CHƯA kích hoạt trong bộ tool Windows**: khi có lý do thu dữ liệu mới, map tên 7 IAT quanh GDI và tìm ứng viên x86 `E8 rel32` nhảy vào 4 vùng đã khóa theo EXE SHA. Kết quả chỉ là heuristic, không phải caller đã disassemble. Unit tests độc lập.
+- Chi tiết `docs/V5_ANSI_TEXT_PATH_AUDIT.md`. **Next:** phân tích caller của routine text và quan hệ chuỗi ANGELSCRIPT→HDC trước khi làm PoC Unicode; không để người dùng lặp vòng diagnostics khi chưa có câu hỏi cụ thể.
+- Tiến độ không thay đổi: **1.881/1.881 translate, 574 review, 573 tên nháp**, không có patch playable.
+
+
 ## Checkpoint mới nhất: V5 ĐÃ XÁC MINH BYTE STRLEN (11/10/2026)
 
 - Đã nhận `EOA3-Windows-Diagnostics(2).zip` + `EOA3-Diagnostic-Log(3).txt` từ Windows thật, **SUCCESS**, đúng SHA `2d7d9705837e32c72685d69e50e426fde168ea8d435de90ba937cefbf5138baf`. Không yêu cầu người dùng chạy lại V5. Đọc **`docs/V5_STRLEN_ENGINE_AUDIT.md`**.
