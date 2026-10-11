@@ -94,3 +94,6 @@ Bản Windows diagnostic **V4** xuất thêm `engine_callsite_slices.json` (tổ
 
 
 **Mắt xích chữ mới từ V7 (12/10/2026):** đã tìm thấy đường `CharNextA` → tính byte-length → sao chép substring vào buffer tạm và kết thúc NUL → **CALL `0x41C790`** tại `0x42ADDB`. Hàm `0x41C790` là consumer được gọi trực tiếp nhưng chưa biết body/có vẽ thoại hay không; đừng nhầm nó là parser hay renderer đã xác minh. Chi tiết `docs/V7_TEXT_SEGMENT_HANDOFF.md`, tool kiểm từ ZIP V7 `tools/audit_v7_text_handoff.py`. Không cần chạy lại V7; không có Unicode patch playable.
+
+
+**Từ mã V7 (12/10/2026):** ngoài đường `CharNextA` → substring → consumer `0x41C790`, đã xác minh nhánh numeric pointer+2 → **signed modulo 16 × 3** → đọc ba byte từ bảng `0x522F44` → gọi helper `0x42AED0` rồi `0x41AC20`. Có ứng viên điều khiển màu/thuộc tính văn bản; **chưa xác minh nhánh đó chính là `%c` hay palette RGB**. Bản nguồn có 1.634 lần `%c1` (40 script JSON), controls cần giữ nguyên. Xem `docs/V7_PALETTE_COMMAND_CORRELATION.md`, tool `tools/audit_v7_palette_commands.py` (có chế độ `--source-only`). Chưa có patch Unicode chạy được.
