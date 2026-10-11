@@ -69,7 +69,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "拉锡叶首都  厄特",
-    "vi": ""
+    "vi": "Kinh đô Ett, Laxia"
   },
   {
     "id": "stage93:1859",
@@ -78,7 +78,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“总算回到拉锡叶了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cuối cùng cũng về tới Laxia rồi!”"
   },
   {
     "id": "stage93:1884",
@@ -87,7 +87,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“突然觉得好怀念呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tự nhiên thấy nhớ quê nhà quá!”"
   },
   {
     "id": "stage93:1909",
@@ -96,7 +96,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừm...”"
   },
   {
     "id": "stage93:1920",
@@ -105,7 +105,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我们也回家吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mình cũng về nhà thôi!”"
   },
   {
     "id": "stage93:1991",
