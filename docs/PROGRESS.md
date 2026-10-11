@@ -49,3 +49,12 @@ Cập nhật: 2026-10-11.
 - **`tools/test_probe_game.py`** kiểm tra bằng file PE giả lập tổng hợp, không cần game hoặc EXE trên GitHub; GitHub Actions chạy các test này cùng bộ kiểm tra trước. Chưa kiểm nghiệm probe trên EXE thật, chưa có patch Unicode.
 - Hướng dẫn cụ thể: `docs/WINDOWS_RUNTIME_PREFLIGHT.md`. Sau khi có báo cáo JSON từ đúng bản game thật, mới xác minh nơi vẽ chữ và chọn phương án chuyển mã/font.
 - Mốc chính thức **1.881/1.881 chuỗi `translate`**, còn **574 `review`**; không cộng 573 nhãn đề xuất vào số đã áp dụng.
+
+## Rà font/GBK/độ dài câu — 2026-10-11
+
+- Chạy analyzer trên **4.236 chuỗi** của 40 kịch bản: **1.881 translate**, **574 review**, **1.781 locked**; không có bản dịch translate rỗng.
+- **1.788/1.881 câu không ghi được trọn vẹn bằng cp936**, gồm **74 ký tự Unicode không được hỗ trợ**. Đây là bằng chứng cần làm font/encoding đúng nghĩa, không thể chỉ đặt lại font hoặc xóa dấu.
+- Bộ đo tĩnh (ô terminal *không phải pixel game*) tìm **254 cảnh báo** độ dài và **154 câu tăng hơn 1,5 lần** ở bản trước. Đã biên tập gọn **38 câu** giữ cốt truyện/mã điều khiển, hiện còn **240** cảnh báo độ dài và **120** trường hợp tăng quá 1,5 lần. Cần kiểm tra bằng giao diện game trước khi tiếp tục cắt.
+- Thêm `tools/audit_unicode_layout.py`, `tools/test_audit_unicode_layout.py` và artifact `eoa3-unicode-font-layout-audit` trong GitHub Actions, chứa danh sách glyph thiếu cp936, 80 token ưu tiên, font sample.
+- Thêm `tools/windows_font_probe.py` và unit test mock GDI: hỗ trợ người dùng đo độ rộng pixel/`GetGlyphIndicesW` với font thật trên Windows. **Chưa chạy tool với font trên máy người dùng, chưa vá game.**
+- Đọc `docs/UNICODE_LAYOUT_QA.md` và `docs/WINDOWS_RUNTIME_PREFLIGHT.md` để tiếp tục. Số liệu được thu từ **bản dịch hiện tại**, không phải xác nhận runtime playable.

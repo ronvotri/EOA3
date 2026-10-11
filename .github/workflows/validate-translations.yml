@@ -28,9 +28,21 @@ jobs:
         run: python tools/test_name_audit.py
       - name: Synthetic Windows executable preflight tests (no copyrighted binary)
         run: python tools/test_probe_game.py
+      - name: Check Unicode translation structure and line-width heuristics
+        run: python tools/audit_unicode_layout.py check
+      - name: Test Unicode and line-width analyzer
+        run: python tools/test_audit_unicode_layout.py
+      - name: Test optional Windows GDI font probe via mocks
+        run: python tools/test_windows_font_probe.py
+      - name: Generate font and line-wrap QA report
+        run: python tools/audit_unicode_layout.py report --out build/unicode_layout_report.json
       - name: Export potential string references
         run: python tools/audit_names.py report --out build/name_reference_report.json
       - uses: actions/upload-artifact@v4
         with:
           name: eoa3-name-reference-report
           path: build/name_reference_report.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: eoa3-unicode-font-layout-audit
+          path: build/unicode_layout_report.json

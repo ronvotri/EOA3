@@ -60,3 +60,16 @@ GitHub Actions chạy bộ `test_probe_game.py` trên **PE mẫu dựng bằng P
 ## Việc chưa được chứng minh
 
 Bộ kiểm tra này **không** xác nhận `TextOutW` thực sự dùng cho lời thoại, không tự đổi engine sang Unicode, không tạo patch và không chứng minh game chạy ổn với chữ Việt. Chưa có bằng chứng runtime nên **chưa phát hành bản playable**.
+
+## Đo glyph và chiều dài câu Việt trên chính máy Windows
+
+Bước đo này **độc lập với game** và không sửa EXE. Dùng font được cài sẵn, đo pixel bằng GDI Windows, không phải ảnh xuất ra hay bản patch.
+
+```powershell
+py -3 tools/audit_unicode_layout.py report --out "build\unicode_layout_report.json"
+py -3 tools/windows_font_probe.py --font "Segoe UI" --size 16 --out "build\eoa3-font-preflight.json"
+```
+
+Tool `windows_font_probe.py` kiểm tra toàn bộ ký tự được dùng trong **1.881 trường tiếng Việt** và một chuỗi tổng hợp có nhiều dấu, báo `font_requested` so với `font_selected` để phát hiện Windows đã chọn font thay thế. Bản báo cáo còn có `GetTextExtentPoint32W` pixel-width của mẫu lời thoại, mô tả, lời dẫn. Chưa biết kích thước bounding box của game nên chưa thể khẳng định câu nào thực sự tràn.
+
+**Kết quả CI tĩnh hiện có:** 1.788 câu không thể đóng GBK nguyên vẹn, 74 ký tự không biểu diễn được; 240 câu nghi dài, 120 câu quá dài so với bản nguồn theo heuristic. Xem chi tiết `docs/UNICODE_LAYOUT_QA.md`.

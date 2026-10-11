@@ -1,5 +1,14 @@
 # Bàn giao cho cloud
 
+## Checkpoint mới nhất — đo dấu Việt và độ dài câu (11/10/2026)
+
+- Vẫn **1.881/1.881 `translate`**, **574 `review`**, **573 tên nháp ngoài runtime**. Không chuyển tên thành patch và không sửa khóa gốc.
+- Bộ scan `tools/audit_unicode_layout.py` xác định **1.788 câu không ghi được bằng `cp936`**, **74 ký tự Unicode ngoài bảng mã**. Có 240 câu *nguy cơ dài theo ô terminal* (ban đầu 254), 120 câu tăng >1,5 lần (ban đầu 154). Đã biên tập gọn **38 chuỗi** không thay mã điều khiển.
+- `tools/windows_font_probe.py` là trình đo độ rộng pixel và glyph qua Windows GDI trên font cài sẵn, chưa kiểm tra trên máy người dùng. `tools/probe_game.py` phân tích EXE đọc-only, chưa có báo cáo hash EXE thật.
+- CI xuất artifact `eoa3-unicode-font-layout-audit` với danh sách ưu tiên, ký tự CP936 không hỗ trợ và ca thử font. Xem `docs/UNICODE_LAYOUT_QA.md` để chạy local và chọn ca kiểm chứng.
+- **Việc tiếp theo:** nhận file báo cáo PE/font JSON từ Windows (không cần bản quyền EXE) để xác minh renderer trước khi làm patch thử; hoặc tiếp tục rà ngữ nghĩa 240 cảnh báo nhưng không cắt bừa. Chưa có build chơi được.
+
+
 ## Checkpoint mới nhất: công cụ phân tích EXE và toàn bộ tên nháp (11/10/2026)
 
 - `translations/DISPLAY_NAMES_DRAFT.json`: **573/573 nhãn được đề xuất** (14 địa hình, 63 skill, 58 item, 360 lớp, 12 phe, 28 người, 38 thẻ). Tất cả giữ ngoài pipeline runtime; **574 `review` vẫn nguyên, 1.881 `translate` hoàn thành**. Một dòng ngoại lệ `stage24:4663` cần xác minh thủ tục hiện tin.
@@ -10,9 +19,9 @@
 ## Bổ sung: kiểm toán tên hiển thị (2026-10-11)
 
 - Đã biên tập **573 tên tiếng Việt đề xuất** (14 địa hình + 63 tên kỹ năng + 58 vật phẩm + 360 dòng tên lớp + 12 phe + 28 tên nhân vật + 38 thẻ; tên lớp có 95 giá trị không trùng). Bản nháp nằm tại `translations/DISPLAY_NAMES_DRAFT.json`, chưa hề áp vào runtime.
-- **574 dòng review giữ nguyên; 1.881 translate hoàn thành**. Không cộng nhầm 495 tên nháp vào số đã dịch chính thức.
+- **574 dòng review giữ nguyên; 1.881 translate hoàn thành**. Không cộng nhầm 573 tên nháp vào số đã dịch chính thức.
 - Đã có `tools/audit_names.py`, `tools/test_name_audit.py` và GitHub Actions tạo artifact `eoa3-name-reference-report` quét toàn 40 kịch bản. Đọc `docs/NAME_REFERENCE_AUDIT.md` và báo cáo JSON để ưu tiên tra cứu tên có tham chiếu rõ.
-- Việc tiếp theo: kiểm tra `AngelSLG.exe` và bản game thực tế để biết tên lớp/skill/item dùng làm display hay lookup; sau đó làm nhánh riêng cho font Unicode và build thử trên Windows. Không sửa hàng loạt 495 trường.
+- Việc tiếp theo: kiểm tra `AngelSLG.exe` và bản game thực tế để biết tên lớp/skill/item dùng làm display hay lookup; sau đó làm nhánh riêng cho font Unicode và build thử trên Windows. Không sửa hàng loạt 573 trường.
 
 ## Checkpoint mới nhất — 2026-10-11
 

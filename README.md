@@ -32,6 +32,10 @@ Số dòng là số chuỗi xuất hiện, bao gồm lặp lại; không phải 
 
 Kiểm tra bằng `python tools/audit_names.py check` và `python tools/test_name_audit.py`; báo cáo tham chiếu tạo bởi `python tools/audit_names.py report --out build/name_reference_report.json`. Xem `docs/NAME_REFERENCE_AUDIT.md`.
 
+## QA ký tự tiếng Việt và font Windows
+
+Có bộ kiểm tra **chỉ đọc** `tools/audit_unicode_layout.py` và `tools/windows_font_probe.py`. Báo cáo tĩnh mới nhất: **1.788/1.881** chuỗi dịch không thể mã hóa nguyên vẹn bằng GBK, **74 ký tự** không tương thích, **240 cảnh báo độ dài** sau lượt rút gọn 38 câu. Đây là lý do không nên bỏ dấu để ép build. CI đăng artifact `eoa3-unicode-font-layout-audit` và tài liệu kỹ thuật nằm ở `docs/UNICODE_LAYOUT_QA.md`.
+
 ## Giới hạn đóng gói
 
 `python tools/scripts.py build` chỉ tạo bản mã GBK cũ. Công cụ sẽ dừng nếu bản dịch có ký tự không biểu diễn được, không xóa dấu hay thay ký tự âm thầm. Cần hoàn thành phần font/mã hóa và kiểm thử Windows trước khi có bản Việt hóa dùng được. `check` chấp nhận bản dịch Unicode để công việc dịch trên cloud có thể tiến hành trước.
