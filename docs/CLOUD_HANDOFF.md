@@ -1,5 +1,14 @@
 # Bàn giao cho cloud
 
+## CHECKPOINT 12/10/2026: V7 đã lộ bộ lập chỉ số 16 nhóm ba byte, đối chiếu corpus %c
+
+- **KHÔNG CẦN THÊM DIAGNOSTIC**: từ `EOA3-Windows-Diagnostics(4).zip` V7 đã nhận, vùng `0x42AC60..0x42ADE0` (SHA `e9ae3aa27d9d2531fb99d4a6ede2efb4668359e9fd1806c900e7a741a213ea86`) còn lộ branch mới tại `0x42AC6E`: truyền **pointer+2** vào `0x42A8A0` (parser-like), nếu parse số khác zero tính signed modulo **16** rồi **`*3`** để tra ba byte nguồn `0x522F44..46`, gọi `0x42AED0` và truyền giá trị tới `0x41AC20`. Nếu parsed number zero, truyền `0x0000FFFE` vào `0x41AC20`. Các địa chỉ call/bytes đã xác minh từ V7. **Giả thuyết mạnh: điều khiển màu/thuộc tính chữ, CHƯA chứng minh đó là RGB hoặc nhánh `%c`**.
+- Đối chiếu `source/*.json` **40 kịch bản gốc, 4.236 string token**: `%c` 1.634 lần **toàn `%c1`**, `%s` 1.655, `%t` 1.656, `%z` 1.656, `%N` 336. Hình thức `%c1` tương hợp với `%<chữ><số>` parsed từ pointer+2, **nhưng V7 bắt đầu sau switch nhận diện chữ điều khiển nên chưa ghép chắc `%c` → nhánh màu**. Không sửa controls.
+- Sau set-property, kiểm trạng thái owner+0x18, gọi `0x4288B0`/`0x428A90` rồi set owner+0x1C=1 có điều kiện; sau đó vào vòng `CharNextA` và CALL text-consumer `0x41C790` theo PR #24.
+- Mới: `tools/audit_v7_palette_commands.py` dùng lại `audit_v7_font_buffers.verify_windows` để kiểm SHA EXE và bốn cửa sổ; x86 landmark/six rel32 CALL guard + `--source-only` độc lập thống kê 40 JSON. `tools/test_audit_v7_palette_commands.py` dùng x86 và nguồn giả; CI xuất `build/source-control-codes.json` làm artifact. Chi tiết **`docs/V7_PALETTE_COMMAND_CORRELATION.md`**.
+- **Next:** ưu tiên xác minh body **`0x41C790`** là gì, sau đó `0x42A8A0`, `0x42AED0`, `0x41AC20` và nguồn `ANGELSCRIPT` → CharNextA/TextOutA. Tránh V8 nếu chưa đủ câu hỏi. Corpus **1.881 translate, 574 review, 573 name drafts** không đổi, chưa có patch Unicode playable.
+
+
 ## CHECKPOINT MỚI NHẤT: V7 truy được đoạn chữ ANSI → callee 0x41C790 (12/10/2026)
 
 - Từ **ZIP V7 thật đã có** `EOA3-Windows-Diagnostics(4).zip`, SHA EXE `2d7d9705837e32c72685d69e50e426fde168ea8d435de90ba937cefbf5138baf`, disassemble đầy đủ vùng `0x42AC60..0x42ADE0`, **không cần người dùng gửi lại file hoặc chạy tool mới**.

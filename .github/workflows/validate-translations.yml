@@ -52,6 +52,14 @@ jobs:
         run: python tools/test_audit_v7_font_buffers.py
       - name: Verify V7 ANSI substring and 0x41C790 consumer handoff
         run: python tools/test_audit_v7_text_handoff.py
+      - name: Verify V7 numeric palette branch without assuming control token semantics
+        run: python tools/test_audit_v7_palette_commands.py
+      - name: Count original EOA3 source command codes independently of text engine
+        run: python tools/audit_v7_palette_commands.py --source-only --out build/source-control-codes.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: eoa3-original-source-control-code-counts
+          path: build/source-control-codes.json
       - name: Test consolidated diagnostic ZIP on synthetic EXE
         run: python tools/test_windows_diagnostic_bundle.py
       - name: Verify diagnostic ZIP reader and evidence report tests
