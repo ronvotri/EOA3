@@ -162,13 +162,24 @@ def main():
     parser = argparse.ArgumentParser(
         description="Audit the V7 numeric palette branch and source control codes without changing game files"
     )
-    parser.add_argument("report_zip", type=Path)
+    parser.add_argument("report_zip", type=Path, nargs="?")
+    parser.add_argument("--source-only", action="store_true",
+                        help="Count original source control commands without Windows V7 ZIP")
     parser.add_argument("--source-dir", type=Path,
                         default=Path(__file__).resolve().parents[1] / "source")
     parser.add_argument("--out", type=Path)
     args = parser.parse_args()
     try:
-        summary = inspect_docs(read_zip(args.report_zip), args.source_dir)
+        if args.source_only:
+            summary = {
+                "status": "original_source_control_code_counts_only_no_engine_mapping",
+                "source_corpus": summarize_source_controls(args.source_dir),
+                "caution": "This counts script command text only; does not prove a specific runtime branch.",
+            }
+        else:
+            if args.report_zip is None:
+                parser.error("Provide a V7 diagnostic ZIP or pass --source-only")
+            summary = inspect_docs(read_zip(args.report_zip), args.source_dir)
     except (OSError, TypeError, KeyError, ValueError) as exc:
         parser.error(str(exc))
     output = json.dumps(summary, ensure_ascii=False, indent=2) + "\n"
