@@ -105,7 +105,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "竞技武斗会准决赛",
-    "vi": ""
+    "vi": "Đại hội võ thuật - Bán kết"
   },
   {
     "id": "stage46:1075",
@@ -114,7 +114,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "Stage-9 竞技武斗会  准决赛",
-    "vi": ""
+    "vi": "Màn 9 - Đại hội võ thuật: Bán kết"
   },
   {
     "id": "stage46:1080",
@@ -132,7 +132,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这一批敌人看起来不好惹，大家小心点。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đám đối thủ này xem ra không dễ chơi đâu. Mọi người cẩn thận!”"
   },
   {
     "id": "stage46:1178",
@@ -141,7 +141,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：敌军大将夕滟战败。%N失败条件：妮雅战败。",
-    "vi": ""
+    "vi": "Điều kiện thắng: Đánh bại tướng Xiyan.%NĐiều kiện thua: Niya bị đánh bại."
   },
   {
     "id": "stage46:1196",
@@ -195,7 +195,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“要进入决赛了，没问题就继续上场吧。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đến chung kết rồi! Nếu đã sẵn sàng thì cứ tiếp tục nào!”"
   },
   {
     "id": "stage46:1286",
