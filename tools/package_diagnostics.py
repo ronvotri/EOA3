@@ -26,8 +26,9 @@ USAGE = """EOA3 - BO KIEM TRA WINDOWS (CHI DOC)
 1) Giai nen TOAN BO zip nay vao mot thu muc rieng (khong giai nen vao game).
 2) Nhan dup EOA3-KiemTra-Windows.cmd
 3) Trong cua so chon file, tro den AngelSLG.exe cua ban.
-4) Nhan file build/EOA3-Windows-Diagnostics.zip
-5) Co the gui lai zip bao cao de phan tich font va ma hoa.
+4) Neu THANH CONG, cua so build tu mo: EOA3-Windows-Diagnostics.zip
+5) Neu BAO LOI, cua so build tu mo: gui EOA3-Diagnostic-Log.txt.
+6) Gui ZIP bao cao de phan tich font va ma hoa.
 
 Can Python 3.9+ co san tren Windows. Khong sua, chay, cai dat game, EXE hay font.
 Neu Windows khong tim thay Python, cai Python truoc; khong can clone GitHub.
