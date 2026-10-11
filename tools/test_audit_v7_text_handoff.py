@@ -82,7 +82,7 @@ class V7TextHandoffTests(unittest.TestCase):
         }),patch("audit_v7_text_handoff.verify_windows") as check:
             out=inspect_docs(sample)
             check.assert_called_once()
-            self.assertEqual(out["next_research_target"][:8],"0x41C790"[:8].lower())
+            self.assertTrue(out["next_research_target"].lower().startswith("0x41c790"))
         with patch("audit_v7_text_handoff.analyze_reports", return_value={
             "game_exe":{"sha256":"0"*64},
         }):
