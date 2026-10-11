@@ -74,3 +74,12 @@ Cập nhật: 2026-10-11.
 - Nhận log `Import descriptor limit exceeded`, phát hiện parser bị giới hạn bởi `import_size // 20` nên có thể không nhìn thấy descriptor kết thúc. Đã sửa bộ đọc PE thành **null-terminated RVA scan** giới hạn số bước/symbol; lỗi bất thường trả cảnh báo và cho phép xuất báo cáo phần đọc được.
 - Thêm unit test hồi quy với `ImportDirectory.Size` thiếu descriptor null, test bảng malformed và bảng import rỗng. Xem `docs/PE_IMPORT_FIX.md`.
 - Chưa có báo cáo PE của EXE người dùng để khẳng định font/renderer. Số dịch không đổi: **1.881 translate, 574 review, 573 tên nháp**; patch chơi được chưa có.
+
+
+## Có số đo từ AngelSLG.exe thực tế — 11/10/2026
+
+- Người dùng chạy V3 và gửi ZIP kết quả thành công. **SHA-256 EXE** `2d7d9705837e32c72685d69e50e426fde168ea8d435de90ba937cefbf5138baf`, PE32 x86, 1.232.896 byte, ImageBase 0x400000. Có **40 file BIN** được liệt kê trong thư mục game.
+- Bảng import có 9 descriptor, kết thúc đúng null nhưng directory size không bao gồm terminator; điều này xác nhận lý do parser V2 dừng sớm. Tại EXE này, các mẫu mã gọi IAT `TextOutA` 0x41A79A/0x41A7B9 và `CreateFontIndirectA` 0x41AAAB trùng checkpoint cũ. Offset 992532 có chuỗi font `宋体` GBK; bytes `c645d786` ở VA 0x41AA85 phù hợp charset 134.
+- Font GDI desktop Segoe UI 16pt/96DPI: **165 ký tự kiểm tra, 0 glyph thiếu**. Không chứng minh game hỗ trợ Unicode; engine vẫn có đường `TextOutA` ANSI và 1.788/1.881 câu không thể pack CP936. Pixel sample `stage1:1149` nguồn 523 px→Việt 768 px, `stage45:1540` 815→1042 px; đây không phải độ rộng hộp game.
+- Toàn bộ bằng chứng và phân biệt static/runtime nằm ở `docs/REAL_WINDOWS_EXE_AUDIT.md`. Đã có `tools/analyze_windows_report.py` + test để xác minh ZIP báo cáo khác, không cần tải EXE.
+- Đợt này **không chỉnh bản dịch**, không thay dữ liệu gốc, không phát hành patch. Giữ **1.881 translate, 574 review, 573 tên nháp ngoài runtime**. Bước tiếp theo phải xác minh luồng giải mã→GDI và thử 1 câu/tooltip trên bản sao game.
