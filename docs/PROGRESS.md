@@ -1,5 +1,14 @@
 # Tiến độ
 
+## V8 Windows thực — phân tích glyph và palette (12/10/2026)
+
+- Báo cáo thực `EOA3-Windows-Diagnostics(5).zip`: 8/8 file, 7/7 code windows, 48/48 byte reference palette; đã đối chiếu hai overlap V7 và khóa SHA mọi window.
+- Xác minh `0x41C790` là đường đọc byte ANSI/DBCS **1–2 byte**, sau đó lookup glyph và gọi helper thuộc font pipeline. V8 thiếu phần cuối consumer + các callee cần thiết để dựng PoC Unicode an toàn.
+- Bảng 16×3 giá trị 0/15/31 giống màu 5-bit; đã xác minh các setter offset `+0xFE0`, `+0xFE4`, `+0xFE6`, nhưng **chưa chứng minh RGB565, `%c` selector hoặc hiệu ứng cuối**.
+- Công cụ và unit test độc lập tại `tools/audit_v8_renderer_trace.py`, `tools/test_audit_v8_renderer_trace.py`; diễn giải và giới hạn tại `docs/V8_REAL_RENDERER_TRACE_AUDIT.md`. Không sửa dữ liệu ngôn ngữ/game.
+- Giữ 1.881 `translate`, 574 `review`, 573 nháp tên, 1.788 chuỗi cần xử lý Unicode; **chưa có patch chơi được**.
+
+
 Cập nhật: 2026-10-11.
 
 ## Kịch bản và nội dung được dịch
