@@ -240,7 +240,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "加百列防线",
-    "vi": ""
+    "vi": "Tuyến phòng thủ Gabriel"
   },
   {
     "id": "stage12:3465",
@@ -249,7 +249,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "Stage-12 加百列防线",
-    "vi": ""
+    "vi": "Màn 12 - Tuyến phòng thủ Gabriel"
   },
   {
     "id": "stage12:3470",
@@ -267,7 +267,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“加百列威尔港”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cảng Will, Gabriel”"
   },
   {
     "id": "stage12:3505",
@@ -276,7 +276,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“奇怪，为什么没有巡守的士兵呢？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Lạ thật, sao không thấy lính tuần tra đâu nhỉ?”"
   },
   {
     "id": "stage12:3530",
@@ -285,7 +285,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“难不成连这里都陷落！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chẳng lẽ nơi này cũng đã thất thủ!?”"
   },
   {
     "id": "stage12:3541",
@@ -294,7 +294,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“怪了¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Kỳ lạ thật...”"
   },
   {
     "id": "stage12:3566",
@@ -303,7 +303,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我们先往萨维尔皇城见加百列女帝吧。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cứ đến kinh thành Savel gặp Nữ hoàng Gabriel trước đã.”"
   },
   {
     "id": "stage12:3600",
@@ -321,7 +321,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“连皇宫都没人！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đến hoàng cung cũng chẳng có ai sao!?”"
   },
   {
     "id": "stage12:3641",
@@ -330,7 +330,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“妮雅，那里有人。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Niya, đằng kia có người kìa!”"
   },
   {
     "id": "stage12:3686",
@@ -339,7 +339,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“请稍等。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Xin đợi một chút!”"
   },
   {
     "id": "stage12:3711",
@@ -348,7 +348,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“有什么事吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Có chuyện gì vậy?”"
   },
   {
     "id": "stage12:3736",
@@ -357,7 +357,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“究竟发生什么事了？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Rốt cuộc đã xảy ra chuyện gì?”"
   },
   {
     "id": "stage12:3747",
@@ -366,7 +366,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“为什么城里城外都没人！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Sao trong ngoài thành đều vắng tanh thế này!?”"
   },
   {
     "id": "stage12:3772",
@@ -375,7 +375,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“大批的欧查军打算一举攻下加百列。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Một đạo quân Ocha rất đông đang định đánh chiếm Gabriel.”"
   },
   {
     "id": "stage12:3783",
@@ -384,7 +384,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“边境的部队实在抵挡不下，所以才连女帝也亲%N自上阵了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Quân ở biên giới không cầm cự nổi,%Nnên cả Nữ hoàng cũng đích thân ra trận rồi!”"
   },
   {
     "id": "stage12:3808",
@@ -393,7 +393,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那样¨¨¨拉锡叶？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy còn... Laxia thì sao?”"
   },
   {
     "id": "stage12:3833",
@@ -402,7 +402,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“拉锡叶¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Laxia à...”"
   },
   {
     "id": "stage12:3844",
@@ -411,7 +411,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你们护卫队离开后不久，拉锡叶就完全被攻陷%N了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không lâu sau khi đội cận vệ các cô lên đường,%NLaxia đã bị chiếm hoàn toàn rồi.”"
   },
   {
     "id": "stage12:3869",
@@ -420,7 +420,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“什么！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cái gì!?”"
   },
   {
     "id": "stage12:3880",
@@ -429,7 +429,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那¨¨¨贝拉肯女帝呢！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy... Nữ hoàng Belaken đâu rồi!?”"
   },
   {
     "id": "stage12:3905",
@@ -438,7 +438,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“对、对不起，我知道的不多。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tôi... tôi xin lỗi, tôi cũng không biết rõ.”"
   },
   {
     "id": "stage12:3916",
@@ -447,7 +447,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我得去为前线补给了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tôi phải đem tiếp tế ra tiền tuyến đây.”"
   },
   {
     "id": "stage12:3941",
@@ -465,7 +465,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我们先赶到边境去协助退敌吧。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Trước hết ta tới biên giới giúp đẩy lùi quân địch đã!”"
   },
   {
     "id": "stage12:3977",
@@ -474,7 +474,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“可是我们的国家¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhưng đất nước chúng ta...”"
   },
   {
     "id": "stage12:4002",
@@ -483,7 +483,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“要收复拉锡叶，我们必须借住加百列的力量支%N撑才行，在其他国家都被占领的时候，这里是我%N们在爱尔达唯一的据点了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Muốn lấy lại Laxia, phải nhờ sức Gabriel.%NCác nước khác đều đã thất thủ, nên đây là cứ điểm%Nduy nhất của chúng ta còn lại tại Elda.”"
   },
   {
     "id": "stage12:4027",
@@ -492,7 +492,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“妮雅说的是，即使大家现在都赶到拉锡叶，那%N么一旦加百列也陷落，我们人这么少绝对会被歼%N灭的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Niya nói đúng. Dù cả nhóm về Laxia bây giờ,%Nnếu Gabriel cũng thất thủ thì chỉ bấy nhiêu người%Nnhư chúng ta nhất định sẽ bị tiêu diệt.”"
   },
   {
     "id": "stage12:4052",
@@ -501,7 +501,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯，去前线协助退敌吧。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừ, đến tiền tuyến giúp họ đánh lui quân địch thôi!”"
   },
   {
     "id": "stage12:4077",
@@ -510,7 +510,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“要卖人情吗？这个我们拿手，走吧走吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đi giúp người để họ mang ơn à? Sở trường của ta đấy! Đi nào!”"
   },
   {
     "id": "stage12:4102",
@@ -519,7 +519,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“别把军队跟小贼混在一起。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đừng đánh đồng quân đội với bọn trộm vặt.”"
   },
   {
     "id": "stage12:4127",
@@ -528,7 +528,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“说什么！？你欠揍啊！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ngươi nói gì!? Muốn ăn đòn à!”"
   },
   {
     "id": "stage12:4152",
@@ -537,7 +537,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừ!”"
   },
   {
     "id": "stage12:4186",
@@ -555,7 +555,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“全军开始第二波进攻！”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Toàn quân, mở đợt tấn công thứ hai!”"
   },
   {
     "id": "stage12:4213",
@@ -564,7 +564,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“拿下敌人首领者，依功论赏！”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Ai hạ được tướng địch sẽ được trọng thưởng!”"
   },
   {
     "id": "stage12:4238",
@@ -573,7 +573,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呵呵呵，那么谁都不要跟我抢！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hê hê, vậy thì đừng ai giành phần với ta!”"
   },
   {
     "id": "stage12:4268",
@@ -582,7 +582,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“可恶，战力居然落差这么多。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Khốn thật! Quân lực đôi bên chênh lệch quá lớn!”"
   },
   {
     "id": "stage12:4279",
@@ -591,7 +591,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“打消耗战绝对没有胜算¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đánh trận tiêu hao thế này chẳng thể thắng nổi...”"
   },
   {
     "id": "stage12:4314",
@@ -600,7 +600,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“赫拉女帝！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nữ hoàng Hera!”"
   },
   {
     "id": "stage12:4325",
@@ -609,7 +609,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我们前来支援了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chúng tôi đến tiếp viện đây!”"
   },
   {
     "id": "stage12:4350",
@@ -618,7 +618,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“妮雅！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Niya!?”"
   },
   {
     "id": "stage12:4361",
@@ -627,7 +627,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“太好了，你们来的正是时候。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tốt quá! Các ngươi đến đúng lúc lắm!”"
   },
   {
     "id": "stage12:4372",
@@ -636,7 +636,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“敌人攻势太强，先一起将欧查军击退吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Địch tấn công dữ dội quá! Hãy cùng ta đẩy lùi Ocha!”"
   },
   {
     "id": "stage12:4397",
@@ -645,7 +645,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“交给我们了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cứ giao cho chúng tôi!”"
   },
   {
     "id": "stage12:4437",
@@ -663,7 +663,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“温妮！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Winnie!?”"
   },
   {
     "id": "stage12:4473",
@@ -672,7 +672,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“怎么了吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Có chuyện gì vậy?”"
   },
   {
     "id": "stage12:4511",
@@ -681,7 +681,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“唔¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ưm...”"
   },
   {
     "id": "stage12:4536",
@@ -690,7 +690,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“太危险了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nguy hiểm lắm đấy!”"
   },
   {
     "id": "stage12:4547",
@@ -699,7 +699,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“希蜜，你怎么放她乱跑。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Shimi, sao cậu lại để cô bé chạy lung tung thế!?”"
   },
   {
     "id": "stage12:4572",
@@ -708,7 +708,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呀！对不起啦～～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Á! Mình xin lỗi mà~!”"
   },
   {
     "id": "stage12:4583",
@@ -717,7 +717,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“温妮快回来呀，妮雅阿姨生气了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Winnie ơi, quay lại mau! Dì Niya giận rồi kìa!”"
   },
   {
     "id": "stage12:4608",
@@ -726,7 +726,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“阿¨阿姨¨¨，你才欧巴桑咧！！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“D... dì á!? Cậu mới là bà cô ấy!!”"
   },
   {
     "id": "stage12:4657",
@@ -744,7 +744,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“骗人吧！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không thể tin nổi!?”"
   },
   {
     "id": "stage12:4693",
@@ -753,7 +753,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那小孩也太夸张了¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Con bé ấy... ghê gớm thật đấy...”"
   },
   {
     "id": "stage12:4718",
@@ -771,7 +771,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呜呜呜¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Huhu...”"
   },
   {
     "id": "stage12:4740",
@@ -780,7 +780,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“都怪人家没有管教好，温妮变成暴力小孩了啦%N¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tất cả tại mình không dạy dỗ tốt,%Ngiờ Winnie thành đứa bé bạo lực mất rồi...”"
   },
   {
     "id": "stage12:4770",
@@ -789,7 +789,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thôi nào!”"
   },
   {
     "id": "stage12:4781",
@@ -798,7 +798,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我们也赶紧上去帮忙吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mọi người mau lên giúp họ đi!”"
   },
   {
     "id": "stage12:4970",
@@ -807,7 +807,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：敌方大将玛西亚战败。%N失败条件：1、妮雅战败。2、赫拉战败",
-    "vi": ""
+    "vi": "Điều kiện thắng: Đánh bại tướng Marcia.%NĐiều kiện thua: 1. Niya bị đánh bại. 2. Hera bị đánh bại."
   },
   {
     "id": "stage12:4983",
@@ -933,7 +933,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“加百列皇城宫殿”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hoàng cung Gabriel”"
   },
   {
     "id": "stage12:5214",
@@ -951,7 +951,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“幸好你们及时赶到，要是再晚一步，加百列随%N时都可能沦陷。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“May mà các ngươi đến kịp. Chỉ chậm thêm chút nữa,%NGabriel đã có thể thất thủ rồi.”"
   },
   {
     "id": "stage12:5241",
@@ -960,7 +960,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“现阶段北方各国都已经被殴查军占据了，南方%N仅存本国及雷米尔还有少许战力抵抗。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Giờ các nước phương bắc đều bị quân Ocha chiếm đóng.%NPhương nam chỉ còn Gabriel và Remiel đủ sức kháng cự.”"
   },
   {
     "id": "stage12:5252",
@@ -969,7 +969,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“对于拉锡叶沦陷我感到很遗憾，但如今也只能%N依赖邦联残存的兵力来收复爱尔达各国了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ta rất tiếc về sự thất thủ của Laxia. Giờ chỉ có thể%Ntrông cậy vào tàn quân Liên bang để giành lại Elda.”"
   },
   {
     "id": "stage12:5277",
@@ -978,7 +978,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“是¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vâng...”"
   },
   {
     "id": "stage12:5302",
@@ -987,7 +987,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“赫莉将军！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tướng quân Heli!”"
   },
   {
     "id": "stage12:5327",
@@ -996,7 +996,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“属下在！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thần có mặt!”"
   },
   {
     "id": "stage12:5352",
@@ -1005,7 +1005,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“从今天开始，我将你派驻在妮雅的邦联部队下%N，协助复兴邦联各国。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Từ hôm nay, ta điều ngươi về dưới quyền chỉ huy của Niya,%Nhỗ trợ giải phóng các nước thuộc Liên bang.”"
   },
   {
     "id": "stage12:5363",
@@ -1014,7 +1014,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你有异议吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ngươi có ý kiến gì không?”"
   },
   {
     "id": "stage12:5388",
@@ -1023,7 +1023,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“报告陛下，属下没有异议。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tâu Bệ hạ, thần không có ý kiến!”"
   },
   {
     "id": "stage12:5413",
@@ -1032,7 +1032,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“很好，那么妮雅。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tốt lắm. Còn Niya!”"
   },
   {
     "id": "stage12:5438",
@@ -1041,7 +1041,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“是！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thần đây!”"
   },
   {
     "id": "stage12:5463",
@@ -1050,7 +1050,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我现在就命你为邦联部队统帅，责任是击退欧%N查军并协助收复邦联各国。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ta phong ngươi làm Tổng chỉ huy quân Liên bang,%Ncó nhiệm vụ đẩy lùi Ocha và giải phóng các nước.”"
   },
   {
     "id": "stage12:5474",
@@ -1059,7 +1059,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你愿意为爱尔达邦联效劳吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ngươi có nguyện phục vụ Liên bang Elda không?”"
   },
   {
     "id": "stage12:5499",
@@ -1068,7 +1068,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“属下愿意。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thần xin nhận nhiệm vụ!”"
   },
   {
     "id": "stage12:5524",
@@ -1077,7 +1077,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“很好，今日邦联军以拉锡叶国居多，第一个收%N复点就从拉锡叶开始。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tốt! Quân Liên bang hiện chủ yếu là người Laxia,%Nvậy nơi đầu tiên cần giành lại chính là Laxia!”"
   },
   {
     "id": "stage12:5535",
@@ -1086,7 +1086,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“祝福你们传回佳音。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ta chúc các ngươi sớm mang tin thắng trận về.”"
   },
   {
     "id": "stage12:5560",
@@ -1095,7 +1095,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“是！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tuân lệnh!”"
   },
   {
     "id": "stage12:5571",
@@ -1104,7 +1104,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“多谢女帝。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Xin đa tạ Bệ hạ!”"
   },
   {
     "id": "stage12:5585",
@@ -1113,7 +1113,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "加百列 赫莉将军 加入队伍",
-    "vi": ""
+    "vi": "Tướng quân Heli của Gabriel gia nhập đội."
   },
   {
     "id": "stage12:5610",
@@ -1167,7 +1167,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“可恶¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đáng ghét...”"
   },
   {
     "id": "stage12:5694",
@@ -1176,7 +1176,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“居然失败了¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không ngờ lại thất bại...”"
   },
   {
     "id": "stage12:5705",
@@ -1185,7 +1185,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“下次走着瞧。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Lần sau cứ chờ mà xem!”"
   },
   {
     "id": "stage12:5719",
