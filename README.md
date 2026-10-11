@@ -65,3 +65,8 @@ Bộ công cụ chỉ gồm script Python + dữ liệu JSON phục vụ đọc 
 Đã có kết quả V3 từ `AngelSLG.exe` thật: PE32 SHA-256 `2d7d9705837e32c72685d69e50e426fde168ea8d435de90ba937cefbf5138baf`, 40 file BIN, chứng cứ xref `TextOutA`/`CreateFontIndirectA` đúng vị trí phân tích trước. Segoe UI trên máy thử có **0/165 ký tự bị thiếu glyph**, nhưng **1.788 câu tiếng Việt không viết được nguyên vẹn bằng CP936** nên chỉ sửa font là chưa đủ. Chi tiết: `docs/REAL_WINDOWS_EXE_AUDIT.md`.
 
 Có `python tools/analyze_windows_report.py <file-bao-cao.zip>` để kiểm tra và tóm tắt kết quả, không cần mở EXE hoặc thay game. Chưa có patch playable.
+
+
+## Nghiên cứu đường xử lý text `TextOutA`
+
+Bản Windows diagnostic **V4** xuất thêm `engine_callsite_slices.json` (tổng 6 file báo cáo), chỉ gồm các cửa sổ byte nhỏ quanh lời gọi GDI/encoding trên `AngelSLG.exe` **đúng SHA-256**. Mục tiêu là xác minh cách lấy buffer text và độ dài trước khi xây dựng patch Unicode có dấu; chưa phải bản patch. Không chia sẻ công khai các đoạn mã máy nếu chưa kiểm tra nội dung. Xem `docs/ENGINE_CALLSITE_EVIDENCE.md`. Bộ đọc báo cáo vẫn hỗ trợ bản V3.
