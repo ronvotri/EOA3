@@ -114,7 +114,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "香格里拉首都——“玉京”的地牢里¨¨¨",
-    "vi": ""
+    "vi": "Trong ngục tối ở Ngọc Kinh, kinh đô Shangri-La..."
   },
   {
     "id": "stage9:1174",
@@ -123,7 +123,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哇～一片漆黑¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Trời ơi, tối đen như mực...”"
   },
   {
     "id": "stage9:1199",
@@ -132,7 +132,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“安洁莉娜¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Angelina ơi...”"
   },
   {
     "id": "stage9:1210",
@@ -141,7 +141,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我怕黑呐¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mình sợ bóng tối lắm...”"
   },
   {
     "id": "stage9:1235",
@@ -150,7 +150,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“可是你也不要一直黏着我啦！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhưng cậu cũng đừng bám lấy mình mãi như thế!”"
   },
   {
     "id": "stage9:1246",
@@ -159,7 +159,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“感觉怪恶心的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cứ thấy sởn cả da gà ấy!”"
   },
   {
     "id": "stage9:1271",
@@ -168,7 +168,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“逃狱！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vượt ngục đi!”"
   },
   {
     "id": "stage9:1282",
@@ -177,7 +177,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你们觉得如何？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mọi người thấy sao?”"
   },
   {
     "id": "stage9:1307",
@@ -186,7 +186,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“再被捉到会不会被杀呀！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nếu bị bắt lại, có khi nào bị giết không!?”"
   },
   {
     "id": "stage9:1332",
@@ -195,7 +195,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呃¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ơ... chuyện đó...”"
   },
   {
     "id": "stage9:1374",
@@ -204,7 +204,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“安静，有人来了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Suỵt, im nào! Có người đến!”"
   },
   {
     "id": "stage9:1399",
@@ -213,7 +213,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“你们谁是带头的？”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Trong đám các ngươi, ai là kẻ cầm đầu?”"
   },
   {
     "id": "stage9:1424",
@@ -222,7 +222,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你猜猜！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đoán thử xem!”"
   },
   {
     "id": "stage9:1449",
@@ -231,7 +231,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“说不说？”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Có chịu khai không?”"
   },
   {
     "id": "stage9:1460",
@@ -240,7 +240,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“不说就一个个把你们拖去宰了！”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Không khai thì ta lôi từng đứa ra chém!”"
   },
   {
     "id": "stage9:1485",
@@ -249,7 +249,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呜啊～好恐怖！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Á! Sợ quá đi!”"
   },
   {
     "id": "stage9:1510",
@@ -258,7 +258,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z24%c1“说！带头的是谁？”",
-    "vi": ""
+    "vi": "%s2%t4%z24%c1“Nói mau! Ai cầm đầu?”"
   },
   {
     "id": "stage9:1535",
@@ -267,7 +267,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“是妮雅啦！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Là Niya đấy!”"
   },
   {
     "id": "stage9:1560",
@@ -276,7 +276,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“对，妮雅！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đúng rồi, Niya!”"
   },
   {
     "id": "stage9:1585",
@@ -285,7 +285,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯¨¨妮¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừm... Ni...”"
   },
   {
     "id": "stage9:1610",
@@ -294,7 +294,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“喂喂喂！你们太不够意思了吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Này! Mấy cậu chơi kỳ quá đó!”"
   },
   {
     "id": "stage9:1645",
@@ -303,7 +303,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“废话少说。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đừng nhiều lời nữa.”"
   },
   {
     "id": "stage9:1656",
@@ -312,7 +312,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“出来！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ra ngoài!”"
   },
   {
     "id": "stage9:1681",
@@ -330,7 +330,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“出去就出去。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ra thì ra, có gì đâu!”"
   },
   {
     "id": "stage9:1755",
@@ -348,7 +348,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你叫做妮雅¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ngươi tên Niya à...”"
   },
   {
     "id": "stage9:1782",
@@ -357,7 +357,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“响马团就是你率领的吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ngươi chỉ huy băng cướp ngựa đó sao?”"
   },
   {
     "id": "stage9:1807",
@@ -366,7 +366,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“响马！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Băng cướp ư!?”"
   },
   {
     "id": "stage9:1832",
@@ -375,7 +375,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“狄道附近沙漠的强盗勾当。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Bọn cướp hoành hành ở sa mạc gần Didao ấy.”"
   },
   {
     "id": "stage9:1843",
@@ -384,7 +384,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“就是你们吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Có phải chính các ngươi không?”"
   },
   {
     "id": "stage9:1868",
@@ -393,7 +393,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不，盗贼另有他人。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không ạ! Băng cướp là những kẻ khác.”"
   },
   {
     "id": "stage9:1879",
@@ -402,7 +402,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我们是从爱尔达前来的使者。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chúng tôi là sứ giả từ Liên bang Elda đến.”"
   },
   {
     "id": "stage9:1904",
@@ -411,7 +411,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“使者？你有什么证明。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Sứ giả? Có gì làm bằng chứng?”"
   },
   {
     "id": "stage9:1929",
@@ -420,7 +420,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“证明¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Bằng chứng ạ...”"
   },
   {
     "id": "stage9:1940",
@@ -429,7 +429,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“邦联议会的国信已经被盗贼抢走了，不过我%N还有一份坎维琪要交给陛下的信件¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Quốc thư của Hội đồng Liên bang đã bị bọn cướp lấy mất.%NNhưng tôi còn bức thư Kanviki nhờ trao cho Bệ hạ...”"
   },
   {
     "id": "stage9:1951",
@@ -438,7 +438,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不知是否¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không biết liệu bức thư này...”"
   },
   {
     "id": "stage9:1976",
@@ -447,7 +447,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“坎维琪！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Kanviki ư!?”"
   },
   {
     "id": "stage9:1987",
@@ -456,7 +456,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯，取来与朕看看。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừm, đưa đây để trẫm xem.”"
   },
   {
     "id": "stage9:2001",
@@ -465,7 +465,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "数分钟后～",
-    "vi": ""
+    "vi": "Vài phút sau..."
   },
   {
     "id": "stage9:2017",
@@ -474,7 +474,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯¨¨原来如此。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ừm... Ra là vậy.”"
   },
   {
     "id": "stage9:2028",
@@ -483,7 +483,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“有关于贵国的战事早已传遍各地。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chuyện chiến tranh ở nước ngươi đã truyền khắp nơi rồi.”"
   },
   {
     "id": "stage9:2039",
@@ -492,7 +492,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“但是希望本国出兵的话¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhưng chuyện muốn nước ta xuất quân thì...”"
   },
   {
     "id": "stage9:2050",
@@ -501,7 +501,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你必须知道，本国并无插手邦联内战的权力，%N况且也没有平白将本国士兵交出去送命的道理。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ngươi phải hiểu, ta không có quyền xen vào nội chiến Liên bang.%NHuống chi đâu thể vô cớ đưa binh sĩ nước mình đi chịu chết.”"
   },
   {
     "id": "stage9:2075",
@@ -510,7 +510,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“陛下说的是，只是¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Bệ hạ nói phải, nhưng...”"
   },
   {
     "id": "stage9:2100",
@@ -519,7 +519,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不必多说了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không cần nói thêm!”"
   },
   {
     "id": "stage9:2111",
@@ -528,7 +528,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这样吧，本国近日正逢武斗大会竞赛，%N你们也参加比赛，”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thế này nhé. Nước ta sắp tổ chức đại hội võ thuật.%NCác ngươi cứ thử tham gia xem sao.”"
   },
   {
     "id": "stage9:2122",
@@ -537,7 +537,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“至少让我瞧瞧你们的能耐后再作决定吧。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ít nhất cũng cho trẫm xem bản lĩnh của các ngươi rồi trẫm mới quyết định.”"
   },
   {
     "id": "stage9:2147",
@@ -546,7 +546,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“比武大会¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đại hội võ thuật sao...”"
   },
   {
     "id": "stage9:2172",
@@ -555,7 +555,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“待你参赛后便明了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cứ tham gia rồi khắc biết!”"
   },
   {
     "id": "stage9:2197",
@@ -564,7 +564,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“是¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vâng ạ...”"
   },
   {
     "id": "stage9:2211",
@@ -591,7 +591,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "竞技武斗会",
-    "vi": ""
+    "vi": "Đại hội võ thuật"
   },
   {
     "id": "stage9:2261",
@@ -600,7 +600,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "Stage-9 竞技武斗会  晋级赛",
-    "vi": ""
+    "vi": "Màn 9 - Đại hội võ thuật: Vòng loại"
   },
   {
     "id": "stage9:2266",
@@ -618,7 +618,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“晋级赛一次出场五个人吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vòng loại mỗi lượt chỉ có năm người ra sân thôi à?”"
   },
   {
     "id": "stage9:2293",
@@ -627,7 +627,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好好选择上场的同伴吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mọi người nhớ chọn đồng đội ra sân cho thật kỹ nhé!”"
   },
   {
     "id": "stage9:2375",
@@ -636,7 +636,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "提示：每次上场人数限制五人，必须战胜三场才可过关。",
-    "vi": ""
+    "vi": "Mẹo: Mỗi trận chỉ được chọn 5 người. Thắng 3 trận để qua màn."
   },
   {
     "id": "stage9:2380",
@@ -645,7 +645,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：敌军大将织娘战败。%N失败条件：妮雅战败。",
-    "vi": ""
+    "vi": "Điều kiện thắng: Đánh bại tướng Zhiniang.%NĐiều kiện thua: Niya bị đánh bại."
   },
   {
     "id": "stage9:2398",
@@ -699,7 +699,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“轻松获胜，大家准备准决赛吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thắng dễ quá! Mọi người chuẩn bị vào bán kết nào!”"
   },
   {
     "id": "stage9:2488",
