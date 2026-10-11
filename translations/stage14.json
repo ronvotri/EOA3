@@ -240,7 +240,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "光复拉锡叶",
-    "vi": ""
+    "vi": "Giải phóng Laxia"
   },
   {
     "id": "stage14:3266",
@@ -249,7 +249,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "Stage-14 光复拉锡叶",
-    "vi": ""
+    "vi": "Màn 14 - Giải phóng Laxia"
   },
   {
     "id": "stage14:3271",
@@ -267,7 +267,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“终于到首都了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cuối cùng cũng về tới kinh đô rồi!”"
   },
   {
     "id": "stage14:3340",
@@ -276,7 +276,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“可恶的欧查军¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Lũ quân Ocha đáng ghét...”"
   },
   {
     "id": "stage14:3351",
@@ -285,7 +285,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“看着吧，我不会再让你们嚣张下去了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cứ chờ đấy! Ta sẽ không để các ngươi lộng hành nữa!”"
   },
   {
     "id": "stage14:3381",
@@ -294,7 +294,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼！居然自动送上门来。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừ! Lại tự dẫn xác tới đây à?”"
   },
   {
     "id": "stage14:3392",
@@ -303,7 +303,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那就等着被消灭吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy thì chuẩn bị chịu chết đi!”"
   },
   {
     "id": "stage14:3430",
@@ -312,7 +312,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“玛西亚首领，放心好了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thủ lĩnh Marcia, cứ yên tâm!”"
   },
   {
     "id": "stage14:3441",
@@ -321,7 +321,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“虽然雷丝曼没有出席在这场战役，不过只要有%N我在，同样会让敌人闻风丧胆。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tuy Resman không tham chiến lần này,%Nnhưng chỉ cần có tôi, quân địch cũng đủ khiếp vía rồi!”"
   },
   {
     "id": "stage14:3466",
@@ -330,7 +330,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“嗯，克诺依德，一切看你的表现了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Được. Konoid, ta trông vào bản lĩnh của ngươi đấy.”"
   },
   {
     "id": "stage14:3491",
@@ -339,7 +339,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“就交给我吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cứ giao cho tôi!”"
   },
   {
     "id": "stage14:3694",
@@ -348,7 +348,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：敌大将玛西亚战败。%N失败条件：妮雅战败。",
-    "vi": ""
+    "vi": "Điều kiện thắng: Đánh bại tướng Marcia.%NĐiều kiện thua: Niya bị đánh bại."
   },
   {
     "id": "stage14:3712",
@@ -420,7 +420,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“怎么可能¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không thể nào...”"
   },
   {
     "id": "stage14:3856",
@@ -429,7 +429,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“居然一再地失败¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Sao chúng ta cứ thất bại mãi thế này...”"
   },
   {
     "id": "stage14:3867",
@@ -438,7 +438,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừ!”"
   },
   {
     "id": "stage14:3895",
@@ -465,7 +465,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“战、战胜了¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Th... thắng rồi...”"
   },
   {
     "id": "stage14:3994",
@@ -474,7 +474,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“真的¨¨战胜欧查军了¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thật sự... đánh bại quân Ocha rồi...”"
   },
   {
     "id": "stage14:4019",
@@ -483,7 +483,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“太好了，这样战争是不是就结束了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tốt quá! Vậy chiến tranh kết thúc rồi phải không?”"
   },
   {
     "id": "stage14:4044",
@@ -492,7 +492,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“还没，我们仍然必须帮助复兴其他的邦联国。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Chưa đâu. Chúng ta còn phải giúp các nước Liên bang khác giành lại quê hương.”"
   },
   {
     "id": "stage14:4055",
@@ -501,7 +501,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“但是我们还是先将拉锡叶收复的好消息通知加%N百列女帝吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhưng trước hết, phải báo tin Laxia được giải phóng%Ncho Nữ hoàng Gabriel đã!”"
   },
   {
     "id": "stage14:4080",
@@ -510,7 +510,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好～～”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Được~!”"
   },
   {
     "id": "stage14:4098",
@@ -537,7 +537,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“四天后”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Bốn ngày sau”"
   },
   {
     "id": "stage14:4164",
@@ -555,7 +555,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“加百列～萨维尔皇城”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Kinh thành Savel, Gabriel”"
   },
   {
     "id": "stage14:4190",
@@ -564,7 +564,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这场收复疆土的战役，你们赢得非常的漂亮。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Các ngươi đã thắng một trận giành lại lãnh thổ thật đẹp mắt.”"
   },
   {
     "id": "stage14:4201",
@@ -573,7 +573,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“无法与你们同在拉锡叶击退欧查军，这点确实%N让我感到相当遗憾。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tiếc là ta không thể sát cánh cùng các ngươi%Nđánh đuổi Ocha khỏi Laxia.”"
   },
   {
     "id": "stage14:4212",
@@ -582,7 +582,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“不过接下来的任务仍是相当重要的，我们必须%N——将沙利叶、尤利尔、拉斐尔等各国收复。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhưng nhiệm vụ tiếp theo cũng rất quan trọng.%NChúng ta phải giành lại Sariel, Uriel, Raphael và các nước khác.”"
   },
   {
     "id": "stage14:4237",
@@ -591,7 +591,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那么拉锡叶各地的修复工作¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy còn việc khôi phục các vùng ở Laxia...?”"
   },
   {
     "id": "stage14:4262",
@@ -600,7 +600,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“拉锡叶事战的修复工作你可以放心交给本国，%N已收复的邦联国家，我会尽可能协助建设与%N防御的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cứ yên tâm giao việc tái thiết Laxia cho Gabriel.%NTa sẽ cố giúp xây dựng và bảo vệ những nước Liên bang%Nđã được giải phóng.”"
   },
   {
     "id": "stage14:4287",
@@ -609,7 +609,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“多谢女帝！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Xin đa tạ Nữ hoàng!”"
   },
   {
     "id": "stage14:4312",
@@ -618,7 +618,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“另外，黑色天使之泉变成之事你是否听说？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Nhân tiện, ngươi đã nghe chuyện suối Thiên Sứ hóa đen chưa?”"
   },
   {
     "id": "stage14:4337",
@@ -627,7 +627,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“有的，队伍中的盈月等人曾提起。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Có ạ. Yingyue và vài người trong đội từng nhắc tới.”"
   },
   {
     "id": "stage14:4362",
@@ -636,7 +636,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这是件很重要的事情。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Đó là chuyện vô cùng nghiêm trọng.”"
   },
   {
     "id": "stage14:4373",
@@ -645,7 +645,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“最近收到的一些消息，欧查军队中许多人正大%N量喝下成分不明的黑色泉水。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Theo tin gần đây, rất nhiều lính Ocha đang uống%Nmột loại nước suối đen không rõ thành phần.”"
   },
   {
     "id": "stage14:4384",
@@ -654,7 +654,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“虽然还不知道喝下后会发生什么病变，不过我%N担心将会酿出某些灾难。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ta chưa biết nó sẽ khiến cơ thể biến đổi ra sao,%Nnhưng e rằng có thể gây ra tai họa.”"
   },
   {
     "id": "stage14:4395",
@@ -663,7 +663,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“由于加百列的泉水目前仍属于正常，所以我敬%N告你们在这段时间，千万不要喝下来路不明的泉%N水。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hiện nước suối ở Gabriel vẫn bình thường.%NTrong thời gian này, tuyệt đối đừng uống nước suối%Nkhông rõ nguồn gốc.”"
   },
   {
     "id": "stage14:4420",
@@ -672,7 +672,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“属下知道了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thần đã rõ.”"
   },
   {
     "id": "stage14:4445",
@@ -681,7 +681,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那么等你们准备好，随时可以往沙利叶出发。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Khi chuẩn bị xong, các ngươi có thể lên đường đến Sariel.”"
   },
   {
     "id": "stage14:4456",
@@ -690,7 +690,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“希望能早日收复各个国家。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mong rằng các nước sẽ sớm được giải phóng!”"
   },
   {
     "id": "stage14:4470",

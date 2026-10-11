@@ -2,25 +2,25 @@
 
 Cập nhật: 2026-10-11.
 
-- Đã xuất và xác minh **40 kịch bản** từ bộ dữ liệu bàn giao. Không chỉnh sửa source/hash gốc.
-- **Đã dịch 502/1.742 dòng `mode=translate`** (**28,8%**). Còn **1.240 dòng** trong nhóm cho phép dịch.
-- **Stage 1**: 61/61; còn 14 dòng `review` (nhất là intro `SP_AddAction`) chưa mở khóa.
-- **Stage 2**: 29/29.
-- **Stage 3**: 13/13; chiến đấu ở rừng giữa đường.
-- **Stage 4**: 53/53; Niya nhận nhiệm vụ cầu viện Gabriel.
-- **Stage 5**: 85/85; cứu Angelina và Miafa.
-- **Stage 6**: **170/170**; băng cướp, quốc thư, Nữ hoàng Hera, Hội đồng Liên bang và hành trình Shangri-La.
-- **Stage 7**: **58/58**; truy đuổi băng cướp tại Didao, quốc thư thất lạc, Shimi tự trách.
-- **Stage 8**: **33/33**; tại biên giới thành Huyền Vũ, sứ đoàn bị từ chối qua cửa ải vì mất quốc thư.
-- Đợt gần nhất dịch thêm **261 chuỗi (stage 6–8)**. Kiểm tra đối chiếu bản chính xác nhận **chỉ trường `vi` của `mode=translate` thay đổi**, thứ tự mã `%s`, `%t`, `%z`, `%c`, `%N` giữ nguyên. GitHub Actions chạy `python tools/scripts.py check` và `python tools/test_scripts.py`: **PASS** cho cả ba màn.
-- Tên riêng và địa danh mới đã đưa vào `docs/GLOSSARY.md` dưới dạng **phiên âm tạm**, cần QA khi đối chiếu bản game. Xưng hô đồng đội thân dùng **mình/cậu**, đội trưởng/đội viên linh hoạt theo tình huống; quân cướp khi hăm dọa dùng **ta/ngươi**; Nữ hoàng Hera dùng lời lẽ xa cách, lạnh lùng.
-- **713 dòng `review` vẫn chưa được mở khóa**, `locked` và bảng khóa nội bộ vẫn giữ nguyên.
-- **Chưa có patch chạy được**: font Unicode, mã hóa runtime, giải mã ảnh giao diện, thử ngắt dòng/hiển thị, kiểm thử Windows đều chưa làm.
+- Đã xuất/kiểm tra **40 kịch bản**, tổng cộng **4.236 chuỗi**. Không sửa `source/` hoặc hash gốc.
+- **Đã dịch 779/1.742 dòng `mode=translate` (44,7%)**. Còn **963 dòng** được phép dịch.
+- **Stage 1–8**: xong 502 dòng từ các lượt trước.
+- **Stage 9**: **56/56** — ngục tối Ngọc Kinh, gặp người cai trị Shangri-La, Đại hội võ thuật.
+- **Stage 10**: **39/39** — chạm mặt băng cướp ở Didao; Lifeng đối đầu Yingyue.
+- **Stage 11**: **36/36** — cảng vịnh Bạch Liệt; chạm trán những sinh vật từ biển và Winifred gia nhập.
+- **Stage 12**: **80/80** — tuyến phòng thủ Gabriel, giải cứu trước sự tiến công của Ocha, Niya nhận quyền chỉ huy quân Liên bang.
+- **Stage 13**: **28/28** — tiền đồn vịnh Resalin, Ingrid gia nhập.
+- **Stage 14**: **38/38** — giải phóng Laxia, cảnh báo nước suối đen và kế hoạch giải phóng các nước.
+- Đợt này tăng thêm **277 dòng `translate`** trên **6 màn 9–14**. Mỗi file đã đối chiếu riêng với phiên bản `main` cũ: **chỉ thay trường `vi` tại `mode=translate`**, toàn bộ metadata và chuỗi `locked/review` giữ nguyên. Đối chiếu mã `%s/%t/%z/%c/%N` đều khớp thứ tự.
+- **GitHub Actions PASS cả sáu lần commit màn 9–14** với `python tools/scripts.py check` và `python tools/test_scripts.py`. Chưa phải kiểm thử trực tiếp trong game.
+- Phiên âm một số tên/danh xưng mới chỉ là **dự kiến** (`docs/GLOSSARY.md`); nổi bật `叶虏鞑` và tên một số tướng/địa danh cần đối chiếu bản gốc khi QA toàn dự án.
+- **713 dòng `review` chưa mở khóa**, `locked` không dịch. Không sửa mã/khóa nội bộ để vượt kiểm tra.
+- **Chưa có patch chơi được**: cần nghiên cứu font Unicode, dữ liệu giao diện, chiều dài câu khi vẽ, bảng mã engine và kiểm thử Windows.
 
 ## Việc tiếp theo
 
-1. Tiếp tục `translations/stage8.json` (sang các màn tiếp theo nếu đủ thời gian), chỉ sửa `vi` tại `mode=translate`.
-2. Duy trì nhịp thoại tự nhiên, không cụt máy móc; đặc biệt các câu nói đùa giữa Shimi, Niya, Angelina/Miafa.
-3. Rà tên nhân vật và địa danh tạm theo tư liệu bản game khi có thể, không đổi khóa nội bộ.
-4. Chạy `python tools/scripts.py check` và `python tools/test_scripts.py`, cập nhật tài liệu tiến độ sau mỗi nhóm.
-5. Rà các dòng `review` có bằng chứng hàm hiển thị. Font và patch cần nghiên cứu/kiểm thử riêng, **không ép UTF-8 vào GBK**.
+1. Mở `translations/stage15.json` (**36 dòng `translate` chưa dịch**), chỉ điền `vi` cho `mode=translate`. Nếu còn khả năng, tiếp tục stage16 trở đi.
+2. Chú ý cách xưng hô nhân vật, ngữ cảnh quan hệ và tên riêng; không biến đối thoại thành những câu cụt khó hiểu. Cảnh triều đình phải phân biệt **Bệ hạ / thần**, đồng đội dùng **mình/cậu**, cấp dưới có **thưa/tuân lệnh**; đối phương `ta/ngươi` theo tình huống.
+3. Giữ đúng thứ tự mã `%s`, `%t`, `%z`, `%c`, `%N`; không tự chèn ngắt dòng. Xác minh những tên tạm còn nghi vấn bằng ngữ cảnh từ kịch bản.
+4. Chạy `python tools/scripts.py check` và `python tools/test_scripts.py`; cập nhật `docs/GLOSSARY.md`, file tiến độ và commit/PR.
+5. Rà riêng 713 dòng `review` khi có bằng chứng tham số/chức năng; triển khai font, UI và patch trong giai đoạn khác, tuyệt đối không ép Unicode vào pipeline GBK cũ.
