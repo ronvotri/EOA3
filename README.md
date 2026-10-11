@@ -73,3 +73,6 @@ Bản Windows diagnostic **V4** xuất thêm `engine_callsite_slices.json` (tổ
 
 
 **Cập nhật từ ZIP V4 thật:** Đã xác định chính xác cách chuẩn bị 5 tham số của hai lời gọi `TextOutA`: địa chỉ 0x41A79A dùng hằng 2 byte, địa chỉ 0x41A7B9 dùng con trỏ `[ebp+0x14]` và hàm 0x4CE790 tính độ dài; cả hai vẽ tại (0,0). Font `LOGFONTA` đặt charset 134. Đọc `docs/V4_TEXTOUT_ARGUMENT_AUDIT.md`. Đây là bằng chứng mã máy tĩnh, **không phải patch tiếng Việt playable**.
+
+
+**Đã có kết quả Windows V5 thực tế (11/10/2026):** `0x4CE790` được xác minh là `strlen` x86 tính **số byte trước NUL**; `0x4F2B38` là **hai dấu cách `20 20`**. `TextOutA` thứ hai dùng số byte do hàm này trả về, vì thế không thể thay thẳng sang `TextOutW`/UTF-16. Báo cáo kỹ thuật chi tiết: `docs/V5_STRLEN_ENGINE_AUDIT.md`, lệnh kiểm tra tái lập: `python tools/verify_v5_strlen.py <V5-Report.zip>`. Chưa có patch playable, chưa đổi 1.881 bản dịch.
