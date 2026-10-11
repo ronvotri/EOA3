@@ -24,8 +24,11 @@ TARGET_RANGES = (
     ("known_byte_strlen_function", 0x4CE790, 0x4CE80B),
 )
 KNOWN_IATS = (
+    # Include the call at 0x41AA42 (prior HFONT cleanup), the GDI draw
+    # sequence, and the font-face copy call at 0x41AAA1.
+    0x4F2010, 0x4F2014,
     0x4F2018, 0x4F201C, 0x4F2020, 0x4F2024,
-    0x4F2028, 0x4F202C, 0x4F21B0,
+    0x4F2028, 0x4F202C, 0x4F2158, 0x4F21B0,
 )
 MAX_PER_REGION = 64
 MAX_RESULTS = 160
