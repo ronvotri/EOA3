@@ -231,7 +231,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "突袭前哨战",
-    "vi": ""
+    "vi": "Tập kích tiền đồn"
   },
   {
     "id": "stage13:3423",
@@ -240,7 +240,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "Stage-13 突袭前哨战",
-    "vi": ""
+    "vi": "Màn 13 - Tập kích tiền đồn"
   },
   {
     "id": "stage13:3428",
@@ -249,7 +249,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "拉锡叶东南  雷萨林海湾",
-    "vi": ""
+    "vi": "Vịnh Resalin, đông nam Laxia"
   },
   {
     "id": "stage13:3433",
@@ -267,7 +267,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“呃¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ư...”"
   },
   {
     "id": "stage13:3527",
@@ -276,7 +276,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“可恶，别跑¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Khốn thật! Đứng lại...”"
   },
   {
     "id": "stage13:3557",
@@ -285,7 +285,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“啊！救我¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Á! Cứu tôi với...”"
   },
   {
     "id": "stage13:3582",
@@ -294,7 +294,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“是英格丽吗！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ingrid đấy sao!?”"
   },
   {
     "id": "stage13:3593",
@@ -303,7 +303,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你没事吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cậu không sao chứ?”"
   },
   {
     "id": "stage13:3618",
@@ -312,7 +312,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“妮雅¨¨在这里见到你真是太好了¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Niya... May quá, lại gặp được cậu ở đây...”"
   },
   {
     "id": "stage13:3629",
@@ -321,7 +321,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我只是受了点轻伤，但是请小心后面的追兵¨%N¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mình chỉ bị thương nhẹ thôi, nhưng cẩn thận quân truy kích%Nđằng sau nhé...”"
   },
   {
     "id": "stage13:3654",
@@ -330,7 +330,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“追兵！？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Quân truy kích!?”"
   },
   {
     "id": "stage13:3665",
@@ -339,7 +339,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“欧查军怎么会在这种地方出现呢¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Sao quân Ocha lại xuất hiện ở tận đây chứ...?”"
   },
   {
     "id": "stage13:3690",
@@ -348,7 +348,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“自从宾斯坦城陷落之后，仍然有许多欧查军一%N路追击四散的我军¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Từ khi thành Benstein thất thủ, nhiều toán quân Ocha%Nvẫn truy đuổi binh sĩ Laxia đang chạy tứ tán...”"
   },
   {
     "id": "stage13:3701",
@@ -357,7 +357,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“所以¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vì vậy...”"
   },
   {
     "id": "stage13:3726",
@@ -366,7 +366,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“英格丽，放心好了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ingrid, cậu yên tâm!”"
   },
   {
     "id": "stage13:3737",
@@ -375,7 +375,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我们回来就是要将欧查军击退，你也来协助我%N们吧。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Bọn mình trở về chính là để đánh đuổi quân Ocha.%NCậu cũng giúp bọn mình một tay nhé!”"
   },
   {
     "id": "stage13:3762",
@@ -384,7 +384,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“太好了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Tốt quá!”"
   },
   {
     "id": "stage13:3773",
@@ -393,7 +393,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“可恶的欧查军，我会连同刚刚受伤的仇都一起%N报的。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Lũ Ocha đáng ghét! Mình sẽ trả cả món nợ bị thương%Nkhi nãy nữa!”"
   },
   {
     "id": "stage13:3787",
@@ -402,7 +402,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "英格丽加入队伍",
-    "vi": ""
+    "vi": "Ingrid gia nhập đội."
   },
   {
     "id": "stage13:3996",
@@ -411,7 +411,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "胜利条件：敌大将洁莉战败。%N失败条件：妮雅战败。",
-    "vi": ""
+    "vi": "Điều kiện thắng: Đánh bại tướng Jeli.%NĐiều kiện thua: Niya bị đánh bại."
   },
   {
     "id": "stage13:4014",
@@ -465,7 +465,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼，又是你们。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừ! Lại là các ngươi à!”"
   },
   {
     "id": "stage13:4113",
@@ -474,7 +474,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“这次绝不会让你们这么好运了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Lần này các ngươi đừng hòng gặp may nữa!”"
   },
   {
     "id": "stage13:4124",
@@ -483,7 +483,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“要通过这里想都别想，等着被我丢进海里喂鲨%N鱼吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Muốn qua đây ư? Đừng mơ! Ta sẽ quăng các ngươi%Nxuống biển làm mồi cho cá mập!”"
   },
   {
     "id": "stage13:4145",
@@ -564,7 +564,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“可恶¨¨竟然还是输给你们¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Khốn thật... Không ngờ ta vẫn thua các ngươi...”"
   },
   {
     "id": "stage13:4259",
@@ -573,7 +573,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼！你们等着吧¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừ! Cứ chờ đấy...”"
   },
   {
     "id": "stage13:4270",
@@ -582,7 +582,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我会变得更强的！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ta sẽ mạnh hơn cho mà xem!”"
   },
   {
     "id": "stage13:4296",
@@ -600,7 +600,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“大家做得好，打倒敌方主将了！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mọi người làm tốt lắm! Đã hạ được tướng địch rồi!”"
   },
   {
     "id": "stage13:4327",
@@ -609,7 +609,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“一鼓作气冲回厄特首都将拉锡叶收回吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thừa thắng xông lên, về kinh đô Ett giành lại Laxia thôi!”"
   },
   {
     "id": "stage13:4349",
