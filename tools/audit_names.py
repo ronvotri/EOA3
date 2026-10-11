@@ -11,8 +11,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DRAFT_PATH = ROOT / "translations" / "DISPLAY_NAMES_DRAFT.json"
 DB_PATH = ROOT / "translations" / "DataBase.json"
-CANDIDATE_FIELDS = {("AddGroundData", 1), ("AddSkillData", 1), ("AddItemData", 1)}
-EXPECTED = {"AddGroundData": 14, "AddSkillData": 63, "AddItemData": 58}
+CANDIDATE_FIELDS = {("AddGroundData", 1), ("AddSkillData", 1), ("AddItemData", 1), ("AddClassData", 2)}
+EXPECTED = {"AddGroundData": 14, "AddSkillData": 63, "AddItemData": 58, "AddClassData": 360}
 
 
 def read(path):
@@ -104,7 +104,7 @@ def main():
     info = reference_report()
     if info["review_rows_scanned"] != 573:
         raise SystemExit("Expected 573 DataBase review rows, found %s" % info["review_rows_scanned"])
-    print("PASS: 135 draft names (14 terrain, 63 skills, 58 items); all keys still review.")
+    print("PASS: 495 draft labels (14 terrain, 63 skills, 58 items, 360 class records); all keys still review.")
     print("Static reference scan: %s files; %s unapproved database name rows." %
           (info["files_scanned"], info["review_rows_scanned"]))
     for call, status in info["by_call"].items():
