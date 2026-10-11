@@ -4,7 +4,7 @@ Ngày 2026-10-11. Phần này là **bản nháp tên hiển thị an toàn**, kh
 
 ## Kết quả biên tập
 
-Đã tạo `translations/DISPLAY_NAMES_DRAFT.json` chứa **495 dòng bản nháp có dấu** tương ứng với 495 bản ghi `review` trong `DataBase.json`. Các chuỗi gốc và `mode=review` vẫn **không đổi**.
+Đã tạo `translations/DISPLAY_NAMES_DRAFT.json` chứa **573 dòng bản nháp có dấu** tương ứng với 573 bản ghi `review` trong `DataBase.json`. Các chuỗi gốc và `mode=review` vẫn **không đổi**.
 
 | Vị trí dữ liệu | Dòng nháp | Đặc điểm | Lưu ý |
 |---|---:|---|---|
@@ -12,9 +12,12 @@ Ngày 2026-10-11. Phần này là **bản nháp tên hiển thị an toàn**, kh
 | `AddSkillData`, đối số 1 | 63 | 18 nhóm kỹ năng ba cấp và 9 kỹ năng đơn | Chưa chứng minh các ID nội bộ loại bỏ mọi lookup theo tên |
 | `AddItemData`, đối số 1 | 58 | Tên món ăn, thuốc, vật phẩm hỗ trợ | Một số vật phẩm có tên riêng hài hước, cần QA |
 | `AddClassData`, đối số 2 | 360 | 95 tên lớp/sinh vật khác nhau bị lặp theo phiên bản | Có 25 dòng thuộc nhóm tên đặc biệt được đánh dấu `needs_name_verification` |
-| **Tổng** | **495** | Chỉ là bản nháp bên ngoài pipeline build | **Không cộng vào chỉ tiêu dịch runtime** |
+| `AddRaceData`, đối số 1 | 12 | Phe/quân dịch bệnh, biến thể II/III; bao gồm hậu tố nội bộ | Rủi ro khóa tra cứu đặc biệt cao |
+| `AddUserBank`, đối số 1 | 28 | Tên nhân vật, phiên âm tạm theo glossary | Khả năng cao có liên kết tới ID nhân vật |
+| `AddCard`, đối số 1 | 38 | Chỉ có hai tên gốc, được lặp 38 lượt | Chưa đối chiếu công năng thẻ/tác giả |
+| **Tổng** | **573** | Chỉ là bản nháp bên ngoài pipeline build | **Không cộng vào chỉ tiêu dịch runtime** |
 
-Tổng **574 hàng review** vẫn chưa được mở khóa: **495 đã có bản nháp đề xuất**, còn **79** chưa tạo bản nháp (12 phe/chủng tộc, 28 user bank, 38 thẻ, 1 chuỗi stage24 chưa xác nhận opcode). Phần 495 nói trên không tự động an toàn để ghi về `vi`.
+Tổng **574 hàng review** vẫn chưa được mở khóa: **573 đã có bản nháp đề xuất**, còn **1** chưa tạo bản nháp (stage24:4663 chưa xác nhận opcode). Phần 573 nói trên không tự động an toàn để ghi về `vi`.
 
 ## Bằng chứng và rủi ro
 
@@ -25,7 +28,7 @@ Tổng **574 hàng review** vẫn chưa được mở khóa: **495 đã có bả
 
 ## Bộ kiểm tra mới
 
-- `tools/audit_names.py check` đối chiếu đầy đủ 495 dòng nháp với nguồn theo `id/token/call/argument/source`, buộc hàng gốc vẫn là `review` và trạng thái bản nháp chưa được cho phép chạy game.
+- `tools/audit_names.py check` đối chiếu đầy đủ 573 dòng nháp với nguồn theo `id/token/call/argument/source`, buộc hàng gốc vẫn là `review` và trạng thái bản nháp chưa được cho phép chạy game.
 - `tools/test_name_audit.py` kiểm thử không thể âm thầm sửa nguồn, mở khóa tên, xóa bớt mục, bỏ cảnh báo rủi ro hoặc dịch cùng lớp thành hai tên.
 - `tools/audit_names.py report --out build/name_reference_report.json` đọc toàn bộ **40 source/*.json** để tìm các lần xuất hiện *nguyên chuỗi chính xác* ngoài bản khai báo, sau đó sinh báo cáo JSON.
 - GitHub Actions chạy cả validator cũ, unit test cũ, scanner, test mới, và tải `name_reference_report.json` lên dưới dạng artifact của mỗi workflow.
@@ -48,3 +51,11 @@ python tools/audit_names.py check
 python tools/test_name_audit.py
 python tools/audit_names.py report --out build/name_reference_report.json
 ```
+
+## Cập nhật 11/10/2026 — hoàn thành bản nháp 573/573 tên DataBase
+
+Đã bổ sung thêm **78 đề xuất tên** cho 12 phe, 28 tên nhân vật và 38 thẻ; 38 thẻ chỉ có hai tên nguồn duy nhất. Hiện **573/573 hàng `review` trong `DataBase.json` có một đề xuất bên ngoài engine**. Dòng `stage24:4663` là hàng `review` cuối cùng không có bản nháp, chưa xác minh chủ sở hữu lệnh.
+
+`tools/audit_names.py check` và `tools/test_name_audit.py` xác thực toàn bộ 573 token nháp với bản ghi gốc, không cho nhập nhằng trạng thái `review` thành `translate`. **574 dòng `review` trong game chưa bị thay đổi**; đây là tiến độ biên tập, không phải đã đóng gói/Việt hóa các tên trong game. Các tên tên riêng phiên âm cần QA bằng nguồn chính thức.
+
+Bước kỹ thuật tiếp theo: `docs/WINDOWS_RUNTIME_PREFLIGHT.md` và `tools/probe_game.py`, công cụ kiểm tra tĩnh PE/GDI trên EXE thực tế mà không vá game.

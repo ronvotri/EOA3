@@ -28,7 +28,7 @@ Số dòng là số chuỗi xuất hiện, bao gồm lặp lại; không phải 
 
 ## Bản nháp tên hiển thị chưa dùng trong game
 
-`translations/DISPLAY_NAMES_DRAFT.json` chứa **495 đề xuất Việt hóa** cho 14 loại địa hình, 63 tên kỹ năng, 58 tên vật phẩm và 360 bản ghi lớp nhân vật. **Không được đưa file này vào bản vá/packer** cho đến khi biết chắc tên nào chỉ phục vụ UI, tên nào được engine dùng làm khóa.
+`translations/DISPLAY_NAMES_DRAFT.json` chứa **573 đề xuất Việt hóa** cho 14 địa hình, 63 kỹ năng, 58 vật phẩm, 360 bản ghi lớp, 12 phe, 28 nhân vật và 38 thẻ. **Không được đưa file này vào bản vá/packer** cho đến khi biết chắc tên nào chỉ phục vụ UI, tên nào được engine dùng làm khóa.
 
 Kiểm tra bằng `python tools/audit_names.py check` và `python tools/test_name_audit.py`; báo cáo tham chiếu tạo bởi `python tools/audit_names.py report --out build/name_reference_report.json`. Xem `docs/NAME_REFERENCE_AUDIT.md`.
 
@@ -37,3 +37,7 @@ Kiểm tra bằng `python tools/audit_names.py check` và `python tools/test_nam
 `python tools/scripts.py build` chỉ tạo bản mã GBK cũ. Công cụ sẽ dừng nếu bản dịch có ký tự không biểu diễn được, không xóa dấu hay thay ký tự âm thầm. Cần hoàn thành phần font/mã hóa và kiểm thử Windows trước khi có bản Việt hóa dùng được. `check` chấp nhận bản dịch Unicode để công việc dịch trên cloud có thể tiến hành trước.
 
 Repo không chứa executable, nhạc/video hoặc bộ ảnh game. Cloud có đủ dữ liệu để dịch và nghiên cứu kịch bản; việc kiểm thử trong game và sửa bộ vẽ chữ cần bản game trên máy Windows.
+
+## Kiểm tra trước khi thử font tiếng Việt trên Windows
+
+Repo có `tools/probe_game.py` để lấy **báo cáo PE/GDI/font/encoding** từ `AngelSLG.exe` thực tế mà **không sửa** file game. Xem `docs/WINDOWS_RUNTIME_PREFLIGHT.md` để chạy lệnh Windows và lấy JSON. CI kiểm tra tool bằng các PE tổng hợp; **chưa chứng minh game chạy với Unicode**. Tuyệt đối không lấy 573 bản nháp tên hiển thị làm patch runtime.

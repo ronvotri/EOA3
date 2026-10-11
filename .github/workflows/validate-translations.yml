@@ -26,6 +26,8 @@ jobs:
         run: python tools/audit_names.py check
       - name: Static name reference unit tests
         run: python tools/test_name_audit.py
+      - name: Synthetic Windows executable preflight tests (no copyrighted binary)
+        run: python tools/test_probe_game.py
       - name: Export potential string references
         run: python tools/audit_names.py report --out build/name_reference_report.json
       - uses: actions/upload-artifact@v4
