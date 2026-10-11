@@ -1,8 +1,15 @@
 # Bàn giao cho cloud
 
+## Checkpoint mới nhất: công cụ phân tích EXE và toàn bộ tên nháp (11/10/2026)
+
+- `translations/DISPLAY_NAMES_DRAFT.json`: **573/573 nhãn được đề xuất** (14 địa hình, 63 skill, 58 item, 360 lớp, 12 phe, 28 người, 38 thẻ). Tất cả giữ ngoài pipeline runtime; **574 `review` vẫn nguyên, 1.881 `translate` hoàn thành**. Một dòng ngoại lệ `stage24:4663` cần xác minh thủ tục hiện tin.
+- `tools/probe_game.py`: công cụ phân tích PE/GDI/encoding **chỉ đọc** trên đúng file `AngelSLG.exe` Windows. `tools/test_probe_game.py` kiểm tra bằng EXE dựng nhân tạo trong CI. Đọc `docs/WINDOWS_RUNTIME_PREFLIGHT.md` để chạy và xuất JSON. **Chưa có báo cáo EXE thật hay patch Unicode**, không khẳng định đã vá font.
+- Lượt tiếp theo: sau khi người dùng cung cấp báo cáo JSON của EXE thật, xác minh hash, image base, bảng import, địa chỉ callsite, codepage/bộ vẽ chữ; thiết kế thử nghiệm font có sao lưu và QA trong game. Đồng thời kiểm tra 574 tên review khi có chứng cứ runtime, không chuyển hàng loạt.
+
+
 ## Bổ sung: kiểm toán tên hiển thị (2026-10-11)
 
-- Đã biên tập **495 tên tiếng Việt đề xuất** (14 địa hình + 63 tên kỹ năng + 58 vật phẩm + 360 dòng tên lớp, tương ứng 95 tên lớp không trùng). Bản nháp nằm tại `translations/DISPLAY_NAMES_DRAFT.json`, chưa hề áp vào runtime.
+- Đã biên tập **573 tên tiếng Việt đề xuất** (14 địa hình + 63 tên kỹ năng + 58 vật phẩm + 360 dòng tên lớp + 12 phe + 28 tên nhân vật + 38 thẻ; tên lớp có 95 giá trị không trùng). Bản nháp nằm tại `translations/DISPLAY_NAMES_DRAFT.json`, chưa hề áp vào runtime.
 - **574 dòng review giữ nguyên; 1.881 translate hoàn thành**. Không cộng nhầm 495 tên nháp vào số đã dịch chính thức.
 - Đã có `tools/audit_names.py`, `tools/test_name_audit.py` và GitHub Actions tạo artifact `eoa3-name-reference-report` quét toàn 40 kịch bản. Đọc `docs/NAME_REFERENCE_AUDIT.md` và báo cáo JSON để ưu tiên tra cứu tên có tham chiếu rõ.
 - Việc tiếp theo: kiểm tra `AngelSLG.exe` và bản game thực tế để biết tên lớp/skill/item dùng làm display hay lookup; sau đó làm nhánh riêng cho font Unicode và build thử trên Windows. Không sửa hàng loạt 495 trường.
