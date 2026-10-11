@@ -60,7 +60,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "香格里拉  玉京皇城竞技场",
-    "vi": ""
+    "vi": "Đấu trường hoàng thành Ngọc Kinh, Shangri-La"
   },
   {
     "id": "stage91:655",
@@ -78,7 +78,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“原来你也会想到再来挑战我呀！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Không ngờ cậu cũng nghĩ tới chuyện trở lại thách đấu mình!”"
   },
   {
     "id": "stage91:682",
@@ -87,7 +87,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好！打赢我就赏你喝两杯。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Được! Thắng được mình thì mình mời hai chén!”"
   },
   {
     "id": "stage91:707",
@@ -96,7 +96,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“你想太多了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Cậu nghĩ xa quá rồi!”"
   },
   {
     "id": "stage91:718",
@@ -105,7 +105,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我可是在后台花了所有的家当赌我输。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mình đã vét sạch tài sản để cược chính mình thua ở hậu trường.”"
   },
   {
     "id": "stage91:729",
@@ -114,7 +114,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“等会只要故意让你碰一下然后装死，这下可就%N发大财罗！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Lát nữa cứ để cậu chạm nhẹ một cái rồi giả chết,%Nthế là phát tài to!”"
   },
   {
     "id": "stage91:754",
@@ -132,7 +132,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“我会直接打死你，钱你就拿去当棺材费吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mình đánh cậu chết thật luôn. Tiền đó giữ mua quan tài đi!”"
   },
   {
     "id": "stage91:790",
@@ -150,7 +150,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“哼¨¨小气鬼¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hừ... đồ keo kiệt...”"
   },
   {
     "id": "stage91:812",
@@ -159,7 +159,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“钱不要了¨¨¨¨”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Thôi, khỏi cần tiền nữa...”"
   },
   {
     "id": "stage91:823",
@@ -168,7 +168,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“非要先打死你不可！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Phải đánh chết cậu trước mới được!”"
   },
   {
     "id": "stage91:837",

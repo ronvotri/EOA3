@@ -69,7 +69,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“所有人都下来了吗？”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Mọi người xuống thuyền hết chưa?”"
   },
   {
     "id": "stage45:1331",
@@ -78,7 +78,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“好像没看到耶里朵呢！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Hình như không thấy Yerido đâu!”"
   },
   {
     "id": "stage45:1356",
@@ -96,7 +96,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“船上都没人了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Trên thuyền không còn ai nữa.”"
   },
   {
     "id": "stage45:1426",
@@ -105,7 +105,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“那应该是都下船了吧！”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Vậy chắc mọi người đã xuống cả rồi!”"
   },
   {
     "id": "stage45:1451",
@@ -114,7 +114,7 @@
     "argument": 1,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“唉呀！¨¨那大概又是我没算清楚了。”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Ôi trời... Chắc mình lại đếm thiếu mất rồi!”"
   },
   {
     "id": "stage45:1476",
@@ -150,7 +150,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "%s2%t4%z18%c1“四天后”",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1“Bốn ngày sau”"
   },
   {
     "id": "stage45:1525",
@@ -159,7 +159,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "%s2%t4%z18%c1妮雅等人到达香格里拉，向纱玲长老寻求解除黑色天使之泉的方法。",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1Niya cùng đồng đội đến Shangri-La tìm Trưởng lão Shaling để hỏi cách xử lý suối Thiên Sứ đen."
   },
   {
     "id": "stage45:1530",
@@ -168,7 +168,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "%s2%t4%z18%c1同时间¨¨¨¨¨",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1Cùng lúc ấy..."
   },
   {
     "id": "stage45:1535",
@@ -177,7 +177,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "%s2%t4%z18%c1一批来自爱尔达，受黑色泉水感染的疫病军团，正侵袭香格里拉的白虎郡。",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1Một đội quân nhiễm nước đen từ Elda đang tấn công quận Bạch Hổ của Shangri-La."
   },
   {
     "id": "stage45:1540",
@@ -186,7 +186,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "%s2%t4%z18%c1长老纱玲认为爱尔达疫病军跟随于邦联军队中而入侵，因此要求妮雅等人将白虎郡收复。",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1Trưởng lão Shaling cho rằng quân bệnh đã bám theo đoàn Liên bang, nên yêu cầu Niya giành lại quận Bạch Hổ."
   },
   {
     "id": "stage45:1545",
@@ -195,7 +195,7 @@
     "argument": 0,
     "mode": "translate",
     "source": "%s2%t4%z18%c1另外，丽凤则转派试炼场进行修练而离开队伍。",
-    "vi": ""
+    "vi": "%s2%t4%z18%c1Lifeng được chuyển tới nơi thử luyện để tu tập và tạm rời đội."
   },
   {
     "id": "stage45:1561",
