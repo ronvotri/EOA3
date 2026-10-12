@@ -1,5 +1,12 @@
 # Tiến độ
 
+## 12/10/2026 — sửa lỗi mở bản thử v0.2 bằng 1 Click v0.3
+
+- Đã xác nhận launcher cũ truyền quoted `--game-copy "%~dp0"`, Windows có thể đọc nhầm vì dấu `\\` cuối; sửa dùng `--game-copy .` sau `cd /d`.
+- Tạo `EOA3-VietHoa-1CLICK-v0.3-FIX.zip`, có khả năng sửa launcher của TEST copy v0.2 **sau khi xác minh 3 patched+3 backed-up files theo hash**, không bắt sao chép game thêm; không sửa bản game gốc.
+- **12/12 offline tests PASS**, ZIP verify + Python compilation. **Chưa chạy thử Windows/game thật**, chưa công bố bản Việt hóa playable. Xem `docs/ONECLICK_V03_LAUNCHER_FIX.md`.
+
+
 ## 12/10/2026 — tạo bộ build bản thử glyph tiếng Việt có dấu v0.1
 
 - Đã giải xref font SimSun: hai caller truyền pointer `0x4F2514` tới `0x41AA10`, sau đó `CreateFontIndirectA` với charset 134. Đây là địa chỉ in-game thực tế của chuỗi family `宋体` tại file offset 992532.
