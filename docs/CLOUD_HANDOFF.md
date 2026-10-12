@@ -1,5 +1,15 @@
 # Bàn giao cho cloud
 
+## CHECKPOINT 12/10/2026 — BẢN THỬ FONT/GAMEPLAY v0.1 ĐÃ TẠO (CHƯA KIỂM CHỨNG TRONG GAME)
+
+- Người dùng yêu cầu **làm PoC tiếng Việt có dấu**, không chẩn đoán thêm. Đã viết và đóng gói trong cuộc trò chuyện file **`EOA3-VietHoa-CoDau-POC-v0.1-TEST.zip` (55.383 byte)**; gói tool có 2 source/translation, 74-entry codebook, Python builder/install/restore/Win32 launcher, 2 CMD, README. **Chưa lưu source tool vào GitHub**, ZIP phải được lưu và chuyển tiếp nếu phiên sau cần tiếp tục. Không chứa game EXE/BIN/font binary.
+- Bằng chứng V7: `0x41AA10` lấy font face argument và tạo HFONT qua `CreateFontIndirectA`; 2 callsites `0x402BA4` & `0x41A507` đều `push 0x4F2514`. VA này là offset file `992532` chứa `宋体` (SimSun) GBK. Builder chỉ khi EXE đúng SHA mới thay đúng 4 byte font-name bằng `VV\0\0` trong **bản sao game**, tạo locally derived font VV với 74 chữ Việt alias GBK.
+- Test data: rebuild đúng original SHA `stage1.bin` / `DataBase.bin`; mỗi file chỉ thay **một text row** (stage1:1607 thoại `Cậu... vẫn ổn chứ?`; DataBase:26628 tooltip). Giữ toàn bộ mã control, keys, cùng 1.879 trường dịch còn lại không áp.
+- FontTools từ base font do user chọn; Win32 GDI launcher đăng ký tạm, kiểm `GetTextFaceW` phải là `VV`, `GetGlyphIndicesW` mẫu proxy và mới chạy. Backup EXE + 2 BIN ở thư mục game COPY; restore có checksum.
+- Đã PASS 3 synthetic/offline tests: script SHA rebuild, EXE four-byte patch hash guard, backup+restore; đã sinh/roundtrip font VV từ NotoSans test local, **KHÔNG phân phối font**, không kiểm thử Windows/gameplay.
+- Xem `docs/VIETNAMESE_GLYPH_POC_V01.md` để tiếp tục. Khi user chạy tool mới có dữ liệu chữ thể hiện đúng hay chưa. **Chưa có bản playable verified**, tránh báo Done/100%.
+
+
 ## 12/10/2026 — Tiền kiểm tra cầu nối Unicode→DBCS, CHƯA phải font patch
 
 - Dùng đủ **40 source và 40 translation JSON** trong gói portable V8 (dữ liệu dịch không thay đổi từ PR #29). Quét **1.881 `mode=translate`** và nguyên gốc các trường `source` để giữ collision-free trong phạm vi đã biết.
