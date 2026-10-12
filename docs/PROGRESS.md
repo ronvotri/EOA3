@@ -1,5 +1,13 @@
 # Tiến độ
 
+## 12/10/2026 — tạo bộ build bản thử glyph tiếng Việt có dấu v0.1
+
+- Đã giải xref font SimSun: hai caller truyền pointer `0x4F2514` tới `0x41AA10`, sau đó `CreateFontIndirectA` với charset 134. Đây là địa chỉ in-game thực tế của chuỗi family `宋体` tại file offset 992532.
+- Đã soạn gói **EOA3-VietHoa-CoDau-POC-v0.1-TEST.zip** gồm font generator **trên máy người dùng** (74 ánh xạ GBK→Unicode glyph), EXE font pointer patch chính xác bốn byte trong bản copy, và hai ANGELSCRIPT test `stage1:1607` + `DataBase:26628`; backup/restore bản sao và Win32 font preflight.
+- **3/3 unit tests offline PASS**, thử sinh font local thành công; game/Windows thực tế **chưa chạy/được kiểm chứng**, không có font/game EXE/BIN trong ZIP, chưa deploy 1.881 câu.
+- Đọc `docs/VIETNAMESE_GLYPH_POC_V01.md`. Giữ nguyên tiến độ dịch: 1.881 translate, 574 review, 573 name drafts.
+
+
 ## 12/10/2026 — đã nhận ZIP V9 thật và giải dispatcher mã `%`
 
 - 13/13 x86 windows (6.528 byte) khớp SHA và report đúng EXE. Giải chính xác LUT byte `0x42AE6D` + 12 jump targets tại `0x42AE3D`.
