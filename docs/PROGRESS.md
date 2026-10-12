@@ -1,5 +1,13 @@
 # Tiến độ
 
+## V9 — công cụ thu một lần 13 mắt xích glyph (12/10/2026)
+
+- Từ V8 thực tế đã xác minh đường byte ANSI/DBCS 1–2 byte trong `0x41C790`; Unicode còn bị chặn tại glyph lookup/cache và kiểm độ dài.
+- Bổ sung `tools/probe_glyph_v9.py` thu **13× code windows, tổng 6.528 byte**, có SHA exe cố định + PE32 section/size guard; thêm lệnh Windows `EOA3-KiemTra-Glyph-V9.cmd` để thu đúng một ZIP 2 file. **Không chỉnh game, không thêm nội dung dịch**, chỉ đọc EXE.
+- Thêm `tools/test_probe_glyph_v9.py` dùng PE giả kiểm sai SHA, duplicate, truncation, tổng byte và checksum; CI chạy unit test. Mục tiêu PoC chữ Việt đầy đủ dấu: làm rõ `0x41C5B0` lookup và `0x41CCC0` painter rồi mới chọn Unicode transport.
+- Xem `docs/V9_GLYPH_PROBE_PLAN.md`; **chưa có output V9 từ Windows thật, chưa có patch chơi được**. Giữ 1.881 translate, 574 review, 573 nháp tên, 1.788 chuỗi không encode CP936.
+
+
 ## V8 Windows thực — phân tích glyph và palette (12/10/2026)
 
 - Báo cáo thực `EOA3-Windows-Diagnostics(5).zip`: 8/8 file, 7/7 code windows, 48/48 byte reference palette; đã đối chiếu hai overlap V7 và khóa SHA mọi window.

@@ -1,5 +1,14 @@
 # Bàn giao cho cloud
 
+## CHECKPOINT 12/10/2026 — V9 ĐÃ CHUẨN BỊ (CHƯA CÓ ZIP THỰC TỪ WINDOWS)
+
+- V8 thật (PR #27) chứng minh `0x41C790` xử lý chuỗi ANSI/DBCS 1–2 byte, gọi `0x41C5B0` glyph lookup, các helper `0x41C650`, `0x41C470`, `0x41CCC0`, nhánh style 1/2/4/8/16. Không hỗ trợ UTF-8 bằng cách thay font đơn giản.
+- **V9 lấy một lần:** `tools/probe_glyph_v9.py` chọn 13 vùng mã còn thiếu, tổng **6.528 byte**; hộp chọn EXE từ `EOA3-KiemTra-Glyph-V9.cmd`, xuất `build/EOA3-Glyph-V9.zip` gồm 2 JSON. Gồm glyph lookup/fallback/cache/consumer tail/painter, 5 style helpers, packer `0x414380`, dispatcher gap và switch. Chỉ đọc đúng EXE SHA `2d7d9705837e32c72685d69e50e426fde168ea8d435de90ba937cefbf5138baf`. Sai SHA/thiếu mẫu thì **fail-closed**.
+- Đã có `tools/test_probe_glyph_v9.py` với PE tổng hợp, CI Python; xem `docs/V9_GLYPH_PROBE_PLAN.md` để làm tiếp. Đây là công cụ diagnostic mới, **không phải patch**, không đụng `source/`/`translations/`/font/EXE.
+- **Sau khi người dùng gửi ZIP V9 thật:** khóa các sample SHA, đối chiếu V8 overlap, giải mã lookup `0x41C5B0` và painter `0x41CCC0`; xác định cách mã hóa glyph Việt và xây PoC an toàn một câu + tooltip. Không yêu cầu chạy lại V8.
+- **Mốc dịch vẫn 1.881 translate / 574 review / 573 name drafts; 1.788 chuỗi không encode CP936.** Bắt buộc tiếng Việt đầy đủ dấu và giữ control codes.
+
+
 ## CHECKPOINT 12/10/2026 — V8 THẬT ĐÃ ĐỌC, GLYPH PIPELINE ĐƯỢC XÁC MINH
 
 - Người dùng gửi `EOA3-Windows-Diagnostics(5).zip` + log `(6)` từ Windows. ZIP **8/8 file, 7/7 mã x86 windows, 48/48 bytes palette**, EXE SHA `2d7d9705837e32c72685d69e50e426fde168ea8d435de90ba937cefbf5138baf`, warnings rỗng. So khớp V7 tại hai overlap 0x41A7F0..0x41A7FF và 0x42AC60..0x42ACEF.
