@@ -1,5 +1,14 @@
 # Bàn giao cho cloud
 
+## CHECKPOINT 12/10/2026 — V9 THẬT: ĐÃ CHỨNG MINH DISPATCH `%`, GLYPH CACHE, RGB555 INTERMEDIATE
+
+- V9 thực `EOA3-Glyph-V9.zip` nhận đúng SHA EXE, **13/13 samples (6.528 byte)**, tất cả digest đúng, warnings rỗng. V9 và V8 overlap tương đồng. Không yêu cầu người dùng chạy lại V9.
+- **Sửa kết luận V7/V8:** byte sau `%` qua LUT `0x42AE6D` và 12-entry jump table `0x42AE3D`, indirect jmp `0x42AA11`. **`%c`/`%C` → `0x42AB6B` → owner+0x30**, **`%k`/`%K` → `0x42AC6E` → font+0xFE6**, **`%w`/`%W` → `0x42ABE7` → font+0xFE4**; cả ba dùng bảng 16×3 nhưng khác trường đích. `%N`, `%s`, `%t`, `%z`, `%P`, `%X`, `%Y`, `%%` cũng đã biết branch. Đừng đổi/xóa placeholder.
+- **`0x41C5B0`** binary search key `uint16` trên sorted cache WORD `font+0x20`, count `+0xFC4`; **`0x41C650`** chèn key + dịch bitmap; **`0x41C470`** dựng 1bpp mask từ font/GDI; **`0x41CCC0`** tô vùng ảnh. Vòng consumer V8+V9 có ngưỡng count **0x7CF=1999**. Hệ thống là ANSI/DBCS 1 hoặc 2 byte, KHÔNG UTF-8.
+- **`0x414380`** tính ba thành phần mỗi kênh 5 bit: `(a&31)<<10 | (b&31)<<5 | (c&31)`, sau đó gọi `0x414260` nên chỉ xác nhận **RGB555 trung gian**, không tuyên bố final RGB565/RGB555.
+- Bổ sung `docs/V9_REAL_GLYPH_DISPATCH_AUDIT.md`, `tools/audit_v9_glyph_real.py`, `tools/test_audit_v9_glyph_real.py` và CI. Không commit raw EXE/byte code gốc. **NEXT**: thiết kế/kiểm offline cầu nối Unicode→DBCS+glyph, sau đó PoC **một thoại + một tooltip trên game copy** khi có con đường runtime xác thực. Không tạo patch giả. Giữ 1.881 translate / 574 review / 573 draft; 1.788 câu không encode CP936.
+
+
 ## CHECKPOINT 12/10/2026 — V9 ĐÃ CHUẨN BỊ (CHƯA CÓ ZIP THỰC TỪ WINDOWS)
 
 - V8 thật (PR #27) chứng minh `0x41C790` xử lý chuỗi ANSI/DBCS 1–2 byte, gọi `0x41C5B0` glyph lookup, các helper `0x41C650`, `0x41C470`, `0x41CCC0`, nhánh style 1/2/4/8/16. Không hỗ trợ UTF-8 bằng cách thay font đơn giản.
