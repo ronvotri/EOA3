@@ -44,6 +44,8 @@ jobs:
         run: python tools/test_audit_v5_text_iteration.py
       - name: Verify DirectDraw-compatible HDC lifecycle and font helpers from V5
         run: python tools/test_audit_v5_surface_pipeline.py
+      - name: Verify V9 percent dispatch decoding and glyph evidence via synthetic tables
+        run: python tools/test_audit_v9_glyph_real.py
       - name: Verify V9 consolidated glyph probe uses bounded synthetic PE samples
         run: python tools/test_probe_glyph_v9.py
       - name: Test read-only x86 direct-call candidate scanner and IAT labels
