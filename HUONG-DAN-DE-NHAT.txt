@@ -1,0 +1,24 @@
+﻿EOA3 VIET HOA CO DAU — BAN SUA LOI MO GAME v0.3 (TEST)
+========================================================
+LOI V0.2: Duong dan Windows '%~dp0' co dau \ cuoi khi truyen vao
+Python bang ngoac kep co the bi doc sai. V0.3 da sua ve --game-copy .
+
+NEU DA TAO BAN THU V0.2 ROI (KHUYEN DUNG):
+  1. Giai nen file ZIP v0.3 ra mot thu muc rieng.
+  2. Nhan doi BAT-DAU-O-DAY.cmd.
+  3. CHON FILE AngelSLG.exe TRONG BAN THU DA TAO O DOWNLOADS:
+     Downloads\EOA3-VietHoa-TEST-...\AngelSLG.exe
+  4. Dong y sua nut mo game. Tool kiem SHA cua 3 file da cai + ban sao luu
+     truoc khi thay duy nhat file .cmd. Sau do tool mo game thu.
+
+NEU CHUA CO BAN THU TRONG DOWNLOADS:
+  Chon file AngelSLG.exe trong GAME GOC. Tool tu tao ban sao moi.
+
+KHONG CAN TU COPY GAME, CHON FONT, CAI fontTools, HOAC GO LENH.
+CAN PYTHON DA DUNG DUOC CHO V8/V9. GAME GOC KHONG BI SUA DOI.
+
+NEU HIEN THONG BAO LOI MOI:
+  Chup anh ca cua so bao loi, gui ChatGPT de duoc sua. Dung thu cài tay.
+
+V0.3 chi la PoC thu 2 doan tieng Viet co dau, chua duoc kiem trong game.
+KHONG PHAI BAN VIET HOA HOAN CHINH.
