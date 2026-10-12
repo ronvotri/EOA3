@@ -1,0 +1,3 @@
+# Optional for developing/testing the v0.3 Vietnamese glyph PoC from source.
+# Distributed one-click ZIP already includes a vendored copy; do not commit that vendor ZIP here.
+fonttools>=4.50,<5
