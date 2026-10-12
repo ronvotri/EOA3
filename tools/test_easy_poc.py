@@ -52,8 +52,8 @@ class EasyPoCTests(unittest.TestCase):
             self.assertFalse(dst.exists())
             self.assertTrue(any('sao chép' in s for s in out))
 
-    def test_vendored_fonttools_available(self):
-        self.assertTrue(easy_poc.VENDORED.is_file())
+    def test_fonttools_available_from_vendor_or_environment(self):
+        # Release ZIP vendors the library; GitHub source checks use pip install.
         from fontTools.ttLib import TTFont
         self.assertIsNotNone(TTFont)
 
