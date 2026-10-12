@@ -1,5 +1,14 @@
 # Tiến độ
 
+## 12/10/2026 — đã nhận ZIP V9 thật và giải dispatcher mã `%`
+
+- 13/13 x86 windows (6.528 byte) khớp SHA và report đúng EXE. Giải chính xác LUT byte `0x42AE6D` + 12 jump targets tại `0x42AE3D`.
+- `%c`/`%C`: nhánh `0x42AB6B`; `%k`/`%K`: nhánh `0x42AC6E` từng bị nghi `%c`; `%w`/`%W`: nhánh `0x42ABE7`. Cả ba có đường palette nhưng setter khác nhau. Các control khác cũng được định vị branch.
+- `0x41C5B0` dùng binary search key 16-bit; `0x41C650` chèn glyph vào cache; `0x41C470` tạo mask 1-bit; `0x41CCC0` tô vùng ảnh; vùng consumer có guard 0x7CF=1999.
+- `0x414380` đã chứng minh công thức RGB555 **trung gian**, chưa xác định phép biến đổi cuối tại `0x414260`.
+- Thêm `docs/V9_REAL_GLYPH_DISPATCH_AUDIT.md`, SHA-guard audit tool + synthetic CI. Chưa có patch Vietnamese playable; 1.881 dịch, 574 review, 573 tên nháp, 1.788 chưa encode CP936. Không sửa bản dịch/game.
+
+
 ## V9 — công cụ thu một lần 13 mắt xích glyph (12/10/2026)
 
 - Từ V8 thực tế đã xác minh đường byte ANSI/DBCS 1–2 byte trong `0x41C790`; Unicode còn bị chặn tại glyph lookup/cache và kiểm độ dài.
