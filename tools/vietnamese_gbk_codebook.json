@@ -1,0 +1,466 @@
+{
+  "status": "static_codebook_feasibility_only_not_game_patch",
+  "source": {
+    "translation_count": 1881,
+    "source_count": 40,
+    "source_baseline": "EOA3 Windows Diagnostic Tool V8 bundled source/translation JSON"
+  },
+  "unsupported_unique_characters": 74,
+  "rows_with_mapped_characters": 1788,
+  "unused_gbk_cjk_double_byte_slots": 19466,
+  "mapping_count": 74,
+  "mapping": [
+    {
+      "vietnamese": "À",
+      "unicode": "U+00C0",
+      "candidate_gbk_hex": "FD9B",
+      "underlying_gbk_char": "龥"
+    },
+    {
+      "vietnamese": "Á",
+      "unicode": "U+00C1",
+      "candidate_gbk_hex": "FD9A",
+      "underlying_gbk_char": "龤"
+    },
+    {
+      "vietnamese": "Â",
+      "unicode": "U+00C2",
+      "candidate_gbk_hex": "FD99",
+      "underlying_gbk_char": "龣"
+    },
+    {
+      "vietnamese": "Ê",
+      "unicode": "U+00CA",
+      "candidate_gbk_hex": "FD98",
+      "underlying_gbk_char": "龢"
+    },
+    {
+      "vietnamese": "Ì",
+      "unicode": "U+00CC",
+      "candidate_gbk_hex": "FD97",
+      "underlying_gbk_char": "龡"
+    },
+    {
+      "vietnamese": "Í",
+      "unicode": "U+00CD",
+      "candidate_gbk_hex": "D9DF",
+      "underlying_gbk_char": "龠"
+    },
+    {
+      "vietnamese": "Ô",
+      "unicode": "U+00D4",
+      "candidate_gbk_hex": "FD96",
+      "underlying_gbk_char": "龞"
+    },
+    {
+      "vietnamese": "Ý",
+      "unicode": "U+00DD",
+      "candidate_gbk_hex": "FD95",
+      "underlying_gbk_char": "龝"
+    },
+    {
+      "vietnamese": "â",
+      "unicode": "U+00E2",
+      "candidate_gbk_hex": "FD94",
+      "underlying_gbk_char": "龜"
+    },
+    {
+      "vietnamese": "ã",
+      "unicode": "U+00E3",
+      "candidate_gbk_hex": "EDE8",
+      "underlying_gbk_char": "龛"
+    },
+    {
+      "vietnamese": "ô",
+      "unicode": "U+00F4",
+      "candidate_gbk_hex": "B9A8",
+      "underlying_gbk_char": "龚"
+    },
+    {
+      "vietnamese": "õ",
+      "unicode": "U+00F5",
+      "candidate_gbk_hex": "FD93",
+      "underlying_gbk_char": "龘"
+    },
+    {
+      "vietnamese": "ý",
+      "unicode": "U+00FD",
+      "candidate_gbk_hex": "FD92",
+      "underlying_gbk_char": "龗"
+    },
+    {
+      "vietnamese": "ă",
+      "unicode": "U+0103",
+      "candidate_gbk_hex": "FD91",
+      "underlying_gbk_char": "龖"
+    },
+    {
+      "vietnamese": "Đ",
+      "unicode": "U+0110",
+      "candidate_gbk_hex": "FD90",
+      "underlying_gbk_char": "龕"
+    },
+    {
+      "vietnamese": "đ",
+      "unicode": "U+0111",
+      "candidate_gbk_hex": "FD8F",
+      "underlying_gbk_char": "龔"
+    },
+    {
+      "vietnamese": "ĩ",
+      "unicode": "U+0129",
+      "candidate_gbk_hex": "FD8E",
+      "underlying_gbk_char": "龓"
+    },
+    {
+      "vietnamese": "ũ",
+      "unicode": "U+0169",
+      "candidate_gbk_hex": "FD8D",
+      "underlying_gbk_char": "龒"
+    },
+    {
+      "vietnamese": "Ơ",
+      "unicode": "U+01A0",
+      "candidate_gbk_hex": "FD8C",
+      "underlying_gbk_char": "龑"
+    },
+    {
+      "vietnamese": "ơ",
+      "unicode": "U+01A1",
+      "candidate_gbk_hex": "FD8B",
+      "underlying_gbk_char": "龐"
+    },
+    {
+      "vietnamese": "Ư",
+      "unicode": "U+01AF",
+      "candidate_gbk_hex": "FD8A",
+      "underlying_gbk_char": "龏"
+    },
+    {
+      "vietnamese": "ư",
+      "unicode": "U+01B0",
+      "candidate_gbk_hex": "FD89",
+      "underlying_gbk_char": "龎"
+    },
+    {
+      "vietnamese": "ạ",
+      "unicode": "U+1EA1",
+      "candidate_gbk_hex": "FD88",
+      "underlying_gbk_char": "龍"
+    },
+    {
+      "vietnamese": "ả",
+      "unicode": "U+1EA3",
+      "candidate_gbk_hex": "F6BB",
+      "underlying_gbk_char": "龌"
+    },
+    {
+      "vietnamese": "ấ",
+      "unicode": "U+1EA5",
+      "candidate_gbk_hex": "C8A3",
+      "underlying_gbk_char": "龋"
+    },
+    {
+      "vietnamese": "ầ",
+      "unicode": "U+1EA7",
+      "candidate_gbk_hex": "F6BA",
+      "underlying_gbk_char": "龊"
+    },
+    {
+      "vietnamese": "ẩ",
+      "unicode": "U+1EA9",
+      "candidate_gbk_hex": "F6B9",
+      "underlying_gbk_char": "龉"
+    },
+    {
+      "vietnamese": "ẫ",
+      "unicode": "U+1EAB",
+      "candidate_gbk_hex": "F6B8",
+      "underlying_gbk_char": "龈"
+    },
+    {
+      "vietnamese": "ậ",
+      "unicode": "U+1EAD",
+      "candidate_gbk_hex": "F6B7",
+      "underlying_gbk_char": "龇"
+    },
+    {
+      "vietnamese": "ắ",
+      "unicode": "U+1EAF",
+      "candidate_gbk_hex": "F6B6",
+      "underlying_gbk_char": "龆"
+    },
+    {
+      "vietnamese": "ằ",
+      "unicode": "U+1EB1",
+      "candidate_gbk_hex": "F6B5",
+      "underlying_gbk_char": "龅"
+    },
+    {
+      "vietnamese": "ẳ",
+      "unicode": "U+1EB3",
+      "candidate_gbk_hex": "C1E4",
+      "underlying_gbk_char": "龄"
+    },
+    {
+      "vietnamese": "ẵ",
+      "unicode": "U+1EB5",
+      "candidate_gbk_hex": "F6B4",
+      "underlying_gbk_char": "龃"
+    },
+    {
+      "vietnamese": "ặ",
+      "unicode": "U+1EB7",
+      "candidate_gbk_hex": "FD87",
+      "underlying_gbk_char": "龂"
+    },
+    {
+      "vietnamese": "ẹ",
+      "unicode": "U+1EB9",
+      "candidate_gbk_hex": "FD86",
+      "underlying_gbk_char": "龁"
+    },
+    {
+      "vietnamese": "ẻ",
+      "unicode": "U+1EBB",
+      "candidate_gbk_hex": "F6B3",
+      "underlying_gbk_char": "龀"
+    },
+    {
+      "vietnamese": "ẽ",
+      "unicode": "U+1EBD",
+      "candidate_gbk_hex": "B3DD",
+      "underlying_gbk_char": "齿"
+    },
+    {
+      "vietnamese": "Ế",
+      "unicode": "U+1EBE",
+      "candidate_gbk_hex": "FD85",
+      "underlying_gbk_char": "齾"
+    },
+    {
+      "vietnamese": "ế",
+      "unicode": "U+1EBF",
+      "candidate_gbk_hex": "FD84",
+      "underlying_gbk_char": "齽"
+    },
+    {
+      "vietnamese": "ề",
+      "unicode": "U+1EC1",
+      "candidate_gbk_hex": "FD83",
+      "underlying_gbk_char": "齼"
+    },
+    {
+      "vietnamese": "ể",
+      "unicode": "U+1EC3",
+      "candidate_gbk_hex": "FD82",
+      "underlying_gbk_char": "齻"
+    },
+    {
+      "vietnamese": "ễ",
+      "unicode": "U+1EC5",
+      "candidate_gbk_hex": "FD81",
+      "underlying_gbk_char": "齺"
+    },
+    {
+      "vietnamese": "ệ",
+      "unicode": "U+1EC7",
+      "candidate_gbk_hex": "FD80",
+      "underlying_gbk_char": "齹"
+    },
+    {
+      "vietnamese": "ỉ",
+      "unicode": "U+1EC9",
+      "candidate_gbk_hex": "FD7E",
+      "underlying_gbk_char": "齸"
+    },
+    {
+      "vietnamese": "ị",
+      "unicode": "U+1ECB",
+      "candidate_gbk_hex": "FD7D",
+      "underlying_gbk_char": "齷"
+    },
+    {
+      "vietnamese": "ọ",
+      "unicode": "U+1ECD",
+      "candidate_gbk_hex": "FD7C",
+      "underlying_gbk_char": "齶"
+    },
+    {
+      "vietnamese": "ỏ",
+      "unicode": "U+1ECF",
+      "candidate_gbk_hex": "FD7B",
+      "underlying_gbk_char": "齵"
+    },
+    {
+      "vietnamese": "Ố",
+      "unicode": "U+1ED0",
+      "candidate_gbk_hex": "FD7A",
+      "underlying_gbk_char": "齴"
+    },
+    {
+      "vietnamese": "ố",
+      "unicode": "U+1ED1",
+      "candidate_gbk_hex": "FD79",
+      "underlying_gbk_char": "齳"
+    },
+    {
+      "vietnamese": "Ồ",
+      "unicode": "U+1ED2",
+      "candidate_gbk_hex": "FD78",
+      "underlying_gbk_char": "齲"
+    },
+    {
+      "vietnamese": "ồ",
+      "unicode": "U+1ED3",
+      "candidate_gbk_hex": "FD77",
+      "underlying_gbk_char": "齱"
+    },
+    {
+      "vietnamese": "ổ",
+      "unicode": "U+1ED5",
+      "candidate_gbk_hex": "FD76",
+      "underlying_gbk_char": "齰"
+    },
+    {
+      "vietnamese": "ỗ",
+      "unicode": "U+1ED7",
+      "candidate_gbk_hex": "FD75",
+      "underlying_gbk_char": "齯"
+    },
+    {
+      "vietnamese": "ộ",
+      "unicode": "U+1ED9",
+      "candidate_gbk_hex": "FD74",
+      "underlying_gbk_char": "齮"
+    },
+    {
+      "vietnamese": "ớ",
+      "unicode": "U+1EDB",
+      "candidate_gbk_hex": "FD73",
+      "underlying_gbk_char": "齭"
+    },
+    {
+      "vietnamese": "ờ",
+      "unicode": "U+1EDD",
+      "candidate_gbk_hex": "FD72",
+      "underlying_gbk_char": "齬"
+    },
+    {
+      "vietnamese": "Ở",
+      "unicode": "U+1EDE",
+      "candidate_gbk_hex": "FD71",
+      "underlying_gbk_char": "齫"
+    },
+    {
+      "vietnamese": "ở",
+      "unicode": "U+1EDF",
+      "candidate_gbk_hex": "FD70",
+      "underlying_gbk_char": "齪"
+    },
+    {
+      "vietnamese": "ỡ",
+      "unicode": "U+1EE1",
+      "candidate_gbk_hex": "FD6F",
+      "underlying_gbk_char": "齩"
+    },
+    {
+      "vietnamese": "Ợ",
+      "unicode": "U+1EE2",
+      "candidate_gbk_hex": "FD6E",
+      "underlying_gbk_char": "齨"
+    },
+    {
+      "vietnamese": "ợ",
+      "unicode": "U+1EE3",
+      "candidate_gbk_hex": "FD6D",
+      "underlying_gbk_char": "齧"
+    },
+    {
+      "vietnamese": "ụ",
+      "unicode": "U+1EE5",
+      "candidate_gbk_hex": "FD6C",
+      "underlying_gbk_char": "齦"
+    },
+    {
+      "vietnamese": "Ủ",
+      "unicode": "U+1EE6",
+      "candidate_gbk_hex": "FD6B",
+      "underlying_gbk_char": "齥"
+    },
+    {
+      "vietnamese": "ủ",
+      "unicode": "U+1EE7",
+      "candidate_gbk_hex": "FD6A",
+      "underlying_gbk_char": "齤"
+    },
+    {
+      "vietnamese": "Ứ",
+      "unicode": "U+1EE8",
+      "candidate_gbk_hex": "FD69",
+      "underlying_gbk_char": "齣"
+    },
+    {
+      "vietnamese": "ứ",
+      "unicode": "U+1EE9",
+      "candidate_gbk_hex": "FD68",
+      "underlying_gbk_char": "齢"
+    },
+    {
+      "vietnamese": "Ừ",
+      "unicode": "U+1EEA",
+      "candidate_gbk_hex": "FD67",
+      "underlying_gbk_char": "齡"
+    },
+    {
+      "vietnamese": "ừ",
+      "unicode": "U+1EEB",
+      "candidate_gbk_hex": "FD66",
+      "underlying_gbk_char": "齠"
+    },
+    {
+      "vietnamese": "ử",
+      "unicode": "U+1EED",
+      "candidate_gbk_hex": "FD65",
+      "underlying_gbk_char": "齟"
+    },
+    {
+      "vietnamese": "ữ",
+      "unicode": "U+1EEF",
+      "candidate_gbk_hex": "FD64",
+      "underlying_gbk_char": "齞"
+    },
+    {
+      "vietnamese": "ự",
+      "unicode": "U+1EF1",
+      "candidate_gbk_hex": "FD63",
+      "underlying_gbk_char": "齝"
+    },
+    {
+      "vietnamese": "ỳ",
+      "unicode": "U+1EF3",
+      "candidate_gbk_hex": "FD62",
+      "underlying_gbk_char": "齜"
+    },
+    {
+      "vietnamese": "ỵ",
+      "unicode": "U+1EF5",
+      "candidate_gbk_hex": "FD61",
+      "underlying_gbk_char": "齛"
+    },
+    {
+      "vietnamese": "ỹ",
+      "unicode": "U+1EF9",
+      "candidate_gbk_hex": "FD60",
+      "underlying_gbk_char": "齚"
+    }
+  ],
+  "roundtrip_validated_translate_rows": 1881,
+  "max_encoded_len": 221,
+  "limitations": [
+    "This is a proposed codebook only: game renderer will still draw original GBK glyphs unless custom font/glyph adapter is installed and verified.",
+    "Unused only in known 40 source script files and their translated strings, not all unknown game assets.",
+    "No ROM/EXE/BIN or runtime font has been modified.",
+    "CP936 encoder and 1/2-byte runtime constraints must be verified with actual gameplay before use."
+  ]
+}

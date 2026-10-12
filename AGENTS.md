@@ -1,6 +1,6 @@
 # Hướng dẫn làm việc
 
-Đọc docs/CLOUD_HANDOFF.md trước. Đây là dự án Việt hóa, không phải mã nguồn engine.
+Đọc docs/CLOUD_HANDOFF.md trước. **Nếu tiếp tục bản thử tiếng Việt có dấu v0.3 hoặc sửa lỗi one-click, đọc tiếp `docs/CODEX_HANDOFF.md`; mã nguồn thật đã nằm trong `tools/build_poc.py`, `tools/easy_poc.py`, `tools/apply_poc.py`, `tools/run_poc.py`.** Đây là dự án Việt hóa, không phải mã nguồn engine.
 - Không đọc toàn bộ source/ hoặc translations/ cùng lúc; chỉ mở màn cần làm để tiết kiệm ngữ cảnh.
 - Chỉ sửa vi của dòng mode=translate. Giữ nguyên source, id, token, call, argument, mode.
 - Không dịch các dòng locked; review cần phân tích tham số và tham chiếu trước, không tự đổi mode hàng loạt.

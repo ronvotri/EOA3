@@ -5,6 +5,9 @@ on:
       - 'translations/**'
       - 'source/**'
       - 'tools/**'
+      - 'test_v03_offline.py'
+      - 'requirements-poc.txt'
+      - 'BAT-DAU-O-DAY.cmd'
       - '.github/workflows/validate-translations.yml'
   pull_request:
 permissions:
@@ -70,6 +73,12 @@ jobs:
           path: build/source-control-codes.json
       - name: Test consolidated diagnostic ZIP on synthetic EXE
         run: python tools/test_windows_diagnostic_bundle.py
+      - name: Check Vietnamese v0.3 PoC builder and one-click recovery with fake game files
+        run: |
+          python -m pip install -r requirements-poc.txt
+          python tools/test_poc_builder.py
+          python tools/test_easy_poc.py
+          python test_v03_offline.py
       - name: Verify diagnostic ZIP reader and evidence report tests
         run: python tools/test_analyze_windows_report.py
       - name: Test safe portable Windows tool packaging

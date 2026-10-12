@@ -1,5 +1,14 @@
 # Bàn giao cho cloud
 
+## CHECKPOINT 13/10/2026 — BÀN GIAO CHO CODEX, ĐÃ LƯU FULL SOURCE V0.3 LÊN GITHUB
+
+- Người dùng dừng chạy thử do hướng dẫn rối và lỗi v0.2; yêu cầu **update GitHub để Codex tiếp**. Đừng bắt chạy V8/V9 hoặc tự dùng CMD/chép file nữa.
+- **ĐÃ COMMIT MÃ NGUỒN THẬT**: `tools/build_poc.py`, `tools/easy_poc.py`, `tools/apply_poc.py`, `tools/run_poc.py`, `tools/vietnamese_gbk_codebook.json`, 3 test files (`tools/test_poc_builder.py`, `tools/test_easy_poc.py`, `test_v03_offline.py`), `BAT-DAU-O-DAY.cmd`, `HUONG-DAN-DE-NHAT.txt` — nhập byte-exact từ bundle v0.3 và đã đối chiếu SHA1 Git blob với nguồn local. `source/stage1`, `DataBase` và 2 translation tương ứng **khớp Git blob SHA giữa ZIP và repo**; không duplicate assets.
+- `requirements-poc.txt` phục vụ build từ GitHub: cài fonttools bằng pip. Gói ZIP người dùng đã tải vẫn có vendored fontTools và license; không commit thư viện bên thứ ba/font/game EXE vào repo.
+- **Đã chạy 12/12 synthetic/offline tests** trên bundle v0.3 tại local. CHƯA biết chạy thật game Windows/hiển thị glyph đúng; Windows GitHub smoke trước đây là synthetic EXE, KHÔNG chứng minh PoC playable.
+- **TÀI LIỆU BẮT BUỘC CHO CODEX: `docs/CODEX_HANDOFF.md`**: mức hoàn thành, log lỗi, 2 test strings, danh sách source, lệnh QA, acceptance criteria và hướng sửa tiếp. Chỉ sau Windows/in-game visual verification mới được gọi bản thử chạy được.
+
+
 ## CHECKPOINT 12/10/2026 — 1-CLICK v0.3 FIX (BẢN THỬ CÓ DẤU)
 
 - **Báo lỗi người dùng v0.2:** `run_poc.py: error: PoC has not been installed into this game COPY`. Tìm ra bug launcher: Python nhận `--game-copy "%~dp0"` với slash cuối trước quote, làm parse sai path; không phải bằng chứng install thất bại.
