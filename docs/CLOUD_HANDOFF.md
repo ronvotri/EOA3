@@ -1,5 +1,13 @@
 # Bàn giao cho cloud
 
+## 12/10/2026 — Tiền kiểm tra cầu nối Unicode→DBCS, CHƯA phải font patch
+
+- Dùng đủ **40 source và 40 translation JSON** trong gói portable V8 (dữ liệu dịch không thay đổi từ PR #29). Quét **1.881 `mode=translate`** và nguyên gốc các trường `source` để giữ collision-free trong phạm vi đã biết.
+- Có **74 ký tự Unicode trong vi không thể encode CP936**, ảnh hưởng **1.788** câu. Quét GBK strict two-byte: có **19.466 mã hợp lệ ánh xạ ký tự CJK và chưa dùng trong những source/vi đã quét**. Tạo **74 ánh xạ tạm**, xác nhận 1.881/1.881 chuỗi có thể mã hóa rồi khôi phục đúng Unicode, không mất `%` controls, mỗi payload <=65535 byte (dài nhất **221 byte**).
+- **CẢNH BÁO QUAN TRỌNG:** codebook tạm chỉ kiểm chứng *đường dữ liệu trong Python*, KHÔNG có nghĩa engine sẽ hiển thị glyph Việt; với font cũ các mã mượn vẫn có thể in ra chữ Hán gốc/hình thiếu. Bản game còn UI/assets ngoài 40 source chưa được rà xung đột. **KHÔNG áp codebook vào BIN/EXE** cho tới khi có font/glyph adapter đủ kiểm chứng.
+- Bộ dữ liệu JSON thử nghiệm đã tạo trong phiên ChatGPT: `V9-Unicode-DBCS-codebook-feasibility.json`, 74 cặp Unicode/GBK ứng viên. Điểm tiếp theo: PoC font rendering cho một câu thoại và một tooltip, có bản sao game, rollback; không bắt chạy lại V9.
+
+
 ## CHECKPOINT 12/10/2026 — V9 THẬT: ĐÃ CHỨNG MINH DISPATCH `%`, GLYPH CACHE, RGB555 INTERMEDIATE
 
 - V9 thực `EOA3-Glyph-V9.zip` nhận đúng SHA EXE, **13/13 samples (6.528 byte)**, tất cả digest đúng, warnings rỗng. V9 và V8 overlap tương đồng. Không yêu cầu người dùng chạy lại V9.
