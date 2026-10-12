@@ -1,5 +1,14 @@
 # Bàn giao cho cloud
 
+## CHECKPOINT 12/10/2026 — 1-CLICK v0.3 FIX (BẢN THỬ CÓ DẤU)
+
+- **Báo lỗi người dùng v0.2:** `run_poc.py: error: PoC has not been installed into this game COPY`. Tìm ra bug launcher: Python nhận `--game-copy "%~dp0"` với slash cuối trước quote, làm parse sai path; không phải bằng chứng install thất bại.
+- **Đã tạo artifact để tải:** `EOA3-VietHoa-1CLICK-v0.3-FIX.zip` (1,123,884 bytes, 15 members; có vendored fontTools-source, không có game EXE/BIN/font). Script được sửa truyền `--game-copy .` sau `cd /d "%~dp0"`, và wizard tự nhận dạng **bản thử v0.2 trong Downloads** để xác minh 3 patched+3 original backup SHA, font VV và runner rồi *chỉ sửa launcher*, không sao chép game thêm.
+- **QA 12 offline tests PASS**: 8 test gốc và 4 test regression (repair old launcher, tamper/partial abort, install/restore, game source isolation). ZIP sạch: 14/14 hash payload + Python compile PASS. **Chưa xác minh Windows/game thật.**
+- **Hướng dẫn người dùng:** giải nén v0.3 → nhấn `BAT-DAU-O-DAY.cmd` → chọn `Downloads\\EOA3-VietHoa-TEST-...\\AngelSLG.exe` đã tạo từ v0.2 → đồng ý sửa. Nếu chưa có bản thử, chọn EXE gốc để tự sao chép. Không yêu cầu chạy V8/V9.
+- Chi tiết `docs/ONECLICK_V03_LAUNCHER_FIX.md`. Full source được đóng gói trong ZIP chat, chưa thêm source v0.3 vào GitHub; mốc dịch giữ nguyên.
+
+
 ## CHECKPOINT 12/10/2026 — BẢN THỬ FONT/GAMEPLAY v0.1 ĐÃ TẠO (CHƯA KIỂM CHỨNG TRONG GAME)
 
 - Người dùng yêu cầu **làm PoC tiếng Việt có dấu**, không chẩn đoán thêm. Đã viết và đóng gói trong cuộc trò chuyện file **`EOA3-VietHoa-CoDau-POC-v0.1-TEST.zip` (55.383 byte)**; gói tool có 2 source/translation, 74-entry codebook, Python builder/install/restore/Win32 launcher, 2 CMD, README. **Chưa lưu source tool vào GitHub**, ZIP phải được lưu và chuyển tiếp nếu phiên sau cần tiếp tục. Không chứa game EXE/BIN/font binary.
