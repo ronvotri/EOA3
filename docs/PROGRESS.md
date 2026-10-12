@@ -1,5 +1,12 @@
 # Tiến độ
 
+## 13/10/2026 — bàn giao trọn mã nguồn PoC v0.3 cho Codex
+
+- Đã bổ sung đủ **10 file nguồn và test** của gói 1 Click v0.3 lên GitHub, kiểm SHA1 Git blob từng file. 4 JSON sẵn có `source/{stage1,DataBase}.json` / `translations/{stage1,DataBase}.json` trùng chính xác gói người dùng đã nhận.
+- `docs/CODEX_HANDOFF.md` nêu đầy đủ lỗi `--game-copy`, quyền/font VV/DBCS, giới hạn Windows chưa kiểm nghiệm, trình tự điều tra cho Codex.
+- Bundle v0.3 trên máy phát hành đã qua **12/12 test offline**; CI mới bổ sung Python tests cho source repo; không có game runtime proof. Chưa áp đủ 1.881 câu, không đổi nội dung ngôn ngữ/game gốc.
+
+
 ## 12/10/2026 — sửa lỗi mở bản thử v0.2 bằng 1 Click v0.3
 
 - Đã xác nhận launcher cũ truyền quoted `--game-copy "%~dp0"`, Windows có thể đọc nhầm vì dấu `\\` cuối; sửa dùng `--game-copy .` sau `cd /d`.
